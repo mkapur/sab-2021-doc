@@ -1,0 +1,13 @@
+---
+author:
+  - name: Maia S. Kapur
+    code: 1
+    first: M
+    middle: S
+    family: Kapur
+author_list: Kapur, M.S.
+affiliation:
+  - code: 1
+    address: .na.character
+address: ^1^NA
+---

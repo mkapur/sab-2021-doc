@@ -1,0 +1,3111 @@
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2021.3.9)  10 MAR 2021 13:43
+ restricted system commands enabled.
+**_main.tex
+(./_main.tex
+LaTeX2e <2020-10-01> patch level 4
+Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
+Lua module: lualibs 2020-12-30 2.73 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-12-30 2.73 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/mkapur/AppData/Roaming/Tin
+yTeX/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-01-07.lua" from kpse-res
+olved path "c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/luatex/luaotf
+load/fontloader-2021-01-07.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 0x1.8e76c8b439581p+1
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "C:/Users/mkapur/AppData/Roaming/Tin
+yTeX/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2021-02-18> (./input_accessability.tex
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-tes
+tphase/pdfmanagement-testphase.sty
+Package: pdfmanagement-testphase 2021-03-07 v0.95b LaTeX PDF management testphas
+e bundle
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-tes
+tphase/pdfmanagement-testphase.ltx
+File: pdfmanagement-testphase.ltx 2021-03-07 v0.95b PDF management code (testpha
+se)
+
+LaTeX3 Info: Defining command \DeclareDocumentMetadata with sig. 'm' on line
+(LaTeX3)     961.
+
+
+LaTeX3 Info: Defining command \AddToDocumentProperties with sig. 'O{\@currname
+(LaTeX3)     }mm' on line 971.
+
+
+LaTeX3 Info: Defining command \GetDocumentProperties with sig. 'm' on line
+(LaTeX3)     975.
+
+
+LaTeX3 Info: Defining command \ShowDocumentProperties with sig. '' on line
+(LaTeX3)     987.
+
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3experimental/l3
+bitset/l3bitset.sty
+Package: l3bitset 2021-02-18 L3 Experimental bitset support
+\l__bitset_internal_int=\count175
+)))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.st
+y
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/l3debug.
+def
+File: l3debug.def 2019-04-06 L3 Debugging support
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backe
+nd-luatex.def
+File: l3backend-luatex.def 2021-03-02 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count176
+\l__pdf_internal_box=\box47
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-tes
+tphase/l3backend-testphase-luatex.def
+File: l3backend-testphase-luatex.def 2021-03-07 LaTeX PDF management testphase b
+undle backend support:PDFoutput(LuaTeX)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-tes
+tphase/l3ref-tmp.sty
+Package: l3ref-tmp 2020-10-09 L3 Experimental cross-referencing
+)
+\l__pdf_backend_tmpa_box=\box48
+\g__pdf_backend_resourceid_int=\count177
+\g__pdf_backend_name_int=\count178
+\g__pdf_backend_page_int=\count179
+\g__pdf_backend_EmbeddedFiles_int=\count180
+)
+
+LaTeX3 Info: Redefining command \DeclareDocumentMetadata with sig. 'm' on line
+(LaTeX3)     3.
+
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-tes
+tphase/pdfmanagement-firstaid.sty
+Package: pdfmanagement-firstaid 2021-03-07 v0.95b LaTeX PDF management testphase
+ bundle / firstaid-patches
+
+Package pdfmanagement Info: loading pdfmanagement firstaid code for pgf
+
+)) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.c
+ls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/mkapur/AppData/Roamin
+g/TinyTeX/texmf-var/luatex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (./sa4ss.sty
+Package: sa4ss 2020/11/10 v0.99 sa4ss package
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer
+/tikz.sty
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pg
+f.sty
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgf
+rcs.sty
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/p
+gfutil-common.tex
+\pgfutil@everybye=\toks15
+\pgfutil@tempdima=\dimen139
+\pgfutil@tempdimb=\dimen140
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/p
+gfutil-common-lists.tex))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/p
+gfutil-latex.def
+\pgfutil@abb=\box49
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/p
+gfrcs.code.tex
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revisio
+n.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pg
+fcore.sty
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx
+.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.s
+ty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics
+.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/grap
+hics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 105.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/luat
+ex.def
+File: luatex.def 2020/10/05 v1.2a Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/p
+gfsys.sty
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer
+/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/p
+gfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/p
+gfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen143
+\pgf@y=\dimen144
+\pgf@xa=\dimen145
+\pgf@ya=\dimen146
+\pgf@xb=\dimen147
+\pgf@yb=\dimen148
+\pgf@xc=\dimen149
+\pgf@yc=\dimen150
+\pgf@xd=\dimen151
+\pgf@yd=\dimen152
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count189
+\c@pgf@countb=\count190
+\c@pgf@countc=\count191
+\c@pgf@countd=\count192
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+\pgf@sys@id@count=\count193
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer
+/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer
+/pgfsys-luatex.def
+File: pgfsys-luatex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer
+/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer
+/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count194
+\pgfsyssoftpath@bigbuffer@items=\count195
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer
+/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/colo
+r.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-tes
+tphase/xcolor-patches-tmp-ltx.sty
+Package: xcolor-patches-tmp-ltx 2021/02/22 v0.95b patch xcolor for l3color
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+h.code.tex
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hcalc.code.tex
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hutil.code.tex)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hparser.code.tex
+\pgfmath@dimen=\dimen153
+\pgfmath@count=\count196
+\pgfmath@box=\box50
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hfunctions.code.tex
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hfunctions.basic.code.tex)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hfunctions.trigonometric.code.tex)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hfunctions.random.code.tex)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hfunctions.comparison.code.tex)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hfunctions.base.code.tex)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hfunctions.round.code.tex)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hfunctions.misc.code.tex)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hfunctions.integerarithmetics.code.tex)))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+hfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count197
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint
+.code.tex)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen154
+\pgf@picmaxx=\dimen155
+\pgf@picminy=\dimen156
+\pgf@picmaxy=\dimen157
+\pgf@pathminx=\dimen158
+\pgf@pathmaxx=\dimen159
+\pgf@pathminy=\dimen160
+\pgf@pathmaxy=\dimen161
+\pgf@xx=\dimen162
+\pgf@xy=\dimen163
+\pgf@yx=\dimen164
+\pgf@yy=\dimen165
+\pgf@zx=\dimen166
+\pgf@zy=\dimen167
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen168
+\pgf@path@lasty=\dimen169
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen170
+\pgf@shorten@start@additional=\dimen171
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count198
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen172
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen173
+\pgf@pt@y=\dimen174
+\pgf@pt@temp=\dimen175
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen176
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen177
+\pgf@sys@shading@range@num=\count199
+\pgf@shadingcount=\count266
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box54
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/
+pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgf
+moduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box55
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgf
+moduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility
+/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen178
+\pgf@nodesepend=\dimen179
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility
+/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgf
+for.sty
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgf
+keys.sty
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/p
+gfkeys.code.tex))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.
+sty
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+h.code.tex))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/p
+gffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmat
+h.code.tex)
+\pgffor@iter=\dimen180
+\pgffor@skip=\dimen181
+\pgffor@stack=\toks26
+\pgffor@toks=\toks27
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlay
+er/tikz/tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/p
+gflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count267
+\pgfplotmarksize=\dimen182
+)
+\tikz@lastx=\dimen183
+\tikz@lasty=\dimen184
+\tikz@lastxsaved=\dimen185
+\tikz@lastysaved=\dimen186
+\tikz@lastmovetox=\dimen187
+\tikz@lastmovetoy=\dimen188
+\tikzleveldistance=\dimen189
+\tikzsiblingdistance=\dimen190
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count268
+\tikznumberofchildren=\count269
+\tikznumberofcurrentchild=\count270
+\tikz@fig@count=\count271
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgf
+modulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count272
+\pgfmatrixcurrentcolumn=\count273
+\pgf@matrix@numberofcolumns=\count274
+)
+\tikz@expandcount=\count275
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlay
+er/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geometry
+.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.st
+y
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count276
+\Gm@cntv=\count277
+\c@Gm@tempcnt=\count278
+\Gm@bindingoffset=\dimen191
+\Gm@wd@mp=\dimen192
+\Gm@odd@mp=\dimen193
+\Gm@even@mp=\dimen194
+\Gm@layoutwidth=\dimen195
+\Gm@layoutheight=\dimen196
+\Gm@layouthoffset=\dimen197
+\Gm@layoutvoffset=\dimen198
+\Gm@dimlist=\toks28
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lastpage/lastpage
+.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr
+.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hanging/hanging.s
+ty
+Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
+\h@ngcommawd=\skip58
+\h@ngfstopwd=\skip59
+\h@ngquotewd=\skip60
+\h@ngdquotewd=\skip61
+\h@ngquerywd=\skip62
+\h@ngexclwd=\skip63
+\h@ngcolonwd=\skip64
+\h@ngscolonwd=\skip65
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-tes
+tphase/pdflscape-ltx.sty
+Package: pdflscape-ltx 2021/02/22 vv0.95b Display of landscape pages in PDF - ad
+aption of pdflscape to the PDFmanagement bundle (testphase)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape.s
+ty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/setspace/setspace
+.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count279
+\float@exts=\toks29
+\float@box=\box60
+\@float@everytoks=\toks30
+\@floatcapt=\box61
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref
+.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds
+.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdft
+excmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/infwa
+rerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks31
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvset
+keys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kv
+definekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfes
+cape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.s
+ty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/letlt
+xmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.s
+ty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptio
+ns.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen199
+\Hy@linkcounter=\count280
+\Hy@pagecounter=\count281
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.d
+ef
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref
+-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel lan
+guages
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc
+.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcm
+ds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count282
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.de
+f
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing ON on input line 4210.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/backref.
+sty
+Package: backref 2021/02/04 v1.41 Bibliographical back referencing
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/re
+runfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-lt
+x.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
+
+with kernel methods
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/u
+niquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigi
+ntcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+))
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+6.
+))
+\c@Hy@tempcnt=\count283
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen256
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.s
+ty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+)
+\Fld@menulength=\count284
+\Field@Width=\dimen257
+\Fld@charsize=\dimen258
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing ON on input line 6088.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx
+.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packag
+e
+with kernel methods
+)
+\Hy@abspage=\count285
+\c@Item=\count286
+\c@Hfootnote=\count287
+)
+Package hyperref Info: Driver (custom): hgeneric-testphase.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-tes
+tphase/hgeneric-testphase.def
+File: hgeneric-testphase.def 2021/02/22 v0.95b generic Hyperref driver for the L
+aTeX PDF management testphase bundle
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox
+.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count288
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-tes
+tphase/hyperref-colorschemes.def)
+
+LaTeX3 Info: Redefining command \Acrobatmenu with sig. 'mm' on line 175.
+
+\l__hyp_tmpa_box=\box62
+\l__hyp_tmpa_int=\count289
+\l__hyp_dest_box=\box63
+
+LaTeX3 Info: Defining command \MakeFieldObject with sig. 'mm' on line 2192.
+
+\HyAnn@Count=\count290
+\Fld@listcount=\count291
+\Hy@SectionHShift=\skip66
+LaTeX Info: Redefining \Hy__hypSectionAnchor on input line 3229.
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/datetime2/datetim
+e2.sty
+Package: datetime2 2020/03/02 v1.5.6 (NLCT) date and time formats
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tracklang/trackla
+ng.sty
+Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/tracklang/track
+lang.tex))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.s
+ty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval
+.tex
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutil
+s.tex
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
+)
+\XKV@depth=\count292
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+
+Package datetime2 Warning: Date-Time Language Module `english' not installed on 
+input line 1913.
+
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip67
+\bibsep=\skip68
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count293
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb
+.sty
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count294
+\FV@InFile=\read3
+\FV@TabBox=\box64
+\c@FancyVerbLine=\count295
+\FV@StepNumber=\count296
+\FV@OutFile=\write4
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts
+.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks34
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.s
+ty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.
+sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen259
+\captionmargin@=\dimen260
+\captionwidth=\dimen261
+\caption@tempdima=\dimen262
+\caption@indent=\dimen263
+\caption@parindent=\dimen264
+\caption@hangindent=\dimen265
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count297
+\c@continuedfloat=\count298
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/environ/environ.s
+ty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/trimspaces/trimsp
+aces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks35
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/accsupp/accsupp.s
+ty
+Package: accsupp 2019/12/05 v0.6 Accessibility support by marked content (HO)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/accsupp/accsupp-l
+uatex.def
+File: accsupp-luatex.def 2019/12/05 v0.6 accsupp driver for pdfTeX (HO)
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfcomment/pdfcom
+ment.sty
+Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-2012
+, 2015-2016, 2018
+\c@pc@count@i=\count299
+\c@pc@count@ii=\count300
+\c@pc@count@iii=\count301
+\c@pc@count@iv=\count302
+\pc@mathannot@box=\box65
+\pc@nullbox=\box66
+\pc@dima=\skip69
+\pc@dimb=\skip70
+\pc@Sposx=\skip71
+\pc@Sposy=\skip72
+\pc@Eposx=\skip73
+\pc@Eposy=\skip74
+\pc@column=\skip75
+\pc@box@width=\skip76
+\pc@box@height=\skip77
+\pc@box@depth=\skip78
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/luatex85/luatex
+85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/zref/zref-savepos
+.sty
+Package: zref-savepos 2020-07-03 v2.32 Module savepos for zref (HO)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/zref/zref-base.st
+y
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+Package zref Info: New property list: savepos on input line 80.
+Package zref Info: New property: posx on input line 85.
+Package zref Info: New property: posy on input line 86.
+)
+\c@zref@unique=\count303
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount
+.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count304
+\calc@Bcount=\count305
+\calc@Adimen=\dimen266
+\calc@Bdimen=\dimen267
+\calc@Askip=\skip79
+\calc@Bskip=\skip80
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count306
+\calc@Cskip=\skip81
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/marginnote/margin
+note.sty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count307
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.
+sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/soulpos/soulpos.s
+ty
+Package: soulpos 2012/02/25 v1.1 Fancy underlining
+\ulp@subcnt=\count308
+\ulp@cnt=\count309
+\ulp@out=\write5
+\ulp@in=\read4
+\ulwidth=\dimen268
+)
+
+Package hyperref Warning: unknown key luatex of module ’hyp / setup’ set to
+(hyperref)                ’’.
+
+Package zref Info: New property list: pdfcomment on input line 2735.
+Package zref Info: New property: PCPDFOBJID on input line 2736.
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf.sty
+Package: tagpdf 2021/02/23 v0.80  A package to experiment with pdf tagging 
+\l__tag_loglevel_int=\count310
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-lua
+tex.def
+File: tagpdf-luatex.def 2021/02/23 v0.80 tagpdf driver for luatex
+\l__tag_mc_type_attr=\attribute4
+\l__tag_mc_cnt_attr=\attribute5
+\g__tag_interwordspace_attr=\attribute6
+\g__tag_interwordfont_attr=\attribute7
+Lua module: tagpdf 2021-02-23 0.80 tagpdf lua code)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-che
+cks-code.sty
+Package: tagpdf-checks-code 2021/02/23 v0.80 part of tagpdf - code related to ch
+ecks and messages
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-use
+r.sty
+Package: tagpdf-user 2021/02/23 v0.80 tagpdf - user commands
+
+LaTeX3 Info: Defining command \tagpdfsetup with sig. 'm' on line 28.
+
+
+LaTeX3 Info: Defining command \tagmcifinTF with sig. 'mm' on line 82.
+
+
+LaTeX3 Info: Defining environment 'tagmcartifact' with sig. 'm' on line 90.
+
+
+LaTeX3 Info: Defining command \tagmcbegin with sig. 'm' on line 95.
+
+
+LaTeX3 Info: Defining command \tagmcend with sig. '' on line 101.
+
+
+LaTeX3 Info: Defining command \tagmcuse with sig. 'm' on line 106.
+
+
+LaTeX3 Info: Defining command \tagstructbegin with sig. 'm' on line 113.
+
+
+LaTeX3 Info: Defining command \tagstructend with sig. '' on line 118.
+
+
+LaTeX3 Info: Defining command \tagstructuse with sig. 'm' on line 123.
+
+
+LaTeX3 Info: Defining command \showtagpdfmcdata with sig.
+(LaTeX3)     'O{\__tag_tag_get_mc_abs_cnt: }' on line 135.
+
+
+LaTeX3 Info: Defining command \showtagpdfattributes with sig. '' on line 159.
+
+
+LaTeX3 Info: Defining command \pdffakespace with sig. '' on line 167.
+
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-tre
+e-code.sty
+Package: tagpdf-tree-code 2021/02/23 v0.80 part of tagpdf - code related to writ
+ing trees and dictionaries to the pdf
+\c@g__tag_parenttree_obj_int=\count311
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-rol
+es-code.sty
+Package: tagpdf-roles-code 2021/02/23 v0.80 part of tagpdf - code related to rol
+es and structure names
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-att
+r-code.sty
+Package: tagpdf-attr-code 2021/02/23 v0.80 part of tagpdf - code related to attr
+ibutes and attribute classes
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-mc-
+code-shared.sty
+Package: tagpdf-mc-code-shared 2021/02/23 v0.80 part of tagpdf - code related to
+ marking chunks - code shared by generic and luamode 
+\c@g__tag_MCID_abs_int=\count312
+\g__tag_MCID_tmp_bypage_int=\count313
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-mc-
+code-lua.sty
+Package: tagpdf-mc-code-lua 2021/02/23 v0.80 tagpdf - mc code only for the luamo
+de 
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-str
+uct-code.sty
+Package: tagpdf-struct-code 2021/02/23 v0.80 part of tagpdf - code related to st
+oring structure
+\c@g__tag_struct_abs_int=\count314
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-spa
+ce-code.sty
+Package: tagpdf-space-code 2021/02/23 v0.80 part of tagpdf - code related to rea
+l space chars
+)
+Inserting `markspaces' at position 2 in `pre_linebreak_filter'.
+Inserting `markspaces' at position 3 in `hpack_filter'.
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgf
+pages.sty
+Package: pgfpages 2011/01/05 ver 0.02
+\pgf@logicalpages=\count315
+\pgf@firstshipout=\count316
+\pgf@lastshipout=\count317
+\pgf@currentshipout=\count318
+\pgf@cpn=\count319
+\pgf@shipoutnextto=\count320
+\pgfphysicalheight=\dimen269
+\pgfphysicalwidth=\dimen270
+\pgfpages@shipoutbox=\box67
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/glossaries/base/g
+lossaries.sty
+Package: glossaries 2020/03/19 v4.46 (NLCT)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mfirstuc/mfirstuc
+.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+\@glsmfirst=\toks36
+\@glsmrest=\toks37
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/textcase/textcase
+.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/datatool/datatool
+-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.s
+ty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip82
+For additional information on amsmath, use the `?' option.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.s
+ty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.st
+y
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks38
+\ex@=\dimen271
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.st
+y
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen272
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.st
+y
+Package: amsopn 2016/03/08 v2.02 operator names
+LaTeX Info: Redefining \operatorname on input line 43.
+)
+\inf@bad=\count321
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count322
+\leftroot@=\count323
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count324
+\DOTSCASE@=\count325
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box68
+\strutbox@=\box69
+\big@size=\dimen273
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count326
+\c@MaxMatrixCols=\count327
+\dotsspace@=\muskip17
+\c@parentequation=\count328
+\dspbrk@lvl=\count329
+\tag@help=\toks39
+\row@=\count330
+\column@=\count331
+\maxfields@=\count332
+\andhelp@=\toks40
+\eqnshift@=\dimen274
+\alignsep@=\dimen275
+\tagshift@=\dimen276
+\tagwidth@=\dimen277
+\totwidth@=\dimen278
+\lineht@=\dimen279
+\@envbody=\toks41
+\multlinegap=\skip83
+\multlinetaggap=\skip84
+\mathdisplay@stack=\toks42
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count333
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/datatool/datatool
+-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count334
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count335
+\FP@xia=\count336
+\FP@xib=\count337
+\FP@xfa=\count338
+\FP@xfb=\count339
+\FP@rega=\count340
+\FP@regb=\count341
+\FP@regs=\count342
+\FP@times=\count343
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fp/fp-addons.st
+y
+Package: fp-addons 1995/03/15
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fp/fp-random.st
+y
+Package: fp-random 1995/02/23
+\FPseed=\count344
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks43
+\@dtl@tmpcount=\count345
+\dtl@tmplength=\skip85
+\dtl@sortresult=\count346
+\@dtl@numgrpsepcount=\count347
+\@dtl@datatype=\count348
+\dtl@codeA=\count349
+\dtl@codeB=\count350
+\@dtl@foreach@level=\count351
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/glossaries/base/g
+lossaries-compatible-307.sty
+Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
+)
+
+Package glossaries Warning: No language module detected for `english'.
+(glossaries)                Language modules need to be installed separately.
+(glossaries)                Please check on CTAN for a bundle called
+(glossaries)                `glossaries-english' or similar.
+
+\gls@level=\count352
+\@gls@tmpb=\toks44
+\gls@tmplen=\skip86
+\glskeylisttok=\toks45
+\glslabeltok=\toks46
+\glsshorttok=\toks47
+\glslongtok=\toks48
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/glossaries/styles
+/glossary-hypernav.sty
+Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/glossaries/styles
+/glossary-list.sty
+Package: glossary-list 2020/03/19 v4.46 (NLCT)
+\glslistdottedwidth=\skip87
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/glossaries/styles
+/glossary-long.sty
+Package: glossary-long 2020/03/19 v4.46 (NLCT)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.s
+ty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip88
+\LTright=\skip89
+\LTpre=\skip90
+\LTpost=\skip91
+\LTchunksize=\count353
+\LTcapwidth=\dimen280
+\LT@head=\box70
+\LT@firsthead=\box71
+\LT@foot=\box72
+\LT@lastfoot=\box73
+\LT@cols=\count354
+\LT@rows=\count355
+\c@LT@tables=\count356
+\c@LT@chunks=\count357
+\LT@p@ftn=\toks49
+)
+\glsdescwidth=\skip92
+\glspagelistwidth=\skip93
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/glossaries/styles
+/glossary-tree.sty
+Package: glossary-tree 2020/03/19 v4.46 (NLCT)
+\glstreeindent=\skip94
+)))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.
+sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen281
+\ar@mcellbox=\box74
+\extrarowheight=\dimen282
+\NC@list=\toks50
+\extratabsurround=\skip95
+\backup@length=\skip96
+\ar@cellbox=\box75
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs
+.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen283
+\lightrulewidth=\dimen284
+\cmidrulewidth=\dimen285
+\belowrulesep=\dimen286
+\belowbottomsep=\dimen287
+\aboverulesep=\dimen288
+\abovetopsep=\dimen289
+\cmidrulesep=\dimen290
+\cmidrulekern=\dimen291
+\defaultaddspace=\dimen292
+\@cmidla=\count358
+\@cmidlb=\count359
+\@aboverulesep=\dimen293
+\@belowrulesep=\dimen294
+\@thisruleclass=\count360
+\@lastruleclass=\count361
+\@thisrulewidth=\dimen295
+) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.s
+ty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unic
+ode-math.sty
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unic
+ode-math-luatex.sty
+Package: unicode-math-luatex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
+TeX
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse
+/xparse.sty
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse
+/xparse-2020-10-01.sty
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse
+/xparse-generic.tex)))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys
+2e/l3keys2e.sty
+Package: l3keys2e 2021-02-02 LaTeX2e option processing using LaTeX3 keys
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec
+.sty
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec
+-luatex.sty
+Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count362
+\l__fontspec_language_int=\count363
+\l__fontspec_strnum_int=\count364
+\l__fontspec_tmp_int=\count365
+\l__fontspec_tmpa_int=\count366
+\l__fontspec_tmpb_int=\count367
+\l__fontspec_tmpc_int=\count368
+\l__fontspec_em_int=\count369
+\l__fontspec_emdef_int=\count370
+\l__fontspec_strong_int=\count371
+\l__fontspec_strongdef_int=\count372
+\l__fontspec_tmpa_dim=\dimen296
+\l__fontspec_tmpb_dim=\dimen297
+\l__fontspec_tmpc_dim=\dimen298
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec
+.cfg)
+LaTeX Info: Redefining \strong on input line 3946.
+)) (c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fix-cm.st
+y
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/lualatex/lualatex-math/
+lualatex-math.sty
+Package: lualatex-math 2020/09/25 v1.9 Patches for mathematics typesetting with 
+LuaLaTeX
+Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
+h LuaLaTeX)
+\g__um_fam_int=\count373
+\g__um_fonts_used_int=\count374
+\l__um_primecount_int=\count375
+\g__um_primekern_muskip=\muskip18
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unic
+ode-math-table.tex)))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote
+.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box76
+\fn@width=\dimen299
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/03/03 3.55 The Babel package
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/03/03 3.55 Babel common definitions
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/luababel.
+def
+\bbl@readstream=\read5
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 117.
+\l@nohyphenation=\language3
+\babelcatcodetablenum=\catcodetable12
+\bbl@pattcodes=\catcodetable13
+)
+\babel@savecnt=\count376
+\U@D=\dimen300
+\l@babelnohyphens=\language4
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/luababel.
+def
+\bbl@attr@locale=\attribute8
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel-english/e
+nglish.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@british = using hyphenrules for english
+(babel)             (\language0) on input line 82.
+Package babel Info: \l@UKenglish = using hyphenrules for english
+(babel)             (\language0) on input line 83.
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for english
+(babel)             (\language0) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for english
+(babel)             (\language0) on input line 108.
+)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel-english/e
+nglish.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+))
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark
+.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-pdft
+ex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count377
+)) (./_main.aux)
+\openout1 = _main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epst
+opdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
+5.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/epsto
+pdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 1:1
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(99.58464pt, 398.33858pt, 99.58466pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.33858pt
+* \textheight=620.82811pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
+* \topmargin=-0.00018pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=42.67912pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 101.
+Package hyperref Info: Link coloring OFF on input line 101.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.
+sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/
+gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count378
+)
+LaTeX Info: Redefining \ref on input line 101.
+LaTeX Info: Redefining \pageref on input line 101.
+LaTeX Info: Redefining \nameref on input line 101.
+Package backref Info: ** backref set up for natbib ** on input line 101.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/ltcaption
+.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+Package soulpos Info: Loading soulutf8 on input line 101.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/soulutf8/soulut
+f8.sty
+Package: soulutf8 2019/12/15 v1.2 Permit use of UTF-8 characters in soul (HO)
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks51
+\SOUL@lasttoken=\toks52
+\SOUL@cmds=\toks53
+\SOUL@buffer=\toks54
+\SOUL@token=\toks55
+\SOUL@spaceskip=\skip97
+\SOUL@ttwidth=\dimen301
+\SOUL@uldp=\dimen302
+\SOUL@ulht=\dimen303
+))
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 101.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 101.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 101.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 101.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 101.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 101.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 101.
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,Renderer=Basic,BoldItalicFont={},It
+alicFont={},SmallCapsFont={},Script=Math,FontAdjustment={\__um_luatex_copy_fontd
+imens:
+(fontspec)             },BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=bas
+e;script=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=bas
+e;script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 101.
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,Renderer=Basic,BoldItalicFont={},It
+alicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57
+-9.3075,Font=latinmodern-math.otf,Style=MathScript},{Size=-6.57,Font=latinmodern
+-math.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_fontdimens:
+
+(fontspec)             },BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.3075->s*[0.9999967668407183]"[latinmodern-math.otf]:mo
+de=base;script=math;language=dflt;"<6.57-9.3075>s*[0.9999967668407183]"[latinmod
+ern-math.otf]:mode=base;script=math;language=dflt;+ssty=0;"<-6.57>s*[0.999996766
+8407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=bas
+e;script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 101.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 101.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input 
+line 101.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 101.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input
+ line 101.
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096766517402.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096766517402.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096766517402.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096766517402.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096766517402.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,Renderer=Basic,BoldItalicFont={},It
+alicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57
+-9.3075,Font=latinmodern-math.otf,Style=MathScript},{Size=-6.57,Font=latinmodern
+-math.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_fontdimens:
+
+(fontspec)             },BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontA
+djustment={\fontdimen
+(fontspec)             8\font =7.41315pt\relax \fontdimen 9\font
+(fontspec)             =4.31429pt\relax \fontdimen 10\font =4.86179pt\relax
+(fontspec)             \fontdimen 11\font =7.51169pt\relax \fontdimen 12\font
+(fontspec)             =3.77774pt\relax \fontdimen 13\font =3.97484pt\relax
+(fontspec)             \fontdimen 14\font =3.97484pt\relax \fontdimen 15\font
+(fontspec)             =3.16454pt\relax \fontdimen 16\font =2.70464pt\relax
+(fontspec)             \fontdimen 17\font =2.70464pt\relax \fontdimen 18\font
+(fontspec)             =2.73749pt\relax \fontdimen 19\font =2.18999pt\relax
+(fontspec)             \fontdimen 22\font =2.73749pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.3075->s*[1.000096766517402]"[latinmodern-math.otf]:mod
+e=base;script=math;language=dflt;"<6.57-9.3075>s*[1.000096766517402]"[latinmoder
+n-math.otf]:mode=base;script=math;language=dflt;+ssty=0;"<-6.57>s*[1.00009676651
+7402]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
+(fontspec)             =7.41315pt\relax \fontdimen 9\font =4.31429pt\relax
+(fontspec)             \fontdimen 10\font =4.86179pt\relax \fontdimen 11\font
+(fontspec)             =7.51169pt\relax \fontdimen 12\font =3.77774pt\relax
+(fontspec)             \fontdimen 13\font =3.97484pt\relax \fontdimen 14\font
+(fontspec)             =3.97484pt\relax \fontdimen 15\font =3.16454pt\relax
+(fontspec)             \fontdimen 16\font =2.70464pt\relax \fontdimen 17\font
+(fontspec)             =2.70464pt\relax \fontdimen 18\font =2.73749pt\relax
+(fontspec)             \fontdimen 19\font =2.18999pt\relax \fontdimen 22\font
+(fontspec)             =2.73749pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.000096766517402]"[latinmodern-math.otf]:mode=base
+;script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
+(fontspec)             =7.41315pt\relax \fontdimen 9\font =4.31429pt\relax
+(fontspec)             \fontdimen 10\font =4.86179pt\relax \fontdimen 11\font
+(fontspec)             =7.51169pt\relax \fontdimen 12\font =3.77774pt\relax
+(fontspec)             \fontdimen 13\font =3.97484pt\relax \fontdimen 14\font
+(fontspec)             =3.97484pt\relax \fontdimen 15\font =3.16454pt\relax
+(fontspec)             \fontdimen 16\font =2.70464pt\relax \fontdimen 17\font
+(fontspec)             =2.70464pt\relax \fontdimen 18\font =2.73749pt\relax
+(fontspec)             \fontdimen 19\font =2.18999pt\relax \fontdimen 22\font
+(fontspec)             =2.73749pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 101.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input
+ line 101.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 101.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input
+ line 101.
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998967671640342.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998967671640342.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998967671640342.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998967671640342.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998967671640342.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,Renderer=Basic,BoldItalicFont={},It
+alicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57
+-9.3075,Font=latinmodern-math.otf,Style=MathScript},{Size=-6.57,Font=latinmodern
+-math.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_fontdimens:
+
+(fontspec)             },BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontA
+djustment={\fontdimen
+(fontspec)             8\font =0.43799pt\relax \fontdimen 9\font
+(fontspec)             =2.18999pt\relax \fontdimen 10\font =1.82864pt\relax
+(fontspec)             \fontdimen 11\font =1.21544pt\relax \fontdimen 12\font
+(fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.3075->s*[0.9998967671640342]"[latinmodern-math.otf]:mo
+de=base;script=math;language=dflt;"<6.57-9.3075>s*[0.9998967671640342]"[latinmod
+ern-math.otf]:mode=base;script=math;language=dflt;+ssty=0;"<-6.57>s*[0.999896767
+1640342]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
+(fontspec)             =0.43799pt\relax \fontdimen 9\font =2.18999pt\relax
+(fontspec)             \fontdimen 10\font =1.82864pt\relax \fontdimen 11\font
+(fontspec)             =1.21544pt\relax \fontdimen 12\font =6.56999pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9998967671640342]"[latinmodern-math.otf]:mode=bas
+e;script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
+(fontspec)             =0.43799pt\relax \fontdimen 9\font =2.18999pt\relax
+(fontspec)             \fontdimen 10\font =1.82864pt\relax \fontdimen 11\font
+(fontspec)             =1.21544pt\relax \fontdimen 12\font =6.56999pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 10
+1.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input
+ line 101.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 101.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input
+ line 101.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.665pt on input line 101.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.475pt on input line 101.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 10
+1.
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.95099pt on input line 101.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.66568pt on input line 101.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.4755pt on input line 101.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.94882pt on input line 101.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.66417pt on input line 101.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.47441pt on input line 101.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 101.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 101.
+
+(c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 119.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 119.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 119.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00092pt on input line 119.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00064pt on input line 119.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 119.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 119.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 119.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 119.
+[1
+
+
+\openout5 = _main.upa
+{c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
+x.map}] [2
+
+] (./_main.toc [3
+
+] [4])
+\tf@toc=\write6
+
+\openout6 = _main.toc
+[5] (./_main.lof)
+\tf@lof=\write7
+
+\openout7 = _main.lof
+(./_main.lot)
+\tf@lot=\write8
+
+\openout8 = _main.lot
+[6
+
+]
+\cslhangindent=\skip98
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.i'
+[1
+
+
+]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.ii'
+[2]
+
+LaTeX Warning: Reference `footprint_twl' on page 1 undefined on input line 374.
+
+
+LaTeX Warning: Reference `footprint_pot' on page 1 undefined on input line 374.
+
+
+LaTeX Warning: Reference `data:surveys' on page 1 undefined on input line 374.
+
+[1] [2
+Missing character: There is no ∼ (U+223C) in font [lmroman10-regular]:+tlig;!
+]
+
+LaTeX Warning: Reference `ecocons1' on page 3 undefined on input line 413.
+
+
+LaTeX Warning: Reference `ecocons2' on page 3 undefined on input line 426.
+
+
+LaTeX Warning: Reference `app:env' on page 3 undefined on input line 426.
+
+
+LaTeX Warning: Reference `chap:data' on page 3 undefined on input line 426.
+
+
+LaTeX Warning: Reference `app:env' on page 3 undefined on input line 426.
+
+
+LaTeX Warning: Reference `ecocons5' on page 3 undefined on input line 426.
+
+
+LaTeX Warning: Reference `ecocons6' on page 3 undefined on input line 426.
+
+
+LaTeX Warning: Reference `catch.wide' on page 3 undefined on input line 426.
+
+
+LaTeX Warning: Reference `catchstacked' on page 3 undefined on input line 426.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
+\TU/lmr/m/n/10 de-clined by \TU/lmtt/m/n/10 100*(model$timeseries$Bio_all[report
+$timeseries$Yr == myyear] /
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 426--427
+\TU/lmtt/m/n/10 report$timeseries[which.max(report$timeseries$Bio_all), "Bio_all
+"]) \TU/lmr/m/n/10 since its
+ []
+
+
+Overfull \hbox (18.53032pt too wide) in paragraph at lines 426--427
+\TU/lmr/m/n/10 high in XXX of per-cent de-cline \TU/lmtt/m/n/10 model$timeseries
+[which.max(report$timeseries$Bio_all),
+ []
+
+[3] [4] [5] [6]
+
+LaTeX Warning: Reference `catch.wide' on page 7 undefined on input line 439.
+
+
+LaTeX Warning: Reference `catchstacked' on page 7 undefined on input line 439.
+
+
+LaTeX Warning: Reference `footprint_twl' on page 7 undefined on input line 439.
+
+
+LaTeX Warning: Reference `footprint_hkl' on page 7 undefined on input line 439.
+
+
+LaTeX Warning: Reference `footprint_pot' on page 7 undefined on input line 439.
+
+
+LaTeX Warning: Reference `app:man' on page 7 undefined on input line 439.
+
+
+LaTeX Warning: Reference `mantable' on page 7 undefined on input line 439.
+
+
+LaTeX Warning: Reference `rp' on page 7 undefined on input line 439.
+
+
+LaTeX Warning: Reference `catchesbyfleet' on page 7 undefined on input line 439.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmr/m/n/10 at []$https://www.nwfsc.noaa.gov/research/divisions/fram/observat
+ion/data/_products/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 in season lengths. In 1991, the fully open season lasted seven 
+weeks, from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 April 1 through May 23. In 1992, approximately 1,300 mt were lan
+ded under
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 early season trip limits of up to 1,500 lb/day, and the fully op
+en season
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 lasted from May 12 through May 26. In 1993, there was a 250 lb/d
+ay trip
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 limit prior to the open season which extended from May 12 throug
+h June
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 1. In 1994, the fully open season was shorted to May 15 through June 3.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 In 1995, the open season lasted one week, from August 3 to Augus
+t 13. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 open season spanned only six days in 1996, from September 1 to 
+September
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 6. In 1997, nine days (August 25 to September 3) were set aside for the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 open season, with a mop-up period from October 1-15. In the more
+ recent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 period, the Limited Entry Fixed Gear sector has been managed pri
+marily
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 through the use of tiered cumulative limits (allocated on the ba
+sis of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 historical landings) which can be landed throughout the 7-month season. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 remaining open-access fishery and some limited-entry non-trawl 
+vessels are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 allowed to make smaller landings that are subject to daily/weekl
+y limits
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 and two-month cumulative caps. Additionally, Sablefish are harve
+sted by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 the trawl fishery in association with a variety of other species
+ that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 are distributed to domestic and foreign markets. Prior to 2011, the trawl
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 fishery was managed primarily through the use of trip limits. Th
+ese evolved
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 from simple per-trip limits in the 1980s to cumulative periodic (monthly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 or bi-monthly) limits by the mid-1990s. In addition to Sablefish
+-specific
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 limits, various limits were in place for the overall landings of
+ deep-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 water complex species @stewart2011sablefish}. Coast-wide yield-t
+argets are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 divided among the different gears, fishery sectors (including bo
+th limited
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 entry and open access) as well as north and south of 36$^{\circ}
+$ latitude.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 The overfishing level (OFL, formerly the allowable biological ca
+tch,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+\TU/lmtt/m/n/10 i.e., ABC) for Sablefish has ranged from\TU/lmr/m/n/10 mantable[
+which.min(mantable$OFL),
+ []
+
+
+Overfull \hbox (72.51059pt too wide) in paragraph at lines 439--440
+\TU/lmr/m/n/10 ]$\TU/latinmodern-math.otf(1)/m/n/10 𝑂𝐹𝐿)(𝑚𝑎𝑛
+𝑡𝑎𝑏𝑙𝑒[𝑤ℎ𝑖𝑐ℎ.𝑚𝑖𝑛(𝑚𝑎𝑛𝑡𝑎𝑏
+𝑙𝑒$\TU/lmr/m/n/10 OFL), ]$\TU/latinmodern-math.otf(1)/m/n/10 𝑌𝑒
+𝑎𝑟, 𝑏𝑖𝑔𝑚𝑎𝑟𝑘 = "")[]𝑡𝑜[]𝑚𝑎𝑛𝑡𝑎
+𝑏𝑙𝑒[𝑤ℎ𝑖𝑐ℎ.𝑚𝑎𝑥(𝑚𝑎𝑛𝑡𝑎𝑏𝑙𝑒$\
+TU/lmr/m/n/10 OFL),
+ []
+
+
+Overfull \hbox (361.31342pt too wide) in paragraph at lines 439--440
+\TU/lmr/m/n/10 ]$\TU/latinmodern-math.otf(1)/m/n/10 𝑂𝐹𝐿[]𝑚𝑡[]
+𝑚𝑎𝑛𝑡𝑎𝑏𝑙𝑒[𝑤ℎ𝑖𝑐ℎ.𝑚𝑎𝑥(𝑚𝑎𝑛
+𝑡𝑎𝑏𝑙𝑒$\TU/lmr/m/n/10 OFL), ]$\TU/latinmodern-math.otf(1)/m/n/10 
+𝑌𝑒𝑎𝑟[]𝑑𝑢𝑟𝑖𝑛𝑔𝑡ℎ𝑒𝑙𝑎𝑠𝑡𝑑𝑒
+𝑐𝑎𝑑𝑒(𝑇𝑎𝑏𝑙𝑒[]).𝐶𝑎𝑡𝑐ℎ𝑡𝑎𝑟𝑔
+𝑒𝑡𝑠(𝐴𝐶𝐿𝑠, 𝑓𝑜𝑟𝑚𝑒𝑟𝑙𝑦𝑂𝑌𝑠)
+𝑟𝑎𝑛𝑔𝑒𝑑𝑓𝑟𝑜𝑚[]𝑚𝑎𝑛𝑡𝑎𝑏𝑙𝑒[
+𝑤ℎ𝑖𝑐ℎ.𝑚𝑖𝑛(𝑚𝑎𝑛𝑡𝑎𝑏𝑙𝑒$\TU/lmr/m/n/10
+ ACL),
+ []
+
+
+Overfull \hbox (14.35915pt too wide) in paragraph at lines 439--440
+\TU/lmr/m/n/10 ]$\TU/latinmodern-math.otf(1)/m/n/10 𝐴𝐶𝐿)(𝑚𝑎𝑛
+𝑡𝑎𝑏𝑙𝑒[𝑤ℎ𝑖𝑐ℎ.𝑚𝑖𝑛(𝑚𝑎𝑛𝑡𝑎𝑏
+𝑙𝑒$\TU/lmr/m/n/10 ACL), ]$\TU/latinmodern-math.otf(1)/m/n/10 𝑌𝑒
+𝑎𝑟)[]𝑡𝑜[](𝑚𝑎𝑛𝑡𝑎𝑏𝑙𝑒[𝑤ℎ𝑖𝑐ℎ.𝑚
+𝑎𝑥(𝑚𝑎𝑛𝑡𝑎𝑏𝑙𝑒$\TU/lmr/m/n/10 ACL),
+ []
+
+[7] [8]
+
+LaTeX Warning: Reference `akcatches' on page 9 undefined on input line 452.
+
+
+LaTeX Warning: Reference `akcatches' on page 9 undefined on input line 452.
+
+
+LaTeX Warning: Reference `data_plot' on page 9 undefined on input line 465.
+
+[9]
+
+LaTeX Warning: Reference `naturalmortalityprior' on page 10 undefined on input l
+ine 487.
+
+
+Overfull \hbox (30.3464pt too wide) in paragraph at lines 493--494
+[]\TU/lmr/m/n/10 Re-ported com-mer-cial and re-con-structed land-ings \TU/lmtt/
+m/n/10 paste(range(report$catch$Yr)+c(1,0),
+ []
+
+
+Overfull \hbox (144.94641pt too wide) in paragraph at lines 499--500
+[]\TU/lmr/m/n/10 Bi-o-log-i-cal data (ages) from the com-mer-cial port sam-pling
+ pro-grams \TU/lmtt/m/n/10 paste(range(c(report$len_comp_fit_table$Yr,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+\TU/lmr/m/n/10 GOP; \TU/lmtt/m/n/10 paste(range(report$discard[report$discard$Fl
+eet == 1, "Yr"]),
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 505--506
+\TU/lmtt/m/n/10 collapse = "-") \TU/lmr/m/n/10 and \TU/lmtt/m/n/10 paste(range(r
+eport$discard$Yr[report$discard$Yr <
+ []
+
+
+LaTeX Warning: Reference `ecocons3' on page 10 undefined on input line 511.
+
+
+LaTeX Warning: Reference `surveycompn' on page 10 undefined on input line 534.
+
+
+LaTeX Warning: Reference `databyyearWCGBT1' on page 10 undefined on input line 5
+34.
+
+[10]
+
+LaTeX Warning: Reference `databyyearWCGBT3' on page 11 undefined on input line 5
+52.
+
+[11]
+
+LaTeX Warning: Reference `app:vast' on page 12 undefined on input line 558.
+
+
+LaTeX Warning: Reference `WCGBTindexest' on page 12 undefined on input line 558.
+
+
+
+LaTeX Warning: Reference `WCGBTQQ' on page 12 undefined on input line 558.
+
+
+LaTeX Warning: Reference `QQhistWCGBT' on page 12 undefined on input line 558.
+
+
+LaTeX Warning: Reference `surveydensWCGBT1' on page 12 undefined on input line 5
+58.
+
+
+LaTeX Warning: Reference `surveydensWCGBT4' on page 12 undefined on input line 5
+58.
+
+
+LaTeX Warning: Reference `surveyresid1WCGBT1' on page 12 undefined on input line
+ 558.
+
+
+LaTeX Warning: Reference `surveyresid2WCGBT4' on page 12 undefined on input line
+ 558.
+
+
+Overfull \hbox (662.16142pt too wide) in paragraph at lines 569--569
+[]\TU/lmtt/m/n/10 getcohortsWCGBTS <- unique(report$lendbase[report$lendbase$Fle
+et == 8 & report$lendbase$Bin < 28&report$lendbase$Obs > quantile(report$lendbas
+e[report$lendbase$Bin < 28, c("Obs")], probs = 0.90), "Yr"])[] 
+ []
+
+
+LaTeX Warning: Reference `surveycompn' on page 12 undefined on input line 575.
+
+
+LaTeX Warning: Reference `lcaggregate' on page 12 undefined on input line 575.
+
+
+LaTeX Warning: Reference `WCGBTlendat' on page 12 undefined on input line 575.
+
+[12]
+
+LaTeX Warning: Reference `surveycompn' on page 13 undefined on input line 581.
+
+
+LaTeX Warning: Reference `wcgbtfitcaal' on page 13 undefined on input line 581.
+
+
+LaTeX Warning: Reference `wcgbtfitcaal3' on page 13 undefined on input line 581.
+
+
+
+LaTeX Warning: Reference `databyyearNWFSCSLP1' on page 13 undefined on input lin
+e 594.
+
+
+LaTeX Warning: Reference `nnwfscslope' on page 13 undefined on input line 594.
+
+
+LaTeX Warning: Reference `app:vast' on page 13 undefined on input line 594.
+
+
+LaTeX Warning: Reference `NWFSCSLPindexest' on page 13 undefined on input line 5
+94.
+
+
+LaTeX Warning: Reference `NWFSCSLPQQ' on page 13 undefined on input line 594.
+
+
+LaTeX Warning: Reference `QQhistNWFSCSLP' on page 13 undefined on input line 594
+.
+
+
+LaTeX Warning: Reference `surveydensNWFSCSLP1' on page 13 undefined on input lin
+e 594.
+
+
+LaTeX Warning: Reference `surveydensNWFSCSLP2' on page 13 undefined on input lin
+e 594.
+
+
+LaTeX Warning: Reference `surveyresid1NWFSCSLP1' on page 13 undefined on input l
+ine 594.
+
+
+LaTeX Warning: Reference `surveyresid2NWFSCSLP3' on page 13 undefined on input l
+ine 594.
+
+
+LaTeX Warning: Reference `NWFSCSLPlendat' on page 13 undefined on input line 594
+.
+
+
+LaTeX Warning: Reference `NWFSCSLPagedat' on page 13 undefined on input line 594
+.
+
+
+LaTeX Warning: Reference `databyyearAFSCSLP1' on page 13 undefined on input line
+ 594.
+
+
+LaTeX Warning: Reference `nafscslope' on page 13 undefined on input line 594.
+
+
+LaTeX Warning: Reference `app:vast' on page 13 undefined on input line 594.
+
+
+LaTeX Warning: Reference `AFSCSLPindexest' on page 13 undefined on input line 59
+4.
+
+
+LaTeX Warning: Reference `AFSCSLPQQ' on page 13 undefined on input line 594.
+
+
+LaTeX Warning: Reference `QQhistAFSCSLP' on page 13 undefined on input line 594.
+
+
+
+LaTeX Warning: Reference `surveydensAFSCSLP1' on page 13 undefined on input line
+ 594.
+
+
+LaTeX Warning: Reference `surveyresid1AFSCSLP1' on page 13 undefined on input li
+ne 594.
+
+
+LaTeX Warning: Reference `surveyresid2AFSCSLP1' on page 13 undefined on input li
+ne 594.
+
+
+LaTeX Warning: Reference `AFSCSLPlendat' on page 13 undefined on input line 594.
+
+
+
+LaTeX Warning: Reference `AFSCSLPagedat' on page 13 undefined on input line 594.
+
+
+
+LaTeX Warning: Reference `databyyearTriennial1' on page 13 undefined on input li
+ne 594.
+
+
+LaTeX Warning: Reference `app:vast' on page 13 undefined on input line 594.
+
+
+LaTeX Warning: Reference `Triennialindexest' on page 13 undefined on input line 
+594.
+
+
+LaTeX Warning: Reference `TriennialQQ' on page 13 undefined on input line 594.
+
+
+LaTeX Warning: Reference `QQhistTriennial' on page 13 undefined on input line 59
+4.
+
+
+LaTeX Warning: Reference `surveydensTriennial1' on page 13 undefined on input li
+ne 594.
+
+
+LaTeX Warning: Reference `surveydensTriennial3' on page 13 undefined on input li
+ne 594.
+
+
+LaTeX Warning: Reference `surveyresid1Triennial1' on page 13 undefined on input 
+line 594.
+
+
+LaTeX Warning: Reference `surveyresid2Triennial3' on page 13 undefined on input 
+line 594.
+
+
+LaTeX Warning: Reference `nafsctri' on page 13 undefined on input line 594.
+
+
+LaTeX Warning: Reference `Trienniallendat' on page 13 undefined on input line 59
+4.
+
+
+LaTeX Warning: Reference `Triennialagedat' on page 13 undefined on input line 59
+4.
+
+
+LaTeX Warning: Reference `app:env' on page 13 undefined on input line 594.
+
+
+LaTeX Warning: Reference `app:env' on page 13 undefined on input line 595.
+
+
+LaTeX Warning: Reference `app:env' on page 13 undefined on input line 595.
+
+
+LaTeX Warning: Reference `app:env' on page 13 undefined on input line 595.
+
+
+LaTeX Warning: Reference `app:env' on page 13 undefined on input line 595.
+
+
+LaTeX Warning: Reference `app:env' on page 13 undefined on input line 595.
+
+
+LaTeX Warning: Reference `ecocons4' on page 13 undefined on input line 595.
+
+
+Overfull \hbox (69.05122pt too wide) in paragraph at lines 594--595
+[]\TU/lmr/m/n/10 The NWFSC Slope sur-vey pre-ceded the WCGBT Sur-vey, start-ing in \TU/lmtt/m/n/10 min(report$cpue[report$cpue$Fleet
+ []
+
+[13] [14] [15]
+
+LaTeX Warning: Reference `app:env' on page 16 undefined on input line 597.
+
+
+LaTeX Warning: Reference `app:env' on page 16 undefined on input line 597.
+
+
+LaTeX Warning: Reference `app:env' on page 16 undefined on input line 597.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 condition and resulted in lower realized recruitment than that 
+expected by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 the sea-level index. Comparing the distribution of age-0 recruit
+s (Figure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 \ref{app:env}7) to the model performance (Figure \ref{app:env}39
+) suggests
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 that strong over predictions (more than 1.0 standard deviation 
+above the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 assessment derived stock recruitment residual) may be due to fai
+lure to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 account for processes in the south in some way, regardless of th
+e fact
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 that $DF3$ does account for sea level south of Cape Mendocino. 
+For example,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 the model over predicted recruitment in 2005-2007, 2009, and 201
+1.  All of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 these years, with the exception of 2011, saw lower recruitment 
+in the area
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 around San Francisco Bay. For 2011, the model predicted recruitm
+ent fairly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 close to that expected by the stock-recruitment relationship, an
+d actual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 age-0 abundance was somewhat lower. Conversely, the model predic
+tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 were underestimates of the recruitment peaks in 2010 and 2013 wh
+en there
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 were strong recruitments around San Francisco Bay and Point Conc
+eption.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 Appendix \ref{app:env} provides a more comprehensive analysis of
+ the sea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 level index. The sea level-recruitment relationship has been mod
+eled both
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 via the internal population dynamics as a direct offset to the 
+expected
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 value for recruitment @maunder2003, @schirripa2005sablefish and as a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 survey index of age-0 recruitment deviations @schirripa2007sable
+fish,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 @stewart2011sablefish, @johnson2016sablefish. The former method makes it
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 difficult to determine the appropriate degree of recruitment var
+iability
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 for the deviations themselves and also requires that the environ
+mental
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 series be treated as if it is known without error. The latter me
+thod
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 allows for observation error in the environmental series. The to
+pic of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 model-selection, robustness, and validation for the sea level-re
+cruitment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 relationship was a recurrent theme in STAR panels and with the 
+Pacific
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 Fisheries Management Council Science and Statistical Committee 
+between 2002
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 and 2007. Prior to 2011, the use of the sea-level index was cont
+entious.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 During 2011, the sea-level data were used as a survey index of 
+recruitment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 in a sensitivity using the data from 1970 forward, although the sea-level
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 data begin during 1925. Using only the data from 1970 forward di
+d not
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 influence model results because the information in the length- 
+and age-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 composition data largely agreed with the information in the sea-
+level data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 @stewart2011sablefish, johnson2016sablefish}. This assessment us
+es the DF1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 and associated uncertainty, spanning 1925 through 2018, from the
+ analysis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 above as a survey index of age-0 recruitment. Using the sea leve
+l time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 series prior to 1970, rather than limiting the data to the perio
+d in which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 length- and age-composition data inform recruitment strength as was done
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 in during 2011, provides the opportunity to allow for both hindc
+asting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 recruitment and nowcasting of recruitment in the absence of surv
+ey data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 during the current assessment year, or in future 'catch only'ass
+essments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 conducted for management. Both hindcasting during historically 
+data poor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 periods and nowcasting in the absence of current survey data may
+ better
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 represent stock dynamics. # Fishery-Dependent data ## Historical
+ commercial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 landings The historical commercial catch reconstruction used for
+ this
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 assessment is the same as that used in the last assessment for 
+Oregon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 and California (Table \ref{catch.wide}; Figure \ref{catchstacked
+}). A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 new reconstruction was available from Washington that extended 
+the catch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 history back to\TU/lmr/m/n/10 min(report$\TU/latinmodern-math.o
+tf(1)/m/n/10 𝑐𝑎𝑡𝑐ℎ$\TU/lmr/m/n/10 Yr) + 1\TU/lmtt/m/n/10 . The mos
+t recent historical catches
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 (from 1986 to present for Oregon and from 1981 to present for Ca
+lifornia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\TU/lmtt/m/n/10 and Washington) were extracted from Pacific Fisheries Informatio
+n Network
+ []
+
+[16] [17]
+
+LaTeX Warning: Reference `catch.wide' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `app.table.catchbystate' on page 18 undefined on input 
+line 610.
+
+
+LaTeX Warning: Reference `fisherycompn' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `fisherycompn' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `lcaggregate' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `lcaggregate' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `fixlendat1' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `fixlendat2' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `twllendat1' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `twllendat1' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `twllendat2' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `fixlendat1' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `twllendat2' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `acaggregate' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `lc48' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `lc50b' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `lc48' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `lc48b' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `lc48' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `lc48b' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `lc50' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `lc50b' on page 18 undefined on input line 610.
+
+
+LaTeX Warning: Reference `bodywtfit' on page 18 undefined on input line 610.
+
+[18] [19]
+
+LaTeX Warning: Reference `discard_fit' on page 20 undefined on input line 623.
+
+[20]
+
+LaTeX Warning: Reference `biopars' on page 21 undefined on input line 642.
+
+[21]
+
+LaTeX Warning: Reference `biopars' on page 22 undefined on input line 655.
+
+
+LaTeX Warning: Reference `lc31' on page 22 undefined on input line 655.
+
+
+LaTeX Warning: Reference `biopars' on page 22 undefined on input line 674.
+
+
+LaTeX Warning: Reference `lc32' on page 22 undefined on input line 674.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
+\TU/latinmodern-math.otf(1)/m/n/10 𝐿[]$ \TU/lmr/m/n/10 = \TU/lmtt/m/n/10 as.c
+haracter(biopars[grep("Female length at", biopars$Quantity),
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 674--675
+\TU/lmtt/m/n/10 biopars$Quantity), "Value"])\TU/lmr/m/n/10 . The ma-tu-rity sche
+d-ule sug-gests a slightly more
+ []
+
+[22]
+
+LaTeX Warning: Reference `biopars' on page 23 undefined on input line 687.
+
+
+LaTeX Warning: Reference `naturalmortalityprior' on page 23 undefined on input l
+ine 700.
+
+[23]
+
+LaTeX Warning: Reference `tab.growthstudies' on page 24 undefined on input line 
+719.
+
+
+LaTeX Warning: Reference `age_HistData' on page 24 undefined on input line 732.
+
+
+LaTeX Warning: Reference `age_Error' on page 24 undefined on input line 732.
+
+
+LaTeX Warning: Reference `age_Error' on page 24 undefined on input line 732.
+
+
+LaTeX Warning: Reference `age_Error' on page 24 undefined on input line 732.
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 732--733
+[]\TU/lmr/m/n/10 Ob-served Sable-fish ages are de-rived from vi-su-ally count-in
+g rings on otoliths us-ing
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 732--733
+\TU/lmr/m/n/10 model treats the \TU/lmtt/m/n/10 true' age for each otolith as a random effect and estimates
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 the marginal likelihood of all other fixed effects while integra
+ting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 across these random effects. Stepwise (i.e., forward and backwar
+d) model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 selection was used to select among all combinations of three pre
+cision
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 models (i.e., linear and a Holling's-form for either standard de
+viation or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 coefficient of variation for precision) and two bias models (i.e
+., linear
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 or Holling's-form) for each laboratory, as well as the maximum 
+age for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 which a proportion-at-age parameter was estimated (possibly rang
+ing from 2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 to 80 years). Model comparisons were conducted using the Akaike Information
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 Criterion. Stepwise model selection identified a model with Holl
+ing's-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 form bias and Holling's-form standard deviation of precision for
+ each
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 laboratory. Biases were very large and negative (i.e., reads wer
+e lower
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 than the true age) and the standard deviation was increasing wit
+h true age
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 for all laboratories (Figure \ref{age_DoubleReadData}). Initial modeling
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 during the 2011 assessment suggested that ages were both highly imprecise
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 and very biased. However, these model runs suggested that the de
+gree of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 bias estimated from initial ageing error analyses was incompatib
+le with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 observed cohorts moving through the population and produced poor
+ residual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 patterns and unrealistically low estimates of natural mortality.
+ Based on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 these findings the information used to estimate ageing error pro
+perties
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 was re-evaluated. The 2011 comparison of the larger sample of ot
+oliths,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 containing older fish, collected during trawl survey operations revealed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--733
+\TU/lmtt/m/n/10 that there was likely a much greater consistency among labs for west coast
+ []
+
+[24] [25] [26] [27] [28] [29] [30] [31] [32
+
+] [33] [34] [35] [36] [37] [38
+
+]
+<data-plot.png, id=913, 469.755pt x 361.35pt>
+File: data-plot.png Graphic file (type png)
+<use data-plot.png>
+Package luatex.def Info: data-plot.png  used on input line 1344.
+(luatex.def)             Requested size: 398.34032pt x 306.41562pt.
+
+AED: lastpage setting LastPage
+[39
+
+<./data-plot.png>] (./_main.aux)
+
+LaTeX Warning: There were undefined references.
+
+=====>769 0 R
+=====>769 0 R
+=====>769 0 R
+=====>769 0 R
+=====>769 0 R
+=====>905 0 R)
+
+Here is how much of LuaTeX's memory you used:
+ 48054 strings out of 478543
+ 305224,1977958 words of node,token memory allocated
+ 961 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 3 glyph, 84 attribute, 78 gl
+ue_spec, 29 attribute_list, 5 write, 1 close, 17 pdf_action nodes
+   avail lists: 1:69,2:17914,3:367,4:170,5:1242,6:106,7:24809,8:2819,9:1099,10:3
+2,11:1776,12:1
+ 65893 multiletter control sequences out of 65536+600000
+ 78 fonts using 15874083 bytes
+ 128i,12n,146p,16193b,469s stack positions out of 5000i,500n,10000p,200000b,200000s
+<c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmm
+ono10-regular.otf><c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/fonts/open
+type/public/lm-math/latinmodern-math.otf><c:/Users/mkapur/AppData/Roaming/TinyTe
+X/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/mkapur
+/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regu
+lar.otf><c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/publi
+c/lm/lmroman10-bold.otf><c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/font
+s/opentype/public/lm/lmroman12-bold.otf><c:/Users/mkapur/AppData/Roaming/TinyTeX
+/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/Users/mkapur/AppDa
+ta/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/
+Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman
+10-regular.otf><c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentyp
+e/public/lm/lmroman12-italic.otf><c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-
+dist/fonts/opentype/public/lm/lmroman12-regular.otf>
+Output written on _main.pdf (47 pages, 3871646 bytes).
+
+PDF statistics: 1237 PDF objects out of 1440 (max. 8388607)
+ 280 named destinations out of 1000 (max. 131072)
+ 2333 words of extra memory for PDF output out of 10000 (max. 100000000)
+
