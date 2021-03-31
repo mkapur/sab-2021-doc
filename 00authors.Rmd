@@ -5,9 +5,39 @@ author:
     first: M
     middle: S
     family: Kapur
-author_list: Kapur, M.S.
+  - name: Lee Qi
+    code: 1
+    first: Qi
+    middle: 
+    family: Lee
+  - name: Melissa A. Haltuch
+    code: 1
+    first: Melissa
+    middle: A
+    family: Haltuch
+  - name: Owen Hamel
+    code: 2
+    first: Owen
+    middle: 
+    family: Hamel
+  - name: Author No. Three
+    code: 2
+    first: K
+    middle: E
+    family: Hinton
+author_list: Wetzel, C.R., B.J. Langseth, J.M. Cope, T. Tsou, K.E. Hinton
 affiliation:
   - code: 1
-    address: .na.character
-address: ^1^NA
+    address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
+      Oceanic and Atmospheric Administration, National Marine Fisheries Service, 2725
+      Montlake Boulevard East, Seattle, Washington 98112
+  - code: 2
+    address: Washington Department of Fish and Wildlife, 600 Capital Way North, Olympia,
+      Washington 98501
+address:
+  - ^1^Northwest Fisheries Science Center, U.S. Department of Commerce, National Oceanic
+    and Atmospheric Administration, National Marine Fisheries Service, 2725 Montlake
+    Boulevard East, Seattle, Washington 98112
+  - ^2^Washington Department of Fish and Wildlife, 600 Capital Way North, Olympia,
+    Washington 98501
 ---

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2021.3.9)  10 MAR 2021 13:43
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2021.3.9)  24 MAR 2021 09:34
  restricted system commands enabled.
 **_main.tex
 (./_main.tex
@@ -1925,256 +1925,256 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.i'
 warning  (pdf backend): ignoring duplicate destination with the name 'page.ii'
 [2]
 
-LaTeX Warning: Reference `footprint_twl' on page 1 undefined on input line 374.
+LaTeX Warning: Reference `footprint_twl' on page 1 undefined on input line 379.
 
 
-LaTeX Warning: Reference `footprint_pot' on page 1 undefined on input line 374.
+LaTeX Warning: Reference `footprint_pot' on page 1 undefined on input line 379.
 
 
-LaTeX Warning: Reference `data:surveys' on page 1 undefined on input line 374.
+LaTeX Warning: Reference `data:surveys' on page 1 undefined on input line 379.
 
 [1] [2
 Missing character: There is no ∼ (U+223C) in font [lmroman10-regular]:+tlig;!
 ]
 
-LaTeX Warning: Reference `ecocons1' on page 3 undefined on input line 413.
+LaTeX Warning: Reference `ecocons1' on page 3 undefined on input line 418.
 
 
-LaTeX Warning: Reference `ecocons2' on page 3 undefined on input line 426.
+LaTeX Warning: Reference `ecocons2' on page 3 undefined on input line 431.
 
 
-LaTeX Warning: Reference `app:env' on page 3 undefined on input line 426.
+LaTeX Warning: Reference `app:env' on page 3 undefined on input line 431.
 
 
-LaTeX Warning: Reference `chap:data' on page 3 undefined on input line 426.
+LaTeX Warning: Reference `chap:data' on page 3 undefined on input line 431.
 
 
-LaTeX Warning: Reference `app:env' on page 3 undefined on input line 426.
+LaTeX Warning: Reference `app:env' on page 3 undefined on input line 431.
 
 
-LaTeX Warning: Reference `ecocons5' on page 3 undefined on input line 426.
+LaTeX Warning: Reference `ecocons5' on page 3 undefined on input line 431.
 
 
-LaTeX Warning: Reference `ecocons6' on page 3 undefined on input line 426.
+LaTeX Warning: Reference `ecocons6' on page 3 undefined on input line 431.
 
 
-LaTeX Warning: Reference `catch.wide' on page 3 undefined on input line 426.
+LaTeX Warning: Reference `catch.wide' on page 3 undefined on input line 431.
 
 
-LaTeX Warning: Reference `catchstacked' on page 3 undefined on input line 426.
+LaTeX Warning: Reference `catchstacked' on page 3 undefined on input line 431.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
 \TU/lmr/m/n/10 de-clined by \TU/lmtt/m/n/10 100*(model$timeseries$Bio_all[report
 $timeseries$Yr == myyear] /
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 426--427
+Underfull \hbox (badness 1466) in paragraph at lines 431--432
 \TU/lmtt/m/n/10 report$timeseries[which.max(report$timeseries$Bio_all), "Bio_all
 "]) \TU/lmr/m/n/10 since its
  []
 
 
-Overfull \hbox (18.53032pt too wide) in paragraph at lines 426--427
+Overfull \hbox (18.53032pt too wide) in paragraph at lines 431--432
 \TU/lmr/m/n/10 high in XXX of per-cent de-cline \TU/lmtt/m/n/10 model$timeseries
 [which.max(report$timeseries$Bio_all),
  []
 
 [3] [4] [5] [6]
 
-LaTeX Warning: Reference `catch.wide' on page 7 undefined on input line 439.
+LaTeX Warning: Reference `catch.wide' on page 7 undefined on input line 444.
 
 
-LaTeX Warning: Reference `catchstacked' on page 7 undefined on input line 439.
+LaTeX Warning: Reference `catchstacked' on page 7 undefined on input line 444.
 
 
-LaTeX Warning: Reference `footprint_twl' on page 7 undefined on input line 439.
+LaTeX Warning: Reference `footprint_twl' on page 7 undefined on input line 444.
 
 
-LaTeX Warning: Reference `footprint_hkl' on page 7 undefined on input line 439.
+LaTeX Warning: Reference `footprint_hkl' on page 7 undefined on input line 444.
 
 
-LaTeX Warning: Reference `footprint_pot' on page 7 undefined on input line 439.
+LaTeX Warning: Reference `footprint_pot' on page 7 undefined on input line 444.
 
 
-LaTeX Warning: Reference `app:man' on page 7 undefined on input line 439.
+LaTeX Warning: Reference `app:man' on page 7 undefined on input line 444.
 
 
-LaTeX Warning: Reference `mantable' on page 7 undefined on input line 439.
+LaTeX Warning: Reference `mantable' on page 7 undefined on input line 444.
 
 
-LaTeX Warning: Reference `rp' on page 7 undefined on input line 439.
+LaTeX Warning: Reference `rp' on page 7 undefined on input line 444.
 
 
-LaTeX Warning: Reference `catchesbyfleet' on page 7 undefined on input line 439.
+LaTeX Warning: Reference `catchesbyfleet' on page 7 undefined on input line 444.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmr/m/n/10 at []$https://www.nwfsc.noaa.gov/research/divisions/fram/observat
 ion/data/_products/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 in season lengths. In 1991, the fully open season lasted seven 
 weeks, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 April 1 through May 23. In 1992, approximately 1,300 mt were lan
 ded under
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 early season trip limits of up to 1,500 lb/day, and the fully op
 en season
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 lasted from May 12 through May 26. In 1993, there was a 250 lb/d
 ay trip
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 limit prior to the open season which extended from May 12 throug
 h June
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 1. In 1994, the fully open season was shorted to May 15 through June 3.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 In 1995, the open season lasted one week, from August 3 to Augus
 t 13. The
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 open season spanned only six days in 1996, from September 1 to 
 September
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 6. In 1997, nine days (August 25 to September 3) were set aside for the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 open season, with a mop-up period from October 1-15. In the more
  recent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 period, the Limited Entry Fixed Gear sector has been managed pri
 marily
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 through the use of tiered cumulative limits (allocated on the ba
 sis of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 historical landings) which can be landed throughout the 7-month season. The
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 remaining open-access fishery and some limited-entry non-trawl 
 vessels are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 allowed to make smaller landings that are subject to daily/weekl
 y limits
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 and two-month cumulative caps. Additionally, Sablefish are harve
 sted by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 the trawl fishery in association with a variety of other species
  that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 are distributed to domestic and foreign markets. Prior to 2011, the trawl
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 fishery was managed primarily through the use of trip limits. Th
 ese evolved
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 from simple per-trip limits in the 1980s to cumulative periodic (monthly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 or bi-monthly) limits by the mid-1990s. In addition to Sablefish
 -specific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 limits, various limits were in place for the overall landings of
  deep-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 water complex species @stewart2011sablefish}. Coast-wide yield-t
 argets are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 divided among the different gears, fishery sectors (including bo
 th limited
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 entry and open access) as well as north and south of 36$^{\circ}
 $ latitude.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 The overfishing level (OFL, formerly the allowable biological ca
 tch,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 \TU/lmtt/m/n/10 i.e., ABC) for Sablefish has ranged from\TU/lmr/m/n/10 mantable[
 which.min(mantable$OFL),
  []
 
 
-Overfull \hbox (72.51059pt too wide) in paragraph at lines 439--440
+Overfull \hbox (72.51059pt too wide) in paragraph at lines 444--445
 \TU/lmr/m/n/10 ]$\TU/latinmodern-math.otf(1)/m/n/10 𝑂𝐹𝐿)(𝑚𝑎𝑛
 𝑡𝑎𝑏𝑙𝑒[𝑤ℎ𝑖𝑐ℎ.𝑚𝑖𝑛(𝑚𝑎𝑛𝑡𝑎𝑏
 𝑙𝑒$\TU/lmr/m/n/10 OFL), ]$\TU/latinmodern-math.otf(1)/m/n/10 𝑌𝑒
@@ -2184,7 +2184,7 @@ TU/lmr/m/n/10 OFL),
  []
 
 
-Overfull \hbox (361.31342pt too wide) in paragraph at lines 439--440
+Overfull \hbox (361.31342pt too wide) in paragraph at lines 444--445
 \TU/lmr/m/n/10 ]$\TU/latinmodern-math.otf(1)/m/n/10 𝑂𝐹𝐿[]𝑚𝑡[]
 𝑚𝑎𝑛𝑡𝑎𝑏𝑙𝑒[𝑤ℎ𝑖𝑐ℎ.𝑚𝑎𝑥(𝑚𝑎𝑛
 𝑡𝑎𝑏𝑙𝑒$\TU/lmr/m/n/10 OFL), ]$\TU/latinmodern-math.otf(1)/m/n/10 
@@ -2197,7 +2197,7 @@ Overfull \hbox (361.31342pt too wide) in paragraph at lines 439--440
  []
 
 
-Overfull \hbox (14.35915pt too wide) in paragraph at lines 439--440
+Overfull \hbox (14.35915pt too wide) in paragraph at lines 444--445
 \TU/lmr/m/n/10 ]$\TU/latinmodern-math.otf(1)/m/n/10 𝐴𝐶𝐿)(𝑚𝑎𝑛
 𝑡𝑎𝑏𝑙𝑒[𝑤ℎ𝑖𝑐ℎ.𝑚𝑖𝑛(𝑚𝑎𝑛𝑡𝑎𝑏
 𝑙𝑒$\TU/lmr/m/n/10 ACL), ]$\TU/latinmodern-math.otf(1)/m/n/10 𝑌𝑒
@@ -2207,887 +2207,601 @@ Overfull \hbox (14.35915pt too wide) in paragraph at lines 439--440
 
 [7] [8]
 
-LaTeX Warning: Reference `akcatches' on page 9 undefined on input line 452.
+LaTeX Warning: Reference `akcatches' on page 9 undefined on input line 457.
 
 
-LaTeX Warning: Reference `akcatches' on page 9 undefined on input line 452.
+LaTeX Warning: Reference `akcatches' on page 9 undefined on input line 457.
 
 
-LaTeX Warning: Reference `data_plot' on page 9 undefined on input line 465.
+LaTeX Warning: Reference `data_plot' on page 9 undefined on input line 470.
 
 [9]
 
 LaTeX Warning: Reference `naturalmortalityprior' on page 10 undefined on input l
-ine 487.
+ine 492.
 
 
-Overfull \hbox (30.3464pt too wide) in paragraph at lines 493--494
+Overfull \hbox (30.3464pt too wide) in paragraph at lines 498--499
 []\TU/lmr/m/n/10 Re-ported com-mer-cial and re-con-structed land-ings \TU/lmtt/
 m/n/10 paste(range(report$catch$Yr)+c(1,0),
  []
 
 
-Overfull \hbox (144.94641pt too wide) in paragraph at lines 499--500
+Overfull \hbox (144.94641pt too wide) in paragraph at lines 504--505
 []\TU/lmr/m/n/10 Bi-o-log-i-cal data (ages) from the com-mer-cial port sam-pling
  pro-grams \TU/lmtt/m/n/10 paste(range(c(report$len_comp_fit_table$Yr,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--506
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
 \TU/lmr/m/n/10 GOP; \TU/lmtt/m/n/10 paste(range(report$discard[report$discard$Fl
 eet == 1, "Yr"]),
  []
 
 
-Underfull \hbox (badness 4886) in paragraph at lines 505--506
+Underfull \hbox (badness 4886) in paragraph at lines 510--511
 \TU/lmtt/m/n/10 collapse = "-") \TU/lmr/m/n/10 and \TU/lmtt/m/n/10 paste(range(r
 eport$discard$Yr[report$discard$Yr <
  []
 
 
-LaTeX Warning: Reference `ecocons3' on page 10 undefined on input line 511.
+LaTeX Warning: Reference `ecocons3' on page 10 undefined on input line 516.
 
 
-LaTeX Warning: Reference `surveycompn' on page 10 undefined on input line 534.
+LaTeX Warning: Reference `surveycompn' on page 10 undefined on input line 539.
 
 
 LaTeX Warning: Reference `databyyearWCGBT1' on page 10 undefined on input line 5
-34.
+39.
 
 [10]
 
 LaTeX Warning: Reference `databyyearWCGBT3' on page 11 undefined on input line 5
-52.
+57.
 
 [11]
 
-LaTeX Warning: Reference `app:vast' on page 12 undefined on input line 558.
+LaTeX Warning: Reference `app:vast' on page 12 undefined on input line 563.
 
 
-LaTeX Warning: Reference `WCGBTindexest' on page 12 undefined on input line 558.
+LaTeX Warning: Reference `WCGBTindexest' on page 12 undefined on input line 563.
 
 
 
-LaTeX Warning: Reference `WCGBTQQ' on page 12 undefined on input line 558.
+LaTeX Warning: Reference `WCGBTQQ' on page 12 undefined on input line 563.
 
 
-LaTeX Warning: Reference `QQhistWCGBT' on page 12 undefined on input line 558.
+LaTeX Warning: Reference `QQhistWCGBT' on page 12 undefined on input line 563.
 
 
 LaTeX Warning: Reference `surveydensWCGBT1' on page 12 undefined on input line 5
-58.
+63.
 
 
 LaTeX Warning: Reference `surveydensWCGBT4' on page 12 undefined on input line 5
-58.
+63.
 
 
 LaTeX Warning: Reference `surveyresid1WCGBT1' on page 12 undefined on input line
- 558.
+ 563.
 
 
 LaTeX Warning: Reference `surveyresid2WCGBT4' on page 12 undefined on input line
- 558.
+ 563.
 
 
-Overfull \hbox (662.16142pt too wide) in paragraph at lines 569--569
+Overfull \hbox (662.16142pt too wide) in paragraph at lines 574--574
 []\TU/lmtt/m/n/10 getcohortsWCGBTS <- unique(report$lendbase[report$lendbase$Fle
 et == 8 & report$lendbase$Bin < 28&report$lendbase$Obs > quantile(report$lendbas
 e[report$lendbase$Bin < 28, c("Obs")], probs = 0.90), "Yr"])[] 
  []
 
 
-LaTeX Warning: Reference `surveycompn' on page 12 undefined on input line 575.
+LaTeX Warning: Reference `surveycompn' on page 12 undefined on input line 580.
 
 
-LaTeX Warning: Reference `lcaggregate' on page 12 undefined on input line 575.
+LaTeX Warning: Reference `lcaggregate' on page 12 undefined on input line 580.
 
 
-LaTeX Warning: Reference `WCGBTlendat' on page 12 undefined on input line 575.
+LaTeX Warning: Reference `WCGBTlendat' on page 12 undefined on input line 580.
 
 [12]
 
-LaTeX Warning: Reference `surveycompn' on page 13 undefined on input line 581.
+LaTeX Warning: Reference `surveycompn' on page 13 undefined on input line 586.
 
 
-LaTeX Warning: Reference `wcgbtfitcaal' on page 13 undefined on input line 581.
+LaTeX Warning: Reference `wcgbtfitcaal' on page 13 undefined on input line 586.
 
 
-LaTeX Warning: Reference `wcgbtfitcaal3' on page 13 undefined on input line 581.
+LaTeX Warning: Reference `wcgbtfitcaal3' on page 13 undefined on input line 586.
 
 
 
 LaTeX Warning: Reference `databyyearNWFSCSLP1' on page 13 undefined on input lin
-e 594.
+e 599.
 
 
-LaTeX Warning: Reference `nnwfscslope' on page 13 undefined on input line 594.
+LaTeX Warning: Reference `nnwfscslope' on page 13 undefined on input line 599.
 
 
-LaTeX Warning: Reference `app:vast' on page 13 undefined on input line 594.
+LaTeX Warning: Reference `app:vast' on page 13 undefined on input line 599.
 
 
 LaTeX Warning: Reference `NWFSCSLPindexest' on page 13 undefined on input line 5
-94.
+99.
 
 
-LaTeX Warning: Reference `NWFSCSLPQQ' on page 13 undefined on input line 594.
+LaTeX Warning: Reference `NWFSCSLPQQ' on page 13 undefined on input line 599.
 
 
-LaTeX Warning: Reference `QQhistNWFSCSLP' on page 13 undefined on input line 594
+LaTeX Warning: Reference `QQhistNWFSCSLP' on page 13 undefined on input line 599
 .
 
 
 LaTeX Warning: Reference `surveydensNWFSCSLP1' on page 13 undefined on input lin
-e 594.
+e 599.
 
 
 LaTeX Warning: Reference `surveydensNWFSCSLP2' on page 13 undefined on input lin
-e 594.
+e 599.
 
 
 LaTeX Warning: Reference `surveyresid1NWFSCSLP1' on page 13 undefined on input l
-ine 594.
+ine 599.
 
 
 LaTeX Warning: Reference `surveyresid2NWFSCSLP3' on page 13 undefined on input l
-ine 594.
+ine 599.
 
 
-LaTeX Warning: Reference `NWFSCSLPlendat' on page 13 undefined on input line 594
+LaTeX Warning: Reference `NWFSCSLPlendat' on page 13 undefined on input line 599
 .
 
 
-LaTeX Warning: Reference `NWFSCSLPagedat' on page 13 undefined on input line 594
+LaTeX Warning: Reference `NWFSCSLPagedat' on page 13 undefined on input line 599
 .
 
 
 LaTeX Warning: Reference `databyyearAFSCSLP1' on page 13 undefined on input line
- 594.
+ 599.
 
 
-LaTeX Warning: Reference `nafscslope' on page 13 undefined on input line 594.
+LaTeX Warning: Reference `nafscslope' on page 13 undefined on input line 599.
 
 
-LaTeX Warning: Reference `app:vast' on page 13 undefined on input line 594.
+LaTeX Warning: Reference `app:vast' on page 13 undefined on input line 599.
 
 
 LaTeX Warning: Reference `AFSCSLPindexest' on page 13 undefined on input line 59
-4.
+9.
 
 
-LaTeX Warning: Reference `AFSCSLPQQ' on page 13 undefined on input line 594.
+LaTeX Warning: Reference `AFSCSLPQQ' on page 13 undefined on input line 599.
 
 
-LaTeX Warning: Reference `QQhistAFSCSLP' on page 13 undefined on input line 594.
+LaTeX Warning: Reference `QQhistAFSCSLP' on page 13 undefined on input line 599.
 
 
 
 LaTeX Warning: Reference `surveydensAFSCSLP1' on page 13 undefined on input line
- 594.
+ 599.
 
 
 LaTeX Warning: Reference `surveyresid1AFSCSLP1' on page 13 undefined on input li
-ne 594.
+ne 599.
 
 
 LaTeX Warning: Reference `surveyresid2AFSCSLP1' on page 13 undefined on input li
-ne 594.
+ne 599.
 
 
-LaTeX Warning: Reference `AFSCSLPlendat' on page 13 undefined on input line 594.
+LaTeX Warning: Reference `AFSCSLPlendat' on page 13 undefined on input line 599.
 
 
 
-LaTeX Warning: Reference `AFSCSLPagedat' on page 13 undefined on input line 594.
+LaTeX Warning: Reference `AFSCSLPagedat' on page 13 undefined on input line 599.
 
 
 
 LaTeX Warning: Reference `databyyearTriennial1' on page 13 undefined on input li
-ne 594.
+ne 599.
 
 
-LaTeX Warning: Reference `app:vast' on page 13 undefined on input line 594.
+LaTeX Warning: Reference `app:vast' on page 13 undefined on input line 599.
 
 
 LaTeX Warning: Reference `Triennialindexest' on page 13 undefined on input line 
-594.
+599.
 
 
-LaTeX Warning: Reference `TriennialQQ' on page 13 undefined on input line 594.
+LaTeX Warning: Reference `TriennialQQ' on page 13 undefined on input line 599.
 
 
 LaTeX Warning: Reference `QQhistTriennial' on page 13 undefined on input line 59
-4.
+9.
 
 
 LaTeX Warning: Reference `surveydensTriennial1' on page 13 undefined on input li
-ne 594.
+ne 599.
 
 
 LaTeX Warning: Reference `surveydensTriennial3' on page 13 undefined on input li
-ne 594.
+ne 599.
 
 
 LaTeX Warning: Reference `surveyresid1Triennial1' on page 13 undefined on input 
-line 594.
+line 599.
 
 
 LaTeX Warning: Reference `surveyresid2Triennial3' on page 13 undefined on input 
-line 594.
+line 599.
 
 
-LaTeX Warning: Reference `nafsctri' on page 13 undefined on input line 594.
+LaTeX Warning: Reference `nafsctri' on page 13 undefined on input line 599.
 
 
 LaTeX Warning: Reference `Trienniallendat' on page 13 undefined on input line 59
-4.
+9.
 
 
 LaTeX Warning: Reference `Triennialagedat' on page 13 undefined on input line 59
-4.
+9.
 
 
-LaTeX Warning: Reference `app:env' on page 13 undefined on input line 594.
-
-
-LaTeX Warning: Reference `app:env' on page 13 undefined on input line 595.
-
-
-LaTeX Warning: Reference `app:env' on page 13 undefined on input line 595.
-
-
-LaTeX Warning: Reference `app:env' on page 13 undefined on input line 595.
-
-
-LaTeX Warning: Reference `app:env' on page 13 undefined on input line 595.
-
-
-LaTeX Warning: Reference `app:env' on page 13 undefined on input line 595.
-
-
-LaTeX Warning: Reference `ecocons4' on page 13 undefined on input line 595.
-
-
-Overfull \hbox (69.05122pt too wide) in paragraph at lines 594--595
+Overfull \hbox (69.05122pt too wide) in paragraph at lines 599--600
 []\TU/lmr/m/n/10 The NWFSC Slope sur-vey pre-ceded the WCGBT Sur-vey, start-ing in \TU/lmtt/m/n/10 min(report$cpue[report$cpue$Fleet
  []
 
-[13] [14] [15]
+[13] [14]
 
-LaTeX Warning: Reference `app:env' on page 16 undefined on input line 597.
+LaTeX Warning: Reference `app:env' on page 15 undefined on input line 612.
 
 
-LaTeX Warning: Reference `app:env' on page 16 undefined on input line 597.
+LaTeX Warning: Reference `app:env' on page 15 undefined on input line 613.
 
 
-LaTeX Warning: Reference `app:env' on page 16 undefined on input line 597.
+LaTeX Warning: Reference `app:env' on page 15 undefined on input line 613.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 condition and resulted in lower realized recruitment than that 
-expected by
- []
+LaTeX Warning: Reference `app:env' on page 15 undefined on input line 613.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 the sea-level index. Comparing the distribution of age-0 recruit
-s (Figure
- []
+LaTeX Warning: Reference `app:env' on page 15 undefined on input line 613.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 \ref{app:env}7) to the model performance (Figure \ref{app:env}39
-) suggests
- []
+LaTeX Warning: Reference `app:env' on page 15 undefined on input line 613.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 that strong over predictions (more than 1.0 standard deviation 
-above the
- []
+LaTeX Warning: Reference `ecocons4' on page 15 undefined on input line 613.
 
+[15]
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 assessment derived stock recruitment residual) may be due to fai
-lure to
- []
+LaTeX Warning: Reference `app:env' on page 16 undefined on input line 615.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 account for processes in the south in some way, regardless of th
-e fact
- []
+LaTeX Warning: Reference `app:env' on page 16 undefined on input line 616.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 that $DF3$ does account for sea level south of Cape Mendocino. 
-For example,
- []
+LaTeX Warning: Reference `app:env' on page 16 undefined on input line 616.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 the model over predicted recruitment in 2005-2007, 2009, and 201
-1.  All of
- []
+LaTeX Warning: Reference `app:env' on page 16 undefined on input line 616.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 these years, with the exception of 2011, saw lower recruitment 
-in the area
- []
+LaTeX Warning: Reference `app:env' on page 16 undefined on input line 616.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 around San Francisco Bay. For 2011, the model predicted recruitm
-ent fairly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 close to that expected by the stock-recruitment relationship, an
-d actual
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 age-0 abundance was somewhat lower. Conversely, the model predic
-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 were underestimates of the recruitment peaks in 2010 and 2013 wh
-en there
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 were strong recruitments around San Francisco Bay and Point Conc
-eption.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 Appendix \ref{app:env} provides a more comprehensive analysis of
- the sea-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 level index. The sea level-recruitment relationship has been mod
-eled both
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 via the internal population dynamics as a direct offset to the 
-expected
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 value for recruitment @maunder2003, @schirripa2005sablefish and as a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 survey index of age-0 recruitment deviations @schirripa2007sable
-fish,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 @stewart2011sablefish, @johnson2016sablefish. The former method makes it
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 difficult to determine the appropriate degree of recruitment var
-iability
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 for the deviations themselves and also requires that the environ
-mental
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 series be treated as if it is known without error. The latter me
-thod
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 allows for observation error in the environmental series. The to
-pic of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 model-selection, robustness, and validation for the sea level-re
-cruitment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 relationship was a recurrent theme in STAR panels and with the 
-Pacific
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 Fisheries Management Council Science and Statistical Committee 
-between 2002
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 and 2007. Prior to 2011, the use of the sea-level index was cont
-entious.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 During 2011, the sea-level data were used as a survey index of 
-recruitment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 in a sensitivity using the data from 1970 forward, although the sea-level
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 data begin during 1925. Using only the data from 1970 forward di
-d not
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 influence model results because the information in the length- 
-and age-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 composition data largely agreed with the information in the sea-
-level data
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 @stewart2011sablefish, johnson2016sablefish}. This assessment us
-es the DF1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 and associated uncertainty, spanning 1925 through 2018, from the
- analysis
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 above as a survey index of age-0 recruitment. Using the sea leve
-l time
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 series prior to 1970, rather than limiting the data to the perio
-d in which
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 length- and age-composition data inform recruitment strength as was done
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 in during 2011, provides the opportunity to allow for both hindc
-asting
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 recruitment and nowcasting of recruitment in the absence of surv
-ey data
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 during the current assessment year, or in future 'catch only'ass
-essments
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 conducted for management. Both hindcasting during historically 
-data poor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 periods and nowcasting in the absence of current survey data may
- better
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 represent stock dynamics. # Fishery-Dependent data ## Historical
- commercial
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 landings The historical commercial catch reconstruction used for
- this
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 assessment is the same as that used in the last assessment for 
-Oregon
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 and California (Table \ref{catch.wide}; Figure \ref{catchstacked
-}). A
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 new reconstruction was available from Washington that extended 
-the catch
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 history back to\TU/lmr/m/n/10 min(report$\TU/latinmodern-math.o
-tf(1)/m/n/10 𝑐𝑎𝑡𝑐ℎ$\TU/lmr/m/n/10 Yr) + 1\TU/lmtt/m/n/10 . The mos
-t recent historical catches
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 (from 1986 to present for Oregon and from 1981 to present for Ca
-lifornia
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
-\TU/lmtt/m/n/10 and Washington) were extracted from Pacific Fisheries Informatio
-n Network
- []
+LaTeX Warning: Reference `app:env' on page 16 undefined on input line 616.
 
 [16] [17]
 
-LaTeX Warning: Reference `catch.wide' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `catch.wide' on page 18 undefined on input line 636.
 
 
-LaTeX Warning: Reference `app.table.catchbystate' on page 18 undefined on input 
-line 610.
+LaTeX Warning: Reference `catchstacked' on page 18 undefined on input line 636.
+
+[18]
+
+LaTeX Warning: Reference `catch.wide' on page 19 undefined on input line 649.
 
 
-LaTeX Warning: Reference `fisherycompn' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `app.table.catchbystate' on page 19 undefined on input 
+line 649.
 
 
-LaTeX Warning: Reference `fisherycompn' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `fisherycompn' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `lcaggregate' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `fisherycompn' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `lcaggregate' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `lcaggregate' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `fixlendat1' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `lcaggregate' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `fixlendat2' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `fixlendat1' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `twllendat1' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `fixlendat2' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `twllendat1' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `twllendat1' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `twllendat2' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `twllendat1' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `fixlendat1' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `twllendat2' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `twllendat2' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `fixlendat1' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `acaggregate' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `twllendat2' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `lc48' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `acaggregate' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `lc50b' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `lc48' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `lc48' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `lc50b' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `lc48b' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `lc48' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `lc48' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `lc48b' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `lc48b' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `lc48' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `lc50' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `lc48b' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `lc50b' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `lc50' on page 19 undefined on input line 662.
 
 
-LaTeX Warning: Reference `bodywtfit' on page 18 undefined on input line 610.
+LaTeX Warning: Reference `lc50b' on page 19 undefined on input line 662.
 
-[18] [19]
 
-LaTeX Warning: Reference `discard_fit' on page 20 undefined on input line 623.
+LaTeX Warning: Reference `bodywtfit' on page 19 undefined on input line 662.
 
-[20]
+[19] [20]
 
-LaTeX Warning: Reference `biopars' on page 21 undefined on input line 642.
+LaTeX Warning: Reference `discard_fit' on page 21 undefined on input line 675.
 
 [21]
 
-LaTeX Warning: Reference `biopars' on page 22 undefined on input line 655.
+LaTeX Warning: Reference `biopars' on page 22 undefined on input line 694.
 
 
-LaTeX Warning: Reference `lc31' on page 22 undefined on input line 655.
+LaTeX Warning: Reference `biopars' on page 22 undefined on input line 707.
 
 
-LaTeX Warning: Reference `biopars' on page 22 undefined on input line 674.
+LaTeX Warning: Reference `lc31' on page 22 undefined on input line 707.
+
+[22]
+
+LaTeX Warning: Reference `biopars' on page 23 undefined on input line 726.
 
 
-LaTeX Warning: Reference `lc32' on page 22 undefined on input line 674.
+LaTeX Warning: Reference `lc32' on page 23 undefined on input line 726.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
 \TU/latinmodern-math.otf(1)/m/n/10 𝐿[]$ \TU/lmr/m/n/10 = \TU/lmtt/m/n/10 as.c
 haracter(biopars[grep("Female length at", biopars$Quantity),
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 674--675
+Underfull \hbox (badness 1622) in paragraph at lines 726--727
 \TU/lmtt/m/n/10 biopars$Quantity), "Value"])\TU/lmr/m/n/10 . The ma-tu-rity sche
 d-ule sug-gests a slightly more
  []
 
-[22]
 
-LaTeX Warning: Reference `biopars' on page 23 undefined on input line 687.
+LaTeX Warning: Reference `biopars' on page 23 undefined on input line 739.
 
 
 LaTeX Warning: Reference `naturalmortalityprior' on page 23 undefined on input l
-ine 700.
+ine 752.
 
 [23]
 
 LaTeX Warning: Reference `tab.growthstudies' on page 24 undefined on input line 
-719.
+771.
+
+[24]
+
+LaTeX Warning: Reference `age_HistData' on page 25 undefined on input line 784.
 
 
-LaTeX Warning: Reference `age_HistData' on page 24 undefined on input line 732.
+LaTeX Warning: Reference `age_Error' on page 25 undefined on input line 784.
 
 
-LaTeX Warning: Reference `age_Error' on page 24 undefined on input line 732.
+LaTeX Warning: Reference `age_Error' on page 25 undefined on input line 784.
 
 
-LaTeX Warning: Reference `age_Error' on page 24 undefined on input line 732.
+LaTeX Warning: Reference `age_Error' on page 25 undefined on input line 784.
 
 
-LaTeX Warning: Reference `age_Error' on page 24 undefined on input line 732.
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 732--733
+Underfull \hbox (badness 1082) in paragraph at lines 784--785
 []\TU/lmr/m/n/10 Ob-served Sable-fish ages are de-rived from vi-su-ally count-in
 g rings on otoliths us-ing
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 732--733
+Underfull \hbox (badness 1859) in paragraph at lines 784--785
 \TU/lmr/m/n/10 model treats the \TU/lmtt/m/n/10 true' age for each otolith as a random effect and estimates
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 the marginal likelihood of all other fixed effects while integra
 ting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 across these random effects. Stepwise (i.e., forward and backwar
 d) model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 selection was used to select among all combinations of three pre
 cision
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 models (i.e., linear and a Holling's-form for either standard de
 viation or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 coefficient of variation for precision) and two bias models (i.e
 ., linear
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 or Holling's-form) for each laboratory, as well as the maximum 
 age for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 which a proportion-at-age parameter was estimated (possibly rang
 ing from 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 to 80 years). Model comparisons were conducted using the Akaike Information
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 Criterion. Stepwise model selection identified a model with Holl
 ing's-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 form bias and Holling's-form standard deviation of precision for
  each
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 laboratory. Biases were very large and negative (i.e., reads wer
 e lower
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 than the true age) and the standard deviation was increasing wit
 h true age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 for all laboratories (Figure \ref{age_DoubleReadData}). Initial modeling
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 during the 2011 assessment suggested that ages were both highly imprecise
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 and very biased. However, these model runs suggested that the de
 gree of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 bias estimated from initial ageing error analyses was incompatib
 le with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 observed cohorts moving through the population and produced poor
  residual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 patterns and unrealistically low estimates of natural mortality.
  Based on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 these findings the information used to estimate ageing error pro
 perties
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 was re-evaluated. The 2011 comparison of the larger sample of ot
 oliths,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 containing older fish, collected during trawl survey operations revealed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--733
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 \TU/lmtt/m/n/10 that there was likely a much greater consistency among labs for west coast
  []
 
-[24] [25] [26] [27] [28] [29] [30] [31] [32
+[25] [26] [27] [28] [29] [30] [31] [32
 
-] [33] [34] [35] [36] [37] [38
+] [33] [34] [35] [36] [37] [38] [39
 
 ]
-<data-plot.png, id=913, 469.755pt x 361.35pt>
+<data-plot.png, id=951, 469.755pt x 361.35pt>
 File: data-plot.png Graphic file (type png)
 <use data-plot.png>
-Package luatex.def Info: data-plot.png  used on input line 1344.
+Package luatex.def Info: data-plot.png  used on input line 1402.
 (luatex.def)             Requested size: 398.34032pt x 306.41562pt.
 
 AED: lastpage setting LastPage
-[39
+[40
 
 <./data-plot.png>] (./_main.aux)
 
 LaTeX Warning: There were undefined references.
 
-=====>769 0 R
-=====>769 0 R
-=====>769 0 R
-=====>769 0 R
-=====>769 0 R
-=====>905 0 R)
+=====>801 0 R
+=====>801 0 R
+=====>801 0 R
+=====>801 0 R
+=====>801 0 R
+=====>943 0 R)
 
 Here is how much of LuaTeX's memory you used:
- 48054 strings out of 478543
+ 48149 strings out of 478543
  305224,1977958 words of node,token memory allocated
- 961 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 3 glyph, 84 attribute, 78 gl
-ue_spec, 29 attribute_list, 5 write, 1 close, 17 pdf_action nodes
-   avail lists: 1:69,2:17914,3:367,4:170,5:1242,6:106,7:24809,8:2819,9:1099,10:3
+ 977 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 3 glyph, 88 attribute, 78 gl
+ue_spec, 30 attribute_list, 5 write, 1 close, 18 pdf_action nodes
+   avail lists: 1:70,2:17909,3:367,4:172,5:1242,6:104,7:24809,8:2978,9:1131,10:3
 2,11:1776,12:1
- 65893 multiletter control sequences out of 65536+600000
- 78 fonts using 15874083 bytes
+ 65977 multiletter control sequences out of 65536+600000
+ 78 fonts using 15874235 bytes
  128i,12n,146p,16193b,469s stack positions out of 5000i,500n,10000p,200000b,200000s
 <c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmm
 ono10-regular.otf><c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/fonts/open
@@ -3103,9 +2817,9 @@ Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman
 10-regular.otf><c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentyp
 e/public/lm/lmroman12-italic.otf><c:/Users/mkapur/AppData/Roaming/TinyTeX/texmf-
 dist/fonts/opentype/public/lm/lmroman12-regular.otf>
-Output written on _main.pdf (47 pages, 3871646 bytes).
+Output written on _main.pdf (48 pages, 3891429 bytes).
 
-PDF statistics: 1237 PDF objects out of 1440 (max. 8388607)
- 280 named destinations out of 1000 (max. 131072)
- 2333 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1288 PDF objects out of 1440 (max. 8388607)
+ 291 named destinations out of 1000 (max. 131072)
+ 2460 words of extra memory for PDF output out of 10000 (max. 100000000)
 

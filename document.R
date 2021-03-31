@@ -17,7 +17,7 @@ rmarkdown::pandoc_version() ## ‘2.8.0.1’ has bib issues
 setwd("doc")
 
 ## extract base case into doc and save as model
-model <- read_model(mod_loc ="C:/Users/mkapur/Dropbox/UW/assessments/sab-2021/200.00_base_files_1July_ToSTAR",
+model <- read_model(mod_loc ="C:/Users/mkapur/Dropbox/UW/assessments/sab-2021/update_runs/100.08a-francis1/",
                    save_loc  = getwd())
 
 bookdown::render_book("00a.Rmd",
