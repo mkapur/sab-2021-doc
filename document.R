@@ -3,7 +3,7 @@
 require(sa4ss)
 require(here)
 require(rmarkdown)
-rmarkdown::pandoc_version() ## ‘2.8.0.1’ has bib issues
+# rmarkdown::pandoc_version() ## ‘2.8.0.1’ has bib issues
 ## had to paste from C:\Users\mkapur\AppData\Local\Pandoc to C:\Program Files\RStudio\bin\pandoc
 # rmarkdown::find_pandoc(version = "2.11.0.4")
 # rmarkdown::find_pandoc(dir = "~/Downloads/Pandoc")
@@ -15,10 +15,6 @@ rmarkdown::pandoc_version() ## ‘2.8.0.1’ has bib issues
 #              create_dir = TRUE)
 
 setwd("doc")
-
-## extract base case into doc and save as model
-model <- read_model(mod_loc ="C:/Users/mkapur/Dropbox/UW/assessments/sab-2021/update_runs/100.08a-francis1/",
-                   save_loc  = getwd())
 
 bookdown::render_book("00a.Rmd",
                       clean = FALSE, 
