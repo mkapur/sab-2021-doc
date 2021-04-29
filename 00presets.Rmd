@@ -1,0 +1,43 @@
+---
+title: '00'
+output: html_document
+---
+```{r  include = FALSE}
+require(dplyr)
+# I added the cache = TRUE to try to speed up but not sure if this is right
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+knitr::knit_hooks$set(plot = function(x,options) {
+      base = knitr::opts_knit$get('base.url')
+      if (is.null(base)) base = ''
+      alt = ifelse (is.null(options$alt),"",options$alt)
+      cap = ifelse (is.null(options$caption),"",options$caption)
+      if (alt != ""){
+        sprintf('![%s](%s%s "%s")', cap, base, x, alt)
+      } else {
+        sprintf('![%s](%s%s)', cap, base, x)  
+        }
+  })
+load("00opts.Rdata")
+# changing what I used in the draft function
+spp = 'sablefish'
+Spp = 'Sablefish'
+
+
+cpueyearrange<- model$cpue %>% select(Fleet_name, Yr) %>%
+  group_by(Fleet_name) %>%
+  summarise(miny = min(Yr), maxy = max(Yr)) %>%
+  mutate(yrrange = paste(miny,maxy, sep = "-")) %>%
+  select(Fleet_name, yrrange) %>%
+  tidyr::pivot_wider(., names_from = Fleet_name, values_from = yrrange)
+
+if(file.exists("00mod.Rdata")){
+  load("00mod.Rdata")
+} else {
+  ## extract base case into doc and save as model
+# model <- read_model(mod_loc =
+#                       "C:/Users/mkapur/Dropbox/UW/assessments/sab-2021/council_runs/torc-100.20h-free2011-francis2-bnds-hess/",
+#                     save_loc  = getwd())
+  print("Model output not being read. Please run the read_model() function.")
+}
+# data_fig_loc = "//nwcfile/FRAM/Assessments/CurrentAssessments/DataModerate_2021/copper_rockfish/data/biology/plots"
+```
