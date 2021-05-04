@@ -1,0 +1,42 @@
+\clearpage
+# Figures
+
+
+
+![Spatial footprint of  effort using trawl gear (km/km$^2$/yr) in the sablefish fishery before catch shares (2003--2010; left) and post catch shares (2011--2017; right) in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white). Fishery data are from Pacific Fisheries Information Network logbooks and the West Coast Groundfish Observer Program.\label{fig:footprint_twl}](figs/Sablefish_Figures_TWL_lnDens_2views_avg_crop.pdf){width=100% height=100% alt="Spatial Footprint of Trawl Gear"}
+
+![Spatial footprint of effort using hook-and-line gear (km/km$^2$/yr) in the `r spp` fishery with non catch-share vessels since 2003 (2003--2017; left) and with catch-share vessels since 2011 (2011--2017; right) as observed by the West Coast Groundfish Observer Program in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white).\label{fig:footprint_hkl}](figs/Sablefish_Figures_HKL_lnDens_2views_avg.pdf){width=100% height=100% alt="Spatial Footprint of Trawl Gear"}
+
+![Spatial footprint of effort using pot gear (km/km$^2$/yr) in the `r spp` fishery with non catch-share vessles since 2003 (2003--2017; left) and with catch-share vessels since 2011 (2011--2017; right) in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white)\label{fig:footprint_pot}](figs/Sablefish_Figures_POT_lnDens_2views_avg.pdf){width=100% height=100% alt="Spatial Footprint of Pot Gear"}
+
+![Spatial distribution (gm $\cdot$ ha$^{-1}$) and time series of abundance (mt) for age-0 sablefish recruits from 2003-2018 along the U.S. West Coast. Data are from the West Coast Groundfish Bottom Trawl Survey for 2003-2019 \citep{keller2017} and were analyzed via vector-autoregressive spatiotemporal modeling (\texttt{VAST}) to quantify spatial and temporal patterns in the \fishname\ biomass and calculate a coast-wide index of abundance.\label{fig:ecocons2}](figs/EcoCons_Figure_2.png){width=100% height=100%}
+
+![Time series of biomass (thousand mt) for dover sole, petrale sole, and \fishname\ (panels) within 200 km of four focal ports (colors) along the U.S. West Coast.\label{fig:ecocons5}](figs/EcoCons_Figure_5.png){width=100% height=100%}
+
+
+![Numbers of whales reported as entangled in fishing gear along the U.S. West Coast from 2000-2019. Reproduced with permission from \citet{harvey2019}.\label{fig:ecocons6}](figs/EcoCons_Figure_6.png){width=100% height=100%}
+
+![Sablefish landings from 1890–2018 summarized by the gear types included in the base model, fixed-gear and trawl. Landings include those from foreign fleets, which are largely responsible for the peaks in 1976 and 1979.\label{fig:catches}](figs/catch2 landings stacked.png){width=100% height=100% alt="Catches by Fleet, all years"}
+
+
+
+![Comparison of landings by fleet used in 2019 Benchmark Assessment (grey bars) and in present update (black bars), 1982-2020. Historically reconstructed landings have remained unchanged. \label{fig:catch_comparison}](figs/coastwide_catch_comparison.png){width=100% height=100% alt="Comparison of observed landings between previous and current models, 1982-2020"}
+
+
+![Summary of data sources used in the base model.\label{fig:data-plot}](figs/data-plot.png){width=100% height=100% alt="Summary of data sources used in the base model"}
+
+![Prior for female (gold line) and male (blue line) natural mortality (M). Vertical lines delineate estimates from the current base models (solid lines) and 2019 benchmark assessment (dashed line) (see legend).\label{fig:naturalmortalityprior}](figs/naturalmortalityprior.png){width=50% height=50% alt="Density of Natural Mortality Prior and Estimated Values"}
+
+
+![Comparison of SSH input data \label{fig:ssh-plot}](figs/ssh_compare.png){width=100% height=100% alt="Comparison of 2019 and 2021 SSH trends used as input"}
+
+
+
+
+![Results of a likelihood profile for steepness (h) by data type.\label{fig:hprofile}](figs/Hprofile_plot_likelihood.png){width=100% height=100% alt="Spawner steepness (h) profile by data type"}
+
+
+
+
+
+
