@@ -1,6 +1,0 @@
-\clearpage
-# Figures
-
-![Summary of data sources used in the base model.\label{fig:data-plot}](data-plot.png){width=100% height=100% alt="Summary of data sources used in the base model"}
-
-![Prior for female (gold line) and male (blue line) natural mortality (M). Vertical lines delineate estimates from the current base models (solid lines) and 2019 benchmark assessment (dashed line) (see legend).\label{fig:naturalmortalityprior}](naturalmortalityprior.png){width=100% height=100% alt="Density of Natural Mortality Prior and Estimated Values"}
