@@ -346,12 +346,10 @@ Equilibrium yield at the fishing mortality that leads to the maximum sustainable
 
 Although the estimated productivity and absolute scale of the stock are poorly informed by the available data and are, therefore, sensitive to changes in model structure and treatment of data, all sensitivity or alternate models evaluated showed a declining trend in biomass since the 1970s followed by a recent increase.
 (Figures \ref{SPR3} and \ref{ts_summaryF}).
-The spawner potential ratio ($SPR$) exceeded the fishing mortality target/overfishing level ($SPR_{45\%}$) that stabilizes the stock at the target (i.e., $1-SPR/[1-SPR_{45\%}]$) during the late 2000s and early 2010s, while since 2015 it has been between ` r paste0(round(range(derived_quants[derived_quants$Label %in% paste0("SPRratio_", 2015:2018), "Value"])*100, 0 ), collapse = " and ")`%. 
+The spawner potential ratio ($SPR$) exceeded the fishing mortality target/overfishing level ($SPR_{45\%}$) that stabilizes the stock at the target (i.e., $1-SPR/[1-SPR_{45\%}]$) during the late 2000s and early 2010s, while since 2015 it has been between ` r paste0(round(range(derived_quants[derived_quants$Label %in% paste0("SPRratio_", 2015:2018), "Value"])*100, 0 ), collapse = " and ")`\%. 
 
 The phase plot shows the interaction of fishing intensity and biomass targets (Figure \ref{SPR4_phase}).
-
 # Harvest projections and decision tables
-
 Previous \spp stock assessments have been designated as Category 1 stock assessments. Thus, projections and decision tables are based on $P^*$=0.4 and the values of sigma adopted by the Pacific Fisheries Management Council for stock projections. The time series of multiplicative buffer fractions that are a function of $P^*$ and the time series of sigmas provide the multipliers on the overfishing limit, these values are all less than 1. The multipliers are combined with the 40-10 harvest control rule to calculate overfishing limits, acceptable biological catches, and annual catch limits. The total catches in 2019 and 2020 were set at the Pacific Fisheries Management Council Groundfish Management Team requested values, just below that Pacific Fisheries Management Council annual catch limits for \spp. The average `r paste0(range(model$endyr - 3,model$endyr), collapse = '-')` catches were used to distribute catches among the fisheries. All forecasts of catches are of total dead biomass, i.e., dead discard plus catch.}
 
 Current medium-term projections from the base model under the Pacific Fisheries Management Council 40-10 harvest control rule estimate that the stock will remain above the target stock size of 40% of the estimated unfished spawning biomass during the projection period.
