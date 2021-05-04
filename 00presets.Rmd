@@ -31,7 +31,8 @@ cpueyearrange<- model$cpue %>% select(Fleet_name, Yr) %>%
   tidyr::pivot_wider(., names_from = Fleet_name, values_from = yrrange)
 
 if(file.exists("00mod.Rdata")){
-  load("00mod.Rdata")
+  load("00mod.Rdata") ## model
+  load("benchmod.rdata") ## o19
 } else {
   ## extract base case into doc and save as model
 # model <- read_model(mod_loc =
