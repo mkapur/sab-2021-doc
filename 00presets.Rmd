@@ -138,12 +138,12 @@ Year & (1-SPR)/(1-SPR 45\%) & Lower Interval & Upper Interval & Exploitation Rat
 \begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
 \caption{\label{tab:removalsES}Recent landings by fleet, total landings summed across fleets, and the total mortality including discards.}\\
 \toprule
-Year & FIX & TWL & Total Landings & Total Dead\\
+Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
 \midrule
 \endfirsthead
 \caption[]{Recent landings by fleet, total landings summed across fleets, and the total mortality including discards. \textit{(continued)}}\\
 \toprule
-Year & FIX & TWL & Total Landings & Total Dead\\
+Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
 \midrule
 \endhead
 
