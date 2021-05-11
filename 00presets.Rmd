@@ -2,8 +2,11 @@
 title: '00'
 output: html_document
 ---
+
+
+
 ```{r  include = FALSE}
-require(dplyr)
+
 # I added the cache = TRUE to try to speed up but not sure if this is right
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 knitr::knit_hooks$set(plot = function(x,options) {
@@ -23,22 +26,182 @@ spp = 'sablefish'
 Spp = 'Sablefish'
 
 
+
+if(file.exists("00mod.Rdata")){
+  load("00mod.Rdata") ## model
+  load("benchmod.rdata") ## o19
+} else {
+  ## r4ss failed with the changes in May 7 caused by SPR. There's something wrong with exec summary
+  ## in a time crunch so reverting r4ss
+  # remotes::install_git('r4ss/r4ss@b0974690e1367a8b92cfaf7d9968cc9a697806ba')
+  ## extract base case into doc and save as model
+  # model <- read_model(mod_loc = "C:/Users/mkapur/Dropbox/UW/assessments/sab-2021/council_runs/torc-lq-base-bnds-hess/", save_loc  = getwd())
+  # save(model, file = here('00mod.Rdata'))
+  
+#   print("Model output not being read. Please run the read_model() function.")
+}
+# data_fig_loc = "//nwcfile/FRAM/Assessments/CurrentAssessments/DataModerate_2021/copper_rockfish/data/biology/plots"
+```
+
+```{r, echo = FALSE}
+require(dplyr)
+options(scipen = 999)
+derived_quants <- model$derived_quants %>% mutate(lci = round(Value - 1.96*StdDev),
+                                                  uci =round(Value + 1.96*StdDev),
+                                                  Value = ifelse(Value > 100, round(Value), round(Value,2))) 
+
+
 cpueyearrange<- model$cpue %>% select(Fleet_name, Yr) %>%
   group_by(Fleet_name) %>%
   summarise(miny = min(Yr), maxy = max(Yr)) %>%
   mutate(yrrange = paste(miny,maxy, sep = "-")) %>%
   select(Fleet_name, yrrange) %>%
   tidyr::pivot_wider(., names_from = Fleet_name, values_from = yrrange)
-
-if(file.exists("00mod.Rdata")){
-  load("00mod.Rdata") ## model
-  load("benchmod.rdata") ## o19
-} else {
-  ## extract base case into doc and save as model
-# model <- read_model(mod_loc =
-#                       "C:/Users/mkapur/Dropbox/UW/assessments/sab-2021/council_runs/torc-100.20h-free2011-francis2-bnds-hess/",
-#                     save_loc  = getwd())
-  print("Model output not being read. Please run the read_model() function.")
-}
-# data_fig_loc = "//nwcfile/FRAM/Assessments/CurrentAssessments/DataModerate_2021/copper_rockfish/data/biology/plots"
 ```
+
+\newcommand{\referenceES}{\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{2cm}>{\centering\arraybackslash}p{2cm}>{\centering\arraybackslash}p{2cm}}
+\caption{\label{tab:referenceES}Summary of reference points and management quantities, including estimates of the  95 percent intervals.}\\
+\toprule
+ & Estimate & Lower Interval & Upper Interval\\
+\midrule
+\endfirsthead
+\caption[]{Summary of reference points and management quantities, including estimates of the  95 percent intervals. \textit{(continued)}}\\
+\toprule
+ & Estimate & Lower Interval & Upper Interval\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+Unfished Spawning Biomass (mt) & 168875 & 107749 & 230000\\
+Unfished Age 4+ Biomass (mt) & 393647 & 242084 & 545209\\
+Unfished Recruitment (R0) & 16391.8 & 6585 & 26197\\
+Spawning Biomass (mt) (2021) & 97801.9 & 40802 & 154801\\
+Fraction Unfished (2021) & 0.579137 & 0.38 & 0.77\\
+Proxy Spawning Biomass (mt) SB40 Percent & 67550 & 43099 & 92000\\
+SPR Resulting in SB40 Percent & 0.464286 &  & \\
+Exploitation Rate Resulting in SB40 Percent & 0.043 & 0.04 & 0.05\\
+Yield with SPR Based On SB40 Percent (mt) & 8209& 3857.20317521005 & 12562\\
+Proxy Spawning Biomass (mt) (SPR45) & 64848 & 41376 & 8832\\
+Exploitation Rate Corresponding to SPR45 & 0.045 & 0.04 & 0.05\\
+Yield with SPR45 at SB SPR (mt) & 8350.01 & 3924 & 12776\\
+Spawning Biomass (mt) at MSY (SB MSY) & 41701 & 26527.3844367331 & 56876\\
+SPR MSY & 0.327 & 0.32 & 0.33\\
+Exploitation Rate Corresponding to SPR MSY & 0.07 & 0.06 & 0.08\\
+MSY (mt) & 9024 & 4242 & 13806\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+}
+\newcommand{\exploitES}{\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}}
+\caption{\label{tab:exploitES}Estimated recent trend in the (1-SPR)/(1-SPR_45\%) where SPR is the spawning potential ratio the exploitation rate, and the  95 percent intervals.}\\
+\toprule
+Year & (1-SPR)/(1-SPR 45\%) & Lower Interval & Upper Interval & Exploitation Rate & Lower Interval & Upper Interval\\
+\midrule
+\endfirsthead
+\caption[]{Estimated recent trend in the (1-SPR)/(1-SPR_45\%) where SPR is the spawning potential ratio the exploitation rate, and the  95 percent intervals. \textit{(continued)}}\\
+\toprule
+Year & (1-SPR)/(1-SPR 45\%) & Lower Interval & Upper Interval & Exploitation Rate & Lower Interval & Upper Interval\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2011 & 0.97 & 0.60 & 1.34 & 0.03 & 0.01 & 0.05\\
+2012 & 0.75 & 0.41 & 1.09 & 0.02 & 0.01 & 0.04\\
+2013 & 0.61 & 0.31 & 0.92 & 0.02 & 0.01 & 0.03\\
+2014 & 0.61 & 0.30 & 0.92 & 0.02 & 0.01 & 0.03\\
+2015 & 0.71 & 0.37 & 1.05 & 0.02 & 0.01 & 0.04\\
+2016 & 0.76 & 0.41 & 1.10 & 0.03 & 0.01 & 0.04\\
+2017 & 0.68 & 0.36 & 1.01 & 0.02 & 0.01 & 0.04\\
+2018 & 0.66 & 0.34 & 0.98 & 0.02 & 0.01 & 0.04\\
+2019 & 0.62 & 0.31 & 0.92 & 0.02 & 0.01 & 0.04\\
+2020 & 0.40 & 0.18 & 0.63 & 0.01 & 0.01 & 0.02\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+}
+
+\newcommand{\removalsES}{
+
+\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
+\caption{\label{tab:removalsES}Recent landings by fleet, total landings summed across fleets, and the total mortality including discards.}\\
+\toprule
+Year & FIX & TWL & Total Landings & Total Dead\\
+\midrule
+\endfirsthead
+\caption[]{Recent landings by fleet, total landings summed across fleets, and the total mortality including discards. \textit{(continued)}}\\
+\toprule
+Year & FIX & TWL & Total Landings & Total Dead\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2011 & 4420.85 & 1728.40 & 6149.25 & 6253.97\\
+2012 & 3670.22 & 1514.58 & 5184.80 & 5283.60\\
+2013 & 2585.07 & 1402.13 & 3987.20 & 4050.48\\
+2014 & 2924.26 & 1292.20 & 4216.46 & 4294.90\\
+2015 & 3554.94 & 1470.29 & 5025.23 & 5105.52\\
+2016 & 3829.86 & 1475.95 & 5305.81 & 5401.39\\
+2017 & 3680.67 & 1669.97 & 5350.64 & 5465.76\\
+2018 & 3648.68 & 1478.26 & 5126.94 & 5220.22\\
+2019 & 3568.27 & 1625.44 & 5193.71 & 5372.81\\
+2020 & 2660.03 & 1102.72 & 3762.75 & 3882.69\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+}
+
+\newcommand{\ssbES}{\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}}
+\caption{\label{tab:ssbES}Estimated recent trend in spawning biomass and the fraction unfished and the 95 percent intervals.}\\
+\toprule
+Year & Spawning Biomass (mt) & Lower Interval & Upper Interval & Fraction Unfished & Lower Interval & Upper Interval\\
+\midrule
+\endfirsthead
+\caption[]{Estimated recent trend in spawning biomass and the fraction unfished and the 95 percent intervals. \textit{(continued)}}\\
+\toprule
+Year & Spawning Biomass (mt) & Lower Interval & Upper Interval & Fraction Unfished & Lower Interval & Upper Interval\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2011 & 80351.5 & 32648.13 & 128054.9 & 0.48 & 0.32 & 0.63\\
+2012 & 79223.0 & 31838.52 & 126607.5 & 0.47 & 0.31 & 0.63\\
+2013 & 79605.1 & 32059.90 & 127150.3 & 0.47 & 0.31 & 0.63\\
+2014 & 80187.9 & 32563.52 & 127812.3 & 0.47 & 0.31 & 0.64\\
+2015 & 79676.1 & 32447.44 & 126904.8 & 0.47 & 0.31 & 0.63\\
+2016 & 78633.2 & 31824.56 & 125441.8 & 0.47 & 0.31 & 0.62\\
+2017 & 79326.7 & 31972.79 & 126680.6 & 0.47 & 0.31 & 0.63\\
+2018 & 80687.2 & 32503.64 & 128870.8 & 0.48 & 0.31 & 0.64\\
+2019 & 83925.1 & 33936.02 & 133914.2 & 0.50 & 0.33 & 0.67\\
+2020 & 90756.5 & 37136.00 & 144377.0 & 0.54 & 0.35 & 0.72\\
+2021 & 97801.9 & 40802.42 & 154801.4 & 0.58 & 0.38 & 0.77\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+}
+
+
+\newcommand{\textrefpt}{Unfished spawning biomass was estimated to be `r round(derived_quants[derived_quants$Label == "SSB_unfished", "Value"])` mt (`r round(derived_quants[derived_quants$Label == "SSB_unfished", "lci"])`-`r round(derived_quants[derived_quants$Label == "SSB_unfished", "uci"])`, $\sim$95\% interval). The abundance of sablefish was estimated to have declined to near the target during the period 1980-2000. The estimate of the target spawning biomass was `r derived_quants[derived_quants$Label == "SSB_Btgt", "Value"]`, `r derived_quants[derived_quants$Label == "SSB_Btgt", "lci"]`-`r derived_quants[derived_quants$Label == "SSB_Btgt", "uci"]`, $\sim$95\%  interval). The stock was estimated to be just `r ifelse(derived_quants[derived_quants$Label == paste0("SSB_", model$endyr), "Value"]<derived_quants[derived_quants$Label == "Dead_Catch_Btgt", "Value"],"below","above")` the target stock size in the beginning of `r model$endyr` at `r derived_quants[derived_quants$Label == paste0("SSB_", model$endyr), "Value"]` mt `r derived_quants[derived_quants$Label == paste0("SSB_", model$endyr), "lci"]`-`r derived_quants[derived_quants$Label == paste0("SSB_", model$endyr), "uci"]`, $\sim$95\% interval). The stock was estimated to be `r ifelse(derived_quants[derived_quants$Label == "Bratio_2020", "Value"]<derived_quants[derived_quants$Label == "B_MSY/SSB_unfished", "Value"],'below','above')` the depletion level that would lead to maximum yield `r round(derived_quants[derived_quants$Label == "B_MSY/SSB_unfished", "Value"], 2)`; Figures \ref{yield1} and \ref{SPR4_phase}). The estimate of the stock's current level of depletion was `r round(derived_quants[derived_quants$Label == "Bratio_2020", "Value"], 2)`.}
+
+\newcommand{\textexplstatus}{Equilibrium yield at the fishing mortality that leads to the maximum sustainable yield ($F_{MSY}$) is `r round(derived_quants[derived_quants$Label == "Dead_Catch_MSY", "Value"])` mt (`r round(derived_quants[derived_quants$Label == "Dead_Catch_MSY", "lci"])`-`r round(derived_quants[derived_quants$Label == "Dead_Catch_MSY", "uci"])`, $\sim$95\% interval). Although the estimated productivity and absolute scale of the stock are poorly informed by the available data and are, therefore, sensitive to changes in model structure and treatment of data, all sensitivity or alternate models evaluated showed a declining trend in biomass since the 1970s followed by a recent increase in biomass (Figures \ref{SPR3} and \ref{ts_summaryF}). The spawner potential ratio ($SPR$)  exceeded the fishing mortality target or overfishing level ($SPR_{45\%}$) that stabilizes the stock at the target (i.e., $(1-SPR)/[1-SPR_{45\%}]$) during the late 2000s and early 2010s, and was between `r paste0(round(range(derived_quants[derived_quants$Label %in% paste0("SPRratio_", 2015:2019), "Value"])*100, 0 ), collapse = " and ")`\% from 2015-2019, descending to `r round(derived_quants[derived_quants$Label %in% paste0("SPRratio_", 2020), "Value"]*100, 0)`\% in 2020. }
+
+
