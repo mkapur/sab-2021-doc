@@ -1,12 +1,186 @@
 ## Base Model Results
+## Convergence status
+To test for convergence, 100 trials of the base model were ran using randomly generated alternative initial values for each estimated parameter. A value of 0.1 was used to define the uniform distribution that is transformed into cumulative normal space and subsequently used to calculate these initial values based on the parameter bounds. Thus, each trial perturbs the initial values used for minimization with the intention of causing the search to traverse a broader region of the likelihood surface {@MethotWetzel2013}. The same (i.e., difference in likelihood of less than or equal to 0.5) or worse likelihood was found for *FROM LEE QI* and *FROM LEE QI*} trials, respectively. The trial with a lower negative log likelihood was unstable. Thus, none of the trial runs were used to replace the base model.
+
+```{r basecaseresults, echo = FALSE}
+mf <- model$parameters[model$parameters$Label == "NatM_p_1_Fem_GP_1", ]
+mm <- model$parameters[model$parameters$Label == "NatM_p_1_Mal_GP_1", ]
+omf <- o19$parameters[o19$parameters$Label == "NatM_p_1_Fem_GP_1", ]
+omm <- o19$parameters[o19$parameters$Label == "NatM_p_1_Mal_GP_1", ]
+
+lmaxf <- model$parameters[model$parameters$Label == "L_at_Amax_Fem_GP_1", ]
+lmaxm <- model$parameters[model$parameters$Label == "L_at_Amax_Mal_GP_1", ]
+```
+
+The biological parameters (growth and $M$) estimated using the base model and alternate models were reasonable. Growth parameters were consistent with those from previous `r spp` stock assessments and commensurate with the raw data (Table \ref{bioparest}). Female and male `r spp` showed similar rapid growth trajectories; with females growing to a slightly larger size at age 30 `r round(lmaxf$Init,2)` cm) than males `r round(lmaxm$Init,2)` cm) and showing a broader distribution of length at a given age (Figure \ref{bio_53}). $M$ for females (`r round(mf$Init,2)`) and males (`r round(mm$Init,2)`) were similar to values estimated in previous assessments (2011: 0.08 and 0.065 respectively; 2015: 0.076 and 0.062, 2019: `r round(omf$Init,2)` and  `r round(omm$Init,2)`, respectively; Figure \ref{naturalmortalityprior}).
+
+This assessment did not include time-varying growth. Differences were seen in the estimated weight-at-age compared to empirical weight at age collected by the WCGBT Survey (Figure \ref{fig:weightatageWCGBT}). These differences were more prominent in the most recent years, which might be a cohort effect. Future research could investigate methods for modeling time varying growth. 
+
+```{r echo = FALSE}
+fixret <- model$parameters[model$parameters$Label == "Retain_L_infl_FIX(1)", ]
+twlret <- model$parameters[model$parameters$Label == "Retain_L_width_TWL(3)", ]
+q7 <- model$parameters[model$parameters$Label == "Q_extraSD_NWSLP(7)", ]
+q6 <- model$parameters[model$parameters$Label == "Q_extraSD_AKSLP(6)", ]
+q5 <- model$parameters[model$parameters$Label == "Q_extraSD_AKSHLF(5)", ]
+c5 <- model$parameters[model$parameters$Label == "LnQ_base_AKSHLF(5)", ]
+index5 <- model$cpue[model$cpue$Fleet_name == "AKSHLF", "Eff_Q"][1]
+index6 <- model$cpue[model$cpue$Fleet_name == "AKSLP", "Eff_Q"][1]
+index7 <- model$cpue[model$cpue$Fleet_name == "NWSLP", "Eff_Q"][1]
+index8 <- model$cpue[model$cpue$Fleet_name == "NWCBO", "Eff_Q"][1]
+```
+
+Estimated selectivity curves for the trawl surveys varied, with the surveys that sample the continental slope sampling the broadest demographic of the `r spp` population and the Triennial Shelf Survey the most limited (Tables \ref{qparest} and \ref{selparest}; Figure \ref{selectivityatage}). The proportion of the spawning output that is unavailable to the surveys and fleets, which are all modeled using dome-shaped selectivity, has slightly decreased over time (Figure \ref{fig:unavailablessb}). The fixed gear fisheries showed males were less selected than females, individuals of approximately age 20 and older were much less available to the fishery on a relative basis (Figure \ref{selectivityatage}). The trawl fishery selected younger fish than the fixed gear fleet and showed little difference between males and females (Figure \ref{selectivityatage}). Retention schedules (Table \ref{selparest}) showed rapidly increasing retention of age-1 fish for the fixed gear fishery but less than full retention of the largest individuals, likely due to some trip-limit based discarding or depredation of large fish during gear retrieval (Figure \ref{sel_HKL}). Full retention of the largest individuals was assumed since the beginning of the 2011 catch-shares program for the trawl fishery (Figure \ref{sel_TWL}).
+
+The base model fit the trend (decline, then stabilization, and increase) in the WCGBT Survey well (Figure \ref{ind_NWFSC}), such that the added variance parameter was set to zero. Fits to the NWFSC Slope Survey were generally flat (Figure \ref{ind_NWFSCslope}), as might be expected for such short time-series. Fits to the AFSC Slope Survey suggest a decreasing trend during the late 1990s followed by and increase into the early 2000s (Figure \ref{ind_AFSCslope}). Estimates of added variance were `r round(model$parameters[model$parameters$Label =="Q_extraSD_NWSLP(7)","Value"],2)` and `r round(model$parameters[model$parameters$Label =="Q_extraSD_AKSLP(6)","Value"],2)`, respectively (Table \ref{selparest}). Given the time change in the estimate of $q$ for the Triennial Shelf Survey beginning in 1995, predicted survey values were also relatively flat over this period until the last two years of the survey (Figure \ref{ind_AFSC}), although the estimated extra variance of `r round(q5$Value,2)` suggested a relatively poor fit to these data compared to other surveys. 
+\begin{comment}
+% I think that we should leave this out, the information can be found in a table. Catchability values for the most fully selected ages ($\sim$0.33-3 years old) in each survey ranged from `r round(index5,2)`(early Triennial Shelf Survey) to `r round(index7,2)` (NWFSC Slope). 
+\end{comment}
+
+The fit to the sea-level index of recruitment was noisy, as expected, due to the relatively weak but persistent sea-level recruitment relationship, showing periods where the model was able to fit the data well, as well as periods with a lack of fit. The estimated added standard deviation was`r  round(as.numeric(model$index_variance_tuning_check$New_VarAdj[model$index_variance_tuning_check$Fleet == 4]),2)`, thus the sea-level index provided limited information regarding historical recruitment during model periods without other data.
+
+The base model fit the length distributions from the WCGBT Survey well given that selectivity was modeled as age based, with residual patterns (Figures \ref{comp_lenfit_8} and \ref{comp_lenfit_8_resid}) primarily generated through small mismatches in the model structure, likely due differences in growth, environmental conditions, or timing rather than misspecification of year-classes. The fits to the WCGBT Survey conditional-age-at-length distributions were good (Figures \ref{acomp_resid_caal1}-\ref{acomp_resid_caal3}). The slope survey fits to the marginal-age distributions also showed no glaring residual patterns in the age data (Figures \ref{acomp_resid_6} and \ref{acomp_resid_7}). The selection of younger `r spp` was evident for the Triennial Shelf Survey, with a larger residuals from 1995 forward (Figure \ref{acomp_resid_5}).
+
+Fits to the marginal age compositions for the fisheries were good (Figure \ref{acaggregate}). All fisheries show relatively small residuals, with patterns of large cohorts moving through the population at some point (Figures \ref{acomp_resid_1} and \ref{acomp_resid_3}). Residual patterns might partially be the result of spatial differences in fishing, growth or movement. As requested by the STAR panel, spatially explicit composition data north and south of $36^{\circ}$ N lat is provded in Appendix \ref{app:comp}.
+
+The model was able to fit the mean body weights of the fishery discards and discard fractions well (Figures \ref{bodywtfit} and \ref{discard_fit}).
+
+```{r, echo = FALSE}
+bias <- model$breakpoints_for_bias_adjustment_ramp
+biasmax <- bias$max_bias_adj
+aa <- subset(model$derived_quants, Label == paste0("SSB_", model$endyr))
+bb <- subset(model$derived_quants, Label == paste0("Bratio_", model$endyr))
+```
+Deviations about the estimated stock-recruitment function generally had high uncertainty prior to the mid-1970s, when the age-composition data first become informative about cohort strengths (Figure \ref{recdevs_bias}). This stock assessment was able to estimate cohort strengths further back in time due to the increased plus group, extended to 50 years. The NWFSC and AFSC Slope Surveys, as well as the WCGBT Survey, all catch older fish that provided some information with respect to recruitment prior to the mid-1970s (the informative period for recruitment in past assessments). Including the sea level as a survey index of recruitment strength informs recruitment estimates in a limited fashion prior to the mid-1970s. The recruitment bias adjustment was set as recommended by {@MethotTaylor2011}.
+
+`r Spp` recruitment was estimated to be highly variable with large amounts of uncertainty in individual recruitment events. Within this variability, there were sets of years with recruitment estimated consistently higher or lower than the long term mean (Figure \ref{ts11}), with both the lowest and highest estimates occurring during the past 20 years.  Given a relatively high degree of recruitment variability, the estimated stock-recruitment function predicted a wide range of cohort sizes over the observed range of spawning biomass (Figure \ref{SR_curve}).
+
+Catches were estimated from the beginning of the time series (Table \ref{tssummaryFtable}). The estimates of uncertainty around the point estimate of unfished biomass are large across the range of models explored within this assessment, suggesting that the unfished spawning biomass could range from just under 100,000 mt to over 200,000 mt. This uncertainty is largely due to the confounding of natural mortality, absolute stock size, and productivity. The point estimate of `r model$endyr` spawning biomass from the base model is `r round(aa$Value)` mt; however, the $\sim$95% interval ranges broadly from `r round(aa$Value - 1.96 * aa$StdDev)` to `r round(aa$Value + 1.96 * aa$StdDev)` mt. The relative trend in spawning biomass is robust to uncertainty in the leading model parameters. The `r model$endyr` point estimate of spawning stock biomass is `r round(bb$Value,2) * 100`% of the unfished state ($\sim$95% interval: `r paste0(round(bb$Value - 1.96 * bb$StdDev,2)*100,"%")` to `r paste0(round(bb$Value +1.96 * bb$StdDev,2)*100,"%")`. Estimates indicate that the spawning biomass was near the target (Figure \ref{ts9}). The estimated time-series of total, age-4+ (Figure \ref{ts1_4}), and spawning biomass (Figure \ref{ts7}) track one another closely (Table \ref{tssummarybiotable}). 
+
+\begin{comment}
+Forecasts from the 2015 assessment update projected the spawning biomass to increase by 9.3% from 2015 to 2019 given specified harvests, whereas the current assessment estimated the increase at \Sexpr{pnt(abs(spbdecline), sigdiffs = 1)}%. Estimates of unexploited spawning biomass are \Sexpr{pnt(ssb0belowlastyear[1], 0)}% lower than that estimated in 2015 and \Sexpr{pnt(ssb0belowlastyear[2], 0)}% lower than the 2011 estimate. Percent of unfished biomass in 2019 was estimated at \Sexpr{pnt(depl, 0)}%, while the 2015 stock assessment forecasted it to be 38%.
+\end{comment}
+
+## Data weighting
+```{r echo = FALSE, eval = FALSE}
+fleetnames <- as.character(factor(unique(model$catch$Fleet_Name), 
+  labels = c("Fixed-gear", "Pot", "Trawl")))[c(1, 3)]
+
+# effn <- model$Dirichlet_Multinomial_pars
+# effn$Type <- rep(c("length", "age"), each = max(model$fleet_ID) - 1)
+# effn$Fleet <- c(
+#   rownames(model$len_data_info)[model$len_data_info$CompError == 1],
+#   rownames(model$age_data_info)[model$age_data_info$CompError == 1])
+# effn$Fleet <- gsub("NWCBO", "WCGBT", effn$Fleet)
+# effn$Fleet <- gsub("AKSHLF", "Triennial", effn$Fleet)
+# colnames(effn) <- gsub("\\Theta", "$\\Theta$", colnames(effn))
+
+varadj <- getvars(file.path(dir.basemodel, "control.ss_new"))
+varadj <- varadj[varadj[, "fleet"] %in% c(1, 3), ]
+discardmnad <- tapply(model$discard$Std_use, model$discard$Fleet, mean)
+discardrmse <- tapply(model$discard$Dev, model$discard$Fleet,
+  function(x) sqrt(sum(x^2) / length(x)))
+
+meanbdwtmnad <- tapply(model$mnwgt$CV, model$mnwgt$Fleet, mean)
+meanbdwtrmse <- tapply(model$mnwgt$Dev, model$mnwgt$Fleet,
+  function(x) sqrt(sum(x^2) / length(x)))
+
+fleetvar <- data.frame(
+  "Fleet" = c("\\emph{Discard ratio}:", fleetnames,
+              "\\emph{Mean body weight}:", fleetnames),
+  "SD adj." = c(
+    NA, varadj[varadj[, "type"] == 2, "oldvar"], 
+    NA, varadj[varadj[, "type"] == 3, "oldvar"]),
+  "Mean input SD (log) after adj." = c(NA, discardmnad, NA, meanbdwtmnad),
+  "RMSE" = c(NA, discardrmse, NA, meanbdwtrmse))
+colnames(fleetvar) <- c("Fleet", "SD adj.", "Mean SD after adj.", "RMSE")
+```
+
+Indices of relative abundance all had variance estimates generated as part of the analysis of raw catch data. These variances were converted to standard deviations in log space for use in the model; additional variances for the indices of abundance were estimated inside the model. Estimated variances for the surveys were within reasonable ranges, except for the WCGBT Survey, for which the estimated added variance near zero, so it was fixed at zero.
+Additional variances were added to mean body weight of the fishery discard data as well as to the discard rates  in a manner identical to those used in the 2019 assessment. The weighting of age- and length-composition data attempted to reduce the potential for particular data sources to have a disproportionate effect on total model fit, while creating estimates of uncertainty that were commensurate with the uncertainty inherent in the input data. 
+Input age- and length-composition data were weighted via the Francis method (Table \ref{torctorcw1}). Sensitivity to the iterative re-weighting approaches for developing consistency between the input composition sample sizes (or standard errors) and the effective sample sizes based on model fit using the Harmonic Mean (@McAllisterIanelli1997) and (@Francis2011) methods was completed. The Harmonic Mean method consisted of comparing the mean input sample size for compositional data with the mean effective sample size based on model fit. The Francis method considers the influence of compositional weights on fits to average lengths or average lengths-at-age. Generally, the Harmonic method suggested similar weights for the commercial length composition data, but placed more weight on the survey length data. It also indicated a downweighting of commercial age composition data compared to the 2019 benchmark, but to a lesser degree than the Francis approach. The model weighted using the Harmonic method was 350 likelihood points worse than that using the Francis method.
+During the Francis weighting process, several distinctions between this update and the weights used in the 2019 benchmark became apparent. Firstly, the 2019 benchmark assessment fixed both commercial fleet age composition weights to a maximum of one, whereas in this update (in the presence of commercially discard length composition) they were downweighted by 90\% and 81\% (for fixed gear and trawl fleets, respectively). In addition, the WCGBTS length compositions were downweighted in the update by a factor of about 10 (from 0.29 in the benchmark to 0.033 in the present model), whereas the Triennial age compositions were upweighted by a factor of 10 (from 0.10 in the benchmark to a cap at 1.0 in the present model). **Based on R0 profile...**
+The value of the parameter controlling recruitment variability was determined in 2019 using an iterative procedure with the aim of ensuring that the value of assumed by the assessment model and the empirical variance in recruitment were self-consistent. This involved setting to an initial value, fitting the model and calculating the variance of the recruitment deviations for the years for which recruitments are estimated, then replacing the assumed value of by the calculated value. The recruitment variability was tuned up to and capped at a value of 1.4, the maximum value at which the bias correction was expected to provide reliable results. This value was unchanged in this update assessment.
+
+## Uncertainty and Sensitivity Analyses
+Sensitivity analyses were performed to determine the sensitivity of the model results to a range of alternative assumptions. While the recent stock trend and estimates of stock depletion were similar among model sensitivities, a common theme is that the size of the unfished spawning biomass was highly uncertain. The available data for `r spp` were largely uninformative about the absolute stock size and productivity. This stock assessment model, given the data, was unable to discriminate between a larger, less productive stock and a smaller more productive stock, or many combinations in between. This could be due to the largely 'one-way-trip' during the period with the most informative data or the fact that northeast Pacific `r spp` are a single stock that exhibit movement throughout their range. In addition, the inclusion of new data from the same sources as the 2019 benchmark resulted in greater uncertainty around the derived quantities, a pattern which emerged as soon as natural mortality was freed and most pronounced in the slighly increased uncertainty around growth parameters.
+Historical catches provide some information about the minimum stock size needed to have supported the observed time-series but there is less information about the upper bound on stock size. Likelihood profiles, parameter estimates, and general model behavior illustrate that small changes in many parameters can result in differing point estimates for management reference points, however the uncertainty about these estimates remains large unless leading model parameters, such as $M$ and $h$, are fixed. This uncertainty will remain until a more informative time-series and better quality demographic and biological information are accumulated for the stock, and potentially until a range wide northeast Pacific `r spp` analysis is available.
+\begin{comment}
+Uncertainty in the properties of current aging methods (both potential bias and imprecision), as well as relatively sparse fishery sampling, result in potentially noisy age data. Similarly, because `r spp` grow very rapidly and reach near-asymptotic length in their first decade of life, length-composition data were not particularly informative about historical patterns in recruitment. The patterns observed in historical `r spp` recruitment suggest that the stock trajectory (via shifts in recruitment strength) was linked to productivity regimes in the California Current. Uncertainty in future environmental conditions, changes in the timing, dynamics, and productivity of the California current ecosystem, via climate change or cycles similar to the historical period, should be considered as a significant source of uncertainty in projections of stock status.
+\end{comment}
+The WCGBT Survey was an excellent relative index of abundance over a broad demographic component of the `r spp` stock (although not the entire stock, as some of it occurs in deep water and was therefore unobserved).  This index, as well as stock assessments that better capture the dynamics of `r spp` across the NE Pacific, may inform future stock assessments about the scale of the `r spp` population relative to the catches being removed. 
+
+A small set of sensitivity analyses were chosen to provide more information about potential information in the data, and potentially conflicting signals among data sources.
+\begin{comment}relatively obvious questions for any stock assessment such as sensitivity to key structural choices, potential information in the data, and potentially conflicting signals among data sources. The order in which they are presented was not intended to reflect their importance; each run included here provided important information for developing or evaluating the base model and alternate states of nature. \end{comment} The results are by no means meant to be a comprehensive comparison of all possible aspects of model uncertainty, nor do they reflect even the full range of models considered in developing the base model.
+\begin{enumerate}
+\item Use of the McAllister-Ianelli (Harmonic Mean) data weighting method as an alternative to the Francis method.
+\item Inclusion of the At-Sea Hake Observer Program data (landings and length compositions).
+\end{enumerate}
 
 
-### Parameter Estimates
+\begin{comment}
+The following model changes to data or parameter estimation had little impact on
+the base model.
+\begin{enumerate}
+\item Parameter phasing.
+\item Estimating autocorrelation in the recruitment deviations.
+\end{enumerate}
 
-### Fits to the Data
+Removing the sea level index of recruitment from the base model resulted in a stock trajectory that was highly similar to, and within, the range of uncertanty estimated in the base model (Table \ref{tab:sensitivity_nosealevel}; Figure \ref{sensitivity_nosealevel}).   Small differences in model estimates were driven by differences in recruitment estimates, largely those prior to 1980 before age-composition data are available (Figure \ref{sensitivity_nosealevel})
+Results from a model run using the 2015 selectivity patterns were within the range of uncertainty estimated in the base model, although estimates of both unfished spawing biomass and stock status were lower (Table \ref{tab:sensitivity_nosealevel}; Figure \ref{sensitivity_nosealevel_rec}).
+Removing the WCGBT Survey index resulted in greater estimates of uncertainty around time series of spawning biomass and stock status, but more optimistic estimates of stock size and status at the end of the time series (Table \ref{tab:sensitivity_nosealevel}; Figure \ref{sensitivity_nosealevel}). 
 
-### Population Trajectory
+A model runs implementing the following changes were largely withing the range of uncertainty estimated in the base model: 1) adding a hake bycatch fleet, 2) beginning the model in 1970 (a STAR panel request), and 3) estimating a single sex combined value for natural mortality (Table \ref{tab:ashop} and Figure \ref{fig:ashop}). 
+In the pre-STAR model draft adding information about `r spp` abundance gained from the Pacific hake (\emph{Merluccius productus}) fishery did not lead to significant changes relative to the base model. In the post-STAR model adding a hake bycatch fleet resulted in a lower estimate of unfished spawning biomass. This difference is likely due to the removal of all other length composition data except for the WCGBTS data and, in this sensitivity run, the hake discard length compositions. Young (i.e., age-0) fish are caught in this mid-water trawl fishery as bycatch and it was hypothesized that including `r spp` lengths sampled by the hake fishery would be informative about recruitment. However, the time series does not appear to be long enough relative to the modeled period to be informative and the ongoing WCGBT Survey samples age-0 `r spp`. Estimates of unfished spawning biomass and stock status in the single M run were lower than the base model value, while the estimate of unfished biomass and stock status were higher in the run that began during 1970.
+The scale of the estimated unfished spawning biomass is uncertain. To get a ball-park estimate of the scale of the northeast Pacific `r spp` population, conditioned on the California Current assumptions and biology, a model run adding all northeast Pacific landings was completed. This model run suggests a northeast Pacific `r spp` population that follows a similar stock trajectory and results in a similar stock status compared to the base model, but that unfished spawning biomass could have ranged from about 250,000 mt to about 1,500,000 mt (Table \ref{tab:sensitivity_nepacific}; Figure \ref{sensitivity_nepacific}). This model sensitivity addresses, in a limited way, the long standing request for investigations into transboundary stock issues.
+Models with a range of specifications for the age that defines the beginning of the plus group for the age data agreed regarding the strong increase in the spawning biomass during the 1960s to mid-1970s, followed by stock declines until recent years (Figures \ref{modelcomparison_dataage_ssb} and \ref{modelcomparison_dataage_rec}). The ages largely agreed regarding a period of high recruitments that drive this stock increase. This pattern was evident but less extreme in the 2011 and 2015 models due to the plus group being set at age 35. A similar pattern in spawning biomass trends was present in the AFSC stock assessment {@hanselman2018}. Extending the plus group to age 50 allows for fish aged 35 to 50 to better inform what historical recruitment may have been during periods that previous models assumed there was no information regarding recruitment as well as provides the potential to track truncation or expansion of the 'old growth' population age structure due to changes in fishing pressure or recruitment. 
+In aggregate, these sensitivity analyses reflect the uncertainty in absolute stock size in this `r spp` assessment. Hopefully, they also provide a basis for future investigations, as well as a method for prioritizing potential research studies.
+\end{comment}
+## Retrospective analysis
+A retrospective analysis was conducted by running the base model with
+data removed for the past 5 years. All retrospective model runs fall within the uncertainty estimates from the base model. There was limited evidence of a
+retrospective pattern in estimates of spawning biomass and stock status, such that the view of the stock becomes more pessimistic as data are removed (Figure \ref{retro}). The retrospective pattern in stock status is largely driven by some of the largest recruitments observed for `r spp` during 2013 and 2016. 
+\begin{comment}
+## Historical analysis
+Estimates of the current stock size and relative depletion were highly consistent with prior stock assessments, particlarly from the 1970s forward, the period of time with good data for sablefish (Figure \ref{histassess}). Estimates of stock size prior to the mid-1970s are greater in the 2005 and 2007 assessments, however there were limited data to inform the pre-1970 model period. 
+\end{comment}
+## Likelihood profiles
+Likelihood profiles were used to elucidate conflicting information among various data sources, to determine how asymmetric the likelihood surfaces surrounding point estimates may be, and to provide an additional evaluation of how precisely parameters are being estimated. Likelihood profiles were completed for three key model parameters: female $M$, unexploited equilibrium recruitment ($R_0$), and $h$. For a single parameter (loosely interpreting an iteratively re-weighted stock assessment objective function in terms of true likelihood) an increase in negative log-likelihood of more than two units indicates a statistically significant degradation in fit.
+Female $M$ (male mortality is highly correlated with female mortality, so it is not included in this discussion) was found to be moderately informed across a relatively wide range of values. Data from the surveys appears to be the most influential for this parameter. Differences in total negative log likelihood was less than two across approximately 0.060-0.095 for female `r spp` $M$ (Table \ref{profile_table_M}; Figures \ref{sens_m_like}-\ref{sens_m_like_surv}). However, this is not a trivial parameter range and the assessment results vary considerably among these values in absolute scale (Figures \ref{sens_m_ssb} and \ref{sens_m_depl}).
+Unexploited equilibrium recruitment ($R_0$) was found to be insignificantly different over 9.2-10.2, values which led to a broad range of stock sizes (Table \ref{profile_table_R0}; Figures \ref{sens_R0_like}-\ref{sens_R0_ssb}). The range of values explored led to little differences in the current level of depletion the stock is facing but large differences in depletion from 1935 to 1970 where there is little information during a period with fishing (Figure \ref{sens_R0_depl}).
+In the base model, $h$ is fixed at `r model$parameters[grep("steep", model$parameters$Label), "Value"]`, making it an important profile to evaluate as its uncertainty is not explicitly included in the base-model results. In 2011, the maximum likelihood estimate for $h$ was 0.2, which implies zero surplus production, which is biologically implausible. This assessment found no support in the data over a broad range of explored values (Table \ref{profile_table_h}). 
+\begin{comment}
+Most of the values included in the profile led to similar trajectories of spawning biomass (Figure \ref{sens_h_ssb}). The relative strengths of recent cohorts were also not strongly influenced by the value for $h$ (Figure \ref{sens_h_rec}), and the relative depletion level is quite robust as well (Figure \ref{sens_h_depl}). Uncertainty from $h$ was well inside the global estimation uncertainty captured via the asymptotic intervals about the maximum likelihood estimates.
+\end{comment}
+In aggregate, these profiles explain why the asymptotic uncertainty about historical and current stock size is so broad and underscore the lack of information in the data regarding scale for this stock assessment.
 
-### Reference Points
+# Reference points{#rp}
+\textrefpt
+
+\textexplstatus
+The phase plot shows the interaction of fishing intensity and biomass targets (Figure \ref{SPR4_phase}).
+
+# Harvest projections and decision tables
+Previous `r spp` stock assessments have been designated as Category 1 stock assessments. Thus, projections and decision tables are based on $P^*$=0.4 and the values of sigma adopted by the Pacific Fisheries Management Council for stock projections. The time series of multiplicative buffer fractions that are a function of $P^*$ and the time series of sigmas provide the multipliers on the overfishing limit, these values are all less than 1. The multipliers are combined with the 40-10 harvest control rule to calculate overfishing limits, acceptable biological catches, and annual catch limits. The total catches in 2019 and 2020 were set at the Pacific Fisheries Management Council Groundfish Management Team requested values, just below that Pacific Fisheries Management Council annual catch limits for `r spp`. The average `r paste0(range(model$endyr - 3,model$endyr), collapse = '-')` catches were used to distribute catches among the fisheries. All forecasts of catches are of total dead biomass, i.e., dead discard plus catch.}
+Current medium-term projections from the base model under the Pacific Fisheries Management Council 40-10 harvest control rule estimate that the stock will remain above the target stock size of 40% of the estimated unfished spawning biomass during the projection period.
+
+# Regional management considerations
+
+Recent `r spp` management has relied upon apportionment of the ACL north and south of $36^\circ$ N latitude using the average estimated differences in biomass from the WCGBT Survey. This historical management line corresponds with a recent data-driven analysis of `r spp` growth that suggests a difference in growth rates north and south of $36^\circ$ N latitude {@kapur2020}. The estimates represent the relative distribution of the `r spp` population observed by the survey, not the entire population. Additionally, it is likely that fish from more northerly regions are migrating into U.S. West Coast waters (pers. comm., L. Rogers), which may bias the survey estimates of the distribution of fish in each region. Thus, these results should be interpreted with caution.
+
+```{r, include = FALSE}
+split36 <- read.table("Table_for_SS3.csv", comment = "^", sep = ",", header = TRUE) %>%
+  filter(Year<2019)
+splits <- aggregate(Estimate_metric_tons ~ Year, 
+  data = split36[split36$Fleet %in% c("north", "south"), ], prop.table)
+colnames(splits)[2] <- ""
+colnames(splits[, 2]) <- c("south", "north")
+splits.use <- apply(splits[, 2], 2, mean)
+```
+\begin{comment}
+%MK is not sure why the 2021 VAST run seems to have very different N/S distributions. This doesn't affect the assessment as the coastwide biomass is identical, but omitting this section for now. Looking at the 2019 Table_For_SS3.csv, the individual n/s values are quite different from what the newest run did. Suspect a change in the strata setup in nwfscAssess.
+
+The average survey biomass, from 2003 to `r last(model$cpue$Yr)`, that has been distributed south of $36^\circ$N, is `r round(splits.use["south"]*100, 2)`%. The average survey biomass, from 2003 to 2019, that has been distributed north of $36^\circ$N, is`r round(splits.use["north"]*100, 2)`%. The 2015 and 2019 assessments estimated that  26.2% and 26.3%  of the biomass was found south of Point Conception and 73.8% and 73.7% of the biomass was found to the north, respectively. The estimates from the WCGBT Survey show that the spatial distribution of `r spp` along the U.S. West Coast appears to be relatively stable, particularly from 2008 to 2014 (Table \ref{splitstable}).
+\end{comment}
+
 
 
