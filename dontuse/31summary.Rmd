@@ -1,0 +1,94 @@
+## Summary of Previous Assessments and Reviews
+The first `r spp` stock assessment was completed in 1984 {@francis1984sablefish}, followed by frequent assessments since then (e.g., {@francis1985sablefish, mcdevitt1987sablefish, methot1988sablefish, methot1989sablefish, methot1990sablefish, methot1992, methot1994, crone1997sablefish, methot1998sablefish, schirripa2001sablefish, schirripa2002sablefish, schirripa2005sablefish, schirripa2007sablefish, stewart2011sablefish, johnson2016sablefish}). The 1984 assessment examined CPUE data from the 1979 to 1983 NMFS pot survey {@francis1984sablefish}. Subsequent stock assessments were based on age-structured frameworks of varying complexity.
+
+The 1985 age-structured assessment utilized a simulation model, estimating $M$, average weight-at-age, recruitment, and relative age-specific catchability, to examine maximum sustainable yield ($MSY$). The model relied on NMFS trawl and pot surveys as well as parameter estimates generated from independent research. The 1987 `r spp` assessment extended the NMFS survey time-series and primarily consisted of a modified yield-per-recruitment analysis focusing on the minimum size limit (22 in) implemented in 1983.
+
+In 1988, a catch-at-age analysis using an early version of the Stock Synthesis (SS) modeling framework, which is the basis for all subsequent assessments, was implemented {@methot1988sablefish}. This model included two fleets, fixed gear and trawl, and two years of fishery biological data. NMFS trawl and pot surveys provided indices of abundance, and estimates of exploitation rate were based on tag-recapture information generated from a tagging study that began in 1971. The 1989 `r spp` stock assessment followed a similar approach; revisions in the age-determination criteria for `r spp` caused an increase in the observed proportion of old fish and a decrease in the estimate of $M$ from 0.15 to 0.09. The 1990 `r spp` assessment {@methot1990sablefish} explicitly modeled stock structure with a northern population (U.S. Vancouver and Columbia INPFC areas) and a southern population (Eureka, Monterey, and Conception INPFC areas). Including spatial structure was motivated by differences in growth rates and the perception of low migration rates. The spatial models facilitated comparisons between and amongst areas with signals in the raw data.
+
+In 1992, the assessment reverted to a single stock area, excluding the Conception INPFC area {@methot1992}. Data from the Triennial Shelf trawl survey were used to extrapolate survey estimates to the entire assessment area (Monterey through U.S. Vancouver INPFC areas). Analysis focused on exploring the trade-off in fitting the trawl-survey biomass and the trend from the pot survey. The depth stratified age- and length-composition data suggested that movement of `r spp` into deep water was more closely related to their age than size. The 1994 `r spp` assessment {@methot1994} was similar to the 1992 analysis. The survey was used as an absolute measure of biomass after extrapolation to the coast-wide level. The 1997 assessment {@crone1997sablefish} added CPUE data. No single model was found that fit all indices well. The 1998 assessment {@methot1998sablefish}focused on the inclusion and exclusion of the pot survey index and the use of commercial logbook CPUE.
+
+The 2001 assessment {@schirripa2001sablefish} focused on evaluating the sensitivity of the results to the treatment of the survey data and trade-offs among pot survey and logbook indices of abundance. This assessment was the first to introduce the possibility that `r spp` recruitment may be linked to environmental factors. The 2002 assessment {@schirripa2002sablefish} was an update to {@schirripa2001sablefish} and focused mainly on newly available data from existing sources. It was the first assessment to detect the strong 1999 and 2000 cohorts in the 2001 data, following many years of below average recruitment. A significant relationship between recruitment and sea level was identified.
+
+Several important changes were made to the `r spp` assessment in 2005 {@schirripa2005sablefish}. Landings (and the modeled time-period) were extended back to the year 1900. Separate selectivity curves were implemented for the trawl surveys, and years with limited geographic coverage in the Triennial Shelf Survey were eliminated. Discard data from the relatively new observer program were included and discard mortality was investigated. Sea level was used as an explicit offset in the population dynamics to expected recruitment.
+
+The 2007 assessment {@schirripa2007sablefish} included newly available data and changed the treatment of the sea level index of recruitment within the stock assessment model to be a survey index of recruitment with observation error, rather than an explicit offset in the population dynamics to expected recruitment. The assessment made the explicit assumption that catchability for the WCGBT Survey was equal to 0.56, which was modeled by using only the shelf region. Uncertainty was investigated and reported primarily through alternate values for catchability.
+
+The 2011 stock assessment {@stewart2011sablefish} reduced the number of parameters used to model fishery dynamics. Historical management actions were condensed to those that had a strong influence on fishery behavior (sorting and retention, selectivity, or both). Previously fixed leading parameters, $M$ and trawl survey catchability, were estimated or used analytical solutions. Changes lead to increased, more realistic, estimates of uncertainty around stock size estimates. Repeated testing of the correlation between sea level and recruitment continued to find a significant relationship that explained approximately 35% of the variability in recruitment deviations. The sea-level data was used from 1970 forward, a period with length- and age-composition data, and was not retained in the base model because the index provided a recruitment signal largely consistent with that provided by the composition data. Finally, the large number of deviations about annual growth and annual selectivity curves estimated in the 2007 model were reduced, with the net effect that uncertainty was increased. The sensitivity of model results to ($M$), equilibrium recruitment, and steepness ($h$), which was estimated prior to 2011, was investigated via likelihood profiles. The 2015 stock assessment {@johnson2016sablefish} was an update to the 2011 stock assessment, maintaining the same model structure and focused on adding the new data and re-tuning the model given the new data.
+In summary, assessments have largely drawn the similar conclusions regarding historical trends. Since the 1970s, the `r spp` resource has show a rapid, persistent decline due to many years with low recruitment and high fishing intensity during 1970s and 1980s (Figure \ref{ts11}). Uncertainty regarding the absolute scale of the `r spp` population has remained high, with previous assessment models suggesting that unfished spawning biomass ranges between just under 100,000 mt up to approximately 250,000 mt, which matches the scale of the uncertainty in this model.
+
+### History of Modeling Approaches (not required for an update assessment)
+
+\begin{comment}
+The 2019 Benchmark model implements the following structural model changes:
+\begin{enumerate}
+\item Fixing stock-recruitment $h$ at `r o19$parameters[grep("steep", o19$parameters$Label), "Value"]` to be consistent with the current understanding of the productivity of groundfish in the California Current. All of the other stock assessments approved by the Pacific Fisheries Management Coundil for groundfish off the U.S. West Coast either report an estimated value of $h$ or rely upon a fixed $h$. Typically, $h$ is fixed at values larger than 0.6, which is what it was fixed at in {@stewart2011sablefish, johnson2016sablefish}. Note that likelihood profiles from both this assessment as well as past assessments show that the data are uninformative with respect to $h$ for `r spp`.
+
+\item Concerns regarding bycatch of `r spp` in the Pacific hake fishery were raised early in the stock assessment process. Therefore, the inclusion of an additional fleet to account for `r spp` bycatch in the hake fishery is evaluated as a sensitivity.
+
+\item For this assessment, similar to the 2011 stock assessment, a concerted effort was put forth to reduce the number of estimated parameters. The cubic spline used for age-based fisheries selectivity in the 2011 assessment required 15-17 parameters. In this assessment, a double-normal parameterization was implemented for age-based fishery selectivity, which requires 6-10 parameters. The double-normal parameterization fit the age-composition data from the fisheries better or similarly to the previously used cubic spline parameterization in all comparisons. 
+
+\item Sea-level data were not included in the 2011 or 2015 base models but were rather investigated as a sensitivity. Including this time series of data, which began in 1970, did not add any new information to the model due to a similar recruitment signal available from the length- and age-composition data. The sea-level time series has since been reanalyzed to start in 1925 and is now included in the base model to inform historical recruitment rather than assuming that recruitments directly relate to the stock-recruitment curve. Recruitment deviations for `r spp` are rarely close to the stock-recruitment curve, and thus, using the weakly predictive sea-level data is an improvement from using the fit of the stock-recruitment curve. In the future, sea level could be used to inform recruitment in the absence of other data sources. If available, ROMs data based on {@tolimieri2018} could also be used as a predictor for future recruitment.
+
+\item The bin structure for the smallest bin included for length data changed from 20 to 18 cm to capture fish in 18 cm bin that were previously aggregated into the 20 cm bin. The bin structure for the largest bin included for the age data changed from 35 to 50 years. The use of 35 years as the beginning of the age plus group resulted in large amounts of ages in the plus groups for all surveys except the Triennial Shelf Survey. In some cases, the proportion of ages in the plus group was larger than the peak of the distribution of ages of young fish. Therefore, the plus group was changed to 50, a value that resulted in a small proportion of ages in the plus groups for survey data. To accommodate the increase in the plus group for the age data, the plus group for age in the population dynamics was changed from 50 to 70 years.
+
+\item This assessment combined the hook-and-line and pot gears into a single fixed-gear fleet. This consolidation of two fleets into one was done because both of these fleets both catch larger fish, were subject to the same regulatory rules, and because catches from pot gears dominated the fixed-gear landings only for a few years during the 1970s and early 1980s. Consequently, the number of selectivity parameters, which are are difficult, was reduced. 
+
+\item The STAR panel reviewers noted that the likelihood profiles for female $M$ showed a strong conflict between the length data and age data with respect to plausible values of $M$. Therefore, all length data sets except the WCGBT Survey were removed from the model, allowing for only the ages and most recent survey data to inform the estimation of $M$. 
+
+\item Estimates from the `r spp` model are sensitive to data weighting. Iterative data weighting using the Harmonic Mean or Francis methods, as well as the estimation of the Dirichlet-Multinomial data weighting parameters, was implemented for comparison purposes. For models that estimated the Dirichlet-Multinomial parameters, weighting parameters that were estimated at the upper bound of 7.0 were fixed at 5.0 giving full weight to those data sets. While the estimates from STAR panel draft model, with all length data, were largely insensitive to the method of data weighting used, estimates from the post-STAR model, with only length data from the WCGBT Survey, showed some differences between the iterative weighting methods and the Dirichlet-Multinomial method. Largely, estimates of the index of abundance from the most recent years of the WCGBT Survey under fit the data when estimating the Dirichlet-Multinomial parameters.
+The Francis method was agreed for use at the STAR panel because this method led to a better fit to the WCGBT Survey index than estimating the Dirichlet-Multinomial parameters. Estimating the Dirichlet-Multinomial parameters when only one length data set was used to fit the model led to less down weighting of the WCGBT Survey length data relative to the iterative data-weighting methods.
+
+\end{enumerate}
+
+Many routes from the 2015 update stock assessment to a base model were explored in preliminary analyses. Results of each transitional step were path dependent. Thus, it was decided to systematically add all the new data before appreciably changing the model configuration (Figure \ref{modelcomparison}). 
+
+### Most Recent STAR Panel and SSC Recommendations (not required for an update assessment)
+The 2019 STAR Panel recommendations, and responses, follow. In general, few of the
+recommendations have been fully addressed in this update assessment.
+The 2011 STAR panel and 2015 update stock assessment review identified a number of future assessment recommendations. Progress on each issue as of the 2019 Benchmark Assessment is summarized below.
+
+\begin{enumerate}
+\item \emph{Complete and review the Washington catch reconstruction and review the California and Oregon catch reconstructions.}
+
+The California and Oregon historical catch reconstructions were reviewed and approved by the Pacific Fishery Management Council's Science and Statistical Committee. The WDFW catch reconstruction for `r spp` was presented at the 2019 pre-stock assessment workshop and was agreed as the best available catch reconstruction for Washington `r spp`.
+
+\item \emph{Conduct new studies of maturity by length and age based on more comprehensive coastwide and depth-based sampling and using histological techniques for determining maturity stage.}
+
+A recent study by {@head2014fishres} provided new estimates of critical life-history parameters for `r spp` based on data specific to the U.S. West Coast. Additional coast-wide maturity data have been collected and analyzed using histological techniques to produce a revised maturity relationship for this stock assessment.
+
+\item \emph{Conduct new studies on maturity and age-reading error.}
+
+While backlogged samples have been aged and additional between-lab reads have been completed, no additional studies on ageing error were performed. The estimation of ageing error was updated for this assessment using new data. The most accurate histological methods have been used to produce `r spp` maturity data.
+
+\item \emph{Use commercial size-graded market categories for commercial length- and age-composition expansion.}
+
+ The \texttt{PacFIN-Utilities} code has been improved to use all available commercial size graded market category available. Past assessments may not have appropriately used size grades, or size grades may not have been available in PacFIN. Additionally, in the process of revising the PacFIN code a number of errors in the PacFIN database were identified and corrected by the states. For example, biological samples for research that were entered incorrectly into PacFIN as random port samples were corrected, and therefore removed from the data used to build commercial compositions. The \texttt{PacFIN-Utilities} code was also improved such that the age data expansions used only the weights of the aged fish, as opposed to the weights of all fish in a biological sample, as was done previously.
+
+\item \emph{Evaluate methods to capture information regarding environmental and ecosystem variability in stock assessments.}
+
+This stock assessment provides an improved re-analysis of the sea-level data coast-wide. Additionally, this document provides information on ecological and social considerations with respect to the `r spp` fishery (see Appendix \ref{app:env}).
+
+\item \emph{Explore alternative error distribution assumptions for compositional data within SS. }
+
+This 2019 stock assessment compares the use of the multinomial and Dirichlet-Multinomial error distributions; the Harmonic mean and Francis approaches were investigated for weighting multinomial distributions.
+
+\item \emph{Develop guidelines for use of the Lorenzen model for age-dependent
+$M$. }
+
+A post-doc began working with NWFSC staff on this topic during January 2019. However, there is no simulation work on implementing a Lorenzen curve within SS to provide the basis for new guidance for this stock assessment. It remains unclear how to scale the Lorenzen curve for a given species given noisy data or limited contrast in $F$ needed to precisely estimate age-specific $M$. This assessment does provide a set of sensitivity model runs with respect to alternative treatment of $M$.
+
+\item \emph{Modify the SS code to allow changes to the plus-group age without data restructuring.}
+
+While a good idea, it is outside of the scope of this analysis to modify SS. Alternative data plus-group specifications continue to require restructuring the data.
+
+\item \emph{Further investigate potential inaccuracy in using maximum likelihood estimates and the normal distribution to approximate confidence limits for estimates of spawning biomass. It may be feasible to conduct a full Bayesian analysis of uncertainty.}
+
+This request is largely outside of the scope of this stock assessment. Although SS can operate using Monte Carlo Markov Chain (MCMC) methods, time did not permit the use of MCMC. Alternatively, asymptotic uncertainty estimates, model sensitivity runs, and likelihood profiles are provided.
+
+\item \emph{Consider joint assessments with Canadian and Alaskan scientists.}
+
+This is a long standing request of many stock assessments for transboundary stocks that is outside of the scope of the stock assessments routinely provided for management decisions. However, collaborative research activities among northeast Pacific `r spp` scientists are ongoing since 2017 and have gathered momentum during 2019 with the hiring of a post-doctoral researcher at Department of Fisheries and Oceans Canada and a PhD student at the University of Washington. Current analyses are focused on northeast Pacific-wide synthesis of basic biological data and tagging data needed to parameterize operating models for management strategy evaluation.
+
+\end{enumerate}
+
+### Response to Groundfish Subcommittee Requests (not required in draft)

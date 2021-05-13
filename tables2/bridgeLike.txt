@@ -1,0 +1,17 @@
+% latex table generated in R 4.0.3 by xtable 1.8-4 package
+% Mon May 10 12:43:29 2021
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlrrr}
+  \hline
+ & Label & 2019 Benchmark (v3.30.09) & 2019 Benchmark (v3.30.16), estimate & 2019 Benchmark (v3.30.16), fix M \& 2 Selex Pars \\ 
+  \hline
+1 & TOTAL\_like & 3306.51 & 3306.81 & 3306.51 \\ 
+  2 & Survey\_like & -4.99 & -4.41 & -4.99 \\ 
+  3 & Length\_comp\_like & 334.59 & 334.63 & 334.59 \\ 
+  4 & Age\_comp\_like & 2995.95 & 2995.88 & 2995.95 \\ 
+  5 & Parm\_priors\_like & 0.45 & 0.47 & 0.45 \\ 
+   \hline
+\end{tabular}
+\caption{Likelihoods in bridged models, which contain the same data and structure as the 2019 benchmark assessment.} 
+\end{table}

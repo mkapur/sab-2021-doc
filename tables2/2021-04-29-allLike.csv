@@ -1,0 +1,6 @@
+"Label","Benchmark_2019","Update [TOR], with discard data ","Update [TOR], no discard fraction ","Disc Lcomps + 2018 Timeblock ","Disc Lcomps + 2019 Timeblock "
+"TOTAL_like",3306.51,3177.9,2607.28,4339.12,3434.38
+"Survey_like",-4.98883,-11.0506,-17.958,-22.6412,-18.3859
+"Length_comp_like",334.593,41.9883,33.1587,1063.69,140.342
+"Age_comp_like",2995.95,3223.3,2586.56,3093.64,3378.22
+"Parm_priors_like",0.445057,0.41209,0.275777,0.0324147,0.285345

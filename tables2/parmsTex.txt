@@ -1,0 +1,326 @@
+% latex table generated in R 4.0.3 by xtable 1.8-4 package
+% Mon May 10 10:13:24 2021
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrr}
+  \hline
+ & Value & lci & uci \\ 
+  \hline
+NatM\_p\_1\_Fem\_GP\_1 & 0.07 & 0.06 & 0.09 \\ 
+  L\_at\_Amin\_Fem\_GP\_1 & 25.72 & 24.83 & 26.61 \\ 
+  L\_at\_Amax\_Fem\_GP\_1 & 62.46 & 61.22 & 63.70 \\ 
+  VonBert\_K\_Fem\_GP\_1 & 0.34 & 0.31 & 0.37 \\ 
+  CV\_young\_Fem\_GP\_1 & 0.06 & 0.04 & 0.07 \\ 
+  CV\_old\_Fem\_GP\_1 & 0.11 & 0.10 & 0.12 \\ 
+  Wtlen\_1\_Fem\_GP\_1 & 0.00 &  &  \\ 
+  Wtlen\_2\_Fem\_GP\_1 & 3.27 &  &  \\ 
+  Mat50\%\_Fem\_GP\_1 & 55.19 &  &  \\ 
+  Mat\_slope\_Fem\_GP\_1 & -0.42 &  &  \\ 
+  Eggs/kg\_inter\_Fem\_GP\_1 & 1.00 &  &  \\ 
+  Eggs/kg\_slope\_wt\_Fem\_GP\_1 & 0.00 &  &  \\ 
+  NatM\_p\_1\_Mal\_GP\_1 & 0.06 & 0.05 & 0.07 \\ 
+  L\_at\_Amin\_Mal\_GP\_1 & 26.93 & 25.92 & 27.93 \\ 
+  L\_at\_Amax\_Mal\_GP\_1 & 56.62 & 55.99 & 57.25 \\ 
+  VonBert\_K\_Mal\_GP\_1 & 0.37 & 0.34 & 0.40 \\ 
+  CV\_young\_Mal\_GP\_1 & 0.07 & 0.06 & 0.09 \\ 
+  CV\_old\_Mal\_GP\_1 & 0.08 & 0.07 & 0.08 \\ 
+  Wtlen\_1\_Mal\_GP\_1 & 0.00 &  &  \\ 
+  Wtlen\_2\_Mal\_GP\_1 & 3.27 &  &  \\ 
+  CohortGrowDev & 1.00 &  &  \\ 
+  FracFemale\_GP\_1 & 0.50 &  &  \\ 
+  SR\_LN(R0) & 9.71 & 9.11 & 10.30 \\ 
+  SR\_BH\_steep & 0.70 &  &  \\ 
+  SR\_sigmaR & 1.40 &  &  \\ 
+  SR\_regime & 0.00 &  &  \\ 
+  SR\_autocorr & 0.00 &  &  \\ 
+  Early\_InitAge\_30 & -0.01 & -2.74 & 2.72 \\ 
+  Early\_InitAge\_29 & -0.01 & -2.74 & 2.71 \\ 
+  Early\_InitAge\_28 & -0.01 & -2.74 & 2.71 \\ 
+  Early\_InitAge\_27 & -0.01 & -2.74 & 2.71 \\ 
+  Early\_InitAge\_26 & -0.01 & -2.74 & 2.71 \\ 
+  Early\_InitAge\_25 & -0.02 & -2.74 & 2.71 \\ 
+  Early\_InitAge\_24 & -0.02 & -2.74 & 2.70 \\ 
+  Early\_InitAge\_23 & -0.02 & -2.74 & 2.70 \\ 
+  Early\_InitAge\_22 & -0.02 & -2.74 & 2.70 \\ 
+  Early\_InitAge\_21 & -0.02 & -2.74 & 2.69 \\ 
+  Early\_InitAge\_20 & -0.02 & -2.74 & 2.69 \\ 
+  Early\_InitAge\_19 & -0.02 & -2.74 & 2.69 \\ 
+  Early\_InitAge\_18 & -0.03 & -2.74 & 2.68 \\ 
+  Early\_InitAge\_17 & -0.03 & -2.73 & 2.68 \\ 
+  Early\_InitAge\_16 & -0.03 & -2.73 & 2.67 \\ 
+  Early\_InitAge\_15 & -0.03 & -2.73 & 2.67 \\ 
+  Early\_InitAge\_14 & -0.03 & -2.73 & 2.67 \\ 
+  Early\_InitAge\_13 & -0.04 & -2.73 & 2.66 \\ 
+  Early\_InitAge\_12 & -0.04 & -2.73 & 2.65 \\ 
+  Early\_InitAge\_11 & -0.04 & -2.73 & 2.65 \\ 
+  Early\_InitAge\_10 & -0.04 & -2.73 & 2.64 \\ 
+  Early\_InitAge\_9 & -0.05 & -2.73 & 2.64 \\ 
+  Early\_InitAge\_8 & -0.05 & -2.73 & 2.63 \\ 
+  Early\_InitAge\_7 & -0.05 & -2.73 & 2.62 \\ 
+  Early\_InitAge\_6 & -0.06 & -2.73 & 2.62 \\ 
+  Early\_InitAge\_5 & -0.06 & -2.73 & 2.61 \\ 
+  Early\_InitAge\_4 & -0.06 & -2.73 & 2.60 \\ 
+  Early\_InitAge\_3 & -0.07 & -2.73 & 2.59 \\ 
+  Early\_InitAge\_2 & -0.07 & -2.73 & 2.58 \\ 
+  Early\_InitAge\_1 & -0.07 & -2.72 & 2.58 \\ 
+  Early\_RecrDev\_1890 & -0.08 & -2.72 & 2.57 \\ 
+  Early\_RecrDev\_1891 & -0.08 & -2.72 & 2.56 \\ 
+  Early\_RecrDev\_1892 & -0.09 & -2.72 & 2.55 \\ 
+  Early\_RecrDev\_1893 & -0.09 & -2.72 & 2.54 \\ 
+  Early\_RecrDev\_1894 & -0.10 & -2.72 & 2.53 \\ 
+  Early\_RecrDev\_1895 & -0.10 & -2.72 & 2.52 \\ 
+  Early\_RecrDev\_1896 & -0.11 & -2.72 & 2.51 \\ 
+  Early\_RecrDev\_1897 & -0.11 & -2.72 & 2.50 \\ 
+  Early\_RecrDev\_1898 & -0.12 & -2.72 & 2.48 \\ 
+  Early\_RecrDev\_1899 & -0.12 & -2.72 & 2.47 \\ 
+  Early\_RecrDev\_1900 & -0.13 & -2.72 & 2.46 \\ 
+  Early\_RecrDev\_1901 & -0.14 & -2.71 & 2.44 \\ 
+  Early\_RecrDev\_1902 & -0.14 & -2.71 & 2.43 \\ 
+  Early\_RecrDev\_1903 & -0.15 & -2.71 & 2.41 \\ 
+  Early\_RecrDev\_1904 & -0.16 & -2.71 & 2.40 \\ 
+  Early\_RecrDev\_1905 & -0.16 & -2.71 & 2.38 \\ 
+  Early\_RecrDev\_1906 & -0.17 & -2.71 & 2.37 \\ 
+  Early\_RecrDev\_1907 & -0.18 & -2.71 & 2.35 \\ 
+  Early\_RecrDev\_1908 & -0.19 & -2.71 & 2.33 \\ 
+  Early\_RecrDev\_1909 & -0.20 & -2.71 & 2.31 \\ 
+  Early\_RecrDev\_1910 & -0.21 & -2.71 & 2.29 \\ 
+  Early\_RecrDev\_1911 & -0.22 & -2.71 & 2.27 \\ 
+  Early\_RecrDev\_1912 & -0.23 & -2.71 & 2.26 \\ 
+  Early\_RecrDev\_1913 & -0.24 & -2.71 & 2.24 \\ 
+  Early\_RecrDev\_1914 & -0.25 & -2.71 & 2.21 \\ 
+  Early\_RecrDev\_1915 & -0.26 & -2.71 & 2.19 \\ 
+  Early\_RecrDev\_1916 & -0.27 & -2.71 & 2.17 \\ 
+  Early\_RecrDev\_1917 & -0.28 & -2.71 & 2.15 \\ 
+  Early\_RecrDev\_1918 & -0.29 & -2.71 & 2.13 \\ 
+  Early\_RecrDev\_1919 & -0.31 & -2.72 & 2.10 \\ 
+  Early\_RecrDev\_1920 & -0.32 & -2.72 & 2.08 \\ 
+  Early\_RecrDev\_1921 & -0.33 & -2.72 & 2.06 \\ 
+  Early\_RecrDev\_1922 & -0.34 & -2.72 & 2.03 \\ 
+  Early\_RecrDev\_1923 & -0.36 & -2.72 & 2.01 \\ 
+  Early\_RecrDev\_1924 & -0.37 & -2.72 & 1.98 \\ 
+  Main\_RecrDev\_1925 & -0.49 & -2.80 & 1.83 \\ 
+  Main\_RecrDev\_1926 & -0.47 & -2.80 & 1.86 \\ 
+  Main\_RecrDev\_1927 & -0.51 & -2.81 & 1.79 \\ 
+  Main\_RecrDev\_1928 & -0.53 & -2.81 & 1.74 \\ 
+  Main\_RecrDev\_1929 & -0.51 & -2.81 & 1.79 \\ 
+  Main\_RecrDev\_1930 & -0.52 & -2.81 & 1.78 \\ 
+  Main\_RecrDev\_1931 & -0.54 & -2.81 & 1.74 \\ 
+  Main\_RecrDev\_1932 & -0.58 & -2.82 & 1.67 \\ 
+  Main\_RecrDev\_1933 & -0.57 & -2.82 & 1.67 \\ 
+  Main\_RecrDev\_1934 & -0.58 & -2.82 & 1.66 \\ 
+  Main\_RecrDev\_1935 & -0.41 & -2.79 & 1.98 \\ 
+  Main\_RecrDev\_1936 & -0.68 & -2.85 & 1.49 \\ 
+  Main\_RecrDev\_1937 & -0.67 & -2.84 & 1.51 \\ 
+  Main\_RecrDev\_1938 & -0.42 & -2.79 & 1.96 \\ 
+  Main\_RecrDev\_1939 & -0.45 & -2.79 & 1.89 \\ 
+  Main\_RecrDev\_1940 & -0.51 & -2.80 & 1.77 \\ 
+  Main\_RecrDev\_1941 & -0.64 & -2.83 & 1.56 \\ 
+  Main\_RecrDev\_1942 & -0.62 & -2.83 & 1.58 \\ 
+  Main\_RecrDev\_1943 & -0.58 & -2.81 & 1.65 \\ 
+  Main\_RecrDev\_1944 & -0.57 & -2.81 & 1.67 \\ 
+  Main\_RecrDev\_1945 & -0.48 & -2.79 & 1.82 \\ 
+  Main\_RecrDev\_1946 & -0.61 & -2.82 & 1.60 \\ 
+  Main\_RecrDev\_1947 & -0.56 & -2.81 & 1.69 \\ 
+  Main\_RecrDev\_1948 & -0.59 & -2.82 & 1.64 \\ 
+  Main\_RecrDev\_1949 & -0.46 & -2.78 & 1.87 \\ 
+  Main\_RecrDev\_1950 & -0.36 & -2.76 & 2.03 \\ 
+  Main\_RecrDev\_1951 & -0.39 & -2.77 & 2.00 \\ 
+  Main\_RecrDev\_1952 & -0.16 & -2.75 & 2.44 \\ 
+  Main\_RecrDev\_1953 & -0.39 & -2.77 & 1.99 \\ 
+  Main\_RecrDev\_1954 & -0.22 & -2.75 & 2.32 \\ 
+  Main\_RecrDev\_1955 & 0.22 & -2.85 & 3.29 \\ 
+  Main\_RecrDev\_1956 & 0.04 & -2.78 & 2.85 \\ 
+  Main\_RecrDev\_1957 & 0.09 & -2.81 & 2.99 \\ 
+  Main\_RecrDev\_1958 & 0.00 & -2.80 & 2.80 \\ 
+  Main\_RecrDev\_1959 & 0.38 & -2.97 & 3.72 \\ 
+  Main\_RecrDev\_1960 & -0.02 & -2.79 & 2.74 \\ 
+  Main\_RecrDev\_1961 & 0.07 & -2.82 & 2.95 \\ 
+  Main\_RecrDev\_1962 & 0.38 & -3.02 & 3.78 \\ 
+  Main\_RecrDev\_1963 & -0.10 & -2.79 & 2.59 \\ 
+  Main\_RecrDev\_1964 & 0.39 & -3.25 & 4.02 \\ 
+  Main\_RecrDev\_1965 & 0.03 & -2.81 & 2.87 \\ 
+  Main\_RecrDev\_1966 & 2.67 & 1.91 & 3.43 \\ 
+  Main\_RecrDev\_1967 & -0.35 & -2.77 & 2.06 \\ 
+  Main\_RecrDev\_1968 & 0.01 & -2.79 & 2.81 \\ 
+  Main\_RecrDev\_1969 & -0.42 & -2.77 & 1.93 \\ 
+  Main\_RecrDev\_1970 & -0.10 & -2.73 & 2.52 \\ 
+  Main\_RecrDev\_1971 & -0.42 & -2.75 & 1.90 \\ 
+  Main\_RecrDev\_1972 & -0.34 & -2.71 & 2.04 \\ 
+  Main\_RecrDev\_1973 & 0.07 & -2.61 & 2.76 \\ 
+  Main\_RecrDev\_1974 & -0.17 & -2.67 & 2.33 \\ 
+  Main\_RecrDev\_1975 & 0.22 & -2.70 & 3.15 \\ 
+  Main\_RecrDev\_1976 & 0.72 & -1.63 & 3.06 \\ 
+  Main\_RecrDev\_1977 & 0.03 & -2.50 & 2.56 \\ 
+  Main\_RecrDev\_1978 & -0.16 & -2.70 & 2.37 \\ 
+  Main\_RecrDev\_1979 & 1.96 & 1.08 & 2.84 \\ 
+  Main\_RecrDev\_1980 & 0.49 & -1.33 & 2.30 \\ 
+  Main\_RecrDev\_1981 & 1.12 & 0.27 & 1.97 \\ 
+  Main\_RecrDev\_1982 & 0.62 & -0.17 & 1.42 \\ 
+  Main\_RecrDev\_1983 & -0.45 & -2.48 & 1.58 \\ 
+  Main\_RecrDev\_1984 & 1.36 & 0.62 & 2.10 \\ 
+  Main\_RecrDev\_1985 & 1.29 & 0.47 & 2.11 \\ 
+  Main\_RecrDev\_1986 & 0.91 & 0.20 & 1.63 \\ 
+  Main\_RecrDev\_1987 & -0.62 & -2.36 & 1.12 \\ 
+  Main\_RecrDev\_1988 & 1.06 & 0.57 & 1.55 \\ 
+  Main\_RecrDev\_1989 & 0.61 & -0.13 & 1.36 \\ 
+  Main\_RecrDev\_1990 & 1.68 & 1.30 & 2.05 \\ 
+  Main\_RecrDev\_1991 & -1.50 & -3.08 & 0.09 \\ 
+  Main\_RecrDev\_1992 & 0.18 & -0.57 & 0.94 \\ 
+  Main\_RecrDev\_1993 & -0.47 & -1.46 & 0.51 \\ 
+  Main\_RecrDev\_1994 & 0.47 & 0.03 & 0.91 \\ 
+  Main\_RecrDev\_1995 & 1.38 & 1.05 & 1.71 \\ 
+  Main\_RecrDev\_1996 & -2.16 & -3.65 & -0.66 \\ 
+  Main\_RecrDev\_1997 & -2.41 & -3.71 & -1.12 \\ 
+  Main\_RecrDev\_1998 & -0.02 & -0.60 & 0.57 \\ 
+  Main\_RecrDev\_1999 & 1.28 & 0.94 & 1.62 \\ 
+  Main\_RecrDev\_2000 & 2.46 & 2.22 & 2.71 \\ 
+  Main\_RecrDev\_2001 & 1.10 & 0.69 & 1.50 \\ 
+  Main\_RecrDev\_2002 & 0.63 & 0.26 & 0.99 \\ 
+  Main\_RecrDev\_2003 & -0.94 & -1.52 & -0.35 \\ 
+  Main\_RecrDev\_2004 & 0.20 & -0.12 & 0.53 \\ 
+  Main\_RecrDev\_2005 & -2.49 & -3.64 & -1.33 \\ 
+  Main\_RecrDev\_2006 & -1.06 & -1.58 & -0.54 \\ 
+  Main\_RecrDev\_2007 & -2.07 & -3.15 & -0.99 \\ 
+  Main\_RecrDev\_2008 & 1.93 & 1.68 & 2.17 \\ 
+  Main\_RecrDev\_2009 & -1.09 & -2.09 & -0.09 \\ 
+  Main\_RecrDev\_2010 & 1.00 & 0.72 & 1.27 \\ 
+  Main\_RecrDev\_2011 & 0.09 & -0.34 & 0.52 \\ 
+  Main\_RecrDev\_2012 & -0.76 & -1.47 & -0.04 \\ 
+  Main\_RecrDev\_2013 & 1.76 & 1.51 & 2.02 \\ 
+  Main\_RecrDev\_2014 & 0.13 & -0.31 & 0.57 \\ 
+  Main\_RecrDev\_2015 & 1.12 & 0.79 & 1.45 \\ 
+  Main\_RecrDev\_2016 & 2.25 & 1.98 & 2.52 \\ 
+  Main\_RecrDev\_2017 & 0.60 & 0.08 & 1.12 \\ 
+  Main\_RecrDev\_2018 & 0.32 & -0.45 & 1.10 \\ 
+  Main\_RecrDev\_2019 & 0.05 & -2.40 & 2.51 \\ 
+  Main\_RecrDev\_2020 & -0.19 & -2.77 & 2.39 \\ 
+  ForeRecr\_2021 & 0.00 & -2.74 & 2.74 \\ 
+  ForeRecr\_2022 & 0.00 & -2.74 & 2.74 \\ 
+  ForeRecr\_2023 & 0.00 & -2.74 & 2.74 \\ 
+  ForeRecr\_2024 & 0.00 & -2.74 & 2.74 \\ 
+  ForeRecr\_2025 & 0.00 & -2.74 & 2.74 \\ 
+  ForeRecr\_2026 & 0.00 & -2.74 & 2.74 \\ 
+  ForeRecr\_2027 & 0.00 & -2.74 & 2.74 \\ 
+  ForeRecr\_2028 & 0.00 & -2.74 & 2.74 \\ 
+  ForeRecr\_2029 & 0.00 & -2.74 & 2.74 \\ 
+  ForeRecr\_2030 & 0.00 & -2.74 & 2.74 \\ 
+  ForeRecr\_2031 & 0.00 & -2.74 & 2.74 \\ 
+  ForeRecr\_2032 & 0.00 & -2.74 & 2.74 \\ 
+  Impl\_err\_2021 & 0.00 &  &  \\ 
+  Impl\_err\_2022 & 0.00 &  &  \\ 
+  Impl\_err\_2023 & 0.00 &  &  \\ 
+  Impl\_err\_2024 & 0.00 &  &  \\ 
+  Impl\_err\_2025 & 0.00 &  &  \\ 
+  Impl\_err\_2026 & 0.00 &  &  \\ 
+  Impl\_err\_2027 & 0.00 &  &  \\ 
+  Impl\_err\_2028 & 0.00 &  &  \\ 
+  Impl\_err\_2029 & 0.00 &  &  \\ 
+  Impl\_err\_2030 & 0.00 &  &  \\ 
+  Impl\_err\_2031 & 0.00 &  &  \\ 
+  Impl\_err\_2032 & 0.00 &  &  \\ 
+  Q\_base\_ENV(4) & 0.09 & 0.04 & 0.14 \\ 
+  Q\_extraSD\_ENV(4) & 0.31 & 0.20 & 0.42 \\ 
+  LnQ\_base\_AKSHLF(5) & 0.32 & -0.21 & 0.86 \\ 
+  Q\_extraSD\_AKSHLF(5) & 0.18 & 0.04 & 0.31 \\ 
+  LnQ\_base\_AKSLP(6) & -0.42 &  &  \\ 
+  Q\_extraSD\_AKSLP(6) & 0.04 & -0.04 & 0.11 \\ 
+  LnQ\_base\_NWSLP(7) & -0.73 &  &  \\ 
+  Q\_extraSD\_NWSLP(7) & 0.16 & 0.00 & 0.32 \\ 
+  LnQ\_base\_NWCBO(8) & -0.53 &  &  \\ 
+  Q\_extraSD\_NWCBO(8) & 0.00 &  &  \\ 
+  LnQ\_base\_AKSHLF(5)\_BLK1repl\_1995 & -0.07 & -0.62 & 0.48 \\ 
+  Retain\_L\_infl\_FIX(1) & 41.00 &  &  \\ 
+  Retain\_L\_width\_FIX(1) & 6.00 &  &  \\ 
+  Retain\_L\_asymptote\_logit\_FIX(1) & 10.00 &  &  \\ 
+  Retain\_L\_maleoffset\_FIX(1) & 0.00 &  &  \\ 
+  DiscMort\_L\_infl\_FIX(1) & 28.00 &  &  \\ 
+  DiscMort\_L\_width\_FIX(1) & 0.01 &  &  \\ 
+  DiscMort\_L\_level\_old\_FIX(1) & 0.20 &  &  \\ 
+  DiscMort\_L\_male\_offset\_FIX(1) & 0.00 &  &  \\ 
+  Retain\_L\_infl\_TWL(3) & 41.00 &  &  \\ 
+  Retain\_L\_width\_TWL(3) & 2.90 &  &  \\ 
+  Retain\_L\_asymptote\_logit\_TWL(3) & 10.00 &  &  \\ 
+  Retain\_L\_maleoffset\_TWL(3) & 0.00 &  &  \\ 
+  DiscMort\_L\_infl\_TWL(3) & 28.00 &  &  \\ 
+  DiscMort\_L\_width\_TWL(3) & 0.01 &  &  \\ 
+  DiscMort\_L\_level\_old\_TWL(3) & 0.50 &  &  \\ 
+  DiscMort\_L\_male\_offset\_TWL(3) & 0.00 &  &  \\ 
+  Age\_DblN\_peak\_FIX(1) & 5.00 &  &  \\ 
+  Age\_DblN\_top\_logit\_FIX(1) & -4.00 &  &  \\ 
+  Age\_DblN\_ascend\_se\_FIX(1) & 0.20 & -1.27 & 1.66 \\ 
+  Age\_DblN\_descend\_se\_FIX(1) & 2.84 & 2.16 & 3.52 \\ 
+  Age\_DblN\_start\_logit\_FIX(1) & -5.00 &  &  \\ 
+  Age\_DblN\_end\_logit\_FIX(1) & -1.50 &  &  \\ 
+  AgeSel\_1MaleDogleg\_FIX & 0.00 &  &  \\ 
+  AgeSel\_1MaleatZero\_FIX & 0.06 & -113863.99 & 113864.10 \\ 
+  AgeSel\_1MaleatDogleg\_FIX & -0.83 & -1.07 & -0.60 \\ 
+  AgeSel\_1MaleatMaxage\_FIX & -1.31 & -2.29 & -0.33 \\ 
+  Age\_DblN\_peak\_TWL(3) & 1.00 &  &  \\ 
+  Age\_DblN\_top\_logit\_TWL(3) & -4.00 &  &  \\ 
+  Age\_DblN\_ascend\_se\_TWL(3) & -2.40 & -7422.20 & 7417.39 \\ 
+  Age\_DblN\_descend\_se\_TWL(3) & -9.00 &  &  \\ 
+  Age\_DblN\_start\_logit\_TWL(3) & -4.03 &  &  \\ 
+  Age\_DblN\_end\_logit\_TWL(3) & -1.60 & -1.93 & -1.27 \\ 
+  Age\_DblN\_peak\_AKSHLF(5) & 1.00 &  &  \\ 
+  Age\_DblN\_top\_logit\_AKSHLF(5) & -4.00 &  &  \\ 
+  Age\_DblN\_ascend\_se\_AKSHLF(5) & -9.74 & -3153.03 & 3133.55 \\ 
+  Age\_DblN\_descend\_se\_AKSHLF(5) & -1.01 & -1.75 & -0.27 \\ 
+  Age\_DblN\_start\_logit\_AKSHLF(5) & -2.50 &  &  \\ 
+  Age\_DblN\_end\_logit\_AKSHLF(5) & -3.86 & -4.83 & -2.88 \\ 
+  AgeSel\_5MaleDogleg\_AKSHLF & 0.00 &  &  \\ 
+  AgeSel\_5MaleatZero\_AKSHLF & -0.54 & -113716.22 & 113715.13 \\ 
+  AgeSel\_5MaleatDogleg\_AKSHLF & -0.17 & -0.42 & 0.08 \\ 
+  AgeSel\_5MaleatMaxage\_AKSHLF & -6.16 & -10.84 & -1.47 \\ 
+  Age\_DblN\_peak\_AKSLP(6) & 1.47 & 0.32 & 2.61 \\ 
+  Age\_DblN\_top\_logit\_AKSLP(6) & -4.00 &  &  \\ 
+  Age\_DblN\_ascend\_se\_AKSLP(6) & -4.00 &  &  \\ 
+  Age\_DblN\_descend\_se\_AKSLP(6) & -5.96 & -113400.20 & 113388.27 \\ 
+  Age\_DblN\_start\_logit\_AKSLP(6) & -1.34 &  &  \\ 
+  Age\_DblN\_end\_logit\_AKSLP(6) & -0.53 & -1.20 & 0.14 \\ 
+  Age\_DblN\_peak\_NWSLP(7) & 3.59 & 1.34 & 5.83 \\ 
+  Age\_DblN\_top\_logit\_NWSLP(7) & -4.00 &  &  \\ 
+  Age\_DblN\_ascend\_se\_NWSLP(7) & 1.49 & -0.72 & 3.71 \\ 
+  Age\_DblN\_descend\_se\_NWSLP(7) & -3.29 & -24.20 & 17.61 \\ 
+  Age\_DblN\_start\_logit\_NWSLP(7) & -4.57 &  &  \\ 
+  Age\_DblN\_end\_logit\_NWSLP(7) & 0.19 & -0.98 & 1.36 \\ 
+  Age\_DblN\_peak\_NWCBO(8) & 0.09 & 0.04 & 0.14 \\ 
+  Age\_DblN\_top\_logit\_NWCBO(8) & -4.00 &  &  \\ 
+  Age\_DblN\_ascend\_se\_NWCBO(8) & -8.45 & -107851.18 & 107834.28 \\ 
+  Age\_DblN\_descend\_se\_NWCBO(8) & 3.48 & 3.16 & 3.79 \\ 
+  Age\_DblN\_start\_logit\_NWCBO(8) & -4.00 &  &  \\ 
+  Age\_DblN\_end\_logit\_NWCBO(8) & -0.32 &  &  \\ 
+  Retain\_L\_infl\_FIX(1)\_BLK2repl\_1942 & 25.00 &  &  \\ 
+  Retain\_L\_infl\_FIX(1)\_BLK2repl\_1947 & 38.96 &  &  \\ 
+  Retain\_L\_infl\_FIX(1)\_BLK2repl\_1997 & 40.35 & 35.88 & 44.82 \\ 
+  Retain\_L\_infl\_FIX(1)\_BLK2repl\_2011 & 41.37 & 39.82 & 42.92 \\ 
+  Retain\_L\_infl\_FIX(1)\_BLK2repl\_2019 & 35.92 & 13.15 & 58.69 \\ 
+  Retain\_L\_asymptote\_logit\_FIX(1)\_BLK2repl\_1942 & 10.00 &  &  \\ 
+  Retain\_L\_asymptote\_logit\_FIX(1)\_BLK2repl\_1947 & 10.00 &  &  \\ 
+  Retain\_L\_asymptote\_logit\_FIX(1)\_BLK2repl\_1997 & 2.54 & 1.84 & 3.23 \\ 
+  Retain\_L\_asymptote\_logit\_FIX(1)\_BLK2repl\_2011 & 4.01 &  &  \\ 
+  Retain\_L\_asymptote\_logit\_FIX(1)\_BLK2repl\_2019 & 2.13 & 0.68 & 3.59 \\ 
+  Retain\_L\_infl\_TWL(3)\_BLK3repl\_1942 & 25.00 &  &  \\ 
+  Retain\_L\_infl\_TWL(3)\_BLK3repl\_1947 & 45.93 &  &  \\ 
+  Retain\_L\_infl\_TWL(3)\_BLK3repl\_1982 & 47.75 & 46.77 & 48.74 \\ 
+  Retain\_L\_infl\_TWL(3)\_BLK3repl\_2011 & 33.75 & 33.14 & 34.36 \\ 
+  Retain\_L\_infl\_TWL(3)\_BLK3repl\_2019 & 42.27 & 39.49 & 45.05 \\ 
+  Retain\_L\_asymptote\_logit\_TWL(3)\_BLK3repl\_1942 & 10.00 &  &  \\ 
+  Retain\_L\_asymptote\_logit\_TWL(3)\_BLK3repl\_1947 & 10.00 &  &  \\ 
+  Retain\_L\_asymptote\_logit\_TWL(3)\_BLK3repl\_1982 & 3.74 & 2.93 & 4.55 \\ 
+  Retain\_L\_asymptote\_logit\_TWL(3)\_BLK3repl\_2011 & 10.00 &  &  \\ 
+  Retain\_L\_asymptote\_logit\_TWL(3)\_BLK3repl\_2019 & 5.33 & -1.97 & 12.62 \\ 
+  Age\_DblN\_peak\_FIX(1)\_BLK4repl\_1997 & 3.15 & 2.39 & 3.91 \\ 
+  Age\_DblN\_peak\_FIX(1)\_BLK4repl\_2003 & 5.04 & 3.39 & 6.68 \\ 
+  Age\_DblN\_peak\_FIX(1)\_BLK4repl\_2011 & 3.06 & 3.02 & 3.10 \\ 
+  Age\_DblN\_ascend\_se\_FIX(1)\_BLK4repl\_1997 & -1.24 &  &  \\ 
+  Age\_DblN\_ascend\_se\_FIX(1)\_BLK4repl\_2003 & 1.85 & 0.55 & 3.15 \\ 
+  Age\_DblN\_ascend\_se\_FIX(1)\_BLK4repl\_2011 & -8.68 & -4514.48 & 4497.12 \\ 
+  Age\_DblN\_descend\_se\_TWL(3)\_BLK5repl\_1982 & 2.06 & 1.19 & 2.93 \\ 
+  Age\_DblN\_descend\_se\_TWL(3)\_BLK5repl\_2003 & 6.60 & 5.88 & 7.32 \\ 
+  Age\_DblN\_descend\_se\_TWL(3)\_BLK5repl\_2011 & 9.18 & -0.32 & 18.67 \\ 
+  Age\_DblN\_descend\_se\_AKSHLF(5)\_BLK6repl\_1995 & 3.17 & 2.82 & 3.52 \\ 
+   \hline
+\end{tabular}
+\caption{Stock-recruitment, mortality, growth and catchability parameter
+       estimates with their ~95% interval from the base model.} 
+\end{table}

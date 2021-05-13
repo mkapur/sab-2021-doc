@@ -1,0 +1,15 @@
+"","v30.09","v30.16 (est)","v30.16 (fix M, desc NWSLP/AKSLP)"
+"TOTAL",3306.51,3306.81,3306.51
+"Catch",0,0,0
+"Equil_catch",0,0,0
+"Survey",-4.99,-4.41,-4.99
+"Discard",-36.38,-36.42,-36.38
+"Mean_body_wt",-19.3,-19.28,-19.3
+"Length_comp",334.59,334.63,334.59
+"Age_comp",2995.95,2995.88,2995.95
+"Recruitment",36.19,35.96,36.19
+"InitEQ_Regime",0,0,0
+"Forecast_Recruitment",0,0,0
+"Parm_priors",0.45,0.47,0.45
+"Parm_devs",0,0,0
+"Crash_Pen",0,0,0

@@ -3,6 +3,7 @@
 require(sa4ss)
 require(here)
 require(rmarkdown)
+library(pdftools)
 # rmarkdown::pandoc_version() ## ‘2.8.0.1’ has bib issues
 ## had to paste from C:\Users\mkapur\AppData\Local\Pandoc to C:\Program Files\RStudio\bin\pandoc
 # rmarkdown::find_pandoc(version = "2.11.0.4")
@@ -19,4 +20,8 @@ setwd("doc")
 bookdown::render_book("00a.Rmd",
                       clean = FALSE, 
                       output_dir =here())
-sessionInfo()
+
+
+pdf_combine(c(here("_main.pdf"), "sablefish_app_man.pdf"), 
+            output = "two_joined_pdfs.pdf")
+# sessionInfo()

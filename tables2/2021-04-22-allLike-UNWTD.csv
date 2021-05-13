@@ -1,0 +1,6 @@
+"Label","Benchmark_2019","Update [TOR], with discard data UNWTD","Update [TOR], no discard fraction UNWTD","Disc Lcomps + 2019 Timeblock UNWTD","Disc Lcomps + 2018 Timeblock UNWTD"
+"TOTAL_like",3306.51,6060.91,5643.99,7182.61,7498.77
+"Survey_like",-4.98883,-21.8631,-29.2522,-29.7502,-28.004
+"Length_comp_like",334.593,489.449,322.237,1549.45,1773.96
+"Age_comp_like",2995.95,5577.85,5340.97,5526.34,5546.19
+"Parm_priors_like",0.445057,0.69987,0.668435,0.194078,0.276822

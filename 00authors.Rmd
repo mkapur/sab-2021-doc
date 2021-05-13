@@ -2,43 +2,49 @@
 author:
   - name: Maia S. Kapur
     code: 1
-    first: M
-    middle: S
+    first: Maia
+    middle: Sosa
     family: Kapur
   - name: Lee Qi
     code: 1
     first: Qi
     middle: 
     family: Lee
-  - name: Giancarlo Moron-Correa
+  - name: Giancarlo M. Correa
     code: 2
     first: Giancarlo
-    middle: 
-    family: Moron-Correa
+    middle: M.
+    family: Correa
   - name: Melissa A. Haltuch
-    code: 1
+    code: 3
     first: Melissa
-    middle: A
+    middle: A.
     family: Haltuch
+  - name: Vladlena Gertseva
+    code: 3
+    first: Vladlena
+    middle: 
+    family: Gertseva
   - name: Owen Hamel
-    code: 2
+    code: 3
     first: Owen
-    middle: S
+    middle: S.
     family: Hamel
-author_list: Kapur, M. S., Lee, Q., Moron-Correa, G., Haltuch, M., Gertseva, V., and Hamel, O.
+author_list: Kapur, M. S., Lee, Q., Correa, G. M., Haltuch, M., Gertseva, V., and Hamel, O.
 affiliation:
   - code: 1
     address: School of Aquatic and Fisheries Sciences, University of Washington, 1122 NE Boat St, Seattle, WA 98105
   - code: 2
+    address: College of Earth, Ocean and Atmospheric Sciences, Oregon State University, 104 CEOAS Admin. Bldg. Corvallis, OR 97331-5503
+  - code: 3
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
       Oceanic and Atmospheric Administration, National Marine Fisheries Service, 2725
       Montlake Boulevard East, Seattle, Washington 98112
-  - code: 3
-    address: College of Earth, Ocean and Atmospheric Sciences, Oregon State University, 104 CEOAS Admin. Bldg. Corvallis, OR 97331-5503
 address:
   - ^1^School of Aquatic and Fisheries Sciences, 1122 NE Boat St, Seattle, WA 98105
-  - ^2^Northwest Fisheries Science Center, U.S. Department of Commerce, National Oceanic
+  - ^2^College of Earth, Ocean and Atmospheric Sciences, Oregon State University, 104 CEOAS Admin. Bldg. Corvallis, OR 97331-5503
+  - ^3^Northwest Fisheries Science Center, U.S. Department of Commerce, National Oceanic
     and Atmospheric Administration, National Marine Fisheries Service, 2725 Montlake
     Boulevard East, Seattle, Washington 98112
-  - ^3^College of Earth, Ocean and Atmospheric Sciences, Oregon State University, 104 CEOAS Admin. Bldg. Corvallis, OR 97331-5503
+
 ---

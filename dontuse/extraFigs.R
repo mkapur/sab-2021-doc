@@ -1,0 +1,5 @@
+![Spatial distribution (gm  ha$^{-1}$) and time series of abundance (mt) for age-0 sablefish recruits from 2003-2018 along the U.S. West Coast. Data are from the West Coast Groundfish Bottom Trawl Survey for 2003-2019 and were analyzed via vector-autoregressive spatiotemporal modeling to quantify spatial and temporal patterns in the `r spp` biomass and calculate a coast-wide index of abundance.\label{fig:ecocons2}](figs/EcoCons_Figure_2.png){width=50% height=50% alt="Survey age-0 abundance through time"}
+
+![Time series of biomass (thousand mt) for dover sole, petrale sole, and sablefish (panels) within 200 km of four focal ports (colors) along the U.S. West Coast.\label{fig:ecocons5}](figs/EcoCons_Figure_5.png){width=50% height=50% alt="Time series of dover sole, petrale sole, and sablefish landings"}
+
+![Numbers of whales reported as entangled in fishing gear along the U.S. West Coast from 2000-2019. Reproduced with permission from Harvey (2019).\label{fig:ecocons6}](figs/EcoCons_Figure_6.png){width=80% height=60% alt="Whale entanglements in US Fishing Gear, 2000-2019."}

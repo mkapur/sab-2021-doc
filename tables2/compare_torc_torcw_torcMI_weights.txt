@@ -1,0 +1,22 @@
+% latex table generated in R 4.0.3 by xtable 1.8-4 package
+% Mon May 10 13:16:21 2021
+\begin{table}[ht]
+\centering
+\begin{tabular}{rllrrr}
+  \hline
+ & Type & Name & Weights\_2019 & Weights\_2021\_Harmonic & Weights\_2021\_Francis \\ 
+  \hline
+1 & len & FIX & NA & 0.11 & 0.10 \\ 
+  2 & len & TWL & NA & 0.05 & 0.04 \\ 
+  3 & len & NWCBO & 0.29 & 0.28 & 0.03 \\ 
+  4 & age & FIX & 1.00 & 0.21 & 0.10 \\ 
+  5 & age & TWL & 1.00 & 0.46 & 0.19 \\ 
+  6 & age & AKSHLF & 0.10 & 0.09 & 1.00 \\ 
+  7 & age & AKSLP & 0.32 & 0.35 & 0.11 \\ 
+  8 & age & NWSLP & 0.44 & 0.48 & 0.13 \\ 
+  9 & age & NWCBO & 0.25 & 0.24 & 0.29 \\ 
+   \hline
+\end{tabular}
+\caption{Comparison of tuned weights by source model and method. 
+       2019 Benchmark data inputs were weighted using the Francis method.} 
+\end{table}
