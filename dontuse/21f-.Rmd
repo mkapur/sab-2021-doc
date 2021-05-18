@@ -1,1 +1,37 @@
 ## Fishery-Dependent Data
+
+### Historical Commercial Landings
+The historical commercial catch reconstruction used for this assessment is the same as that used
+in the last assessment for Oregon and California (Table 1; Figure 8). A new reconstruction was
+available fromWashington that extended the catch history back to 1890. The most recent historical catches (from 1986 to present for Oregon and from 1981 to present for California and Washington)
+were extracted from Pacific Fisheries Information Network (PacFIN) during the end of May
+2019.
+For California, 1916–1968 commercial landings rely on estimates from the reconstruction efforts
+by the Southwest Fisheries Science Center and California Department of Fish and Game (CDFG;
+Ralston et al. 2010). Reconstructions utilized spatial information regarding groundfish landings
+back to 1931. This method is probably reliable for sablefish because they are identified as a separate
+market category. Landings estimates for 1916-1931 were available from published CDFG
+Bulletins. Fisheries statistics of the U.S., published by the U.S. Fish Commission, extended the
+series back to 1908. Catch from 1908 was estimated to be less than 16 mt and was linearly extrapolated
+to zero in the first year of the model. The cumulative catch during this period was relatively
+small, and although there is uncertainty in apportionment to gear type, catches were split between
+fixed-gear and trawl fleets based on the earliest ratio recorded.
+Oregon reconstruction efforts extend historical catches back to 1927 (Karnowski et al., 2014).
+Low et al. (1976) provided total landings from 1915-1926. Information prior to 1915 remains
+undocumented. Thus, a linear extrapolation from 10 to 0 mt between 1915 and the first year of the
+model was applied.
+Washington completed a historical catch reconstruction for this 2019 assessment (pers comm.,
+Tien-Shui Tsou). These catches represent the best available landed catch information and are
+highly similar to the historical catches used in past sablefish stock assessments. The following
+information sources were included in the reconstruction:
+1. 1890-1908: U.S. Fish Commission bulletin,
+2. 1915-1952: PMFC bulletin 3, appendix (page 130, using a conversion factor of 1.75 for
+dressed fish),
+3. 1953-1969: Washington Statistical bulletin, and
+4. 1970-1980: Washington fish ticket database.
+Catch area assignments were based on Seattle market reports and Washington Statistical bulletins.
+Gear type was based on PMFC bulletin 3 (page 44, Table 2) and Washington Statistical bulletins.
+During this reconstruction, it was found that catches during approximately 1935 to 1950 were
+slightly higher than those used previously because dressed fish were erroneously treated as whole
+fish rather than being expanded using the Washington Department of Fish and Wildlife (WDFW)
+conversion factor for that period.
