@@ -25,12 +25,12 @@ author:
     first: Vladlena
     middle: 
     family: Gertseva
-  - name: Owen Hamel
+  - name: Owen S. Hamel
     code: 3
     first: Owen
     middle: S.
     family: Hamel
-author_list: Kapur, M. S., Lee, Q., Correa, G. M., Haltuch, M., Gertseva, V., and Hamel, O.
+author_list: Kapur, M. S., Lee, Q., Correa, G. M., Haltuch, M., Gertseva, V., and Hamel, O
 affiliation:
   - code: 1
     address: School of Aquatic and Fisheries Sciences, University of Washington, 1122 NE Boat St, Seattle, WA 98105
