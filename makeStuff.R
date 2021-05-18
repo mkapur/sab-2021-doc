@@ -230,12 +230,12 @@ torc$parameters %>%
   # select(TEX) %>% 
   write.csv(.,here('tables',paste0(Sys.Date(),'torcParms.csv')),row.names = FALSE)
 
-
+options(scipen = 999)
 xtable(torc$parameters %>%
          select(Label, Value, Parm_StDev) %>% 
-         mutate(uci =  round(Value + 1.96*Parm_StDev,3), 
-                lci = round(Value - 1.96*Parm_StDev,3), 
-                Value = round(Value,3)) %>%
+         mutate(uci =  signif(Value + 1.96*Parm_StDev,3), 
+                lci = signif(Value - 1.96*Parm_StDev,3),
+                Value = signif(Value, digits = 3 )) %>%
          select( Value, lci, uci),
        caption = "Stock-recruitment, mortality, growth and catchability parameter
        estimates with their ∼95% interval from the base model.") %>%
@@ -247,8 +247,9 @@ xtable(torc$parameters %>%
 
 
 xtable(torc$parameters[grepl('Dbl|Sel|Len|Retain',torc$parameters$Label),] %>%
+         mutate(Value = signif(Value, digits = 2 )) %>%
          select(Value),
-       caption = "Estimated selectivity parameters from the base model.", digits = 2) %>%
+       caption = "Estimated selectivity parameters from the base model.") %>%
   print(., file =  here('doc','tables','baseselexpars.txt'))
 
 
@@ -263,10 +264,11 @@ Mod <- as.data.frame(cbind(Year,SSB,SSB.StdDev,Depl,Depl.StdDev))
 
 
 #read in historical model estimates
-HistMods <-  read.table(here('tables',"SIS_TimeSeries_Sablefish_2005-2019_ForR.csv"), sep=",", header=T)
-HistMods$SSB.2019.mt <- o19$timeseries$SpawnBio[o19$timeseries$Yr %in% HistMods$Year[10:nrow(HistMods)]]
-head(HistMods)
+# HistMods <-  read.table(here('doc','tables',"SIS_TimeSeries_Sablefish_2005-2019_ForR.csv"), sep=",", header=T)
+# # HistMods$SSB.2019.mt <- o19$timeseries$SpawnBio[o19$timeseries$Yr %in% HistMods$Year[10:nrow(HistMods)]]
+# head(HistMods)
 # write.csv(HistMods, file = here("tables","SIS_TimeSeries_Sablefish_2005-2020_ForR.csv"),row.names = FALSE)
+HistMods <-  read.csv(here('doc','tables',"SIS_TimeSeries_Sablefish_2005-2020_ForR.csv"), sep=",", header=T)
 
 cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 #plot
@@ -281,8 +283,8 @@ lines(HistMods$Year,HistMods$SSB.2007.mt,col=cbbPalette[3],cex=0.5,type="l", lwd
 lines(HistMods$Year,HistMods$SSB.2011.mt,col=cbbPalette[4],cex=0.5,type="l", lwd=2)
 lines(HistMods$Year,HistMods$SSB.2015.mt,col=cbbPalette[5],cex=0.5,type="l", lwd=2)
 lines(HistMods$Year,HistMods$SSB.2019.mt,col=cbbPalette[6],cex=0.5,type="l", lwd=2)
-legend('topright',legend = c("2021","2005","2007","2011","2015", "2019"),
-       col =cbbPalette,cex =0.8,
+legend('topright',legend = c("2005","2007","2011","2015", "2019", "2021"),
+       col =c(cbbPalette[2:6],cbbPalette[1]), cex =0.8,
        lty = 1, merge = TRUE, lwd=c(3,2,2,2,2,2))
 
 
@@ -295,9 +297,8 @@ lines(HistMods$Year,HistMods$SSB.2007.mt/244803,col=cbbPalette[3],cex=0.5,type="
 lines(HistMods$Year,HistMods$SSB.2011.mt/178804,col=cbbPalette[4],cex=0.5,type="l", lwd=2)
 lines(HistMods$Year,HistMods$SSB.2015.mt/146687,col=cbbPalette[5],cex=0.5,type="l", lwd=2)
 lines(HistMods$Year,HistMods$SSB.2019.mt/147729,col=cbbPalette[6],cex=0.5,type="l", lwd=2)
-legend('topright', legend = c("2021","2005","2007","2011","2015", "2019"),
-       col =cbbPalette,
-       cex = 0.8,
+legend('topright',legend = c("2005","2007","2011","2015", "2019", "2021"),
+       col =c(cbbPalette[2:6],cbbPalette[1]), cex =0.8,
        lty = 1, merge = TRUE, lwd=c(3,2,2,2,2,2))
 dev.off()
 
@@ -310,3 +311,90 @@ grid.arrange(rasterGrob(readPNG(here('doc','figs',
                                      'survslx.png'))),
              ncol=1)
 graphics.off()
+
+## better VAST figure cause the one we got was ugly
+ind <- read.csv(here("dataprep","processed_data","survey","forSS",'table_for_ss3.csv'))  %>%
+  mutate(lci = Estimate_metric_tons-1.96*SD_mt,
+         uci = Estimate_metric_tons+1.96*SD_mt) %>%
+  mutate(Fleet = ifelse(Fleet == 8, "north_south (used in assessment)", Fleet))
+
+ggplot(ind, aes(x = Year, y = Estimate_metric_tons, color = Fleet)) +
+  ggsidekick::theme_sleek(base_size = 18) + theme( legend.position = 'top') +
+  geom_point() +
+  scale_x_continuous(limits = c(2003,2020), breaks = seq(2003,2020,4))+
+  scale_y_continuous(limits = c(0,150000), breaks = seq(0,150000,25000))+
+  scale_color_manual(values = c('goldenrod','black','dodgerblue2'))+
+  geom_segment(aes(x = Year, xend = Year, y = lci, yend = uci)) +
+  labs(y = 'Index', color = '') 
+
+ggsave(last_plot(),
+       width = 6, height = 4, dpi = 520,
+       file = here("doc","figs","Index-Biomass.png"))
+
+
+## fixing tables
+
+
+## Landings is in catch$Exp (should match obs as well as ret_bio), total dead is killbio
+# remotes::install_github("r4ss/r4ss", branch = 'development')
+## only the dev branch has the indices fix per issue 324
+# https://github.com/r4ss/r4ss/issues/324
+
+require(r4ss)
+SSplotIndices(o19, fleets  = 4)
+SSplotIndices(torc, fleets  = 4)
+
+
+with(torc$cpue %>% filter(Fleet == 4), min(Yr))
+o19cpue <- o19$cpue[o19$cpue$Fleet==4,]
+torc$cpue %>% filter(Fleet == 4 & Yr > 1930) %>% select(Yr, Obs, Exp, SE) %>%
+  mutate(lci = qnorm(0.025, mean =Obs, sd = SE),
+         uci = qnorm(0.975, mean = Obs, sd = SE),
+         lexp = log(Exp)) %>% 
+  ggplot(., aes(x = Yr, y = Obs)) +
+  ggsidekick::theme_sleek(base_size = 18) +
+  scale_y_continuous(limits = c(-7,4)) +
+  geom_line(data =o19cpue,  aes(x =o19cpue$Yr, y =  log(o19cpue$Exp),  color = '2019 fit'),lwd = 1.1) +
+  geom_point() +
+  geom_line(aes(y = lexp),
+            color = 'blue',
+            lwd = 1.1) +
+  geom_segment(aes(x = Yr, xend = Yr, y = lci, yend = uci)) +
+  labs(x = 'year', y = 'Log Index')
+
+ggsave(last_plot(),
+       file = here('figs','index2_cpuefit_ENV_log.png'),
+       width = 8, height = 6, dpi = 520)
+
+
+
+
+o19$catch %>% filter(Yr == 2018) %>% select(kill_bio,ret_bio) %>% apply(.,2,sum)
+
+torc$catch %>% filter(Yr == 2018)%>% select(kill_bio,ret_bio) %>% apply(.,2,sum)
+
+torc$timeseries %>% filter(Yr == 2018)
+
+SSexecutivesummary(torc, format = FALSE)
+
+# torc$derived_quants[grep('Recr_2',torc$derived_quants$Label),] %>%
+#   mutate(Yr = substr(.$Label, 6,9)) %>%
+#   filter(Yr > 2010 & Yr < 2022) %>%
+#   
+#   mutate(logM = log(Value),
+#          logsd = log(StdDev),
+#          lci = logM-1.96*log(StdDev) ,
+#          uci = logM+1.96*log(StdDev) )
+
+
+## sens run with AKSHLF weights at 0.1
+
+torc_akshlf0.1 <- SS_output(here('council_runs','torc-lq-base-bnds-AKSHLF0.1'))
+
+SSplotComparisons(SSsummarize(list(torc, torc_akshlf0.1)),
+                  png = TRUE,
+                  col = c(upcol[4],'grey34'),
+                  plotdir = here('council_runs','torc-lq-base-bnds-AKSHLF0.1'),
+                  legendlabels = c('2021 Update Base',
+                                   'Base w/ AKSHLF weight=0.1'))
+
