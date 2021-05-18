@@ -22,6 +22,6 @@ bookdown::render_book("00a.Rmd",
                       output_dir =here())
 
 
-pdf_combine(c(here("_main.pdf"), "sablefish_app_man.pdf"), 
-            output = "two_joined_pdfs.pdf")
+# pdf_combine(c(here("_main.pdf"), "sablefish_app_man.pdf"), 
+            # output = "two_joined_pdfs.pdf")
 # sessionInfo()
