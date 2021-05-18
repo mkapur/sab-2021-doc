@@ -2,8 +2,8 @@
 # Tables
 
 ## Executive Summary Tables
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{11}\selectfont
+\begingroup\fontsize{10}{11}\selectfont
 
 \begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
 \caption{\label{tab:removals}Recent landings by fleet, total landings summed across fleets, and the total mortality including discards.}\\
@@ -13,7 +13,7 @@ Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
 \endfirsthead
 \caption[]{Recent landings by fleet, total landings summed across fleets, and the total mortality including discards. \textit{(continued)}}\\
 \toprule
-Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
+Year & Fixed-gear & Trawl & Total Landings &  Model-Estimated Total Dead\\
 \midrule
 \endhead
 
@@ -70,10 +70,14 @@ Year & Spawning Biomass (mt) & Lower Interval & Upper Interval & Fraction Unfish
 
 \clearpage
 
-\begingroup\fontsize{8}{10}\selectfont
-\begingroup\fontsize{8}{10}\selectfont
+\newpage
 
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}}
+\blandscape
+
+\begingroup\fontsize{8}{9}\selectfont
+\begingroup\fontsize{8}{9}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.95cm}>{\centering\arraybackslash}p{0.95cm}}
 \caption{\label{tab:summaryES}Summary of recent estimates and managment quantities.}\\
 \toprule
 Quantity & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020 & 2021\\
@@ -90,64 +94,66 @@ Quantity & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020 &
 \endlastfoot
 OFL & 8808 & 8623 & 6621 & 7158 & 7857 & 8526 & 8050 & 8239 & 8489 & 8648 & 9402\\
 ACL & 6813 & 6605 & 5451 & 5909 & 6512 & 7121 & 7117 & 7419 & 7750 & 7896 & 8791\\
-Total Catch & 6149.25 & 5184.8 & 3987.2 & 4216.46 & 5025.23 & 5305.81 & 5350.64 & 5126.94 & 5193.71 & 3762.75 & NA\\
-Total Dead & 6253.97 & 5283.6 & 4050.48 & 4294.9 & 5105.52 & 5401.39 & 5465.76 & 5220.22 & 5372.81 & 3882.69 & NA\\
-(1-SPR)/(1-SPR 45\%) & 0.970534 & 0.750879 & 0.610802 & 0.612182 & 0.712245 & 0.756253 & 0.683499 & 0.663391 & 0.61702 & 0.403801 & NA\\
-Exploitation Rate & 0.0316251 & 0.0240422 & 0.0191978 & 0.0199865 & 0.0243055 & 0.0269717 & 0.0249791 & 0.0243026 & 0.0243915 & 0.014874 & NA\\
-Age 4+ Biomass (mt) & 197753 & 219764 & 210986 & 214890 & 210057 & 200261 & 218814 & 214801 & 220274 & 261038 & 375550\\
-Spawning Biomass (mt) & 80351.5 & 79223 & 79605.1 & 80187.9 & 79676.1 & 78633.2 & 79326.7 & 80687.2 & 83925.1 & 90756.5 & 97801.9\\
-Lower Interval & 32648.1325766781 & 31838.5187169628 & 32059.9016702305 & 32563.5191252551 & 32447.4358537337 & 31824.5561356206 & 31972.7941551216 & 32503.6414004658 & 33936.0225779075 & 37136.0013073517 & 40802.4233980046\\
-Upper Interval & 128054.867423322 & 126607.481283037 & 127150.29832977 & 127812.280874745 & 126904.764146266 & 125441.843864379 & 126680.605844878 & 128870.758599534 & 133914.177422093 & 144376.998692648 & 154801.376601995\\
-Recruits & 6445.91 & 2759.31 & 34307.6 & 6708.58 & 18010.9 & 55594.5 & 10688.7 & 8151.38 & 6274.11 & 12455.3 & 15207.7\\
-Lower Interval & 2238.00452267142 & 353.787402854456 & 15326.0347971242 & 2238.47054081965 & 7329.566675613 & 24621.9731379073 & 3033.88426162021 & 518.633456086133 & -9844.16341750111 & -21008.3410864431 & -27593.7974979872\\
-Upper Interval & 10653.8154773286 & 5164.83259714554 & 53289.1652028758 & 11178.6894591803 & 28692.233324387 & 86567.0268620927 & 18343.5157383798 & 15784.1265439139 & 22392.3834175011 & 45918.9410864431 & 58009.1974979872\\
-Fraction Unfished & 0.475804 & 0.469122 & 0.471384 & 0.474836 & 0.471805 & 0.465629 & 0.469736 & 0.477792 & 0.496966 & 0.537418 & 0.579137\\
-Lower Interval & 0.316713919371282 & 0.309947052930752 & 0.311266310254188 & 0.314407067973443 & 0.312410536964483 & 0.306826838080611 & 0.308325518009985 & 0.31298333245359 & 0.325455627601252 & 0.353206472992237 & 0.383582181431712\\
-Upper Interval & 0.634894080628718 & 0.628296947069248 & 0.631501689745812 & 0.635264932026557 & 0.631199463035517 & 0.624431161919389 & 0.631146481990015 & 0.64260066754641 & 0.668476372398748 & 0.721629527007763 & 0.774691818568289\\*
+Total Catch & 6149.25 & 5184.80 & 3987.20 & 4216.46 & 5025.23 & 5305.81 & 5350.64 & 5126.94 & 5193.71 & 3762.75 &  \\ 
+Total Dead & 6253.97 & 5283.60 & 4050.48 & 4294.90 & 5105.52 & 5401.39 & 5465.76 & 5220.22 & 5372.81 & 3882.69 &  \\ 
+(1-SPR)/(1-SPR\_45\%) & 0.97 & 0.75 & 0.61 & 0.61 & 0.71 & 0.76 & 0.68 & 0.66 & 0.62 & 0.40 &  \\ 
+Exploitation Rate & 0.03 & 0.02 & 0.02 & 0.02 & 0.02 & 0.03 & 0.02 & 0.02 & 0.02 & 0.01 &  \\ 
+Age 4+ Biomass (mt) & 197,753 & 219,764 & 210,986 & 214,890 & 210,057 & 200,261 & 218,814 & 214,801 & 220,274 & 261,038 & 375,550 \\ 
+Spawning Biomass (mt) & 80,352 & 79,223 & 79,605 & 80,188 & 79,676 & 78,633 & 79,327 & 80,687 & 83,925 & 90,757 & 97,802 \\ 
+\textit{Lower Interval}& 32,648 & 31,839 & 32,060 & 32,564 & 32,447 & 31,825 & 31,973 & 32,504 & 33,936 & 37,136 & 40,802 \\ 
+\textit{Upper Interval} & 128,055 & 126,607 & 127,150 & 127,812 & 126,905 & 125,442 & 126,681 & 128,871 & 133,914 & 144,377 & 154,801 \\ 
+Recruits & 6,446 & 2,759 & 34,308 & 6,709 & 18,011 & 55,595 & 10,689 & 8,151 & 6,274 & 12,455 & 15,208 \\ 
+\textit{Lower Interval} & 2,238 & 354 & 15,326 & 2,238 & 7,330 & 24,622 & 3,034 & 519 & 0 & 0 & 0 \\ 
+\textit{Upper Interval}  & 10,654 & 5,165 & 53,289 & 11,179 & 28,692 & 86,567 & 18,344 & 5,784 & 22,392 & 45,919 & 58,009 \\ 
+Fraction Unfished & 0.5 & 0.5 & 0.5 & 0.5 & 0.5 & 0.5 & 0.5 & 0.5 & 0.5 & 0.5 & 0.6 \\ 
+\textit{Lower Interval} & 0.3 & 0.3 &  0.3 &  0.3 &  0.3  & 0.3 & 0.3 &  0.3 & 0.3 & 0.4 & 0.4 \\
+\textit{Upper Interval}  & 0.6 & 0.6 & 0.6 & 0.6 & 0.6 & 0.6 & 0.6 & 0.6 & 0.7 & 0.7 & 0.8 \\*
+
 \end{longtable}
 \endgroup{}
 \endgroup{}
 
 \clearpage
+\elandscape
 
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
+\newpage
 
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}}
-\caption{\label{tab:exploitES}Estimates of total dead catch (mt), relative 1-spawning potential ratio (SPR; 1-SPR/1-
-SPRTarget=0.45\%), and exploitation rate (catch/biomass of age-4+) from the base model. Approximate
+\begingroup\fontsize{9}{11}\selectfont
+\begingroup\fontsize{9}{11}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{0.95cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}}
+\caption{\label{tab:exploitES}Estimates of total dead catch (mt), relative 1-spawning potential ratio (SPR; 1-SPR/1-SPRTarget=0.45\%), and exploitation rate (catch/biomass of age-4+) from the base model. Approximate
 95\% intervals follow in parentheses.}\\
 
 \toprule
-Year & Total Catch & Rel 1-SPR & Lower Interval & Upper Interval & Exploitation Rate & Lower Interval & Upper Interval\\
+Year & Model-Estimated Total Catch & Rel 1-SPR & Lower Interval & Upper Interval & Exploitation Rate & Lower Interval & Upper Interval\\
 \midrule
 \endfirsthead
 \caption[]{Estimated recent trend in age-0 recruitment (1000s), and recruitment deviations and the 95 percent intervals. \textit{(continued)}}\\
 \toprule
-Year & Total Catch & Rel 1-SPR & Lower Interval & Upper Interval & Exploitation Rate & Lower Interval & Upper Interval\\
+Year & Model-Estimated Total Catch & Rel 1-SPR & Lower Interval & Upper Interval & Exploitation Rate & Lower Interval & Upper Interval\\
 \midrule
 \endhead
 
 \endfoot
 \bottomrule
 \endlastfoot
-2011 & 6149.25 & 0.97 & 0.60 & 1.34 & 0.03 & 0.01 & 0.05\\
-2012 & 5184.8 & 0.75 & 0.41 & 1.09 & 0.02 & 0.01 & 0.04\\
-2013 & 3987.2 &0.61 & 0.31 & 0.92 & 0.02 & 0.01 & 0.03\\
-2014 & 4216.46 & 0.61 & 0.30 & 0.92 & 0.02 & 0.01 & 0.03\\
-2015 & 5025.23 & 0.71 & 0.37 & 1.05 & 0.02 & 0.01 & 0.04\\
-2016 & 5305.81 & 0.76 & 0.41 & 1.10 & 0.03 & 0.01 & 0.04\\
-2017 & 5350.64 & 0.68 & 0.36 & 1.01 & 0.02 & 0.01 & 0.04\\
-2018 & 5126.94 & 0.66 & 0.34 & 0.98 & 0.02 & 0.01 & 0.04\\
-2019 & 5193.71 & 0.62 & 0.31 & 0.92 & 0.02 & 0.01 & 0.04\\
-2020 & 3762.75 & 0.40 & 0.18 & 0.63 & 0.01 & 0.01 & 0.02\\*
+2011 & 6253.97 & 0.971 & 0.6 & 1.34 & 0.03 & 0.01 & 0.05\\
+2012 & 5283.60 & 0.751 & 0.41 & 1.09 & 0.02 & 0.01 & 0.04\\
+2013 & 4050.48 & 0.611 & 0.31 & 0.92 & 0.02 & 0.01 & 0.03\\
+2014 & 4294.90 & 0.612 & 0.30 & 0.92 & 0.02 & 0.01 & 0.03\\
+2015 & 5105.52 & 0.712 & 0.37 & 1.05 & 0.02 & 0.01 & 0.04\\
+2016 & 5401.39 & 0.756 & 0.41 & 1.10 & 0.03 & 0.01 & 0.04\\
+2017 & 5465.76 & 0.683 & 0.36 & 1.01 & 0.02 & 0.01 & 0.04\\
+2018 & 5220.22 & 0.663 & 0.34 & 0.98 & 0.02 & 0.01 & 0.04\\
+2019 & 5372.81 & 0.617 & 0.31 & 0.92 & 0.02 & 0.01 & 0.04\\
+2020 & 3882.69 & 0.404 & 0.18 & 0.63 & 0.01 & 0.01 & 0.02\\*
 \end{longtable}
 \endgroup{}
 \endgroup{}
 
-
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{11}\selectfont
+\begingroup\fontsize{10}{11}\selectfont
 
 \begin{longtable}[t]{r>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}}
 \caption{\label{tab:recrES}Estimated recent trend in recruitment and recruitment deviations and the 95 percent intervals.}\\
@@ -157,24 +163,24 @@ Year & Recruitment & Lower Interval & Upper Interval & Recruitment Deviations & 
 \endfirsthead
 \caption[]{Estimated recent trend in age-0 recruitment (1000s), and recruitment deviations and the 95 percent intervals. \textit{(continued)}}\\
 \toprule
-Year & Recruitment & Lower Interval & Upper Interval & Recruitment Deviations & Lower Interval & Upper Interval\\
+Year & Log Recruitment & Lower Interval & Upper Interval & Recruitment Deviations & Lower Interval & Upper Interval\\
 \midrule
 \endhead
 
 \endfoot
 \bottomrule
 \endlastfoot
-2011 & 6445.91 & 2238.00 & 10653.82 & 0.09 & -0.34 & 0.52\\
-2012 & 2759.31 & 353.79 & 5164.83 & -0.76 & -1.47 & -0.04\\
-2013 & 34307.60 & 15326.03 & 53289.17 & 1.76 & 1.51 & 2.02\\
-2014 & 6708.58 & 2238.47 & 11178.69 & 0.13 & -0.31 & 0.57\\
-2015 & 18010.90 & 7329.57 & 28692.23 & 1.12 & 0.79 & 1.45\\
-2016 & 55594.50 & 24621.97 & 86567.03 & 2.25 & 1.98 & 2.52\\
-2017 & 10688.70 & 3033.88 & 18343.52 & 0.60 & 0.08 & 1.12\\
-2018 & 8151.38 & 518.63 & 15784.13 & 0.32 & -0.45 & 1.10\\
-2019 & 6274.11 & -9844.16 & 22392.38 & 0.05 & -2.41 & 2.51\\
-2020 & 12455.30 & -21008.34 & 45918.94 & -0.19 & -2.77 & 2.39\\
-2021 & 15207.70 & -27593.80 & 58009.20 & 0.00 & -2.74 & 2.74\\*
+2011 & 3.81 & 3.35 & 4.03 & 0.09 & -0.34 & 0.52\\
+2012 & 3.44 & 2.55 & 3.71 & -0.76 & -1.47 & -0.04\\
+2013 & 4.54 & 4.19 & 4.73 & 1.76 & 1.51 & 2.02\\
+2014 & 3.83 & 3.35 & 4.05 & 0.13 & -0.31 & 0.57\\
+2015 & 4.26 & 3.87 & 4.46 & 1.12 & 0.79 & 1.45\\
+2016 & 4.75 & 4.39 & 4.94 & 2.25 & 1.98 & 2.52\\
+2017 & 4.03 & 3.48 & 4.26 & 0.60 & 0.08 & 1.12\\
+2018 & 3.91 & 2.71 & 4.2 & 0.32 & -0.45 & 1.10\\
+2019 & 3.80 & 0 & 4.35 & 0.05 & -2.41 & 2.51\\
+2020 & 4.10 & 0 & 4.66 & -0.19 & -2.77 & 2.39\\
+2021 & 4.18 & 0 & 4.76 & 0.00 & -2.74 & 2.74\\*
 \end{longtable}
 \endgroup{}
 \endgroup{}
@@ -182,8 +188,12 @@ Year & Recruitment & Lower Interval & Upper Interval & Recruitment Deviations & 
 \begingroup\fontsize{10}{12}\selectfont
 \begingroup\fontsize{10}{12}\selectfont
 
+
+
+
+
 \begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
-\caption{\label{tab:manageES} Recent trend in the overfishing limits (OFL), the annual catch limits (ACLs), the total landings, and total mortality (mt). Note that the Acceptable Biological Catches (ABCs) and ACLs are equal because the stock is estimated to be above 40\% of the unfished spawning biomass.}\\
+\caption{\label{tab:manageES} Recent trend in the overfishing limits (OFL), the annual catch limits (ACLs), the total landings, and total mortality (mt). Note that the Acceptable Biological Catches (ABCs) and ACLs are equal because the stock is estimated to be above 40\% of the unfished spawning biomass, and the PFMC has not seen fit to lower the ACLs for other reasons.}\\
 \toprule
 Year & OFL & ACL & Landings & Total Mortality\\
 \midrule
@@ -198,15 +208,15 @@ Year & OFL & ACL & Landings & Total Mortality\\
 \bottomrule
 \endlastfoot
 2011 & 8,808 & 6,813 & 6,149.25 & 6,253.97\\
-2012 & 8,623 & 6,605 & 5,184.80 & 5,283.59\\
+2012 & 8,623 & 6,605 & 5,184.80 & 5,283.60\\
 2013 & 6,621 & 5,451 & 3,987.20 & 4,050.48\\
 2014 & 7,158 & 5,909 & 4,216.46 & 4,294.90\\
-2015 & 7,857 & 6,512 & 5,025.23 & 5,105.53\\
+2015 & 7,857 & 6,512 & 5,025.23 & 5,105.52\\
 2016 & 8,526 & 7,121 & 5,305.81 & 5,401.39\\
-2017 & 8,050 & 7,117 & 5,350.64 & 5,465.75\\
-2018 & 8,239 & 7,419 & 5,126.94 & 5,220.23\\
+2017 & 8,050 & 7,117 & 5,350.64 & 5,465.76\\
+2018 & 8,239 & 7,419 & 5,126.94 & 5,220.22\\
 2019 & 8,489 & 7,750 & 5,193.71 & 5,372.81\\
-2020 & 8,648 & 7,896  & 3,762.75 & 3,882.70\\*
+2020 & 8,648 & 7,896  & 3,762.75 & 3,882.69\\*
 2021 & 9,402 & 8,791 &  - & -\\*
 2022 & 9,005 & 8,375 &  - & -\\*
 \end{longtable}
@@ -218,22 +228,22 @@ Year & OFL & ACL & Landings & Total Mortality\\
 \begingroup\fontsize{10}{12}\selectfont
 
 \begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
-\caption{\label{tab:projectionES}Projections of potential OFLs (mt), ABCs (mt), estimated spawning biomass and fraction unfished. The total catches in 2021 and 2022 were set at the PFMC Groundfish Management Team requested values of 7,405 mt for 2021 and 7,055 mt for 2022 and are therefore lower than the ACL or ABC for those years. Similarly, the predicted OFLs presented here for 2021 and 2022 are not the same as those used by the GMT to define fixed catches in 2021-2022; see Table \ref{tab:manageES} for GMT-defined ACLs and OFLs in 2021 and 2022.}\\
+\caption{\label{tab:projectionES}Projections of potential OFLs (mt), ABCs (mt), estimated spawning biomass and fraction unfished. The total catches in 2021 and 2022 were set at the PFMC Groundfish Management Team requested values of 7,405 mt for 2021 and 7,055 mt for 2022 which are about 20\% lower than the ACL = ABC for those years; see Table \ref{tab:manageES} for GMT-defined ACLs and OFLs in 2021 and 2022.}\\
 \toprule
-Year & Predicted OFL (mt) & ABC Catch (mt) & Age 4+ Biomass (mt) & Spawning Biomass (mt) & Fraction Unfished\\
+Year & Predicted OFL (mt) & Catches (2021-22) or ABCs (2023+) (mt)  & Age 4+ Biomass (mt) & Spawning Biomass (mt) & Fraction Unfished\\
 \midrule
 \endfirsthead
 \caption[]{Projections of potential OFLs (mt), ABCs (mt), estimated spawning biomass and fraction unfished. \textit{(continued)}}\\
 \toprule
-Year & Predicted OFL (mt) & ABC Catch (mt) & Age 4+ Biomass (mt) & Spawning Biomass (mt) & Fraction Unfished\\
+Year & Predicted OFL (mt) & Catches (2021-22) or ABCs (2023+) (mt) & Age 4+ Biomass (mt) & Spawning Biomass (mt) & Fraction Unfished\\
 \midrule
 \endhead
 
 \endfoot
 \bottomrule
 \endlastfoot
-2021 & 13117.00 & 7405.00 & 265655 & 97801.9 & 0.58\\
-2022 & 12515.20 & 7055.00 & 261481 & 99956.5 & 0.59\\
+2021 & - &  \textit{7405.00} & 265655 & 97801.9 & 0.58\\
+2022 & - &  \textit{7055.00} & 261481 & 99956.5 & 0.59\\
 2023 & 11577.10 & 10824.60 & 253540 & 99449.9 & 0.59\\
 2024 & 10669.80 & 9922.92 & 246090 & 95943.8 & 0.57\\
 2025 & 10120.60 & 9371.67 & 241976 & 93063.3 & 0.55\\
@@ -345,7 +355,7 @@ Parm\_priors\_like & 0.45 & 0.47 & 0.45 \\*
 \begingroup\fontsize{10}{12}\selectfont
 
 \begin{longtable}[t]{r>{\centering\arraybackslash}p{2cm}}
-\caption{\label{tab:likes}Likelihood components by source.}\\
+\caption{\label{tab:likes}Likelihood components by source for the base update assessment model.}\\
 \toprule
 Label & Total\\
 \midrule
@@ -396,12 +406,14 @@ Start year & End year & Start year & End year & Reason \\
 \hline
 \multicolumn{2}{c}{Fixed-gear selectivity}&\multicolumn{2}{c}{Trawl selectivity}&Reason\\
 \hline
-1997 & 2002 & 1982 & 2010 & Management trip limits \\
+1997 & 2002 & 1982 & 2002 & Management trip limits \\
 2003 & 2010 & 2003 & 2010 & Rockfish conservation area \\
 2011 & 2018 & 2011 & 2018 & Catch shares \\
 \hline
 \end{tabular}
 \end{table}
+
+
 
 
 
@@ -423,40 +435,39 @@ Label & Estimate & Lower 5\% & Upper 95\%\\
 \endfoot
 \bottomrule
 \endlastfoot
-
 NatM\_p\_1\_Fem\_GP\_1 & 0.07 & 0.06 & 0.09 \\ 
-L\_at\_Amin\_Fem\_GP\_1 & 25.72 & 24.83 & 26.61 \\ 
-L\_at\_Amax\_Fem\_GP\_1 & 62.46 & 61.22 & 63.70 \\ 
-VonBert\_K\_Fem\_GP\_1 & 0.34 & 0.31 & 0.37 \\ 
-CV\_young\_Fem\_GP\_1 & 0.06 & 0.04 & 0.07 \\ 
-CV\_old\_Fem\_GP\_1 & 0.11 & 0.10 & 0.12 \\ 
-Wtlen\_1\_Fem\_GP\_1 & 0.00 &&\\ 
-Wtlen\_2\_Fem\_GP\_1 & 3.27 &&\\ 
-Mat50\%\_Fem\_GP\_1 & 55.19 &&\\ 
-Mat\_slope\_Fem\_GP\_1 & -0.42 &&\\ 
-Eggs/kg\_inter\_Fem\_GP\_1 & 1.00 &&\\ 
-Eggs/kg\_slope\_wt\_Fem\_GP\_1 & 0.00 &&\\ 
-NatM\_p\_1\_Mal\_GP\_1 & 0.06 & 0.05 & 0.07 \\ 
-L\_at\_Amin\_Mal\_GP\_1 & 26.93 & 25.92 & 27.93 \\ 
-L\_at\_Amax\_Mal\_GP\_1 & 56.62 & 55.99 & 57.25 \\ 
-VonBert\_K\_Mal\_GP\_1 & 0.37 & 0.34 & 0.40 \\ 
-CV\_young\_Mal\_GP\_1 & 0.07 & 0.06 & 0.09 \\ 
-CV\_old\_Mal\_GP\_1 & 0.08 & 0.07 & 0.08 \\ 
-Wtlen\_1\_Mal\_GP\_1 & 0.00 &&\\ 
-Wtlen\_2\_Mal\_GP\_1 & 3.27 &&\\ 
-FracFemale\_GP\_1 & 0.50 &&\\ 
-SR\_LN(R0) & 9.71 & 9.11 & 10.30 \\ 
+  L\_at\_Amin\_Fem\_GP\_1 & 25.70 & 24.80 & 26.60 \\ 
+  L\_at\_Amax\_Fem\_GP\_1 & 62.50 & 61.20 & 63.70 \\ 
+  VonBert\_K\_Fem\_GP\_1 & 0.34 & 0.31 & 0.37 \\ 
+  CV\_young\_Fem\_GP\_1 & 0.06 & 0.04 & 0.07 \\ 
+  CV\_old\_Fem\_GP\_1 & 0.11 & 0.10 & 0.12 \\ 
+  Wtlen\_1\_Fem\_GP\_1 & 0.00 &  &  \\ 
+  Wtlen\_2\_Fem\_GP\_1 & 3.27 &  &  \\ 
+  Mat50\%\_Fem\_GP\_1 & 55.20 &  &  \\ 
+  Mat\_slope\_Fem\_GP\_1 & -0.42 &  &  \\ 
+  Eggs/kg\_inter\_Fem\_GP\_1 & 1.00 &  &  \\ 
+  Eggs/kg\_slope\_wt\_Fem\_GP\_1 & 0.00 &  &  \\ 
+  NatM\_p\_1\_Mal\_GP\_1 & 0.06 & 0.05 & 0.07 \\ 
+  L\_at\_Amin\_Mal\_GP\_1 & 26.90 & 25.90 & 27.90 \\ 
+  L\_at\_Amax\_Mal\_GP\_1 & 56.60 & 56.00 & 57.30 \\ 
+  VonBert\_K\_Mal\_GP\_1 & 0.37 & 0.34 & 0.40 \\ 
+  CV\_young\_Mal\_GP\_1 & 0.07 & 0.06 & 0.09 \\ 
+  CV\_old\_Mal\_GP\_1 & 0.08 & 0.07 & 0.08 \\ 
+  Wtlen\_1\_Mal\_GP\_1 & 0.00 &  &  \\ 
+  Wtlen\_2\_Mal\_GP\_1 & 3.27 &  &  \\ 
+  CohortGrowDev & 1.00 &  &  \\ 
+  FracFemale\_GP\_1 & 0.50 &  &  \\ 
+  SR\_LN(R0) & 9.70 & 9.11 & 10.30 \\ 
 Q\_base\_ENV(4) & 0.09 & 0.04 & 0.14 \\ 
-Q\_extraSD\_ENV(4) & 0.31 & 0.20 & 0.42 \\ 
-LnQ\_base\_AKSHLF(5) & 0.32 & -0.21 & 0.86 \\ 
-Q\_extraSD\_AKSHLF(5) & 0.18 & 0.04 & 0.31 \\ 
+  Q\_extraSD\_ENV(4) & 0.31 & 0.20 & 0.42 \\ 
+  LnQ\_base\_AKSHLF(5) & 0.32 & -0.21 & 0.86 \\ 
+  Q\_extraSD\_AKSHLF(5) & 0.18 & 0.04 & 0.31 \\ 
 Q\_extraSD\_AKSLP(6) & 0.04 & -0.04 & 0.11 \\ 
-Q\_extraSD\_NWSLP(7) & 0.16 & 0.00 & 0.32 \\ 
-LnQ\_base\_AKSHLF(5)\_BLK1repl\_1995 & -0.07 & -0.62 & 0.48 \\*
+  Q\_extraSD\_NWSLP(7) & 0.16 & 0.00 & 0.32 \\   
+  LnQ\_base\_AKSHLF(5)\_BLK1repl\_1995 & -0.07 & -0.62 & 0.48 \\*
 \end{longtable}
 \endgroup{}
 \endgroup{}
-
 
 \begingroup\fontsize{10}{12}\selectfont
 \begingroup\fontsize{10}{12}\selectfont

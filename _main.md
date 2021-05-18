@@ -40,18 +40,18 @@ author:
     first: Vladlena
     middle: 
     family: Gertseva
-  - name: Owen Hamel
+  - name: Owen S. Hamel
     code: 3
     first: Owen
     middle: S.
     family: Hamel
-author_list: Kapur, M. S., Lee, Q., Correa, G. M., Haltuch, M., Gertseva, V., and Hamel, O.
+author_list: Kapur, M. S., Lee, Q., Correa, G. M., Haltuch, M., Gertseva, V., and Hamel, O
 affiliation:
   - code: 1
     address: School of Aquatic and Fisheries Sciences, University of Washington, 1122 NE Boat St, Seattle, WA 98105
   - code: 2
     address: College of Earth, Ocean and Atmospheric Sciences, Oregon State University, 104 CEOAS Admin. Bldg. Corvallis, OR 97331-5503
-     - code: 3
+  - code: 3
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
       Oceanic and Atmospheric Administration, National Marine Fisheries Service, 2725
       Montlake Boulevard East, Seattle, Washington 98112
@@ -77,11 +77,16 @@ output: html_document
 
 
 
+\newcommand{\textrefpt}{Unfished spawning biomass was estimated to be 168,875 mt (107,749–230,001 $\sim$95\% interval). The abundance of sablefish was estimated to have declined to near the target during the period 1980-2000. The estimate of the target spawning biomass was 67,550 (43,099-92,001, $\sim$95\%  interval). The stock was estimated to be  above the target stock size in the beginning of 2021 at 97,802 mt (40,801-154,802, $\sim$95\% interval). The stock was estimated to be above the depletion level that would lead to maximum yield (0.4) (Figures \ref{fig:yield1} and \ref{fig:SPR4_phase}). The estimate of the stock's current 2021 level of depletion was 0.579.}
 
-\newcommand{\textrefpt}{Unfished spawning biomass was estimated to be 170633 mt (108696-232570, $\sim$95\% interval). The abundance of sablefish was estimated to have declined to near the target during the period 1980-2000. The estimate of the target spawning biomass was 68253, 43478-93028, $\sim$95\%  interval). The stock was estimated to be  above the target stock size in the beginning of 2020 at 91018 mt 36904-145132, $\sim$95\% interval). The stock was estimated to be above the depletion level that would lead to maximum yield 0.25; (Figures \ref{fig:yield1} and \ref{fig:SPR4_phase}). The estimate of the stock's current 2020 level of depletion was 0.53.}
+\newcommand{\textexplstatus}{ Although the estimated productivity and absolute scale of the stock are poorly informed by the available data and are, therefore, sensitive to changes in model structure and treatment of data, all sensitivity or alternate models evaluated showed a declining trend in biomass since the 1970s followed by a recent increase in biomass (Figures \ref{fig:SPR3} and \ref{fig:ts_summaryF}). The spawner potential ratio ($SPR$)  exceeded the fishing mortality target or overfishing level ($SPR_{45\%}$) that stabilizes the stock at the target (reported as $(1-SPR)/[1-SPR_{45\%}]$) during the late 2000s and early 2010s, and was between 62% and 76 from 2015-2019, descending to 40\% in 2020.
+"Relative 1-SPR" in Table \ref{tab:exploitES} refers to $(1-SPR)/[1-SPR_{45\%}]$ ; where 1 is the target exploitation rate, and values over 1 indicate overexploitation relative to this proxy. While highly uncertain, the
+absolute equilibrium yield at the fishing mortality that leads to the maximum sustainable yield ($F_{MSY}$) is 9,024 mt (4,242-13,807, $\sim$95\% interval).}
 
-\newcommand{\textexplstatus}{Equilibrium yield at the fishing mortality that leads to the maximum sustainable yield ($F_{MSY}$) is 9140 mt (4288-13992, $\sim$95\% interval). Although the estimated productivity and absolute scale of the stock are poorly informed by the available data and are, therefore, sensitive to changes in model structure and treatment of data, all sensitivity or alternate models evaluated showed a declining trend in biomass since the 1970s followed by a recent increase in biomass (Figures \ref{fig:SPR3} and \ref{fig:ts_summaryF}). The spawner potential ratio ($SPR$)  exceeded the fishing mortality target or overfishing level ($SPR_{45\%}$) that stabilizes the stock at the target (i.e., $(1-SPR)/[1-SPR_{45\%}]$) during the late 2000s and early 2010s, and was between 61 and 75\% from 2015-2019, descending to 40\% in 2020. In Table \ref{tab:exploitES}, the column "Rel. 1-SPR" shows values and associated uncertainty for $(1-SPR)/[1-SPR_{45\%}]$.}
 
+\newcommand{\textprojections}{Previous sablefish stock assessments have been designated as Category 1 stock assessments. Projections and decision tables are based on $P^*$=0.45, the adopted value for the most recent management cycle, and the values of $\sigma$ adopted by the Pacific Fisheries Management Council for stock projections. The time series of multiplicative buffer fractions that are a function of $P^*$ and the time series of $\sigma$s provide the multipliers on the overfishing limit; these values are all less than 1 for category 1 stocks. The multipliers are combined with OFLs to calculate the ABC values. The Council sets ACL values which cannot exceed (with limited exceptions) the ABCs as modified by the 40-10 rule. The total catches in 2021 and 2022 were set at the Pacific Fisheries Management Council Groundfish Management Team requested values, below the Pacific Fisheries Management Council annual catch limits for sablefish. The average ratio between GMT-specified 2021-2022 catches were used to distribute catches among the fisheries for forecasted years.
+
+Projections are provided through 2032 (Table \ref{tab:projectionES}). Current medium-term projections from the base model under the Pacific Fisheries Management Council 40-10 harvest control rule estimate that the stock will remain above the target stock size of 40\% of the estimated unfished spawning biomass during the projection period.  Forecasts from the 2019 benchmark assessment projected the spawning biomass to increase by 28\% from 2017 to 2021 given specified harvests, whereas the current assessment estimated the increase at 23\%. The estimate of unexploited spawning biomass is 13\% higher than that estimated in 2019 and 19\% lower than the 2011 estimate. Percent of unfished biomass in 2021 was estimated at 0.58, while the 2019 benchmark assessment forecasted it to be  0.46.}
 
 
 <!--chapter:end:00presets.Rmd-->
@@ -101,26 +106,26 @@ title: DRAFT Status of Sablefish (_Anoplopoma fimbria_) along the US West coast 
 
 <!--chapter:end:01a.Rmd-->
 
-
-
 # Executive Summary{-}
+
 ## Stock{-}
-This assessment reports the status of sablefish (_Anoplopoma fimbria_) off the US West coast using data through 2020.  The resource is modeled as a single stock; however, sablefish disperse to and from offshore seamounts along the coastal waters of the continental U.S., Canada, and Alaska and across the Aleutian Islands to the western Pacific. Their movement is not explicitly accounted for in this analysis.
+
+This assessment reports the status of sablefish, (_Anoplopoma fimbria_) off the US West coast using data through 2020. The resource is modeled as a single stock; however, sablefish disperse to and from offshore seamounts along the coastal waters of the continental U.S., Canada, and Alaska and across the Aleutian Islands to the western Pacific. Their movement is not explicitly accounted for in this analysis.
 
 ## Landings{-}
 
-A variety of sources were used to reconstruct state-specific historical sablefish landings (i.e., fish brought to market), creating a series of landings from 1890 to present. In general, these reconstructions are more reliable than those for many other groundfish species because of the consistent identification of sablefish to the species level. Historical-landings reconstructions for sablefish have been completed for California, Oregon, and Washington, extending landings to the beginning of the U.S. West Coast sablefish fishery (Figure \ref{fig:catch_comparison}).
+A variety of sources were used to reconstruct state-specific historical sablefish landings (i.e., fish brought to market), creating a series of landings from 1890 to present. In general, these reconstructions are more reliable than those for many other groundfish species because of the consistent identification of sablefish to the species level. Historical-landings reconstructions for sablefish have been completed for California, Oregon, and Washington, extending landings to the beginning of the U.S. West Coast sablefish fishery (Figures \ref{fig:removals} and \ref{fig:catch_comparison}).
 Fishery discard rates and weights were fit within the assessment model, i.e., simultaneous estimation of total catches and other model parameters. This internal estimation can result in model estimates of total mortality that differ between stock assessments even when the landings inputs remain unchanged due to changes in fixed and estimated parameter values, priors, or parameterizations. Model estimates of fishery discards resulted in model estimated total dead catches that were an average of 1.84% larger than the landings input into the stock assessment model over the last decade.
 Historically, sablefish landings were just below recent landings (<4,000 mt) until the end of the 1960s and were primarily harvested by fixed gear (Figure \ref{fig:removals}). Large catches (24,395 mt) by foreign vessels fishing pot gear in 1976 resulted in the largest landings reported in a single-year. A rapid rise in domestic pot and trawl landings followed this peak removal, such that, on average, nearly 8,400 mt of sablefish were landed per year between 1976 and 1990. Subsequently, annual landings have remained below 9,000 mt and been divided approximately 67%/33% between fixed and trawl gears, respectively, during the most recent decade. An Individual Fishing Quota (IFQ) program, referred to as "catch shares", was implemented for the U.S. West Coast trawl fleet beginning in 2011. Gear switching is allowed within the program such that fixed gear can be used to catch sablefish under trawl IFQ. This has resulted in changes in fleet behavior, the distribution of fishing effort, and discarding rates for both fisheries. Complete observer coverage on all vessels fishing IFQ quota became mandatory at the start of the program, while coverage in the other sectors remained stratified by port. The lack of historical observer coverage, and consequently information on total catch and age and length compositions, thus contributes to uncertainty regarding selectivity and retention during the historical period.
 
 
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{11}\selectfont
+\begingroup\fontsize{10}{11}\selectfont
 
 \begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
 \caption{Recent landings by fleet, total landings summed across fleets, and the total mortality including discards.\label{tab:removalsES}}\\
 \toprule
-Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
+Year & Fixed-gear & Trawl & Total Landings & Model-Estimated Total Dead\\
 \midrule
 \endfirsthead
 \caption[]{Recent landings by fleet, total landings summed across fleets, and the total mortality including discards. \textit{(continued)}}\\
@@ -154,21 +159,27 @@ Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
 
 ## Data and Assessment{-}
 
-The last benchmark stock assessment for sablefish took place during 2019 (@Haltuch2019b), preceded by an update assessment during 2015 (@johnson2016sablefish).  The present (2021) update assessment used the most recent version of the Stock Synthesis modeling platform (3.30), and bridged between the sub-version used in the benchmark (v3.30.09, released 2019-03-09) and the latest release (v3.30.16, released 2020-09-03). Primary data sources include landings and age-composition data from the retained catch (Figure \ref{fig:data-plot}. For recent years, data on the discarded portion of commercial catch are available, including discard lengths, rates, and mean observed individual body weight of the discarded catch. The relative index of abundance estimated from the National Marine Fisheries Service (NMFS) Northwest Fisheries Science Center (NWFSC) West Coast Groundfish Bottom Trawl (WCGBT) Survey, which includes depths from 55 - 1,280 m, represents the primary source of information on the stock’s trend and was updated to include the most recent data, covering the period 2003-2019 (Figures \ref{fig:WCGBTindexest} and \ref{fig:WCGBTQQ}); the updated index was consistent with the previous (Figure \ref{fig:WCGBTindexcompare}). Note that the WCGBT Survey does not access the closed Cowcod Conservation areas in southern California, and was not performed in 2020 due to the global SARS-CoV-2 pandemic. Other, discontinued, survey indices contribute information on trend and sablefish demographics: (a) NWFSC Slope Survey conducted from 1998-2002, (b) Alaska Fisheries Science Center (AFSC) Slope Survey (1997-2001), and (c) AFSC/NWFSC Triennial Shelf Survey (1980-2004). Additionally, an environmental time-series of sea level was used as a survey index of recruitment in the base model; this time-series was updated with the latest tide gauge data (Figures \ref{fig:ssh-plot} and \ref{fig:ssh-df}).
+The last benchmark stock assessment for sablefish took place during 2019 (@Haltuch2019b), preceded by an update assessment during 2015 (@johnson2016sablefish).  The present (2021) update assessment used the most recent version of the Stock Synthesis modeling platform (3.30), and bridged between the sub-version used in the benchmark (v3.30.09, released 2019-03-09) and the latest release (v3.30.16, released 2020-09-03). Primary data sources include landings and age-composition data from the retained catch (Figure \ref{fig:data-plot}). For recent years, data on the discarded portion of commercial catch are available, including discard lengths, rates, and mean observed individual body weight of the discarded catch. The relative index of abundance estimated from the National Marine Fisheries Service (NMFS) Northwest Fisheries Science Center (NWFSC) West Coast Groundfish Bottom Trawl (WCGBT) Survey, which includes depths from 55 - 1,280 m, represents the primary source of information on the stock’s trend and was updated to include the most recent data, covering the period 2003-2019 (Figure \ref{fig:WCGBTindexest}); the updated index was consistent with the previous (Figures \ref{fig:WCGBTQQ} and \ref{fig:WCGBTindexcompare}). Note that the WCGBT Survey does not access the closed Cowcod Conservation areas in southern California, and was not performed in 2020 due to the global SARS-CoV-2 pandemic. Other, discontinued, survey indices contribute information on trend and sablefish demographics: (a) NWFSC Slope Survey conducted from 1998-2002, (b) Alaska Fisheries Science Center (AFSC) Slope Survey (1997-2001), and (c) AFSC/NWFSC Triennial Shelf Survey (1980-2004). Additionally, an environmental time-series of sea level was used as a survey index of recruitment in the base model; this time-series was updated with the latest tide gauge data (Figures \ref{fig:ssh-plot} and \ref{fig:ssh-df}).
 
 All externally estimated model parameters, (a) weight-length relationship, (b) maturity schedule, and (c) fecundity relationships remained unchanged from the 2019 benchmark assessment. As in previous assessments, growth and natural mortality were estimated using sex-specific relationships. Uncertainty in recruitment was included by estimating a full time-series of deviations from the stock-recruitment curve. The ‘one-way-trip’ nature of the time-series does not facilitate estimation of the steepness parameter (h) of the stock-recruitment relationship. Therefore, h was fixed at 0.7, similar to values used on other groundfish stock assessments, and was explored via sensitivity analysis in 2019; we explore information regarding h via likelihood profiles.
 During the 2019 assessment, a vast number of historical management actions were evaluated and condensed to a subset that were most likely to have had a direct influence on fishery behavior (either sorting and retention, selectivity, or both). These time periods were used to define time blocks to reduce the complexity of selectivity and retention parameterizations. The 2019 benchmark assessment utilized the same general structure as the 2011 assessment, with the addition of full retention for the trawl fishery after the implementation of the IFQ program in 2011. 
 
-**During the addition of new data for this update assessment, modelers identified a large influx of younger, small fish observable in the age compositions of commercially landed catch, which was also visible in the discard length compositions of those commercial fleets (Figure \ref{fig:discard_lencomps}). This latter dataset was not used in the 2019 benchmark, nor were any commercial length compositions, due to conflicts between the age and length data. Absent the data or flexibility to account for increased discarding, a model which conformed to the Terms of Reference for an update assessment was unable to satisfactorily fit to the composition data from the two commercial fleets (Figures \ref{fig:torafleet1agecomps} and \ref{fig:torafleet3agecomps}) nor the WCGBTS survey (Figure \ref{fig:torafleet8lencomps}), and greatly overestimated the 2019 index (Figure \ref{fig:torapanel}). We rectify this issue by re-introducing the discard length compositions and time-blocking the retention curve to include a new block for the final two years of the model period (2019-2020; the benchmark model's terminal period for retention selectivity ran from 2011-2017). This adjustment resolved the aforementioned model fit issues (Figures   \ref{fig:torcfleet8lencomps}-\ref{fig:basepanel}). **
+During the addition of new data for this update assessment, modelers identified a large influx of younger, small fish observable in the age compositions of commercially landed catch, which was also visible in the discard length compositions of those commercial fleets (Figure \ref{fig:discard_lencomps}). This latter dataset was not used in the 2019 benchmark, nor were any commercial length compositions, due to conflicts between the age and length data. Absent the data or structural flexibility to account for increased discarding, a model that conformed to the Terms of Reference (TOR) for an update assessment was unable to satisfactorily fit to the composition data from the two commercial fleets (Figures \ref{fig:torafleet1agecomps} and \ref{fig:torafleet3agecomps}) nor the WCGBTS survey (Figure \ref{fig:torafleet8lencomps}), and greatly overestimated the 2019 index (Figure \ref{fig:torapanel}). This misfit was driven by recent increases in discard ratios in recent years, particularly in the trawl survey, for which the discard ratio nearly quadrupled between 2018-2019 \ref{fig:discardratioTWL}. Because the TOR model estimates retention for both fisheries as timeblocked from 2011 forward, this dataset forced the model to generate many small fish, thus overestimating the index of abundance and the frequency of young and/or your individuals.
 
-![Recent length compositions (2004-2019) of discarded sablefish from the trawl gear fishery, aggregated across sexes.](figs/comp_lendat_flt3mkt1.png){width=100% height=100% alt="TWL Discard Lcomps"}
+![](figs/discard_dataFIX.png){width=100% height=75% alt="TWL Discard Lcomps"}
+
+![\label{fig:discardratioTWL} Discard fraction data for fixed gear (upper panel) and trawl fishery (lower panel).](figs/discard_dataTWL.png){width=100% height=75% alt="TWL Discard Lcomps"}
+
+We rectify the lack of fit to the data by re-introducing the discard length compositions and time-blocking the retention curve to include a new block for the final two years of the model period (2019-2020; the benchmark model's terminal period for retention selectivity ran from 2011-2017). This adjustment resolved the aforementioned model fit issues (Figures   \ref{fig:torcfleet8lencomps}-\ref{fig:basepanel}). 
+
+![Recent length compositions (2004-2019) of discarded sablefish from the trawl gear fishery, aggregated across sexes.](figs/comp_lendat_flt3mkt1.png){width=75% height=75% alt="TWL Discard Lcomps"}
 
 Aging error, both precision and accuracy, was extensively investigated during the 2011 assessment but remains unresolved given the lack of an age validation study for sablefish. The age error analysis for this assessment used the same software and methods as the 2019 assessment, and the 2015 update and 2011 assessment before it. The larger number of between-lab reads from the AFSC and the NWFSC available for the 2019 assessment showed a small amount of variability between laboratories. Therefore, this analysis uses the between-lab reads as well as the double reads from the NWFSC, treating them both as unbiased but potentially non-linearly variable. The age imprecision was such that by age 50 observed ages could differ from true ages by up to 16-17 years. The potential for underestimating or overestimating the age of the oldest fish still remains, and thus, the potential for aging bias remains a source of uncertainty.
 
 ## Stock Biomass{-}
 During the first half of the 20th century it is estimated that sablefish were exploited at relatively modest levels. Modest catches continued until the 1960s, along with a higher frequency of above average, but uncertain, estimates of recruitment through the 1970s. The spawning stock biomass increased during the 1940s to 1970s. Subsequently, biomass is estimated to have declined between the mid-1970s and the early 2010s, with the largest peaks in harvests during the 1970s followed by harvests that were, on average, higher than pre-1970s harvest through the 2000s. At the same time, there were a higher frequency of generally lower than average recruitments from the 1980s forward. Despite estimates of harvest rates that were largely below overfishing rates from the 1990s forward and a few high recruitments from the 1980s forward, the spawning biomass has only recently begun to increase. This stock assessment does suggest spawner per recruitment rates higher than the target during some years from the 1990s forward for two reasons. First, there have been many years with lower than expected recruitment. Second, stock assessment estimates of unfished spawning biomass have been steadily declining in each subsequent assessment since 2007. Estimates of unfished biomass scale catch advice.
 
-Although the relative trend in spawning biomass is robust to uncertainty in the leading model parameters, the productivity of the stock is uncertain due to confounding of natural mortality, absolute stock size, and productivity. The estimates of uncertainty around the point estimate of unfished stock size are large, suggesting that the unfished spawning biomass could range from just under 108696 mt to 232570 mt. The point estimate of 2021 spawning biomass from the base model is 98085, however, the ∼95% interval ranges broadly from 40558 to  155611 mt. The point estimate of 2021 spawning biomass relative to an unfished state (i.e., depletion) from the base model is 57% of unexploited levels (∼95\% interval: 38%-77%).
+Although the relative trend in spawning biomass is robust to uncertainty in the leading model parameters, the productivity of the stock is uncertain due to confounding of natural mortality, absolute stock size, and productivity. The estimates of uncertainty around the point estimate of unfished stock size are large, suggesting that the unfished spawning biomass could range from just under 107,748 mt to 230,002 mt. The point estimate of 2021 spawning biomass from the base model is 97,802, however, the ∼95% interval ranges broadly from 40,802–154,801 mt. The point estimate of 2021 spawning biomass relative to an unfished state (i.e., depletion) from the base model is 57.9% of unexploited levels (∼95\% interval: 38.4%-77.5%).
 
 \begingroup\fontsize{10}{12}\selectfont
 \begingroup\fontsize{10}{12}\selectfont
@@ -196,7 +207,7 @@ Year & Spawning Biomass (mt) & Lower Interval & Upper Interval & Fraction Unfish
 2017 & 79326.7 & 31972.79 & 126680.6 & 0.47 & 0.31 & 0.63\\
 2018 & 80687.2 & 32503.64 & 128870.8 & 0.48 & 0.31 & 0.64\\
 2019 & 83925.1 & 33936.02 & 133914.2 & 0.50 & 0.33 & 0.67\\
-2020 & 90756.5 & 37136.00 & 144377.0 & 0.54 & 0.35 & 0.72\\
+2020 & 90756.5 & 37136 & 144377.0 & 0.54 & 0.35 & 0.72\\
 2021 & 97801.9 & 40802.42 & 154801.4 & 0.58 & 0.38 & 0.77\\*
 \end{longtable}
 \endgroup{}
@@ -209,11 +220,11 @@ Year & Spawning Biomass (mt) & Lower Interval & Upper Interval & Fraction Unfish
 ## Recruitment{-}
 Sablefish recruitment is estimated to be quite variable with large amounts of uncertainty in individual recruitment events. A period with generally higher frequencies of strong recruitments spans from the early 1950s through the 1970s, followed by a lower frequency of large recruitments during 1980 forward, contributing to stock declines. The period with a higher frequency of high recruitments contributed to a large increase in stock biomass that has subsequently declined throughout much of the 1970s forward. Less frequent large recruitments during the mid-1980s through 1990 slowed the rate of stock decline, with another series of large recruitments during 1999 and 2000 leading to a leveling off in the stock decline. The above-average cohorts from 2008, 2010, 2013, and 2016 are contributing to a slightly increasing spawning stock size. 
 
+![](figs/recdevs2_withbars.png){width=100% height=70% alt="Recruitment Deviates with Uncertainty"}
+\newline
 
+![Time series of estimated recruitment deviations from the base model (solid line) with 95% intervals (vertical lines; upper panel) and recruitment without intervals (lower-panel).](figs/ts11_Age-0_recruits_1000s.png){width=100% height=70% alt="Age 0 Recruits"}
 
-![](figs/recdevs2_withbars.png){width=100% height=40% alt="Recruitment Deviates with Uncertainty"}
-
-![Time series of estimated recruitment deviations from the base model (solid line) with 95% intervals (vertical lines; upper panel) and recruitment without intervals (lower-panel).](figs/ts11_Age-0_recruits_1000s.png){width=100% height=40% alt="Age 0 Recruits"}
 \clearpage
 
 ## Reference Points{-}
@@ -242,27 +253,27 @@ Sablefish recruitment is estimated to be quite variable with large amounts of un
 \endfoot
 \bottomrule
 \endlastfoot
-Unfished Spawning Biomass (mt) & 168875 & 107749 & 230000\\
-Unfished Age 4+ Biomass (mt) & 393647 & 242084 & 545209\\
-Unfished Recruitment (R0) & 16392 & 6585 & 26197\\
-Spawning Biomass (mt) (2021) & 97802 & 40802 & 154801\\
-Fraction Unfished (2021) & 0.58 & 0.38 & 0.77\\
-Proxy Spawning Biomass (mt) SB40 Percent & 67550 & 43099 & 92000\\
-SPR Resulting in SB40 Percent & 0.464286 &  & \\
-Exploitation Rate Resulting in SB40 Percent & 0.043 & 0.04 & 0.05\\
-Yield with SPR Based On SB40 Percent (mt) & 8209 & 3857 & 12562\\
-Proxy Spawning Biomass (mt) (SPR45) & 64848 & 41376 & 8832\\
-Exploitation Rate Corresponding to SPR45 & 0.045 & 0.04 & 0.05\\
-Yield with SPR45 at SB SPR (mt) & 8350 & 3924 & 12776\\
-Spawning Biomass (mt) at MSY (SB MSY) & 41701 & 26527 & 56876\\
-SPR MSY & 0.327 & 0.32 & 0.33\\
-Exploitation Rate Corresponding to SPR MSY & 0.07 & 0.06 & 0.08\\
-MSY (mt) & 9024 & 4242 & 13806\\*
+Unfished Spawning Biomass (mt) & 168875 & 107749 & 230001\\					
+Unfished Age 4+ Biomass (mt) & 393647 & 242084 & 545210\\					
+Unfished Recruitment (R0) & 16392 & 6586 & 26198\\					
+Spawning Biomass (mt) (2021) & 97802 & 40802 & 154801\\					
+Fraction Unfished (2021) & 0.579 & 0.384 & 0.775\\					
+Proxy Spawning Biomass (mt) SB40 Percent & 67550 & 43100 & 92000\\					
+SPR Resulting in SB40 Percent & 0.464 &  & \\					
+Exploitation Rate Resulting in SB40 Percent & 0.043 & 0.035 & 0.051\\					
+Yield with SPR Based On SB40 Percent (mt) & 8209 & 3857 & 12562\\					
+Proxy Spawning Biomass (mt) (SPR45) & 64848 & 41376 & 88320\\					
+Exploitation Rate Corresponding to SPR45 & 0.045 & 0.037 & 0.053\\					
+Yield with SPR45 at SB SPR (mt) & 8350 & 3924 & 12777\\					
+Spawning Biomass (mt) at MSY (SB MSY) & 41702 & 26527 & 56876\\					
+SPR MSY & 0.328 & 0.324 & 0.331\\					
+Exploitation Rate Corresponding to SPR MSY & 0.07 & 0.057 & 0.083\\					
+MSY (mt) & 9024 & 4242 & 13807\\*
 \end{longtable}
 \endgroup{}
 \endgroup{}
 
-![Time series of estimated depletion (i.e., spawning biomass relative to unfished spawning biomass) from the base model (circles) with ∼ 95% intervals (dashed   lines).](figs/ts9_Relative_spawning_biomass.png){width=100% height=70% alt="RelSBnoforecast"}
+![Time series of estimated depletion (i.e., spawning biomass relative to unfished spawning biomass) from the base model (circles) with 95% intervals (dashed lines).](figs/ts9_Relative_spawning_biomass.png){width=100% height=70% alt="RelSBnoforecast"}
 
 
 \clearpage
@@ -273,47 +284,49 @@ MSY (mt) & 9024 & 4242 & 13806\\*
 
 \begingroup\fontsize{10}{12}\selectfont
 \begingroup\fontsize{10}{12}\selectfont
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}}
-\caption{\label{tab:exploitES}Estimated recent trend in the  Rel. 1-SPR where SPR is the spawning potential ratio the exploitation rate, and the  95 percent intervals.}\\
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{0.95cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}}
+\caption{Estimates of total dead catch (mt), relative 1-spawning potential ratio (SPR; 1-SPR/1-
+SPRTarget=0.45\%), and exploitation rate (catch/biomass of age-4+) from the base model. Approximate
+95\% intervals follow in parentheses.}\\
+
 \toprule
-Year &  Rel. 1-SPR & Lower Interval & Upper Interval & Exploitation Rate & Lower Interval & Upper Interval\\
+Year & Model-Estimated Total Catch & Rel 1-SPR & Lower Interval & Upper Interval & Exploitation Rate & Lower Interval & Upper Interval\\
 \midrule
 \endfirsthead
-\caption[]{Estimated recent trend in the  Rel. 1-SPR where SPR is the spawning potential ratio, the exploitation rate, and the 95 percent intervals. \textit{(continued)}}\\
+\caption[]{Estimates of total dead catch. \textit{(continued)}}\\
 \toprule
-Year & Rel. 1-SPR & Lower Interval & Upper Interval & Exploitation Rate & Lower Interval & Upper Interval\\
+Year & Model-Estimated Total Catch & Rel 1-SPR & Lower Interval & Upper Interval & Exploitation Rate & Lower Interval & Upper Interval\\
 \midrule
-\endhead
 \endhead
 
 \endfoot
 \bottomrule
 \endlastfoot
-2011 & 0.97 & 0.60 & 1.34 & 0.03 & 0.01 & 0.05\\
-2012 & 0.75 & 0.41 & 1.09 & 0.02 & 0.01 & 0.04\\
-2013 & 0.61 & 0.31 & 0.92 & 0.02 & 0.01 & 0.03\\
-2014 & 0.61 & 0.30 & 0.92 & 0.02 & 0.01 & 0.03\\
-2015 & 0.71 & 0.37 & 1.05 & 0.02 & 0.01 & 0.04\\
-2016 & 0.76 & 0.41 & 1.10 & 0.03 & 0.01 & 0.04\\
-2017 & 0.68 & 0.36 & 1.01 & 0.02 & 0.01 & 0.04\\
-2018 & 0.66 & 0.34 & 0.98 & 0.02 & 0.01 & 0.04\\
-2019 & 0.62 & 0.31 & 0.92 & 0.02 & 0.01 & 0.04\\
-2020 & 0.40 & 0.18 & 0.63 & 0.01 & 0.01 & 0.02\\*
+2011 & 6253.97 & 0.971 & 0.6 & 1.34 & 0.03 & 0.01 & 0.05\\
+2012 & 5283.60 & 0.751 & 0.41 & 1.09 & 0.02 & 0.01 & 0.04\\
+2013 & 4050.48 & 0.611 & 0.31 & 0.92 & 0.02 & 0.01 & 0.03\\
+2014 & 4294.90 & 0.612 & 0.30 & 0.92 & 0.02 & 0.01 & 0.03\\
+2015 & 5105.52 & 0.712 & 0.37 & 1.05 & 0.02 & 0.01 & 0.04\\
+2016 & 5401.39 & 0.756 & 0.41 & 1.10 & 0.03 & 0.01 & 0.04\\
+2017 & 5465.76 & 0.683 & 0.36 & 1.01 & 0.02 & 0.01 & 0.04\\
+2018 & 5220.22 & 0.663 & 0.34 & 0.98 & 0.02 & 0.01 & 0.04\\
+2019 & 5372.81 & 0.617 & 0.31 & 0.92 & 0.02 & 0.01 & 0.04\\
+2020 & 3882.69 & 0.404 & 0.18 & 0.63 & 0.01 & 0.01 & 0.02\\
 \end{longtable}
 \endgroup{}
 \endgroup{}
 
-\clearpage
 
-![Estimated relative spawning potential ratio (1-SPR/1-$SPR_Target=0.45%$) vs. estimated spawning biomass relative to the proxy 40% level from the base model. Higher spawning output occurs on the right side of the x-axis, higher exploitation rates occur on the upper side of the y-axis. The filled, dark blue circle indicates the last year of available data, 2020.](figs/SPR4_phase.png){width=100% height=50% alt="Relative SPR vs B Ratio"}
+![Estimated relative spawning potential ratio ($1-SPR/1-SPR_{Target=0.45\%}$) vs. estimated spawning biomass relative to the proxy 40% level from the base model. Higher spawning output occurs on the right side of the x-axis, higher exploitation rates occur on the upper side of the y-axis. The dark blue circle indicates the last year of available data, 2020, and the grey lines indicate the 95% confidence interval. Plot is based on maximum likelihood estimation results.](figs/SPR4_phase.png){width=100% height=50% alt="Relative SPR vs B Ratio"}
 
-![Time series of estimated relative spawning potential ratio (1-SPR/1-SPRTarget=0.45\%) from the base model (points) with ∼95% intervals (dashed lines). Values above 1.0 (red, horizontal line) reflect harvests in excess of the current overfishing proxy.](figs/SPR3_ratiointerval.png){width=100% height=50% alt="Relative SPR vs B Ratio"}
+![Time series of estimated relative spawning potential ratio (1-SPR/1-SPRTarget=0.45\%) from the base model (points) with ∼95% intervals (dashed lines). Values above 1.0 (red, horizontal line) reflect harvest rates in excess of the current overfishing proxy.](figs/SPR3_ratiointerval.png){width=100% height=50% alt="Relative SPR vs B Ratio"}
 
 \clearpage
 
 ## Management Performance{-}
 
-Sablefish management includes a rich history of seasons, size-limits, trip-limits, and a complex permit system. Managers divide coast-wide yield targets from sablefish stock assessment among the fleets, fishery sectors (including both limited entry and open access), as well as north and south of 36◦ N latitude. Peak catches occurred during the late 1970s just prior to the imposition of the first catch limits. Over the last decade, the total estimated dead catch has been 55% of the sum of the overfishing limits (previously termed ABCs) and 65% of the annual catch limits (previously termed OYs).
+Sablefish management includes a rich history of seasons, size-limits, trip-limits, and a complex permit system. Managers divide coast-wide yield targets among the fleets, fishery sectors (including both limited entry and open access), as well as north and south of 36$^\circ$N latitude. Peak catches occurred during the late 1970s just prior to the imposition of the first catch limits. Over the last decade, the total estimated dead catch has been 55% of the sum of the overfishing limits  and 65% of the annual catch limits.
 
 
 
@@ -321,7 +334,7 @@ Sablefish management includes a rich history of seasons, size-limits, trip-limit
 \begingroup\fontsize{10}{12}\selectfont
 
 \begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
-\caption{\label{tab:manageES}Recent trend in the overfishing limits (OFL), the annual catch limits (ACLs), the total landings, and total mortality (mt). Note that the Acceptable Biological Catches (ABCs) and ACLs are equal because the stock is estimated to be above 40\% of the unfished spawning biomass.}\\
+\caption{Recent trend in the overfishing limits (OFL), the annual catch limits (ACLs), the total landings, and total mortality (mt). Note that the Acceptable Biological Catches (ABCs) and ACLs are equal because the stock is estimated to be above 40\% of the unfished spawning biomass, and the PFMC has not seen fit to lower the ACLs for other reasons.}\\
 \toprule
 Year & OFL & ACL & Landings & Total Mortality\\
 \midrule
@@ -355,39 +368,36 @@ Year & OFL & ACL & Landings & Total Mortality\\
 \clearpage
 
 ## Unresolved Problems and Major Uncertainties{-}
-The data available for sablefish off the U.S. West Coast are not informative with respect to absolute size and productivity. This is, in part, due to the one-way-trip nature of the historical series (i.e., a slow and steady decline in spawning biomass), which can be consistent with a larger less productive stock, a smaller more productive stock, or many combinations in between. While the historical catches provide some information about the minimum stock size necessary to remove the catches from the population, there is limited information in the data regarding the upper limit of the stock size. The above factors are also confounded by movement of sablefish between the region included in this assessment and regions to the north. Likelihood profiles, parameter estimates, and general model behavior illustrate that small changes in many parameters can result in different management reference points. However, because leading model parameters, such as natural mortality, selectivity, and historical recruitments, are estimated within the stock assessment model, the uncertainty about these estimates remains large and typically overlapped among the investigated models. 
-The uncertainty will remain until a more informative time-series, better quality demographic and biological information are accumulated, or a range-wide analysis is completed for sablefish.
+The data available for sablefish off the U.S. West Coast are not informative with respect to absolute stock size and productivity. This is, in part, due to the one-way-trip nature of the historical series (i.e., a slow and steady decline in spawning biomass), which can be consistent with a larger less productive stock, a smaller more productive stock, or many combinations in between. While the historical catches provide some information about the minimum stock size necessary to remove the catches from the population, there is limited information in the data regarding the upper limit of the stock size. The above factors are also confounded by movement of sablefish between the region included in this assessment and regions to the north, which is ignored in the stock assessment. Likelihood profiles, parameter estimates, and general model behavior illustrate that small changes in any of a suite of parameters can result in different management reference points. However, because leading model parameters, such as natural mortality, selectivity, and historical recruitments, are estimated within the stock assessment model, the uncertainty about these estimates remains large and uncertainty intervals typically overlapped among the investigated models. 
+The uncertainty will remain high until a more informative time-series, better quality demographic and biological information are accumulated, or a range-wide analysis is completed for sablefish.
 
-Uncertainty in the current aging methods (both bias and imprecision), as well as relatively sparse fishery sampling, result in age data that potentially variable. Furthermore, because sablefish grow rapidly, nearing asymptotic length in their first decade of life, length data is not particularly inFormative about historical patterns in recruitment. The patterns observed in historical sablefish recruitment suggest that the stock trajectory (via shifts in recruitment strength) is closely linked to productivity regimes in the California Current. Uncertainty in future environmental conditions, changes in the timing, dynamics, and productivity of the California Current ecosystem via cli- mate change or cycles similar to the historical period should be considered a significant source of uncertainty in all projections of stock status.
-The ongoing WCGBT Survey is a fairly precise relative index of abundance over a broad demo- graphic component of the stock, but it does not survey the entire stock as sablefish reside in waters deeper than 1280 m, the survey limit, and to the north. Therefore, a portion of the stock is unobserved. This index has the potential to inform future stock assessments about the scale of the population relative to catches being removed, however such information will require contrast in the observed survey trend.
+There is no age validation for sablefish. Validation is complicated by the fact that most known-age fish from Alaska are aged at less than 20 years while there are very few ages from the California Current, particularly in recent decades. Uncertainty in the current aging methods (both bias and imprecision), as well as relatively sparse fishery sampling, result in age data that potentially variable. Furthermore, because sablefish grow rapidly, nearing asymptotic length in their first decade of life, length data is not particularly informative about historical patterns in recruitment. The patterns observed in historical sablefish recruitment suggest that the stock trajectory (via shifts in recruitment strength) is closely linked to productivity regimes in the California Current. Uncertainty in future environmental conditions, changes in the timing, dynamics, and productivity of the California Current ecosystem via climate change or cycles similar to the historical period should be considered a significant source of uncertainty in all projections of stock status.
+The ongoing WCGBT Survey is a fairly precise relative index of abundance over a broad demo- graphic component of the stock, but it does not survey the entire stock as sablefish reside in waters deeper than 1280 m, the survey depth limit, and to the north of the Washington/British Columbia border. To the modelers' knowledge there is no information from the Pacific coast of Mexico. Therefore, a portion of the stock is unobserved. This index has the potential to inform future stock assessments about the scale of the population relative to catches being removed, however such information will require contrast in the observed survey trend.
 
 ## Harvest Projections{-}
-Previous sablefish stock assessments have been designated as Category 1 stock assessments. Thus, projections and decision tables are based on $P^*$=0.45 and the values of $\sigma$ adopted by the Pacific Fisheries Management Council for stock projections. The time series of multiplicative buffer fractions that are a function of $P^*$ and the time series of $\sigma$s provide the multipliers on the overfishing limit; these values are all less than 1. The multipliers are combined with the 40-10 harvest control rule to calculate overfishing limits, acceptable biological catches, and annual catch limits. The total catches in 2021 and 2022 were set at the Pacific Fisheries Management Council Groundfish Management Team requested values, below that Pacific Fisheries Management Council annual catch limits for sablefish. The average ratio between GMT-specified 2021-2022 catches were used to distribute catches among the fisheries for forecasted years.
 
-Current medium-term projections from the base model under the Pacific Fisheries Management Council 40-10 harvest control rule estimate that the stock will remain above the target stock size of 40% of the estimated unfished spawning biomass during the projection period. Projections are provided through 2032 (Table \ref{tab:projectionES}).
-Forecasts from the 2019 benchmark assessment projected the spawning biomass to increase by 28%
-from 2017 to 2021 given specified harvests, whereas the current assessment estimated the increase at 23%. Estimates of unexploited spawning biomass are 13% higher than that estimated in 2019 and 19% lower than the 2011 estimate. Percent of unfished biomass in 2021 was estimated at 0.57, while the 2019 benchmark assessment forecasted it to be  0.46.
+\textprojections
 
 \begingroup\fontsize{10}{12}\selectfont
 \begingroup\fontsize{10}{12}\selectfont
 
 \begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
-\caption{\label{tab:projectionES}Projections of potential OFLs (mt), ABCs (mt), estimated spawning biomass and fraction unfished. The total catches in 2021 and 2022 were set at the PFMC Groundfish Management Team requested values of 7,405 mt for 2021 and 7,055 mt for 2022.}\\
+\caption{Projections of potential OFLs (mt), ABCs (mt), estimated spawning biomass and fraction unfished. The total catches in 2021 and 2022 were set at the PFMC Groundfish Management Team requested values of 7,405 mt for 2021 and 7,055 mt for 2022 which are about 20\% lower than the ACL = ABC for those years; see Table \ref{tab:manageES} for GMT-defined ACLs and OFLs in 2021 and 2022.}\\
 \toprule
-Year & Predicted OFL (mt) & ABC Catch (mt) & Age 4+ Biomass (mt) & Spawning Biomass (mt) & Fraction Unfished\\
+Year & Predicted OFL (mt) & Catches (2021-22) or ABCs (2023+) (mt) & Age 4+ Biomass (mt) & Spawning Biomass (mt) & Fraction Unfished\\
 \midrule
 \endfirsthead
 \caption[]{Projections of potential OFLs (mt), ABCs (mt), estimated spawning biomass and fraction unfished. \textit{(continued)}}\\
 \toprule
-Year & Predicted OFL (mt) & ABC Catch (mt) & Age 4+ Biomass (mt) & Spawning Biomass (mt) & Fraction Unfished\\
+Year & Predicted OFL (mt) & Catches (2021-22) or ABCs (2023+) (mt) & Age 4+ Biomass (mt) & Spawning Biomass (mt) & Fraction Unfished\\
 \midrule
 \endhead
 
 \endfoot
 \bottomrule
 \endlastfoot
-2021 & 13117.00 & 7405.00 & 265655 & 97801.9 & 0.58\\
-2022 & 12515.20 & 7055.00 & 261481 & 99956.5 & 0.59\\
+2021 & - & \textit{7405.00} & 265655 & 97801.9 & 0.58\\
+2022 & - & \textit{7055.00} & 261481 & 99956.5 & 0.59\\
 2023 & 11577.10 & 10824.60 & 253540 & 99449.9 & 0.59\\
 2024 & 10669.80 & 9922.92 & 246090 & 95943.8 & 0.57\\
 2025 & 10120.60 & 9371.67 & 241976 & 93063.3 & 0.55\\
@@ -402,19 +412,81 @@ Year & Predicted OFL (mt) & ABC Catch (mt) & Age 4+ Biomass (mt) & Spawning Biom
 \endgroup{}
 \endgroup{}
 
+\clearpage
+
 ## Decision Table{-}
 The decision table reports 12-year projections for alternate states of nature (columns) and management options (rows). The results of this table are conditioned on the Groundfish Management Team specified catches for 2021 and 2022, which are below the already-specified annual catch limits approved by the Pacific Fisheries Management Council.
-Uncertainty in management quantities for the decision table was characterized using the asymptotic standard deviation for the 2021 spawning biomass from the base model. Specifically, the 2021 spawning biomass for the high and low states of nature are given by the base model mean ±1.15·standard deviation (i.e., the 12.5th and 87.5th percentiles). A search across fixed values of $R_0$ was used to attain the 2021 spawning biomass values for the high and low states of nature. The mid-level catch streams were based on the 40-10 harvest control rule and a $P^*= 0.45$ buffer vector. To replicate an  request of the Groundfish Management Team representative at the 2019 STAR panel, the additional catch streams were set using the Category 1 values of $P^*$ = 0.40 and P∗ = 0.35, respectively.
-**UPDATE WHEN DECISION TABLE FINALIZED**
-Spawning stock biomass in 2021 ranges across the three states of nature from 42,968 to 71,915 mt, with corresponding stock status between 38% to 41% of the unfished stock size. The decision table suggests that all catch scenarios under both the base and high state of nature result in increases in stock size such that the stock remains either at or above the target stock size at the end of the projection period. However, all catch scenarios under the low state of nature result in declines in stock size throughout the projection period, maintaining the stock within the precautionary zone.
-**ADD DECISION TABLE HERE**
+Uncertainty in management quantities for the decision table was characterized using the asymptotic standard deviation for the 2021 spawning biomass from the base model. Specifically, the 2021 spawning biomass for the high and low states of nature are given by the base model mean ±1.15·standard deviation (i.e., the 12.5th and 87.5th percentiles). A search across fixed values of $R_0$ was used to attain the 2021 spawning biomass values for the high and low states of nature. The base catch streams were based on the 40-10 harvest control rule and a $P^*= 0.45$ buffer vector. This is presented as the bottom row of the decision table as it represents the highest exploitation level among the three catch streams. To replicate a request of the Groundfish Management Team representative at the 2019 STAR panel, the additional catch streams were set using the Category 1 values of $P^*$ = 0.35 and $P^*$ = 0.40; these are presented as the first and second rows of the decision table, respectively.
+
+Spawning stock biomass in 2021 ranges across the three states of nature from 64,916 to 131,513 mt, with corresponding stock status ranging from 51% to 63% of the unfished stock size. The decision table suggests that all catch scenarios under across all states of nature result in decreases in stock size. Under both the base and high states of nature and across all catch scenarios, the stock remains either at or above the target stock size at the end of the projection period. The reason that depletion does not decline as substaintally as suspected in the base case at the 12-year time horizon is the emergence of recent, large recruitment events into the fishery; this is reflected in a disproportionate increase in summary biomass. However, all catch scenarios under the low state of nature drive the stock into the precautionary zone by 2030, where it remains in 2032. 
 
 \clearpage
+
+\begingroup\fontsize{9}{11}\selectfont
+\begingroup\fontsize{9}{11}\selectfont
+\begin{longtable}{lll|ll|ll|ll}
+\caption{Decision table of 12-year projections of spawning stock biomass (SSB) and \% unfished (depletion) for alternative states of nature (columns) and management options (rows) beginning in 2021. Low and high states of nature are based on the 2021 SSB $\pm$ 1.15$\cdot$base model SSB standard deviation and the resulting unfished recruitment was used for the projections. Results are conditioned on the 2021 and 2022 catches, provided by the Pacific Fisheries Management Council Groundfish Management Team (GMT), being achieved exactly. The alternative catch streams are based on the GMT's requested P$^*$ values of 0.35 and 0.40. Note that values for the agreed-upon buffer level of P* = 0.45 is presented as the third row of the decision table as it represents the highest exploitation level among the three catch streams. Catches are total dead biomass, i.e., dead discard plus catch.} \\ 
+  \hline
+Year&Catch&Total& \multicolumn{2}{c}{Low state (0.25)} & \multicolumn{2}{c}{Base (0.5)} & \multicolumn{2}{c}{High state (0.25)} \\ 
+scenario & &catch& SSB & Depletion & SSB & Depletion & SSB & Depletion \\ 
+\hline \endfirsthead
+\multicolumn{9}{l}{\footnotesize Decision table continued from previous page.} \\
+\hline \endhead
+\hline
+\multicolumn{9}{l}{\footnotesize Continued on next page.} \\
+\endfoot
+\endlastfoot
+\hline
+P$^*$=0.35
+& 2021 & 7,405 & 64,916 & 0.51 & 97,802& 0.58 & 131,513 & 0.63 \\ 
+&  2022 & 7,055 & 66,222 & 0.52 & 99,957 & 0.59 & 134,550 & 0.65 \\ 
+&  2023 & 9,412 & 65,396 & 0.51 & 99,450 & 0.59 & 134,266 & 0.64 \\ 
+&  2024 & 8,608 & 62,150 & 0.49 & 96,661 & 0.57 & 131,626 & 0.63 \\ 
+&  2025 & 8,101 & 59,177 & 0.46 & 94,436 & 0.56 & 129,680 & 0.62 \\ 
+&  2026 & 7,796 & 56,750 & 0.44 & 92,909 & 0.55 & 128,548 & 0.62 \\ 
+&  2027 & 7,649 & 54,732 & 0.43 & 91,867 & 0.54 & 127,974 & 0.61 \\ 
+&  2028 & 7,570 & 52,951 & 0.41 & 91,099 & 0.54 & 127,714 & 0.61 \\ 
+&  2029 & 7,504 & 51,310 & 0.40 & 90,483 & 0.54 & 127,626 & 0.61 \\ 
+&  2030 & 7,437 & 49,770 & 0.39 & 89,967 & 0.53 & 127,646 & 0.61 \\ 
+&  2031 & 7,342 & 48,316 & 0.38 & 89,530 & 0.53 & 127,742 & 0.61 \\ 
+&  2032 & 7,247 & 46,956 & 0.37 & 89,175 & 0.53 & 127,911 & 0.61 \\ 
+\hline
+P$^*$=0.40
+&  2021 & 7,405 & 64,916 & 0.51 & 97,802 & 0.58 & 131,513 & 0.63 \\ 
+&  2022 & 7,055 & 66,222 & 0.52 & 99,957 & 0.59 & 134,550 & 0.65 \\ 
+& 2023 & 10,107 & 65,396 & 0.51 & 99,450 & 0.59 & 134,266 & 0.64 \\ 
+&  2024 & 9,252 & 61,794 & 0.48 & 96,308 & 0.57 & 131,273 & 0.63 \\ 
+&  2025 & 8,722 & 58,494 & 0.46 & 93,761 & 0.56 & 129,004 & 0.62 \\ 
+& 2026 & 8,421 & 55,765 & 0.44 & 91,935 & 0.54 & 127,568 & 0.61 \\ 
+& 2027 & 8,282 & 53,451 & 0.42 & 90,602 & 0.54 & 126,699 & 0.61 \\ 
+& 2028 & 8,218 & 51,380 & 0.40 & 89,546 & 0.53 & 126,149 & 0.60 \\
+& 2029 & 8,168 & 49,449 & 0.39 & 88,643 & 0.52 & 125,774 & 0.60 \\ 
+& 2030 & 8,117 & 47,616 & 0.37 & 87,840 & 0.52 & 125,509 & 0.60 \\ 
+& 2031 & 8,039 & 45,869 & 0.36 & 87,117 & 0.52 & 125,324 & 0.60 \\ 
+& 2032 & 7,950 & 44,214 & 0.35 & 86,479 & 0.51 & 125,215 & 0.60 \\
+\hline
+P$^*$=0.45
+& 2021 & 7,405 & 64,916 & 0.51 & 97,802 & 0.58 & 131,513 & 0.63 \\ 
+& 2022 & 7,055 & 66,222 & 0.52 & 99,957 & 0.59 & 134,550 & 0.65 \\ 
+& 2023 & 10,825 & 65,396 & 0.51 & 99,450 & 0.59 & 134,266 & 0.64 \\ 
+& 2024 & 9,923 & 61,426 & 0.48 & 95,935 & 0.57 & 130,908 & 0.63 \\ 
+& 2025 & 9,372 & 57,787 & 0.45 & 93,014 & 0.55 & 128,302 & 0.62 \\ 
+&  2026 & 9,070 & 54,742 & 0.43 & 90,821 & 0.54 & 126,550 & 0.61 \\ 
+& 2027 & 8,934 & 52,126 & 0.41 & 89,130 & 0.53 & 125,375 & 0.60 \\ 
+&  2028 & 8,888 & 49,760 & 0.39 & 87,727 & 0.52 & 124,528 & 0.60 \\ 
+& 2029 & 8,860 & 47,532 & 0.37 & 86,483 & 0.51 & 123,858 & 0.59 \\ 
+& 2030 & 8,810 & 45,402 & 0.36 & 85,346 & 0.51 & 123,298 & 0.59 \\ 
+&  2031 & 8,753 & 43,364 & 0.34 & 84,304 & 0.50 & 122,829 & 0.59 \\ 
+& 2032 & 8,684 & 41,415 & 0.32 & 83,351 & 0.49 & 122,438 & 0.59 \\ 
+   \hline
+\end{longtable}
+\endgroup{}
+\endgroup{}
 
 ## Research and Data Needs{-}
 Most of the research needs listed below entail investigations that need to take place outside of the routine assessment cycle and require additional resources to be completed.
 
-1. Not all of the available sablefish otoliths were aged for this stock assessment because of time constraints resulting from the federal government furlough, and, in some cases, the sample sizes of aged fish are lower than what would be ideal. Resources should be provided to age otolith samples from years with missing age data or small sample sizes.
+1. Not all of the available sablefish otoliths were aged for this stock assessment update because of time constraints resulting from Covid-19, exacerbated by the the federal government furlough in 2019, and, in some cases, the sample sizes of aged fish are lower than what would be ideal. Resources should be provided to age otolith samples from years with missing age data or small sample sizes.
 
 2. A transboundary stock assessment and the management framework to support such assessments would be beneficial given the migratory nature and broad distribution of sablefish along the Pacific Rim. A transboundary assessment would likely improve the ability to estimate the scale of the population, particularly during the early modeled period.
 
@@ -424,7 +496,7 @@ Most of the research needs listed below entail investigations that need to take 
 
 5. Age validation is needed to verify the level of age bias present in the data, if any.
 
-6. Investigate aging methods that could prove more precise than current break-and-burn methods. More accurate age data would facilitate tracking cohorts to older ages, improving estimates of historical year-class strengths.
+6. Investigate aging methods that could prove more precise and/or rapid than current break-and-burn methods. More accurate age data would facilitate tracking cohorts to older ages, improving estimates of historical year-class strengths.
 
 7. Research on understanding the interactions between spatial patterns in sablefish growth, fishery size selectivity, and movement across the Northeast Pacific began during 2019 and are ongoing. The results of this research should be considered in future benchmark stock assessments.
 
@@ -447,9 +519,9 @@ Most of the research needs listed below entail investigations that need to take 
 
 # Introduction
 ## Basic Information
-Sablefish (*Anoplopoma fimbria*, or 'black cod') are distributed in the northeastern Pacific Ocean from the southern tip of Baja California northward to the north-central Bering Sea and in the northwestern Pacific Ocean from Kamchatka southward to the northeastern coast of Japan @hart1973, @eschmeyer1983. U.S. West Coast sablefish are modeled as a single stock. Thus, this stock assessment does not explicitly account for movement between offshore sea mounts {@shaw1997, @morita2012envbiofishsex, @hanselman2015cjfasmove, @rogers2020, regions to the north of the U.S. west coast, or to the western Pacific @fujioka1988docdescription, @heifetz1991fishresmovement, @hanselman2015cjfasmove, @rogers2020}.
+Sablefish (*Anoplopoma fimbria*, or 'black cod') are distributed in the northeastern Pacific Ocean from the southern tip of Baja California northward to the north-central Bering Sea and in the northwestern Pacific Ocean from Kamchatka southward to the northeastern coast of Japan @hart1973, @eschmeyer1983. U.S. West Coast sablefish are modeled as a single stock. Thus, this stock assessment does not explicitly account for movement between offshore sea mounts {@shaw1997, @morita2012envbiofishsex, @hanselman2015cjfasmove, @rogers2020, regions to the north of the U.S. west coast, or to the western Pacific (@fujioka1988docdescription, @heifetz1991fishresmovement, @hanselman2015cjfasmove, @rogers2020). To the modelers' knowledge there is no information from the Pacific coast of Mexico. 
 While previous analyses suggest the existence of several stocks of sablefish in the eastern Pacific Ocean that are largely delineated by management boundaries (@schirripa2007sablefish); and earlier assessments), more recent genetic analyses found that sablefish in the northeastern Pacific Ocean are a single panmictic population @jasonowicz2017cjfaslove). Additional support for a panmictic population stems from tag recoveries that show sablefish move between the regions currently used for management (@hanselman2015cjfasmove, @sogard2017, @rogers2020). Analyses of length-at-age data has found spatial variation in von Bertalanffy growth parameters across the northeastern Pacific Ocean (@mcdevitt1987sablefish, @echave2012fishbullinterdecadal, @head2014fishres, @gertseva2017icesjmsspatial, @kapur2020). While geographic break points at approximately 1. $36^{\circ}$N between Point Conception and Monterey, California at the start of the southern California Bight and 2. $50^{\circ}$N where the North Pacific Current bifurcates suggest zones of growth variation, generally with increasing maximum body size and decreasing growth rates with increasing latitude, they do not indicate regions with separate populations.
-Smaller sablefish are generally found in shallower waters, but the demographics appears to be fully mixed (adult and juvenile) near the shelf-slope break (i.e., 100-300 m). Beyond the shelf-slope break, the adult population is dominated by older individuals @methot1994  and younger fish become increasingly rare. Fish in the deepest areas sampled tend to be the oldest individuals, but not the largest individuals, suggesting that age rather than size dictates depth distribution. However, the interaction between environmental conditions and seasonal movements that produce an increase in age with depth are largely unknown. The stock is distributed beyond the greatest depth sampled by any of the surveys and beyond the deepest commercial fishing areas. Research in these deeper habitats occupied by sablefish is potentially difficult because they extend across the boundary of the exclusive economic zone and sea mounts and ridges around the Pacific. There are relatively fewer sablefish in the Puget Sound and the Strait of Georgia than in coastal U.S. waters. Therefore, connectivity among these areas and the open coast is likely of less importance to this stock assessment than movement along the coast.
+Smaller sablefish are generally found in shallower waters, but the demographics appears to be fully mixed (adult and juvenile) near the shelf-slope break (i.e., 100-300 m). Beyond the shelf-slope break, the adult population is dominated by older individuals (@methot1994) and younger fish become increasingly rare. Fish in the deepest areas sampled tend to be the oldest individuals, but not the largest individuals, suggesting that age rather than size dictates depth distribution. However, the interaction between environmental conditions and seasonal movements that produce an increase in age with depth are largely unknown. The stock is distributed beyond the greatest depth sampled by any of the surveys and beyond the deepest commercial fishing areas. Research in these deeper habitats occupied by sablefish is potentially difficult because they extend across the boundary of the exclusive economic zone and sea mounts and ridges around the Pacific. There are relatively fewer sablefish in the Puget Sound and the Strait of Georgia than in coastal U.S. waters. Therefore, connectivity among these areas and the open coast is likely of less importance to this stock assessment than movement along the coast.
 
 ## Life History
 @tolimieri2018 provide a thorough review of the literature on spawning and early life history of sablefish in the California Current. Briefly, sablefish off the U.S. West Coast exhibit a protracted spawning period from December through March, with peak in February @guzman2017. This winter-time spawning may result in reduced availability to the commercial fishery during the winter months. Spawning occurs along the continental shelf-slope break in waters deeper than 300 m. Eggs ($\sim$ 2.1 mm in diameter) are buoyant and rise in the water column before hatching and sinking to deeper waters. Pelagic juveniles are present in off-shore surface waters and settle to the benthos as age-0 recruits during the late summer to fall, with most newly settled fish at depths of less than 250 m. 
@@ -457,10 +529,14 @@ sablefish reach full size and maturity in their first decade of life, reaching n
 Adult sablefish are fast-swimming and capable of feeding on a diverse array of prey species including fishes, cephalopods, and crustaceans @low1976. The cohabitation of adult and juvenile sablefish may result in some cannibalism, and large changes in predator biomass (such as the recent rebuilding of lingcod, \emph{Ophiodon elongatus}) could have a feedback on juvenile survival and, therefore, stock productivity.
 
 ## Ecosystem Considerations
+
+A detailed summary of social-ecological system (SES) analyses, the Climate Vulnerability Assessment, and environmental drivers of sablefish recruitment is available in the 2019 Benchmark Assessment report (@Haltuch2019b), and truncated from this update document.
+
+
 \begin{comment}
 The National Oceanic and Atmospheric Administration (NOAA) document titled 'Implementing a Next Generation Stock Assessment Enterprise, An update to the NOAA Fisheries Stock Assessment Improvement Plan' (@lynch2018) calls for bringing an ecosystem perspective into the assessment process. Moreover, introducing this perspective to the assessment process is a key component of the NOAA Fisheries Ecosystem-Based Fisheries Management (EBFM) Policy @noaa2016, which calls for incorporation of ecosystem considerations into the management of living marine resources. Uptake of EBFM principles and tools into the assessment process can be accomplished through including ecosystem information in assessments, harvest control rules, and management decisions that are coordinated across species-specific management plans and account for diverse trade-offs (@noaa2016, @lynch2018). Guidelines for incorporating ecosystem considerations into fisheries management advice form the core of Guiding Principle 5 for implementing the NOAA EBFM Policy.
 This assessment includes ecological factors based on the idea that research focused on the linkages within a social-ecological system (SES) and how they increase or decrease sustainability can help inform the management of natural resources (@ostrom2009). The SES framework requires consideration of extractive goals and human activities at a level that allows for ecological sustainability while also considering human well-being. Thus, the SES framework facilitates the consideration of environmental and human impacts on  sablefish as well as sablefish impacts on the ecosystem and humans (e.g., @levin2016). \end{comment}
-A detailed summary of SES analyses, the Climate Vulnerability Assessment, and environmental drivers of sablefish recruitment is available in the 2019 Benchmark Assessment report (@Haltuch2019b), and truncated from this update document.
+
 \begin{comment}
 ### Summary of SES analysis
 The sablefish CVA @mcclure2020} suggests that processes affecting recruitment are sensitive to climatic and, therefore, oceanic drivers. Given high climate vulnerability, changes in the abundance, productivity, and spatial distribution of sablefish are likely, and these changes are likely to impact fishing fleets and communities because of the high value of this fishery. The CVA also suggests that sablefish are likely to shift their distribution in response to climate variability.
@@ -516,59 +592,213 @@ There have been two documented takes of humpback whales in the sablefish fisheri
 
 ## Historical and Current Fishery Information
 Historical sablefish landings, beginning in 1890, have been reconstructed by the states (Washington, Oregon, and California) using a variety of sources. Generally, historical sablefish landings were more reliable than those for many other groundfish species because of their consistent species-level identification. While sablefish landings were recorded back to the beginning of the 20th century, appreciable quantities were not landed until 1916-1919, with landings remaining below 5,000 mt through the late 1960s (Table \ref{tab:removals}; Figure \ref{fig:removals}). 
-Landings prior to 1960 were primarily harvested by hook-and-line gear. The peak around World War II was likely due to a relaxed degree of species sorting rather than a dramatic increase in fishing effort (grey literature notes a decrease in manpower with the onset of the war), where increases in demand were fueled by the need for domestic sources of protein @browning1980.
-The sablefish fishery increased dramatically during the 1970s, first from a combination of foreign vessels @lynde1986, @mcdevitt1987sablefish, followed by an increase in the domestic fleet. Increases correspond to the introduction of a pot fishery followed by an increase in the catch coming from the trawl sector, with only minor increases in the hook-and-line sector until the mid-1980s, after the peak removals from the other sectors. Large catches by foreign vessels, fishing pot gear, in 1976 resulted in the largest single-year removal of over 25,000 mt from U.S. West Coast waters. A rapid rise in domestic pot and trawl landings followed this peak removal, such that on average, nearly 14,000 mt of sablefish were landed per year between 1976 and 1990. During the most recent decade, annual landings have remained below 10,000 mt, composed of approximately 2499 from fixed gear and 1780 from trawl gear during the most recent decade. The decline in domestic landings through the 1980s was likely due to a combination of declining stock size, many years with below average recruitment, reduced Asian-market strength, and increasing fishery regulations.
+Landings prior to 1960 were primarily harvested by hook-and-line gear. The peak around World War II was likely due to a relaxed degree of species sorting rather than a dramatic increase in fishing effort (grey literature notes a decrease in manpower with the onset of the war), where increases in demand were fueled by the need for domestic sources of protein (@browning1980).
+The sablefish fishery increased dramatically during the 1970s, first from a combination of foreign vessels (@lynde1986, @mcdevitt1987sablefish), followed by an increase in the domestic fleet. Increases correspond to the introduction of a pot fishery followed by an increase in the catch coming from the trawl sector, with only minor increases in the hook-and-line sector until the mid-1980s, after the peak removals from the other sectors. Large catches by foreign vessels, fishing pot gear, in 1976 resulted in the largest single-year removal of over 25,000 mt from U.S. West Coast waters. A rapid rise in domestic pot and trawl landings followed this peak removal, such that on average, nearly 14,000 mt of sablefish were landed per year between 1976 and 1990. During the most recent decade, annual landings have remained below 10,000 mt, composed of approximately 3,454 from fixed gear and 1,476 from trawl gear during the most recent decade. The decline in domestic landings through the 1980s was likely due to a combination of declining stock size, many years with below average recruitment, reduced Asian-market strength, and increasing fishery regulations.
 
 ## Summary of Management History and Performance
 Between 2003 and 2010 the trawl logbook and WCGOP observer data show the fishery was distributed widely across the continental shelf from approximately 40$^{\circ}$N to the U.S. Canadian border, with fishing effort distributed towards deeper waters south of the 40$^{\circ}$ line and limited effort south of the 36$^{\circ}$ management line (Figure \ref{fig:footprinttwl}). With the beginning of the catch shares program in 2011, the trawl logbook and WCGOP data show the fishery shifted its distribution towards deeper waters with greatly decreased effort in California.
-During 2003 through 2017 WCGOP observer program data show the non-catch shares fixed-gear fishery had a more patchy distribution compared to the trawl fishery (data from logbooks), with hook-and-line fishing effort extending into waters south of Point Conception while pot fishing effort was largely concentrated off of the coasts of Washington and Oregon (Figures \ref{fig:footprint_hkl} and \ref{fig:footprint_pot}). Since the inception of the catch shares program in 2011, the WCGOP observer program data show that catch shares vessel fishing with hook-and-line gears are distributed to the north and focused on limited spatial regions with little effort in waters south of 40$^{\circ}$N, while catch shares vessels fishing with pots have expanded into waters south of 36$^{\circ}$N. Note that the catch shares sectors, and the pre-catch shares bottom trawl sectors are the only ones were data are near complete. Maps for  the hook-and-line and pot gears, show catch shares (right panel) and non-catch shares (left panel) sectors separately. Non-catch shares trips continue into the more recent period, but in contrast to catch shares, the non-catch shares trips are not all observed. The West Coast Groundfish Observer Program data, 2003-2019, was downloaded on 2/26/2021. Coverage rates of all sectors can be found at https://www.nwfsc.noaa.gov/research/divisions/fram/observation/data\_products/sector\_products.cfm.
+
+During 2003 through 2017 WCGOP observer program data show the non-catch shares fixed-gear fishery had a more patchy distribution compared to the trawl fishery (data from logbooks), with hook-and-line fishing effort extending into waters south of Point Conception while pot fishing effort was largely concentrated off of the coasts of Washington and Oregon (Figures \ref{fig:footprint_hkl} and \ref{fig:footprint_pot}). Since the inception of the catch shares program in 2011, the WCGOP observer program data show that catch shares vessel fishing with hook-and-line gears are distributed to the north and focused on limited spatial regions with little effort in waters south of 40$^{\circ}$N, while catch shares vessels fishing with pots have expanded into waters south of 36$^{\circ}$N. Note that the catch shares sectors, and the pre-catch shares bottom trawl sectors are the only ones which have data near completion. Maps for  the hook-and-line and pot gears, show catch shares (right panel) and non-catch shares (left panel) sectors separately. Non-catch shares trips continue into the more recent period, but in contrast to catch shares, the non-catch shares trips are not all observed. The West Coast Groundfish Observer Program data, 2003-2019, was downloaded on 2/26/2021. Coverage rates of all sectors can be found at https://www.nwfsc.noaa.gov/research/divisions/fram/observation/data\_products/sector\_products.cfm.
 \begin{comment}
 In 2018, the ex-vessel value of the sablefish fishery was estimated at 25.3 million dollars (pers. comm., E. Steiner). This represents a five-year low, where the previous year, 2017, represented the five-year high at 35.0 million dollars.\end{comment}
+
 From the early 1900s to the early 1980s, management of the sablefish fishery was the responsibility of the individual coastal states (California, Oregon, and Washington). Since the adoption of the Groundfish Fishery Management Plan by the Pacific Fisheries Management Council in 1982, responsibility has rested with the federal government and the Council. From 1977 to the mid-1980s, U.S. commercial fishermen took advantage of their newly protected fishing grounds (i.e., the enactment of the 'Fishery Conservation and Management Act', which occurred in in 1976, later to be renamed 'Magnuson Stevens Fishery Conservation and Management Act') recording high catches of sablefish to meet the demands of flourishing export (primarily Asian countries) and domestic markets.
-The first coast-wide regulations off the U.S. Pacific Coast for the sablefish fishery were implemented as trip limits in October 1982, followed by a rich history of management via seasons, size-limits, trip-limits, and a complex permit system; see Appendix \ref{appman} for a comprehensive list of management actions). Beginning in 1983, additional trip limits were imposed on landings of sablefish less than 22 in in length, considered incidental catch. In 1987, allocations between the trawl and non-trawl fleets were implemented.
-Beginning in the late-1980s, the fixed-gear sablefish fishery was managed as a 'derby' fishery, characterized by increasing reductions in season lengths. In 1991, the fully open season lasted seven weeks, from April 1 through May 23. In 1992, approximately 1,300 mt were landed under early season trip limits of up to 1,500 lb/day, and the fully open season lasted from May 12 through May 26. In 1993, there was a 250 lb/day trip limit prior to the open season which extended from May 12 through June 1. In 1994, the fully open season was shorted to May 15 through June 3. In 1995, the open season lasted one week, from August 3 to August 13. The open season spanned only six days in 1996, from September 1 to September 6. In 1997, nine days (August 25 to September 3) were set aside for the open season, with a mop-up period from October 1-15. In the more recent period, the Limited Entry Fixed Gear sector has been managed primarily through the use of tiered cumulative limits (allocated on the basis of historical landings) which can be landed throughout the 7-month season. The remaining open-access fishery and some limited-entry non-trawl vessels are allowed to make smaller landings that are subject to daily/weekly limits and two-month cumulative caps.
-Additionally, sablefish are harvested by the trawl fishery in association with a variety of other species that are distributed to domestic and foreign markets. Prior to 2011, the trawl fishery was managed primarily through the use of trip limits. These evolved from simple per-trip limits in the 1980s to cumulative periodic (monthly or bi-monthly) limits by the mid-1990s. In addition to sablefish-specific limits, various limits were in place for the overall landings of deep-water complex species @stewart2011sablefish}.
+The first coast-wide regulations off the U.S. Pacific Coast for the sablefish fishery were implemented as trip limits in October 1982, followed by a rich history of management via seasons, size-limits, trip-limits, and a complex permit system; see Appendix 10 of @Haltuch2019b for a comprehensive list of management actions. Beginning in 1983, additional trip limits were imposed on landings of sablefish less than 22 in in length, considered incidental catch. In 1987, allocations between the trawl and non-trawl fleets were implemented.
+
+
+Beginning in the late-1980s, the fixed-gear sablefish fishery was managed as a 'derby' fishery, characterized by successive reductions in season lengths. In 1991, the fully open season lasted seven weeks, from April 1 through May 23. In 1992, approximately 1,300 mt were landed under early season trip limits of up to 1,500 lb/day, and the fully open season lasted from May 12 through May 26. In 1993, there was a 250 lb/day trip limit prior to the open season which extended from May 12 through June 1. In 1994, the fully open season was shortened to May 15 through June 3. In 1995, the open season lasted ten days, from August 3 to August 13. The open season spanned only six days in 1996, from September 1 to September 6. In 1997, ten days (August 25 to September 3) were set aside for the open season, with a mop-up period from October 1-15. In the more recent period, the Limited Entry Fixed Gear sector has been managed primarily through the use of tiered cumulative limits (allocated on the basis of historical landings) which can be landed throughout the 7-month season. The remaining open-access fishery and some limited-entry non-trawl vessels are allowed to make smaller landings that are subject to daily/weekly limits and two-month cumulative caps.
+
+Additionally, sablefish are harvested by the trawl fishery in association with a variety of other species that are distributed to domestic and foreign markets. Prior to 2011, the trawl fishery was managed primarily through the use of trip limits. These evolved from simple per-trip limits in the 1980s to cumulative periodic (monthly or bi-monthly) limits by the mid-1990s. In addition to sablefish-specific limits, various limits were in place for the overall landings of deep-water complex species (@stewart2011sablefish).
 Coast-wide yield-targets are divided among the different gears, fishery sectors (including both limited entry and open access) as well as north and south of 36$^{\circ}$ latitude. The overfishing level (OFL, formerly the allowable biological catch, i.e., ABC) for sablefish has ranged from 6621
-to 9914 during the last decade (Table \ref{tab:manageES}).
-Catch targets (ACLs, formerly OYs) ranged from 5451 to 8423 mt over the same period. Landings were estimated to be below the ACLs in all years. Total mortality (including discards predicted to not survive) in the context of management limits and targets is discussed in Section \ref{rp} below.
+to 8623 during the last decade (Table \ref{tab:manageES}). Catch targets (ACLs, formerly OYs) ranged from 5451 to 7896 mt over the same period. Landings were estimated to be below the ACLs in all years. Total mortality (including discards predicted to not survive) in the context of management limits and targets is discussed in Section \ref{rp} below.
 
 ## Foreign Fisheries (Canada and Alaska)
 Similarly to the U.S. West Coast, sablefish fisheries in Alaska and British Columbia waters began in the late 1800s, with generally low catches until after World War II. Foreign fisheries began exploiting sablefish in the northeastern Pacific Ocean during the late 1950s in the Bering Sea leading to rapidly increasing catches in the region through the 1980s. 
 Historically, Alaskan landings were much larger than those off the U.S. West Coast, rising to over 20,000 mt during the early 1960s, with many years above this level until the mid 1990s. In the most recent decade, Alaskan landings, including those taken from inside waters under the management of the Alaska Department of Fish and Game, have averaged just over 12,000 mt \begin{comment}(pers. comm., B. Williams; see Table \ref{akcatches} and @hanselman2018 for a full account of sablefish fisheries in Alaska).\end{comment}
-The sablefish fishery in British Columbian waters has a similar history to those in U.S. waters. The fishery primarily uses pots, with a lesser amount landed using long lines and trawls. Landings ranged up to just over 7,000 mt during the mid-1970s, followed by a variable but generally declining trend through the present (@kronlund2010}; pers. comm., B. Connors). In the most recent decade, average landings have been just over 2,100 mt, with the 2014 landings representing the lowest since the the mid 1960s (pers. comm., B. Connors).
+The sablefish fishery in British Columbian waters has a similar history to those in U.S. waters. The fishery primarily uses pots, with a lesser amount landed using long lines and trawls. Landings ranged up to just over 7,000 mt during the mid-1970s, followed by a variable but generally declining trend through the present (@kronlund2010; pers. comm., B. Connors). In the most recent decade, average landings have been just over 2,100 mt, with the 2014 landings representing the lowest since the the mid 1960s (pers. comm., B. Connors).
 
 <!--chapter:end:11introduction.Rmd-->
+
+# Data
+
+A brief description of each data source is provided below (Figure \ref{fig:data-plot}). The following sources of data were used in building this assessment, and the data preparation approach were unchanged from the 2019 Benchmark, with the exception of implementing the latest version of the PacFinUtilities R package (version 0.0.2.0002).
+* Fishery-independent data, including relative abundance indices and length and age data from the 
+Northwest Fisheries Science Center (NWFSC) West Coast Groundfish Bottom Trawl (WCGBT) Survey 2,003-2,019, and relative abundance indices and age data from the NWFSC slope survey 1,998-2,002,the Alaska Fisheries Science Center (AFSC) Slope Survey 1,997-2,001, and the Triennial Shelf Survey 1,980-2,004. Input sample sizes were based on the number of tows length and marginal age compositions, whereas CAAL input sample sizes were based on the number of fish sampled. 
+
+*  Estimates of fecundity, maturity, weight-length relationships, and ageing imprecision.There were no changes to the input growth, fecundity, or natural mortality values from the benchmark assessment.
+
+*  Informative sex-specific priors on natural mortality based upon meta-analytical 
+relationships with other life-history parameters derived from data across a number of fish stocks 
+(Figure \ref{fig:naturalmortalityprior}). This update assessment used the same value as was implemented in the 2019 benchmark assessment.
+
+*  Reported commercial and reconstructed landings 1,889-2,020.
+
+*  Biological data (ages) from the commercial port sampling programs
+1,983-2,020. Input sample sizes for the composition data were based on the number of port samples.
+
+*  Estimates of commercial discard length and mean weight and fraction discarded in the fishery obtained from the West Coast Groundfish Observer Program (WCGOP; 
+2,002-2,019 and 
+1,986-1,988
+from @pikitch1988usdoc}. Input sample sizes for discard length compositions were based on the number of observed trips. 
+*  Environmental index of age-0 recruitment derived from tide-gauge measurements of sea level (Figure \ref{fig:ssh-plot}).
+
+## Fishery-Independent data
+### Northwest Fisheries Science Center West Coast Groundfish Bottom Trawl Survey
+
+The WCGBT Survey has maintained a consistent stratified random-grid survey design over the period 2,003-2,019, including depths from 55-1,280 m [@bradburn_2003_2011]. WCGBT data are used to estimate a relative index of abundance for several groundfish species including sablefish, which are captured in a high proportion of survey hauls over most of the west coast shelf and slope depths. Note that there were only 2 vessels used in 2019 and 3 in 2013, with one of the three unable to complete its survey pass due to government shutdown. No survey occurred in 2020 due to the Covid-19 pandemic.
+
+The survey design divides the U.S. West Coast into $\sim$ 13,000 adjacent cells of equal area. Typically, four chartered industry vessels conduct tows in randomly selected grid cells as they travel from north to south during one of two passes from late-May to early-October. The design therefore incorporates both vessel-to-vessel differences in catchability and variability associated with selecting a relatively small number ($\sim$ 700) of cells from the large population of possible cells. Note that the WCGBT Survey is not permitted to access the Cowcod Conservation areas in southern California.  
+
+The data were analyzed using Vector-Autoregressive spatiotemporal Model (@thorson_comparing_2017, @thorson_guidance_2019) available within the
+[https://github.com/James-Thorson-NOAA/VAST](VAST) R package following the same procedure as was done in 2019 (Figure \ref{fig:WCGBTindexcompare}). 
+
+\begin{comment}
+VAST allows for the estimation of the variation in density for multiple locations across time and categories (e.g., species or age classes) and has been reviewed, endorsed, and recommended by the Pacific Fishery Management Council's Scientific and Statistical Committee for estimating abundance indices. Spatial and spatiotemporal variation is specifically included in both model components, i.e., encounter probabilities and positive catch rates, which are modeled using logit- and log-links, respectively. Gamma and log-normal error structures were investigated for the positive catch-rate component of the model to allow for skewness in the estimated distribution [@maunder2004fishresadjusting]. Vessel-year effects were included for each unique combination of vessel and year to account for the random selection of commercial vessels from those that were available [@helser_generalized_2004, @thorson_accounting_2014]. In summary, the survey biomass density (weight per area swept) was a function of year, latitude, longitude, and vessel-year. Spatial variation was approximated using 500 knots and the results were corrected for transformation bias @thorson_implementing_2016 using an algorithm in Template Model Builder @kristensen_tmb_2016. Further details regarding the structure of the spatiotemporal model available in VAST are available in the [https://github.com/James-Thorson-NOAA/VAST/tree/master/vignettes](user manual).
+
+Specific details of how VAST was configured to estimate an index of abundance from WCGBT Survey data are available at[https://github.com /nwfsc-assess/VASTWestCoast](VASTWestCoast), which contains scripts specific to fitting VAST to data from surveys operating off of the U.S. West Coast. For example, a covariate was included for survey pass (i.e., 'first' or 'second') to account for the incomplete sampling during the second pass of the 2013 WCGBT Survey when the survey was cut short and no stations south of $37^\circ$N were sampled (Figure \ref{databyyearWCGBT3}) or seasonal, latitudinal movement.
+\end{comment}
+Model convergence and fit were evaluated using the matrix of second-order partial derivatives ('Hessian matrix') and quantile-quantile ('Q-Q') plots of the predicted distribution versus the expectation under a null model (i.e., uniform distribution). Positive definite Hessian matrices were indicative of a model that had reached a local minimum and, thus, converged. Q-Q plots that largely followed a 1:1 relationship suggested that the distributional form used to fit the positive catch-rate data captured the shape of the dispersion present in the data. Histograms of the quantiles were also used to inspect for over- and under-estimated probability of encounter rates, which can suggest a lack of fit. Finally, plots of Pearson residuals across space and time were investigated for spatial and spatiotemporal patterns suggesting model misspecification. Additional tables and a comparison with the design based index are available in Appendix 1 of the 2019 benchmark assessment [@Haltuch2019b].
+The estimated index shows a relatively precise and strong declining trend from 2003-2008, stabilization from 2008 through 2016, and an increasing trend between 2017 and 2018 and a slight decrease in 2019  (Figure \ref{fig:WCGBTindexest}). The increase in the most recent years is largely due to increases in densities off of the coast of Washington.
+Q-Q plots suggested that the gamma distribution (Figures \ref{fig:WCGBTQQ} fit the data better than a log-normal distribution (results not shown). The lowest densities per year were predicted off of the southern coast of California (Figures \ref{fig:surveydensWCGBT1}). No spatial or spatiotemporal patterns were found in the Pearson residuals (Figures \ref{fig:surveyresid1WCGBT1}).
+
+
+
+Sampled lengths were binned into 37 bins from  18 (cm) to $\geq$ 90 (cm) to summarize the sex- and year-specific length data. 
+\begin{comment} Unsexed fish were assigned to males and females using a 50:50 ratio. sablefish were well sampled (Table \ref{surveycompn}), and the data broadly show modes for age-0 fish 10 cm), age-1 fish ` r min(model$lendbase$Bin)+10-min(model$lendbase$Bin)+20` cm, and adults to $\sim$` r max(model$lendbase$Bin)-10` cm (Figure \ref{lcaggregate}).\end{comment} 
+Large cohorts are visible beginning in 2,008, 2,010, and 2,013 showing clear progress in the length-composition data over time (Figure \ref{fig:torcfleet8lencomps}).
+
+\begin{comment} Age structures are generally collected from a subset of the fish that have been measured for length. Thus, it is common to include these data as conditional age-at-length (CAAL) compositions. Summarizing the data in this way consists of tabulating the ages within a given length category, where marginal compositions perform the additional step of summing age tabulations across all lengths. Thus, CAAL compositions treat the distribution of ages for each length category as separate observations, conditioned on the lengths from which they came. When a data set is representative of the population, utilizing CAAL data can be beneficial. However, recent research has called into question using CAAL data when they are not representative of the population because it can lead to bias and imprecise estimates of the population age structure and derived model quantities @lee2019fishresone}. When CAAL are representative of the population, three benefits may be realized by using CAAL compositions compared to using standard marginal age compositions. 
+
+First, including CAAL data in the model-fitting process incorporates uncertainty due to sampling and missing data, whereas externally created age-length keys are often input without error.
+
+Second, CAAL data tabulated for each length bin removes the problem of double counting information on sex ratios and year-class strengths such as when marginal age-compositions are used along with length compositions and the same fish are contributing to two likelihood components, which are assumed to be independent. CAAL compositions thus allow only additional information provided by the age data (relative to the generally far more numerous length observations) to be captured.
+
+Third, CAAL observations facilitate internal estimation of basic growth parameters (length at age and $K$) and distribution of lengths at a given age, usually governed by two parameters, the coefficient of variation of length at a specified young age and the coefficient of variation of length at a much older age. Without CAAL data, coefficient of variation's can only be derived from accurately aged and measured marginal age- and length-composition observations where strong and well-separated cohorts exist. Estimating the growth specifications within the stock assessment model facilitates the inclusion of this major source of uncertainty in the assessment results. \end{comment} 
+
+Conditional age-at-length (CAAL) data from the WCGBT Survey are used in the base model because these are the most representative source of sablefish age and length data from the U.S. West Coast. 
+
+Age distributions included 51 bins from age ` r min(model$agedbase$Bin)` to age ` r max(model$agedbase$Bin)` and older. Approximately one-quarter as many fish were aged as were measured for length, but these fish were collected from a similar number of tows. CAAL compositions confirm cohorts seen in the length compositions, although, signals are dominated largely by age-1 fish (Figures \ref{fig:acomp_resid_caal1}-\ref{fig:acomp_resid_caal4}). An appreciable number of fish are also observed in age classes above age 10. Data confirm the the rapid growth trajectory over the first several years of life, with growth slowing rapidly after 10 years old. Dimorphic growth is also pronounced, with virtually all sablefish above 70 cm being female.
+
+
+
+### Northwest Fisheries Science Center Slope Survey
+The \Gls{s-wcgbt} is based on a random-grid design; covering the coastal waters from a depth of 55-1,280 m [@bradburn_2003_2011] and operating in years 2,003-2,019. Note that there were only 2 vessels used in 2019 and 3 in 2013, with one of the three unable to complete its survey pass due to government shutdown. No survey occurred in 2020 due to the Covid-19 pandemic.
+This design generally uses four industry-chartered vessels per year assigned to a roughly equal number of randomly selected grid cells and divided into two 'passes' of the coast.
+Two vessels fish from north to south during each pass between late May to early October.
+This design therefore incorporates both vessel-to-vessel differences in catchability,
+as well as variance associated with selecting a relatively small number (approximately 700) of possible cells from a very large set of possible cells spread from the Mexican to the Canadian borders.
+This design generally uses four industry-chartered vessels per year assigned to a roughly equal number of randomly selected grid cells and divided into two 'passes' of the coast.
+Two vessels fish from north to south during each pass between late May to early October.
+This design therefore incorporates both vessel-to-vessel differences in catchability,
+as well as variance associated with selecting a relatively small number (approximately 700) of possible cells from a very large set of possible cells spread from the Mexican to the Canadian borders.
+
+### Alaska Fisheries Science Center Slope Survey
+
+The Alaska Fisheries Science Center (AFSC) Slope Survey was conducted over depths from 183-1,280 m, north of $34.5^\circ$N in 1,997-2,001. Limited sampling in earlier years covered only relatively small and inconsistent portions of the coast and are therefore insufficient to provide an index of abundance. This survey had a very high degree of both positive tows and biological sampling.
+
+A relative index of abundance was estimated using VAST for the 2019 benchmark assessment; it was unchanged in this update.
+
+### Triennial Shelf Survey
+
+The \gls{s-tri} was first conducted by the \gls{afsc} in 1977, and the survey continued until 2004 [@weinberg_2001_2002]. Its basic design was a series of equally-spaced east-to-west transects across the continential shelf from which searches for tows in a specific depth range were initiated.
+The survey design changed slightly over time.In general, all of the surveys were conducted in the mid summer through early fall. The 1977 survey was conducted from early July through late September.
+The surveys from 1980 through 1989 were conducted from mid-July to late September. The 1992 survey was conducted from mid July through early October. The 1995 survey was conducted from early June through late August. The 1998 survey was conducted from early June through early August. Finally, the 2001 and 2004 surveys were conducted from May to July.
+
+Haul depths ranged from 91-457 m during the 1977 survey with no hauls shallower than 91 m.
+Due to haul performance issues and truncated sampling with respect to depth, the data from 1977 were omitted from this analysis.
+The surveys in 1980, 1983, and 1986 covered the US West Coast south to 36.8\textdegree N latitude and a depth range of 55-366 m.
+The surveys in 1989 and 1992 covered the same depth range but extended the southern range to 34.5\textdegree N (near Point Conception).
+From 1995 through 2004, the surveys covered the depth range 55-500 m and surveyed south to 34.5\textdegree N.
+In 2004, the final year of the \gls{s-tri} series, the \gls{nwfsc} \gls{fram} conducted the survey following similar protocols to earlier years.
+
+### Other fishery-independent data
+
+Pot surveys were conducted by the National Marine Fisheries Service (NMFS) in 1979, 1980, 1981, 1983, 1985, 1987, and 1989 in northern International North Pacific Fisheries Commission (INPFC) areas (U.S. Vancouver and Columbia) and in 1984, 1986, 1988, and 1991 in southern (Eureka, Monterey, and Conception) INPFC areas @parks1981, parks1983, parks1985, parks1987, parks1989, kimura1985}. The number of fish per pot and biological data were collected according to the following grade-specific categories: large (\textgreater68 cm); medium (62-67 cm); small (52-61 cm); and extra-small (51 cm) fish. Early sablefish stock assessments had little choice but to use the geographically limited and variable pot surveys as indices of abundance. Over time, growing time-series of trawl-survey indices, conflicting abundance trends, and incomplete spatial coverage within the pot surveys have led to their exclusion from all recent stock assessments. These indices have not been revisited for this assessment, but future work could re-evaluate the possibility that there is some useful information in these data through updated analysis or modeling methods.
+
+
+### Environmental indices
+Research and assessments during recent decades have examined the relationship between sea level, measured via tide gauges, and sablefish recruitment [@schirripa2001sablefish, @schirripa2005sablefish, @schirripa2006, @schirripa2007sablefish, @schirripa2009icesjms, @stewart2011sablefish, @johnson2016sablefish]. Changes in sea level serve as a proxy for large-scale climate forcing that drives regional changes in alongshore and cross-shelf ocean transport. A re-analysis of the sea level-recruitment relationship was conducted for this assessment that included all available tide-gauge data available for the U.S. West Coast through 2020, using the same approach as in the benchmark assessment. The resultant values are nearly identical to those used in the previous assessment (Figure \ref{fig:ssh-plot}).
+
+\begin{comment}
+ These changes directly impact the transport of water masses, nutrients, and organisms @schirripa2006, @dilorenzo2013. The sea-level index evaluated within the stock assessment modeling context consisted of a spatiotemporal (April, May, and June) average using data from 4 tide-gauge stations in the northern California Current. Earlier assessments tested a number of covariates at several temporal and regional aggregations, resulting in a total of almost 900 unique possible combinations @stewart2011sablefish. Not all of these time series were independent. Additionally, the previous selection of sea level was, in part, to replace the copepod index on the basis of the correlation between the two indices, with sea level providing a more complete time series @stewart2011sablefish. Copepods are an important food source for larvae and juveniles @grover1987, @mcfarlane1990. The 2011 assessment @stewart2011sablefish suggested that there is little chance of selecting a randomly generated time-series with the observed $R^2$ between recruitment and sea level, supporting the hypothesis that the relationship between sablefish recruitment and sea level is not spurious. However, repeated testing of these types of relationships remains necessary.
+
+While biologically meaningful, the sea level-recruitment relationship is weak ($\sim R^2=0.35$ from the Schirripa studies), and use of the index in recent years has not had a large effect on assessments because much of the variation in recruitment is already captured in the age-structure data @stewart2011sablefish}. Additionally, previous analyses have selected tide-gauge locations based on the strength of the resulting relationship with recruitment, potentially biasing the results @schirripa2007sablefish, johnson2016sablefish. ROMS models have had some success explaining of sablefish recruitment @tolimieri2018, but the available time-series cover a limited period (1980-2010). While the ROMS models can be updated, limited environmental-forcing data means that the models cannot necessarily be projected back in time with much confidence. Thus the ROMS-based indicators cannot be used to hindcast recruitment to better incorporate recruitment dynamics for early periods.
+
+A re-analysis of the sea level-recruitment relationship was conducted for this assessment that included all tide-gauge data available for the U.S. West Coast (see Appendix \ref{app:env} for full details including model selection, validation, and testing). The goals of this analysis were to 
+1. re-examine the sea level-recruitment relationship to develop a stronger predictive relationship, 
+2. produce a more statistically justifiable sea-level index, and 
+3. extend the time span of any environmental sea-level index to allow for both hindcasting and forecasting of sablefish recruitment. Even a weakly correlated index might allow for qualitative forecasting, while hindcasting recruitment would better describe recruitment dynamics in early model periods when size and age data were not available to inform the assessment.
+The re-analysis had two steps.  
+First, dynamic factor analysis (DFA; @zuur2003environmetrics, zuur2003cjfas}) was used to find common trends in mean second quarter sea level at sixteen stations spanning Neah Bay to San Diego along the U.S. West Coast (Figure \ref{app:env}33).
+Second, model selection was then used to find the combination of dynamic factors that best explained residuals around the stock-recruitment relationship from the 2015 assessment (Johnson et al. 2016). This approach describes coast-wide sea level and avoids \emph{a priori} selection of locations.
+The best DFA model had five dynamic factors (Figure \ref{app:env}37). The time series available at each tide-gauge location varied (Figure \ref{app:env}34), but DFA can combine time series with missing data and of unequal length. The resulting dynamic factors span \textcolor{red} {1925-2018 (second quarter data for 2019 were not available the time of this analysis)}. The first dynamic factor was positively correlated with sea level with the strongest correlations north of Cape Mendocino (Figure \ref{app:env}35). The second dynamic factor was negatively correlated with sea level, most strongly at central stations. The third dynamic factor was negatively correlated with sea level with the strongest correlations south of Cape Mendocino and especially south of Monterey Bay. The remaining factors showed no particular pattern.
+The best-fit linear model (Table \ref{app:env}2), which explained 35\% of the variation in recruitment around the stock-recruit curve (Figure \ref{ecocons4}), was 
+$$
+Stock-recruitment~residuals \sim DF1 + DF3 + DF3^2,
+$$
+where $DF1$ and $DF3$ are the first and third dynamic factors (Figure \ref{app:env}35). The DF1 alone, explained 25\% of the variation in recruitment around the stock-recruit curve, and was evaluated within the stock assessment model as DF1 is most similar to what has been used in previous stock assessments. This analysis included the years 1975--2015 because of a paucity of size and age data prior to 1975 and because assessment-based biomass and recruitment estimates were available through 2015 @johnson2016sablefish}. sablefish recruitment was negatively correlated with sea level north of Cape Mendocino ($DF1$), while the relationship was somewhat more complex in the south ($DF3$) due to the inclusion the quadratic term for $DF3$.
+\textcolor{red}{Comparison of predicted recruitment residuals from the best-fit model with those from the stock-recruitment relationship in the 2015 assessment show a good overall fit (Figure \ref{app:env}36). However, the relationship was weak ($R^2$ = 0.35), largely because the model failed to predict lower than expected recruitments in 2005, 2006, and 2009 and underestimated the strength of the higher than predicted recruitments in 1976, 1979, 1999, and 2013. Nevertheless, the model did predict peaks in the recruitment residuals in these four years. Thus, the relationship functions as a conservative indicator of sablefish recruitment success.
+
+The years 2016-2018 extend beyond the recruitment and biomass estimates in the last sablefish stock assessment, so we cannot compare them directly to assessment estimates. However, they can be compared to estimates of sablefish recruitment from the WCGBT Survey (Figure \ref{app:env}7). The index predicted higher than expected (based on the stock-recruitment relationship) recruitment for 2016, which is corroborated by a peak in the abundance of age-0 sablefish in the trawl survey in this year. However, while the index also suggests higher than expected recruitment in 2018, this prediction is not observed in the trawl data. Good recruitment for sablefish appears related, in part, to cooler temperatures during the female pre-conditioning period prior to spawning @tolimieri2018}. The 2018 year class follows several years of a marine heat wave (i.e., `the blob'), which may have reduced female condition and resulted in lower realized recruitment than that expected by the sea-level index.}
+Comparing the distribution of age-0 recruits (Figure \ref{app:env}7) to the model performance (Figure \ref{app:env}39) suggests that strong over predictions (more than 1.0 standard deviation above the assessment derived stock recruitment residual) may be due to failure to account for processes in the south in some way, regardless of the fact that $DF3$ does account for sea level south of Cape Mendocino. For example, the model over predicted recruitment in 2005-2007, 2009, and 2011.  All of these years, with the exception of 2011, saw lower recruitment in the area around San Francisco Bay. For 2011, the model predicted recruitment fairly close to that expected by the stock-recruitment relationship, and actual age-0 abundance was somewhat lower. Conversely, the model predictions were underestimates of the recruitment peaks in 2010 and 2013 when there were strong recruitments around San Francisco Bay and Point Conception.
+
+Appendix \ref{app:env} provides a more comprehensive analysis of the sea-level index.
+The sea level-recruitment relationship has been modeled both via the internal population dynamics as a direct offset to the expected value for recruitment @maunder2003, @schirripa2005sablefish and as a survey index of age-0 recruitment deviations @schirripa2007sablefish, @stewart2011sablefish, @johnson2016sablefish. The former method makes it difficult to determine the appropriate degree of recruitment variability for the deviations themselves and also requires that the environmental series be treated as if it is known without error. The latter method allows for observation error in the environmental series.
+The topic of model-selection, robustness, and validation for the sea level-recruitment relationship was a recurrent theme in STAR panels and with the Pacific Fisheries Management Council Science and Statistical Committee between 2002 and 2007. Prior to 2011, the use of the sea-level index was contentious. During 2011, the sea-level data were used as a survey index of recruitment in a sensitivity using the data from 1970 forward, although the sea-level data begin during 1925. Using only the data from 1970 forward did not influence model results because the information in the length- and age-composition data largely agreed with the information in the sea-level data @stewart2011sablefish, johnson2016sablefish}. This assessment uses the DF1 and associated uncertainty, spanning 1925 through 2018, from the analysis above as a survey index of age-0 recruitment. Using the sea level time series prior to 1970, rather than limiting the data to the period in which length- and age-composition data inform recruitment strength as was done in during 2011, provides the opportunity to allow for both hindcasting recruitment and nowcasting of recruitment in the absence of survey data during the current assessment year, or in future 'catch only'assessments conducted for management. Both hindcasting during historically data poor periods and nowcasting in the absence of current survey data may better represent stock dynamics.
+\end{comment}
+
+## Fishery-Dependent data
+### Historical commercial landings
+Historical commercial landings remained unchanged from the 2019 Benchmark Assessment. Landings data were extracted for the period 1982-2020 and are generally the same as those used in the benchmark assessment (Figure \ref{fig:catch_comparison})
+
+### Fishery biological data
+
+Data for all states were extracted from PacFIN's Biological Data System (BDS). Broadly, the weighting of commercial biological samples was conducted via the following method using the R package 
+[https://github.com/nwfsc-assess/PacFIN.Utilities](PacFIN.Utilities). This approach did not change between the 2019 benchmark assessment and the present update.
+
+*  Expand the sample weight of lengths (or ages) from the state recorded subsample, consisting of one or more baskets of fish, to the estimated total catch in that market category (or trip for ungraded samples). This step accounts for differences in the fraction of each landing (or market category) that was actually sampled and is important during periods where there are some differences in the number of baskets or fish that comprise a `sample'. When sample weights were unavailable, as is always the case for fish landed in Washington, gender-specific weight-length relationships were used to approximate the weight of the sample. 
+*  Sum the trip-expanded values within gear and state combinations. Data sampled from larger landings thus account for more weight in the sum to better reflect the total catch.
+*  Expand the values to the reconstructed gear-specific landings, ensuring that if one state sampled landings very heavily but is responsible for only a small fraction of the total landings it will not be weighted too heavily.
+*  Sum the number of port-side samples included in the compositions by year and gear for the input sample size.
+
+
+### Discard ratio estimates
+
+The WCGOP estimates commercial fishery discard ratios for the period between 2003 to present using data collected by gear type, fishery (e.g., open access, limited entry), and species/management units. The discard ratios were computed as the total estimated discarded weight (lbs) on observed trips divided by the estimated total catch (discarded and retained). To aggregate these ratios into the gear types modeled in this assessment, each state, fishery, and gear combination was weighted by the total estimated catch (discarded and retained weight). Thus, the discard rates represent weighted estimates from each contributing segment within each gear type. Uncertainty in these values was quantified via bootstrapping the individual observations and then aggregating to the total estimate, providing a distribution of the discard rate. From this distribution, a standard error associated with year specific discard ratio estimate was also estimated. Note that these methods are different than those used by WCGOP to estimate total discards but explicitly consider differences in catch by sector, state, and gear.
+
+Additional years of data were available for the trawl fleet from the 'Pikitch study' conducted from 1985-1987 @pikitch1988usdoc} and the Enhanced Data Collection Program (EDCP; @sampson2002}) conducted from 1996-2000. Discard rates and their corresponding standard errors for 1986-1988 were taken from a re-analysis completed by the NWFSC during 2017 (pers comm., John Wallace).
+Discard rates ranged from 0.06-0.22 for the fixed gear fishery over the period 2,002-2,019 (Figure \ref{fig:discard_fit}). The early estimates of discard rates for the trawl fishery from the 1980s averaged 36.33. More recent trawl estimates peaked in 2002 at 58.64. After the implementation of the catch share program in 2011, discard rate estimates for the trawl fleet have dropped as low as 0.5 in 2012, with the highest recent observed rate of 6.62 in 2019. There was a near-quadrupling of discard rates in the trawl fishery between 2018 and 2019, from ` r round(mean(model$discard$Obs[model$discard$Yr == 2018 & model$discard$Fleet == 3]) * 100,2)`\% to ` r round(mean(model$discard$Obs[model$discard$Yr == 2019 & model$discard$Fleet == 3]) * 100,2)`\%. 
+
+### Discard mortality estimates
+
+Discard mortality rates have been the subject of numerous research studies. sablefish, lacking a swim-bladder (and therefore the propensity for severe barotrauma), may survive after capture, depending on the specific conditions that they experience during the process. Warmer water results in higher mortality because the physiological stress of transitioning from very cold bottom temperatures to warmer surface water and air temperatures can be great @davis2001}. Furthermore, fixed gears are less physically damaging to sablefish compared to fish that spend an extended period in a trawl cod-end with a large catch volume. Treatment and handling of captured fish, including time-on-deck are also likely to be important for subsequent survival.
+Analysis of discard mortality is hampered by the lack of available temperature information. Substantial efforts as part of the 2005 assessment resulted in a detailed model-based approach that used seasonal average water temperatures to predict variable annual discard mortality rates over the historical time- series, corrected for estimated differences among gear types @schirripa2005sablefish. Ultimately the approach was too complex to be supported by the available data with which to assign temperature and other individual fishing trip variables.
+In 2011, discard mortality estimates were corrected to be consistent with those used by the Pacific Fisheries Management Council's Groundfish Management Team (GMT) in predicting in-season total mortality and the National Oceanic and Atmospheric Administration's annual calculation of total mortality for comparison with harvest regulations. These values are 20\% discard mortality for sablefish captured with fixed gear and 50\% discard mortality for sablefish captured with trawls. An exception to this is age-0 fish for which discard mortality is assumed to be 100\%. These rates were used in this assessment.
+
+##Biological data
+
+A number of biological parameters were estimated outside the 2019 assessment model (weight-length relationship, the maturity schedule, and fecundity relationships). These values are treated as fixed in that model and the present update (Table \ref{tab:basepars}), and therefore, uncertainty reported for the stock assessment results does not include any uncertainty associated with these quantities. 
+
+### Natural mortality
+
+From 1992 to 2007 a single fixed value for natural mortality ($M$) of 0.07 was assumed in all sablefish stock assessments @schirripa2007sablefish}. Improvements in the understanding of the importance of $M$ estimates on stock assessment model uncertainty, and the growing number of assessments identifying differences in $M$ among male and female groundfish, make a fixed value approach undesirable. Furthermore, the maximum aged sablefish on record is over 100 years.
+This assessment, as well as the 2011 assessment, uses prior probability distributions for males and females based on a hybrid method including both the @Hoenig1983} method using maximum observed age and the [@pauly1980] meta-analysis of $M$ for a wide range of fish species. The method calculates prediction intervals, using input information including the maximum observed age, average temperature, and growth parameters [@hamel2015icesjms, then2015]. Results of the analysis, from which the priors for $M$ were developed, were relatively insensitive to the choice of specific input parameters and generally quite uncertain, $ln(M)$ = -2.93,857,0.438 for females and $ln(M)$ = -2.89,857,0.438` for males  (Figure \ref{fig:naturalmortalityprior}).
+
+Both priors resulted in a substantial probability density over the range 0.02 to 0.12. The upper bound is higher than might be expected given that sablefish are long-lived fish, but they also grow rapidly relative to most other long-lived fish.
+
+### Growth
+Range-wide investigations of sablefish growth suggest that growth varies across the northeastern Pacific, with a generally increasing cline in length-at-age with latitude [@echave2012fishbullinterdecadal, gertseva2017icesjmsspatial, mcdevitt1987sablefish, kapur2020]. Break points in growth have been identified at around $50^\circ$N (approximately the northern end of Vancouver Island, Canada), where north of this breakpoint female asymptotic-length estimates were consistently over 70 cm and south of this breakpoint female asymptotic-length estimates were below 66 cm [@kapur2020]. A second break point was identified by @kapur2020 at $36^\circ$N (approximately Monterey, California), where asymptotic size for females and males to the south were 60.43 cm and 55 cm, respectively. 
+
+
+<!--chapter:end:20data.Rmd-->
 
 ### \acrlong{s-aslope}
 
 The \gls{s-aslope} operated during the months of October to November aboard the R/V _Miller Freeman_.
 Partial survey coverage of the US west coast occurred during the years 1988-1996 and complete coverage (north of 34\textdegree 30\textquotesingle S) during the years 1997 and 1999-2001.
-Typically, only these four years that are seen as complete surveys are included in assessments.
+Typically, only these four years that are considered complete surveys are included in assessments.
 
 <!--chapter:end:21s-aslope.Rmd-->
-
-### \acrlong{s-ccfrp}
-
-Since 2007, the \Gls{s-ccfrp} has monitored several areas in California to evaluate the performance of \Gls{mpa}s
-and understand nearshore fish populations
-[@Wendt2009; @Starr2015].
-In 2017, the survey expanded beyond the four \Gls{mpa}s in central California
-(A&ntilde;o Nuevo, Point Lobos, Point Buchon, and Piedras Blancas)
-to include the entire California coast.
-Fish are collected by volunteer anglers aboard \Gls{cpfv}s guided by one of the following academic institutions based on proximity to fishing location:
-Humboldt State University;
-Bodega Marine Laboratories;
-Moss Landing Marine Laboratories;
-Cal Poly San Luis Obispo;
-University of California, Santa Barbara; and
-Scripps Institution of Oceanography.
-
-Surveys consist of fishing with hook-and-line gear for 30-45 minutes within randomly chosen 500 by 500 m grid cells within and outside \Gls{mpa}s.
-Prior to 2017, all fish were measured for length and release or descended to depth;
-since then, some were sampled for otoliths and fin clips.
-
-
-<!--chapter:end:21s-ccfrp.Rmd-->
 
 ### \acrlong{s-tri}
 
@@ -595,7 +825,7 @@ In 2004, the final year of the \gls{s-tri} series, the \gls{nwfsc} \gls{fram} co
 ### \acrlong{s-wcgbt}
 
 The \Gls{s-wcgbt} is based on a random-grid design;
-covering the coastal waters from a depth of 55-1,280 m [@bradburn_2003_2011].
+covering the coastal waters from a depth of 55-1,280 m [@bradburn_2003_2011] and operating in years 2,003-2,019. Note that there were only 2 vessels used in 2019 and 3 in 2013, with one of the three unable to complete its survey pass due to government shutdown. No survey occurred in 2020 due to the Covid-19 pandemic.
 This design generally uses four industry-chartered vessels per year assigned to a roughly equal number of randomly selected grid cells and divided into two 'passes' of the coast.
 Two vessels fish from north to south during each pass between late May to early October.
 This design therefore incorporates both vessel-to-vessel differences in catchability,
@@ -606,21 +836,24 @@ as well as variance associated with selecting a relatively small number (approxi
 # Assessment Model 
 
 ## General model specifications
-The 2019 update stock assessment model was transitioned into SS version 3.30.13-safe, released 2019/03/09. Our transitioned model matched the time series of spawning biomass and stock depletion estimated in the 2019 stock assessment (Figure \ref{fig:bridgingpanel}). The likelihoods between models were identical only when the natural mortality parameter for both sexes, and the descending standard error for both AKSLP and NWSLP survey age-based selectivities, were fixed to the values in the 2019 benchmark assessment (Table \ref{tab:bridgelike}). All models presented here estimate parameters in the manner done in 2019, with the same priors.
-
+The 2019 update stock assessment model was transitioned into SS version 3.30.13-safe, released 2019/03/09. Our transitioned model matched the time series of spawning biomass and stock depletion estimated in the 2019 stock assessment (light grey and dark grey lines, Figure \ref{fig:bridgingpanel}). The likelihoods between models were identical only when the natural mortality parameter for both sexes, and the descending standard error for both AKSLP and NWSLP survey age-based selectivities, were fixed to the values in the 2019 benchmark assessment (Table \ref{tab:bridgelike}). The base model presented here estimates parameters in the manner done in 2019, with the same priors. SS has a broad suite of structural options available for each application. There are no true `default' settings for most of these options; each application must be customized to best represent the life-history, dynamics, data-complexity, and estimation approach (Bayesian or maximum likelihood) most appropriate. 
 After sequentially adding all new data, we freed the aforementioned parameters to produce a model which conformed to the Terms of Reference. The uncertainty in this model (which otherwise matches the structure of the 2019 benchmark assessment) was larger than the benchmark, which was not the case when the values for natural mortality were fixed. Importantly, this model was unable to satisfactorily fit to the composition data from the trawl fleet nor the WCGBTS survey (Figures \ref{fig:torafleet1agecomps}, \ref{fig:torafleet3agecomps}, and \ref{fig:torafleet8lencomps}), greatly overestimated the 2019 index, and distorted the recruitment patterns to suggest two large recruitment events since 2016 (Figure \ref{fig:torapanel}). 
-During the addition of new data for this update assessment, modelers identified a large influx of younger, small fish observable in the age compositions of commercially landed catch, which was also visible in the discard length compositions of those commercial fleets (Figure \ref{fig:discard_lencomps}). This latter dataset was not used in the benchmark, nor were any commercial length compositions, due to conflicts between the age and length data. We rectify this issue by re-introducing the discard length compositions and time-blocking the retention curve to include a new block for the final two years of the model period (2019-2020; the benchmark model's terminal period for retention selectivity ran from 2011-2017). This adjustment resolved the aforementioned model fit issues (Figure \ref{fig:basepanel}). The proposed base model presented here otherwise estimates parameters in the manner done in 2019, with the same priors.
-This stock assessment uses SS version 3.30.16.00, released on 2020/09/03. SS has a broad suite of structural options available for each application. There are no true `default' settings for most of these options; each application must be customized to best represent the life-history, dynamics, data-complexity, and estimation approach (Bayesian or maximum likelihood) most appropriate.
+During the addition of new data for this update assessment, modelers identified a large influx of younger, small fish observable in the age compositions of commercially landed catch, which was also visible in the discard length compositions of those commercial fleets (Figure \ref{fig:discard_lencomps}). This latter dataset was not used in the benchmark, nor were any commercial length compositions, due to conflicts between the age and length data. We rectify the lack of fit to the data by re-introducing the discard length compositions and time-blocking the retention curve to include a new block for the final two years of the model period (2019-2020; the benchmark model's terminal period for retention selectivity ran from 2011-2017). This adjustment resolved the aforementioned model fit issues (Figure \ref{fig:basepanel}). The proposed base model presented here otherwise estimates parameters in the manner done in 2019, with the same priors.
+
 This stock assessment encompasses the U.S. West Coast and assumes a closed population. The first modeled year is 1890, the start of sablefish landings in Washington. The population is assumed to be at equilibrium at the start of the modeling period because data from a full catch reconstruction for sablefish back to the inception of the fishery is used to fit the model.
 Fishery removals were divided among two fleets, (1) fixed gears and (2) trawl gears. Selectivity schedules are treated separately for each fleet. In the base model, retention parameters were fixed at values estimated from earlier exploratory model runs. Each trawl survey is treated as a separate survey with independently estimated selectivity parameters reflecting differences in depth and latitudinal coverage, survey design, methods, and equipment.
-This assessment is sex-specific with growth curves for males and females but only tracks the spawning biomass of females for calculating management quantities (Table \ref{priors}). Growth parameters describing the von Bertalanffy growth equation, as well as the spread of lengths for a given age, were estimated for each sex. The parameterization used for the estimation of growth by SS allows the user to specify the age for the two growth parameters (rather than the length at age zero and the implied length at infinite age). Ages 0.5 and 30 were selected to be close to the ranges found in the observed data. Sex-specific $M$ was estimated, with the informative priors based on the maximum aged fish in the composition data (102 years old for females from the fishery in 2006 and 91 years old for males from the survey in 2016).
+
+This assessment specifies sex with growth curves for males and females but tracks only the spawning biomass of females for calculating management quantities. Growth parameters describing the von Bertalanffy growth equation, as well as the spread of lengths for a given age, were estimated for each sex. The parameterization used for the estimation of growth by SS allows the user to specify the age for the two growth parameters (rather than the length at age zero and the implied length at infinite age). Ages 0.5 and 30 were selected to be close to the ranges found in the observed data. Sex-specific $M$ was estimated, with the informative priors based on the maximum aged fish in the composition data (102 years old for females from the fishery in 2006 and 91 years old for males from the survey in 2016).
+
 Ages bins for the internal population dynamics range from 0-70 years, with the accumulator age of 70 specifying the plus group. This age was necessary to ensure that the plus group did not have a large number of fish.
-Recruitment dynamics are governed by a Beverton-Holt stock-recruitment function. This relationship is parameterized to include two estimated quantities, the log of unexploited equilibrium recruitment ($R_0$) and $h$. A full time-series of recruitment deviations, including the initial age-structure at the start of the model are estimated to adequately propagate uncertainty in the historical period and avoid imparting the perception of information through overly rigid conditions prior to the most recent time-period informed by length- and age-composition data.
-The model calculates quantities using an annual time step. Thus, data collection is assumed to be relatively continuous throughout the year. Fishery removals occur instantaneously at the mid-point of each year and recruitment occurs on the 1st of January. The sex-ratio at birth is fixed at 1:1. Although, sex-specific $M$ and selectivity can result in significant departures from equality due to differential $M$ over age and sex.
+
+Recruitment dynamics are governed by a Beverton-Holt stock-recruitment function. This relationship is parameterized to include two estimated quantities, the log of unexploited equilibrium recruitment ($R_0$) and steepness (relative recruitment at 20% of unfished spawning output; $h$). A full time-series of recruitment deviations, including the initial age-structure at the start of the model are estimated to adequately propagate uncertainty in the historical period and avoid imparting the perception of information through overly rigid conditions prior to the most recent time-period informed by length- and age-composition data. Sex-specific $M$ and selectivity can result in significant departures from equality for older ages due to differential $M$ and $F$ over age and sex.
 Model files including the SS executable, data, control, starter, and forecast files are archived with the Pacific Fisheries Management Council.
 
+The model calculates quantities using an annual time step. Thus, data collection is assumed to be relatively continuous throughout the year. Fishery removals occur instantaneously at the mid-point of each year and recruitment occurs on the 1st of January. The sex-ratio at birth is fixed at 1:1. 
+
 ### Priors
-Uniform (non-informative) priors were applied to all estimated parameters in the base model with the following exceptions: (a) male and female $M$ and (b) $h$.Parameter bounds were identical to those used in 2019, which were selected to be sufficiently wide to avoid truncating the search procedure during maximum likelihood estimation   The base model fixed $h$ at 0.7. Like many assessments, this assessment is unable to estimate $h$, likely due to the largely one-way trip nature of the time-series during the period with good data collections and the high degree of confounding between population scale (via equilibrium recruitment), $M$, and $h$. Likelihood profiles for $h$ in past sablefish assessments suggest that there is little information in the data to determine $h$. The use of a fixed value under estimates the uncertainty in $MSY$ and equilibrium yield. However, the importance of this reduced uncertainty is somewhat reduced because both and $F$ and $SB_{proxy}$ are used for management rather than $MSY$.
+Uniform (non-informative) priors were applied to all estimated parameters in the base model with the exception of male and female $M$. Parameter bounds were identical to those used in 2019, which were selected to be sufficiently wide to avoid truncating the search procedure during maximum likelihood estimation. The base model fixed $h$ at 0.7. As with many assessments, this assessment is unable to estimate $h$, likely due to the largely one-way trip nature of the time-series during the period with good data collections and the high degree of confounding between population scale (via equilibrium recruitment), $M$, and $h$. Likelihood profiles for $h$ in past sablefish assessments suggest that there is little information in the data to determine $h$. The use of a fixed value underestimates the uncertainty in $MSY$ and equilibrium yield. However, the importance of this reduced uncertainty is somewhat reduced because both and $F$ and $SB_{proxy}$ are used for management rather than $MSY$.
 
 ### Data weighting 
 
@@ -641,28 +874,37 @@ Added variances for discard rates and mean body weights were set using values ca
 ### Recruitment variation
 Data on $\sigma_R$ will never be precise, even in years with data. Therefore, the estimation of recruitment deviations exhibits a compromise between fitting information in the data and the central tendency to pull estimates of log(recruitment) deviations towards zero. Simulation results show that utilizing a bias-adjustment procedure can improve estimates of $\sigma_R$ (@MethotTaylor2011). Here, first the bias adjustment procedure within SS was updated to include the most recent data. Second, the RMSE of recruitment deviations was used to inform the $\sigma_R$, making the model internally consistent. $\sigma_R$ was capped at a value of 1.4, the point at which the bias correction is no longer expected to perform well (@MethotTaylor2011).
 \end{comment}
+
 ### Estimated and fixed parameters
-A total of 313 parameters were specified in the base model and `R  max(model$parameters$Active_Cnt, na.rm = T)` of them were estimated (Table \ref{priors}). Female and male $M$ were estimated, as is commonly done for groundfish stocks that exhibit dimorphic growth such as sablefish. Time-invariant, sex-specific growth was also estimated.
-The log of the unexploited recruitment level, $ln(R_0)$, for the Beverton-Holt stock-recruitment function was estimated, as were annual recruitment deviations beginning at the model start, 1890. The main period of recruitment deviation estimation was chosen based on the first year of available sea-level data (i.e., 1925. The years in which mean bias was corrected for was based on methods developed by @MethotTaylor2011 that estimate the residual variability in the recruitment deviations for years in which data are available to inform the stock-recruitment curve. Survey catchability parameters were calculated analytically (set as scaling factors) such that the estimate is median unbiased, which is how $q$ is treated in most groundfish assessments approved by the Pacific Fisheries Management Council. Age selectivities were estimated using a double normal parameterization (SS pattern 24) for all fleets and surveys. The double normal allows for either dome-shaped or logistic selectivity, allowing for easy exploration of alternative selectivity assumptions. Sex-specific age selectivity was estimated for the fixed-gear fishery and the Triennial Shelf Survey because females are more selected to the gear than males. A single set of age selectivity parameters was estimated for females and males for the trawl fleet and all other surveys. Initially, parameters for the width at the peak (P2) and initial selectivity (P5) were fixed at values that fit the data to allow for the estimation of dome-shaped selectivity. Dome-shaped selectivity was estimated by estimating the final selectivity parameters (P6) for all patterns except for the selectivities associated with the fixed-gear fleet and the WCGBT Survey, which was fixed based on a likelihood profile. The width of the descending limb parameters (P4) were estimated for all fleets except for the trawl fleet, which was fixed at a value that fit the data. Surveys covering the shelf depths (WCGBT Survey and Triennial Shelf Survey) captured a large fraction of age-0 and age-1 sablefish, with peak ages of the catch less at young ages ($\sim$\textless 2 years). Selectivity was lower for older individuals.
-Time blocks for fishery selectivity and retention schedules were based on previous research with respect to influential management `milestones' and the recent introduction of catch shares within the trawl fishery (Table \ref{tab:tvretentionslxdates}). Milestones include
-  (a) full retention of age-1$^+$ sablefish during WWII, rapid post-war fishery development, and introduction of trip-limit induced discarding (not just size-sorting) for the trawl fleet in 1982 and for fixed-gear fleets in 1997;
-  (b) a change in selectivity during the post-war groundfish fishery development in 2003 resulting from large scale movements of all fleets in response to large spatial closures (Rockfish Conservation Areas; RCAs); and
-  (c) full retention all sablefish within the trawl fishery with the implementation of the 2011 catch share program.
-  (d) *new to this update assessment*: A time block in commercial retention for the final two years of the model (2019-2020) reflecting a change in discarding rates, responsive to a large influx of small recruits (particularly in the trawl fishery).
-Parameters and time periods that indicated little change over time upon initial evaluation were not included in the base model. Length-based retention is defined for the commercial fishing fleets via a length-based logistic curve defined by an inflection, slope, and asymptote. The main retention curve parameters in the base model main were fixed at values estimated in using models that fit to the discard length data. Ultimately, time-varying retention was implemented for the inflection and asymptote parameters for the fisheries to enable fitting of the discard-rate data. Full retention of small fish during World War II was assumed by fixing the inflection at 25 cm, implying retention of all fish greater than age-0, then this inflection parameter was permitted to vary through time. Full fishery retention was assumed prior to the institution of fishery trip limits (by fixing the asymptote parameter), then was permitted to vary until the most recent time period in the trawl fishery. Full retention in the most recent time period was assumed in the trawl fishery due to the requirement of full catch accounting with the implementation of the catch shares program. Peak fishery selectivity and the ascending limb of selectivity was permitted to vary among the time blocks for the fixed-gear fleet. The width of the descending limb of the trawl fleet was permitted to vary among the time blocks. Finally, time-varying selectivity was estimated using P4 of the Triennial Shelf Survey from 1995 forward to allow for changes in survey design.
-Discarded mortality was assumed to be 100% for age-0 (less than 28 cm) sablefish and decline rapidly to 20% for the fixed-gear fleet and 50% for the trawl fleet (for 29 cm and above, while splitting the difference at 28 cm). These values are consistent with those used by the Pacific Fisheries Management Council for management purposes.
+A total of 313 parameters were specified in the base model and 235 of them were estimated (Tables \ref{tab:basepars} and \ref{tab:selparest}). Female and male $M$ were estimated, as is commonly done for groundfish stocks that exhibit dimorphic growth such as sablefish. Time-invariant, sex-specific growth was also estimated.
+The log of the unexploited recruitment level, $ln(R_0)$, for the Beverton-Holt stock-recruitment function was estimated, as were annual recruitment deviations beginning at the model start, 1890. The main period of recruitment deviation estimation was chosen based on the first year of available sea-level data (i.e., 1925. The years in which mean bias was corrected for was based on methods developed by @MethotTaylor2011 that estimate the residual variability in the recruitment deviations for years in which data are available to inform the stock-recruitment curve. Survey catchability parameters were calculated analytically (set as scaling factors) such that the estimate is median unbiased, which is how $q$ is treated in most groundfish assessments approved by the Pacific Fisheries Management Council. Age selectivities were estimated using a double normal parameterization (SS pattern 24) for all fleets and surveys. The double normal allows for either dome-shaped or logistic selectivity, allowing for easy exploration of alternative selectivity assumptions. Sex-specific age selectivity was estimated for the fixed-gear fishery and the Triennial Shelf Survey because females are more selected to the gear than males. A single set of age selectivity parameters was estimated for females and males for the trawl fleet and all other surveys. 
+
+Initially, parameters for the width at the peak (P2) and initial selectivity (P5) were fixed at values that fit the data to allow for the estimation of dome-shaped selectivity. Dome-shaped selectivity was estimated by estimating the final selectivity parameters (P6) for all patterns except for the selectivities associated with the fixed-gear fleet and the WCGBT Survey, which was fixed based on a likelihood profile. The width of the descending limb parameters (P4) were estimated for all fleets except for the trawl fleet, which was fixed at a value that fit the data. Surveys covering the shelf depths (WCGBT Survey and Triennial Shelf Survey) captured a large fraction of age-0 and age-1 sablefish, with peak ages of the catch less at young ages ($\sim$\textless 2 years). Selectivity was lower for older individuals.
+
+Time blocks for fishery selectivity and retention schedules were based on previous research with respect to influential management `milestones' and the recent introduction of catch shares within the trawl fishery (Table \ref{tab:tvretentionslxdates}). 
+Milestones include:
+\begin{enumerate}
+  \item full retention of age-1$^+$ sablefish during WWII, rapid post-war fishery development, and introduction of trip-limit induced discarding (not just size-sorting) for the trawl fleet in 1982 and for fixed-gear fleets in 1997;
+  \item a change in selectivity during the post-war groundfish fishery development in 2003 resulting from large scale movements of all fleets in response to large spatial closures (Rockfish Conservation Areas; RCAs); and
+  \item full retention all sablefish within the trawl fishery with the implementation of the 2011 catch share program.
+  \item \textit{New to this update assessment}: A time block in commercial retention for the final two years of the model (2019-2020) reflecting a change in discarding rates, responsive to a large influx of small recruits (particularly in the trawl fishery).
+\end{enumerate}
+
+Parameters and time periods that indicated little change over time upon initial evaluation were not included in the base model. Length-based retention is defined for the commercial fishing fleets via a length-based logistic curve defined by an inflection, slope, and asymptote. The main retention curve parameters in the base model were fixed at values estimated in using models that fit to the discard length data. Ultimately, time-varying retention was implemented for the inflection and asymptote parameters for the fisheries to enable fitting of the discard-rate data. Full retention of small fish during World War II was assumed by fixing the inflection at 25 cm, implying retention of all fish greater than age-0. This inflection parameter was then permitted to vary through time. Full fishery retention was assumed prior to the institution of fishery trip limits (by fixing the asymptote parameter), then was permitted to vary until the most recent time period in the trawl fishery. Full retention in the time period from 2011-2018 was assumed in the trawl fishery due to the requirement of full catch accounting with the implementation of the catch shares program. The inflection point and asymptote for both the trawl and fixed-gear fishery retention curves were estimated in a final time block (2019-2020) to allow for increased discarding in those years. Peak fishery selectivity and the ascending limb of selectivity were permitted to vary among the time blocks for the fixed-gear fleet. The width of the descending limb of the trawl fleet was permitted to vary among the time blocks. Finally, time-varying selectivity was estimated using the descending limb of the Triennial Shelf Survey from 1995 forward to allow for changes in survey design.
+
+Discard mortality was assumed to be 100% for age-0 (less than 28 cm) sablefish and decline rapidly to 20% for the fixed-gear fleet and 50% for the trawl fleet (for 29 cm and above, while splitting the difference at 28 cm). These values are consistent with those used by the Pacific Fisheries Management Council for management purposes.
 
 ## Base model selection and evaluation
-All structural choices for stock assessment models are likely to be important under some circumstances. Therefore, these choices are generally made to
-(1) be as objective as possible and
-(2) follow generally accepted methods of approaching similar models and data.
+All structural choices for stock assessment models are likely to be important under some circumstances. Therefore, these choices are generally made to  be as objective as possible and follow generally accepted methods of approaching similar models and data.
 Sources of structural uncertainty in this assessment include:
-(1) the fixed value used for $h$,
-(2) the fixed parameter values for the descending limb of dome shaped age selectivity in the fixed gear fleet (fixed by using likelihood profiles),
-(3) the assumption of a closed stock within the U.S. California Current, and
-(4) the use of a time- and age-invariant (but sex-specific) $M$.
-
-In reality, unmodeled spatiotemporal variation in $M$, growth, and movement may impact sablefish and the perception of the stock size and status. Predation, availability of food resources, or environmental factors may have directional instead of random effects on survival, growth, or movement during the modeled period. However, this degree of complexity is beyond the information content of the available data. Residual patterns in the length data could be due to unmodeled time-varying processes or reflect different growth trajectories among cohorts. sablefish in the California Current do not exist independently of the population that occurs in British Columbia and Alaskan waters to the north. The degree to which recruitment linkages and adult movement may be contributing to the observed dynamics of the U.S. West Coast stock is unknown. Potential shifts in spatial distribution in response to changes in density outside our waters or climate impacts could substantially reduce our ability to model and predict current and future trends. Efforts to synthesize existing data for northeast Pacific sablefish with the aim of stock-wide modeling are underway.
+\begin{enumerate}
+\item the fixed value used for $h$,
+\item  the fixed parameter values for the descending limb of dome shaped age selectivity in the fixed gear fleet (fixed by using likelihood profiles),
+\item the assumption of a closed stock within the U.S. California Current, and
+\item the use of a time- and age-invariant (but sex-specific) $M$.
+\item the assumption that the stock-recruit relationship follows a Beverton-Holt parameterization.
+\end{enumerate}
+In reality, unmodeled spatiotemporal variation in $M$, growth, and movement may impact sablefish and the perception of the stock size and status. Predation, availability of food resources, or environmental factors may have directional instead of random effects on survival, growth, or movement during the modeled period. However, this degree of complexity is beyond the information content of the available data. Residual patterns in the length data could be due to unmodeled time-varying processes or reflect different growth trajectories among cohorts. Sablefish in the California Current do not exist independently of the population that occurs in British Columbia and Alaskan waters to the north. The degree to which recruitment linkages and adult movement may be contributing to the observed dynamics of the U.S. West Coast stock is unknown. Potential shifts in spatial distribution in response to changes in density outside our waters or climate impacts could substantially reduce our ability to model and predict current and future trends. Efforts to synthesize existing data for northeast Pacific sablefish with the aim of stock-wide modeling are underway.
 
 
 
@@ -670,25 +912,24 @@ In reality, unmodeled spatiotemporal variation in $M$, growth, and movement may 
 
 ## Base Model Results
 ## Convergence status
-To test for convergence, 100 trials of the base model were ran using randomly generated alternative initial values for each estimated parameter. A value of 0.1 was used to define the uniform distribution that is transformed into cumulative normal space and subsequently used to calculate these initial values based on the parameter bounds. Thus, each trial perturbs the initial values used for minimization with the intention of causing the search to traverse a broader region of the likelihood surface {@MethotWetzel2013}. The same (i.e., difference in likelihood of less than or equal to 0.5) or worse likelihood was found for *FROM LEE QI* and *FROM LEE QI*} trials, respectively. The trial with a lower negative log likelihood was unstable. Thus, none of the trial runs were used to replace the base model.
+
+**LEE QI HELP UPDATE**
+To test for convergence, 100 trials of the base model were ran using randomly generated alternative initial values for each estimated parameter. A value of 0.1 was used to define the uniform distribution that is transformed into cumulative normal space and subsequently used to calculate these initial values based on the parameter bounds. Thus, each trial perturbs the initial values used for minimization with the intention of causing the search to traverse a broader region of the likelihood surface (@MethotWetzel2013). The same (i.e., difference in likelihood of less than or equal to 0.5) or worse likelihood was found for  trials, respectively. The trial with a lower negative log likelihood was unstable. Thus, none of the trial runs were used to replace the base model.
 
 
 
-The biological parameters (growth and $M$) estimated using the base model and alternate models were reasonable. Growth parameters were consistent with those from previous sablefish stock assessments and commensurate with the raw data (Table \ref{tab:basepars}). Female and male sablefish showed similar rapid growth trajectories; with females growing to a slightly larger size at age 30 62.51 cm) than males 56.31 cm) and showing a broader distribution of length at a given age (Figure \ref{fig:bio_53}). $M$ for females (0.08) and males (0.07) were similar to values estimated in previous assessments (2011: 0.08 and 0.065 respectively; 2015: 0.076 and 0.062, 2019: 0.06 and  0.06, respectively; Figure \ref{fig:naturalmortalityprior}).
+The biological parameters (growth and $M$) estimated using the base model and alternate models were reasonable. Growth parameters were consistent with those from previous sablefish stock assessments and commensurate with the raw data (Table \ref{tab:basepars}). Female and male sablefish showed similar rapid growth trajectories; with females growing to a slightly larger size at age 30 62.46 cm) than males 56.62 cm) and showing a broader distribution of length at a given age (Figure \ref{fig:bio_53}). $M$ for females (0.07) and males (0.06) were similar to values estimated in previous assessments (2011: 0.08 and 0.065 respectively; 2015: 0.076 and 0.062, 2019: 0.06 and  0.06, respectively; Figure \ref{fig:naturalmortalityprior}).
 
 \begin{comment}
 This assessment did not include time-varying growth. Differences were seen in the estimated weight-at-age compared to empirical weight at age collected by the WCGBT Survey (Figure \ref{fig:weightatageWCGBT}). These differences were more prominent in the most recent years, which might be a cohort effect. Future research could investigate methods for modeling time varying growth. \end{comment}
 
 
 
-Estimated selectivity curves for the trawl surveys varied, with the surveys that sample the continental slope sampling the broadest demographic of the sablefish population and the Triennial Shelf Survey the most limited (Tables \ref{tab:basepars} and \ref{tab:selparest}; Figure \ref{fig:selectivityatageALL}). \begin{comment}The proportion of the spawning output that is unavailable to the surveys and fleets, which are all modeled using dome-shaped selectivity, has slightly decreased over time (Figure \ref{fig:unavailablessb}).\end{comment} The fixed gear fisheries showed males were less selected than females, individuals of approximately age 20 and older were much less available to the fishery on a relative basis (Figure \ref{fig:selectivityatageTWL}). The trawl fishery selected younger fish than the fixed gear fleet and showed little difference between males and females (Figure \ref{fig:selectivityatageTWL}). Retention schedules (Table \ref{tab:selparest}) showed rapidly increasing retention of age-1 fish for the fixed gear fishery but less than full retention of the largest individuals, likely due to some trip-limit based discarding or depredation of large fish during gear retrieval (Figure \ref{fig:selectivityatageFIX}). Full retention of the largest individuals was assumed since the beginning of the 2011 catch-shares program for the trawl fishery, with an increase in the minimum retention size for both sexes in the final two modeled years (Figure \ref{fig:twltimevaryslx}).
+Estimated selectivity curves for the trawl surveys varied, with the surveys that sample the continental slope sampling the broadest demographic of the sablefish population and the Triennial Shelf Survey the most limited (Tables \ref{tab:basepars} and \ref{tab:selparest}; Figure \ref{fig:selectivityatageALL}). \begin{comment}The proportion of the spawning output that is unavailable to the surveys and fleets, which are all modeled using dome-shaped selectivity, has slightly decreased over time (Figure \ref{fig:unavailablessb}).\end{comment} The fixed gear fisheries showed males were less selected than females, and that individuals of approximately age 20 and older were much less available to the fishery on a relative basis (Figure \ref{fig:selectivityatageTWL}). The trawl fishery selected younger fish than the fixed gear fleet and showed little difference between males and females (Figure \ref{fig:selectivityatageTWL}). Retention schedules (Table \ref{tab:selparest}) showed rapidly increasing retention of age-1 fish for the fixed gear fishery but less than full retention of the largest individuals, likely due to some trip-limit based discarding or depredation of large fish during gear retrieval (Figure \ref{fig:selectivityatageFIX}). Full retention of the largest individuals was assumed since the beginning of the 2011 catch-shares program for the trawl fishery, with an increase in the minimum retention size for both sexes in the final two modeled years (Figure \ref{fig:twltimevaryslx}).
 
 The base model fit the trend (decline, then stabilization, and increase) in the WCGBT Survey well (Figure \ref{fig:ind_NWFSC}), such that the added variance parameter was set to zero as was done in 2019. Fits to the NWFSC Slope Survey were generally flat (Figure \ref{fig:ind_NWFSCslope}), as might be expected for such short time-series. Fits to the AFSC Slope Survey suggest a decreasing trend during the late 1990s followed by and increase into the early 2000s (Figure \ref{fig:ind_AFSCslope}). Estimates of added variance were 0.16 and 0.04, respectively (Table \ref{tab:selparest}). Given the time change in the estimate of $q$ for the Triennial Shelf Survey beginning in 1995, predicted survey values were also relatively flat over this period until the last two years of the survey (Figure \ref{fig:ind_AFSC}), although the estimated extra variance of 0.18 suggested a relatively poor fit to these data compared to other surveys. 
-\begin{comment}
-% I think that we should leave this out, the information can be found in a table. Catchability values for the most fully selected ages ($\sim$0.33-3 years old) in each survey ranged from 1.46(early Triennial Shelf Survey) to 0.49 (NWFSC Slope). 
-\end{comment}
 
-The fit to the sea-level index of recruitment was noisy, as expected, due to the relatively weak but persistent sea-level recruitment relationship, showing periods where the model was able to fit the data well, as well as periods with a lack of fit (Figure \ref{fig:ind_ENV}). The estimated added standard deviation was 0.42, thus the sea-level index provided limited information regarding historical recruitment during model periods without other data.
+The fit to the sea-level index of recruitment was noisy, as expected, due to the relatively weak but persistent sea-level recruitment relationship, showing periods where the model was able to fit the data well, as well as periods with a lack of fit (Figure \ref{fig:ind_ENV}). The estimated added standard deviation was 0.41, thus the sea-level index provided limited information regarding historical recruitment during model periods without other data.
 
 The base model fit the length distributions from the WCGBT Survey well given that selectivity was modeled as age based, with residual patterns (Figures \ref{fig:torafleet8lencomps} and \ref{fig:lcomp_resid_8}) primarily generated through small mismatches in the model structure, likely due differences in growth, environmental conditions, or timing rather than misspecification of year-classes. The fits to the WCGBT Survey conditional-age-at-length distributions were good (Figures \ref{fig:acomp_resid_caal1}-\ref{fig:acomp_resid_caal4}). The slope survey fits to the marginal-age distributions also showed no glaring residual patterns in the age data (Figures \ref{fig:acomp_resid_1}- \ref{fig:acomp_resid_6}). The selection of younger sablefish was evident for the Triennial Shelf Survey, with a larger residuals from 1995 forward (Figure \ref{fig:acomp_resid_5}).
 
@@ -697,41 +938,45 @@ Fits to the marginal age compositions for the fisheries were good (Figure \ref{f
 The model was able to fit the mean body weights of the fishery discards and discard fractions well (Figures \ref{fig:bodywtfit} and \ref{fig:discard_fit}).
 
 
-Deviations about the estimated stock-recruitment function generally had high uncertainty prior to the mid-1970s, when the age-composition data first become informative about cohort strengths (Figure \ref{fig:recdevs_bias}). This stock assessment was able to estimate cohort strengths further back in time due to the increased plus group, extended to 50 years. The NWFSC and AFSC Slope Surveys, as well as the WCGBT Survey, all catch older fish that provided some information with respect to recruitment prior to the mid-1970s (the informative period for recruitment in past assessments). Including the sea level as a survey index of recruitment strength informs recruitment estimates in a limited fashion prior to the mid-1970s. The recruitment bias adjustment was set as recommended by (@MethotTaylor2011).
+Deviations about the estimated stock-recruitment function generally had high uncertainty prior to the mid-1970s, when the age-composition data first become informative about cohort strengths (Figure \ref{fig:recdevs_bias}). This stock assessment update was able to estimate cohort strengths further back in time due to the increased plus group, extended to 50 years (note that the data plus group is 70 years, whereas the modeled plus group is 50). The NWFSC and AFSC Slope Surveys, as well as the WCGBT Survey, all catch older fish that provided some information with respect to recruitment prior to the mid-1970s (the informative period for recruitment in past assessments). Including the sea level as a survey index of recruitment strength informs recruitment estimates in a limited fashion prior to the mid-1970s. The recruitment bias adjustment was set as recommended by (@MethotTaylor2011).
 
 Sablefish recruitment was estimated to be highly variable with large amounts of uncertainty in individual recruitment events. Within this variability, there were sets of years with recruitment estimated consistently higher or lower than the long term mean (Figure \ref{fig:ts11}), with both the lowest and highest estimates occurring during the past 20 years.  Given a relatively high degree of recruitment variability, the estimated stock-recruitment function predicted a wide range of cohort sizes over the observed range of spawning biomass (Figure \ref{fig:SR_curve}).
 
-Catches were estimated from the beginning of the time series (Table \ref{tab:allcatches}). The estimates of uncertainty around the point estimate of unfished biomass are large across the range of models explored within this assessment, suggesting that the unfished spawning biomass could range from just under 100,000 mt to over 200,000 mt. This uncertainty is largely due to the confounding of natural mortality, absolute stock size, and productivity. The point estimate of 2020 spawning biomass from the base model is 91018 mt; however, the $\sim$95% interval ranges broadly from 36904 to 145132 mt. The relative trend in spawning biomass is robust to uncertainty in the leading model parameters. The 2020 point estimate of spawning stock biomass is 53% of the unfished state ($\sim$95% interval: 35% to 72%. Estimates indicate that the spawning biomass was near the target (Figure \ref{fig:ts9}). The estimated time-series of total, age-4+ (Figure \ref{fig:ts1_4}), and spawning biomass (Figure \ref{fig:ts7}) track one another closely (Table \ref{tab:timeseries}). 
+Catches were input from the beginning of the time series (Table \ref{tab:allcatches}). The estimates of uncertainty around the point estimate of unfished biomass are large across the range of models explored within this assessment, suggesting that the unfished spawning biomass could range from just under 100,000 mt to over 200,000 mt. This uncertainty is largely due to the confounding of natural mortality, absolute stock size, and productivity. The point estimate of 2020 spawning biomass from the base model is 90,756 mt; however, the $\sim$ 95\% interval ranges broadly from 37,135 to 144,378 mt. The relative trend in spawning biomass is robust to uncertainty in the leading model parameters. The 2020 point estimate of spawning stock biomass is 54\% of the unfished state (approximate 95% interval: 35% to 72%). Estimates indicate that the spawning biomass was near the target (Figure \ref{fig:ts9}). The estimated time-series of total, age-4+ (Figure \ref{fig:ts1_4}), and spawning biomass (Figure \ref{fig:ts7}) track one another closely (Table \ref{tab:timeseries}). 
 
 \begin{comment}
 Forecasts from the 2015 assessment update projected the spawning biomass to increase by 9.3% from 2015 to 2019 given specified harvests, whereas the current assessment estimated the increase at \Sexpr{pnt(abs(spbdecline), sigdiffs = 1)}%. Estimates of unexploited spawning biomass are \Sexpr{pnt(ssb0belowlastyear[1], 0)}% lower than that estimated in 2015 and \Sexpr{pnt(ssb0belowlastyear[2], 0)}% lower than the 2011 estimate. Percent of unfished biomass in 2019 was estimated at \Sexpr{pnt(depl, 0)}%, while the 2015 stock assessment forecasted it to be 38%.
 \end{comment}
 
-## Data weighting
+## Data weighting{#dw}
 
 
-Indices of relative abundance all had variance estimates generated as part of the analysis of raw catch data. These variances were converted to standard deviations in log space for use in the model; additional variances for the indices of abundance were estimated inside the model. Estimated variances for the surveys were within reasonable ranges, except for the WCGBT Survey, for which the estimated added variance near zero, so it was fixed at zero.
+Indices of relative abundance all had variance estimates generated as part of the analysis of raw catch data. These variances were converted to standard deviations in log space for use in the model; additional variances for the indices of abundance were estimated inside the model, except for the WCGBT Survey, for which the estimated added variance was near zero, so it was fixed at zero.
 Additional variances were added to mean body weight of the fishery discard data as well as to the discard rates  in a manner identical to those used in the 2019 assessment. The weighting of age- and length-composition data attempted to reduce the potential for particular data sources to have a disproportionate effect on total model fit, while creating estimates of uncertainty that were commensurate with the uncertainty inherent in the input data. 
-Input age- and length-composition data were weighted via the Francis method (Table \ref{tab:torctorcw1}). Sensitivity to the iterative re-weighting approaches for developing consistency between the input composition sample sizes (or standard errors) and the effective sample sizes based on model fit using the Harmonic Mean (@McAllisterIanelli1997) and (@Francis2011) methods was completed. The Harmonic Mean method consisted of comparing the mean input sample size for compositional data with the mean effective sample size based on model fit. The Francis method considers the influence of compositional weights on fits to average lengths or average lengths-at-age. Generally, the Harmonic method suggested similar weights for the commercial length composition data, but placed more weight on the survey length data. It also indicated a downweighting of commercial age composition data compared to the 2019 benchmark, but to a lesser degree than the Francis approach. The model weighted using the Harmonic method was 350 likelihood points worse than that using the Francis method.
-During the Francis weighting process, several distinctions between this update and the weights used in the 2019 benchmark became apparent. Firstly, the 2019 benchmark assessment fixed both commercial fleet age composition weights to a maximum of one, whereas in this update (in the presence of commercially discard length composition) they were downweighted by 90\% and 81\% (for fixed gear and trawl fleets, respectively). In addition, the WCGBTS length compositions were downweighted in the update by a factor of about 10 (from 0.29 in the benchmark to 0.033 in the present model), whereas the Triennial age compositions were upweighted by a factor of 10 (from 0.10 in the benchmark to a cap at 1.0 in the present model). **Based on R0 profile...**
+Input age- and length-composition data were weighted via the Francis method (Table \ref{tab:torctorcw1}). Sensitivity to the iterative re-weighting approaches for developing consistency between the input composition sample sizes (or standard errors) and the effective sample sizes based on model fit using the Harmonic Mean (@McAllisterIanelli1997) and (@Francis2011) methods was completed. The Harmonic Mean method consisted of comparing the mean input sample size for compositional data with the mean effective sample size based on model fit. The Francis method considers the influence of compositional weights on fits to average lengths or average lengths-at-age. Generally, the Harmonic method suggested similar weights for the commercial length composition data, but placed more weight on the survey length data. It also indicated a downweighting of commercial age composition data compared to the 2019 benchmark, but to a lesser degree than the Francis approach (Figure \ref{fig:harmonicandfrancis}). 
+During the Francis weighting process, several distinctions between this update and the weights used in the 2019 benchmark became apparent. Firstly, the 2019 benchmark assessment iteratively re-weighted both commercial fleet age composition weights to a maximum of one, whereas in this update (in the presence of commercial discard length compositions) they were downweighted by 90\% and 81\% (for fixed gear and trawl fleets, respectively, Table \ref{tab:torctorcw1}) . In addition, the WCGBTS length compositions were downweighted in the update by a factor of about 10 (from 0.29 in the benchmark to 0.033 in the present model), whereas the Triennial age compositions were upweighted by a factor of 10 (from 0.10 in the benchmark to a cap at 1.0 in the present model). We performed a sensitivity run where the Francis weights were fixed to the values used in 2019 and found the model to fit more poorly (Figure \ref{fig:harmonicandfrancis} and Table \ref{tab:torctorcw2}).
+
 The value of the parameter controlling recruitment variability was determined in 2019 using an iterative procedure with the aim of ensuring that the value of assumed by the assessment model and the empirical variance in recruitment were self-consistent. This involved setting to an initial value, fitting the model and calculating the variance of the recruitment deviations for the years for which recruitments are estimated, then replacing the assumed value of by the calculated value. The recruitment variability was tuned up to and capped at a value of 1.4, the maximum value at which the bias correction was expected to provide reliable results. This value was unchanged in this update assessment.
 
 ## Uncertainty and Sensitivity Analyses
 Sensitivity analyses were performed to determine the sensitivity of the model results to a range of alternative assumptions. While the recent stock trend and estimates of stock depletion were similar among model sensitivities, a common theme is that the size of the unfished spawning biomass was highly uncertain. The available data for sablefish were largely uninformative about the absolute stock size and productivity. This stock assessment model, given the data, was unable to discriminate between a larger, less productive stock and a smaller more productive stock, or many combinations in between. This could be due to the largely 'one-way-trip' during the period with the most informative data or the fact that northeast Pacific sablefish are a single stock that exhibit movement throughout their range. In addition, the inclusion of new data from the same sources as the 2019 benchmark resulted in greater uncertainty around the derived quantities, a pattern which emerged as soon as natural mortality was freed and most pronounced in the slighly increased uncertainty around growth parameters.
+
 Historical catches provide some information about the minimum stock size needed to have supported the observed time-series but there is less information about the upper bound on stock size. Likelihood profiles, parameter estimates, and general model behavior illustrate that small changes in many parameters can result in differing point estimates for management reference points, however the uncertainty about these estimates remains large unless leading model parameters, such as $M$ and $h$, are fixed. This uncertainty will remain until a more informative time-series and better quality demographic and biological information are accumulated for the stock, and potentially until a range wide northeast Pacific sablefish analysis is available.
-\begin{comment}
+
 Uncertainty in the properties of current aging methods (both potential bias and imprecision), as well as relatively sparse fishery sampling, result in potentially noisy age data. Similarly, because sablefish grow very rapidly and reach near-asymptotic length in their first decade of life, length-composition data were not particularly informative about historical patterns in recruitment. The patterns observed in historical sablefish recruitment suggest that the stock trajectory (via shifts in recruitment strength) was linked to productivity regimes in the California Current. Uncertainty in future environmental conditions, changes in the timing, dynamics, and productivity of the California current ecosystem, via climate change or cycles similar to the historical period, should be considered as a significant source of uncertainty in projections of stock status.
-\end{comment}
-The WCGBT Survey was an excellent relative index of abundance over a broad demographic component of the sablefish stock (although not the entire stock, as some of it occurs in deep water and was therefore unobserved).  This index, as well as stock assessments that better capture the dynamics of sablefish across the NE Pacific, may inform future stock assessments about the scale of the sablefish population relative to the catches being removed. 
+
+The WCGBT Survey was an excellent relative index of abundance over a broad demographic component of the sablefish stock (although not the entire stock, as some of it occurs in deep water and was therefore unobserved).  This index, as well as stock assessments that better capture the dynamics of sablefish across the NE Pacific, may inform future stock assessments about the scale of the sablefish population relative to the catches being removed. The reduced survey effort (by 50\%) in 2019 and lack of survey at all in 2020 certainly reduced recent information available for this assessment. Having a complete survey in future years is of great importance for future iterations of this assessment.
 
 A small set of sensitivity analyses were chosen to provide more information about potential information in the data, and potentially conflicting signals among data sources.
 \begin{comment}relatively obvious questions for any stock assessment such as sensitivity to key structural choices, potential information in the data, and potentially conflicting signals among data sources. The order in which they are presented was not intended to reflect their importance; each run included here provided important information for developing or evaluating the base model and alternate states of nature. \end{comment} The results are by no means meant to be a comprehensive comparison of all possible aspects of model uncertainty, nor do they reflect even the full range of models considered in developing the base model.
 \begin{enumerate}
-\item Use of the McAllister-Ianelli (Harmonic Mean) data weighting method as an alternative to the Francis method.
+\item Use of the McAllister-Ianelli (Harmonic Mean) data weighting method as an alternative to the Francis method (described above in Section \ref{dw} on Data Weighting).
+\item Use of the 2019 Francis data weights in lieu of the tuned Francis weights (described above in Section \ref{dw} on Data Weighting).
 \item Inclusion of the At-Sea Hake Observer Program data (landings and length compositions).
+\item Inclusion of the commercially landed length compositions for the fixed-gear and trawl fleets.
 \end{enumerate}
 
-We also explored various parameter phasings which had little impact on the base model.
+We also explored various parameter phasings, which had little impact on the base model.
 
 \begin{comment}
 The following model changes to data or parameter estimation had little impact on
@@ -746,29 +991,47 @@ Results from a model run using the 2015 selectivity patterns were within the ran
 Removing the WCGBT Survey index resulted in greater estimates of uncertainty around time series of spawning biomass and stock status, but more optimistic estimates of stock size and status at the end of the time series (Table \ref{tab:sensitivity_nosealevel}; Figure \ref{sensitivity_nosealevel}). 
 
 A model runs implementing the following changes were largely withing the range of uncertainty estimated in the base model: 1) adding a hake bycatch fleet, 2) beginning the model in 1970 (a STAR panel request), and 3) estimating a single sex combined value for natural mortality (Table \ref{tab:ashop} and Figure \ref{fig:ashop}). 
-*GIANCARLO UPDATE* Adding information about sablefish abundance gained from the Pacific hake (\emph{Merluccius productus}) fishery did not lead to significant changes relative to the base model. In the post-STAR model adding a hake bycatch fleet resulted in a lower estimate of unfished spawning biomass. This difference is likely due to the removal of all other length composition data except for the WCGBTS data and, in this sensitivity run, the hake discard length compositions. Young (i.e., age-0) fish are caught in this mid-water trawl fishery as bycatch and it was hypothesized that including sablefish lengths sampled by the hake fishery would be informative about recruitment. However, the time series does not appear to be long enough relative to the modeled period to be informative and the ongoing WCGBT Survey samples age-0 sablefish. Estimates of unfished spawning biomass and stock status in the single M run were lower than the base model value, while the estimate of unfished biomass and stock status were higher in the run that began during 1970.
-The scale of the estimated unfished spawning biomass is uncertain. To get a ball-park estimate of the scale of the northeast Pacific sablefish population, conditioned on the California Current assumptions and biology, a model run adding all northeast Pacific landings was completed. This model run suggests a northeast Pacific sablefish population that follows a similar stock trajectory and results in a similar stock status compared to the base model, but that unfished spawning biomass could have ranged from about 250,000 mt to about 1,500,000 mt (Table \ref{tab:sensitivity_nepacific}; Figure \ref{sensitivity_nepacific}). This model sensitivity addresses, in a limited way, the long standing request for investigations into transboundary stock issues.
+\end{comment}
+
+**LEE QI: COMM LCOMPS SENSITIVITY**
+
+**GIANCARLO: ASHOP SENSITIVITY**
+
+Adding information about sablefish abundance gained from the Pacific hake (\emph{Merluccius productus}) fishery did not lead to significant changes relative to the base model. In the post-STAR model adding a hake bycatch fleet resulted in a lower estimate of unfished spawning biomass. This difference is likely due to the removal of all other length composition data except for the WCGBTS data and, in this sensitivity run, the hake discard length compositions. Young (i.e., age-0) fish are caught in this mid-water trawl fishery as bycatch and it was hypothesized that including sablefish lengths sampled by the hake fishery would be informative about recruitment. However, the time series does not appear to be long enough relative to the modeled period to be informative and the ongoing WCGBT Survey samples age-0 sablefish. 
+
+\begin{comment} Estimates of unfished spawning biomass and stock status in the single M run were lower than the base model value, while the estimate of unfished biomass and stock status were higher in the run that began during 1970.The scale of the estimated unfished spawning biomass is uncertain. To get a ball-park estimate of the scale of the northeast Pacific sablefish population, conditioned on the California Current assumptions and biology, a model run adding all northeast Pacific landings was completed. This model run suggests a northeast Pacific sablefish population that follows a similar stock trajectory and results in a similar stock status compared to the base model, but that unfished spawning biomass could have ranged from about 250,000 mt to about 1,500,000 mt (Table \ref{tab:sensitivity_nepacific}; Figure \ref{sensitivity_nepacific}). This model sensitivity addresses, in a limited way, the long standing request for investigations into transboundary stock issues.
+
 Models with a range of specifications for the age that defines the beginning of the plus group for the age data agreed regarding the strong increase in the spawning biomass during the 1960s to mid-1970s, followed by stock declines until recent years (Figures \ref{modelcomparison_dataage_ssb} and \ref{modelcomparison_dataage_rec}). The ages largely agreed regarding a period of high recruitments that drive this stock increase. This pattern was evident but less extreme in the 2011 and 2015 models due to the plus group being set at age 35. A similar pattern in spawning biomass trends was present in the AFSC stock assessment {@hanselman2018}. Extending the plus group to age 50 allows for fish aged 35 to 50 to better inform what historical recruitment may have been during periods that previous models assumed there was no information regarding recruitment as well as provides the potential to track truncation or expansion of the 'old growth' population age structure due to changes in fishing pressure or recruitment. 
 In aggregate, these sensitivity analyses reflect the uncertainty in absolute stock size in this sablefish assessment. Hopefully, they also provide a basis for future investigations, as well as a method for prioritizing potential research studies.
 \end{comment}
 ## Retrospective analysis
-**GIANCARLO TO HELP UPDATE, **
+
+**GIANCARLO**
+
 A retrospective analysis was conducted by running the base model with
 data removed for the past 5 years. All retrospective model runs fall within the uncertainty estimates from the base model. There was limited evidence of a
-retrospective pattern in estimates of spawning biomass and stock status, such that the view of the stock becomes more pessimistic as data are removed (Figure \ref{fig:retroSB} -\ref{fig:retroREC} ). The retrospective pattern in stock status is largely driven by some of the largest recruitments observed for sablefish during 2013 and 2016. 
+retrospective pattern in estimates of spawning biomass and stock status, such that the view of the stock becomes more pessimistic as data are removed (Figures \ref{fig:retroSB} and \ref{fig:retroDEP} ). The retrospective pattern in stock status is largely driven by the relative amount of data available to inform the estimates of some of the largest recruitments observed for sablefish during 2013 and 2016 (Figure \ref{fig:retroREC}). 
+
 ## Historical analysis
 
-Estimates of the current stock size and relative depletion were highly consistent with prior stock assessments, particularly from the 1970s forward, the period of time with good data for sablefish (Figure \ref{fig:histassess}). Estimates of stock size prior to the mid-1970s are greater in the 2005 and 2007 assessments, however there were limited data to inform the pre-1970 model period. Notably, depletion estimates retrospective runs which truncate the series to 2019 or prior are within the narrower uncertainty bounds from the 2019 benchmark, while the increasing perception of the stock is consistent across all models which include the new data and timeblocking structure (Figures \ref{fig:retrobenchDEP} and \ref{fig:retrobenchREC}).
+Estimates of the current stock size and relative depletion were highly consistent with prior stock assessments, particularly from the 1970s forward, the period of time with good data for sablefish (Figure \ref{fig:histassess}). Estimates of stock size prior to the mid-1970s are greater in the 2005 and 2007 assessments, however there were limited data to inform the pre-1970 model period. Notably, depletion estimates retrospective runs which truncate the series to 2019 or earlier are within the narrower uncertainty bounds from the 2019 benchmark, while the increasing perception of the stock is consistent across all models which include the new data and timeblocking structure (Figures \ref{fig:retrobenchDEP} and \ref{fig:retrobenchREC}).
 
 ## Likelihood profiles
-**LEE QI AND GIANCARLO TO HELP UPDATE**
+
+
 
 Likelihood profiles were used to elucidate conflicting information among various data sources, to determine how asymmetric the likelihood surfaces surrounding point estimates may be, and to provide an additional evaluation of how precisely parameters are being estimated. Likelihood profiles were completed for three key model parameters: female $M$, unexploited equilibrium recruitment ($R_0$), and $h$. For a single parameter (loosely interpreting an iteratively re-weighted stock assessment objective function in terms of true likelihood) an increase in negative log-likelihood of more than two units indicates a statistically significant degradation in fit.
-Female $M$ (male mortality is highly correlated with female mortality, so it is not included in this discussion) was found to be moderately informed across a relatively wide range of values. Data from the surveys appears to be the most influential for this parameter. Differences in total negative log likelihood was less than two across approximately 0.060-0.095 for female sablefish $M$ Figures \ref{fig:sens_m_like}). However, this is not a trivial parameter range and the assessment results vary considerably among these values in absolute scale (Figure \ref{fig:sens_m_ssb}).
+
+
+**GIANCARLO**
+Female $M$ (male natural mortality rate estimates are highly correlated with female mortality, so it is not included in this discussion) was found to be moderately informed across a relatively wide range of values. Data from the surveys appears to be the most influential for this parameter. Differences in total negative log likelihood was less than two across approximately 0.060-0.095 for female sablefish $M$ Figures \ref{fig:sens_m_like}). However, this is not a trivial parameter range and the assessment results vary considerably among these values in absolute scale (Figure \ref{fig:sens_m_ssb}).
+
+**LEE QI**
 Unexploited equilibrium recruitment ($R_0$) was found to be insignificantly different over 9.2-10.2, values which led to a broad range of stock sizes (Figures \ref{fig:sens_R0_like}-\ref{fig:sens_R0_ssb}). The range of values explored led to little differences in the current level of depletion the stock is facing but large differences in depletion from 1935 to 1970 where there is little information during a period with fishing (Figure \ref{fig:sens_R0_depl}).
-In the base model, $h$ is fixed at 0.7, making it an important profile to evaluate as its uncertainty is not explicitly included in the base-model results. In 2011, the maximum likelihood estimate for $h$ was 0.2, which implies zero surplus production, which is biologically implausible. This assessment found no support in the data over a broad range of explored values (Figure \ref{fig:profile_like_h}). 
-Most of the values included in the profile led to similar trajectories of spawning biomass (Figure \ref{fig:profile_ssb_h}).\begin{comment} The relative strengths of recent cohorts were also not strongly influenced by the value for $h$ (Figure \ref{sens_h_rec}), and the relative depletion level is quite robust as well (Figure \ref{sens_h_depl}). Uncertainty from $h$ was well inside the global estimation uncertainty captured via the asymptotic intervals about the maximum likelihood estimates.
+
+In the base model, $h$ is fixed at 0.7, making it an important profile to evaluate as its uncertainty is not explicitly included in the base-model results. In 2011, the maximum likelihood estimate for $h$ was 0.2, which implies zero surplus production, which is biologically implausible. This assessment found no support in the data over a broad range of explored values (Figure \ref{fig:profile_like_h}). Most of the values included in the profile led to similar trajectories of spawning biomass (Figure \ref{fig:profile_ssb_h}).\begin{comment} The relative strengths of recent cohorts were also not strongly influenced by the value for $h$ (Figure \ref{sens_h_rec}), and the relative depletion level is quite robust as well (Figure \ref{sens_h_depl}). Uncertainty from $h$ was well inside the global estimation uncertainty captured via the asymptotic intervals about the maximum likelihood estimates.
 \end{comment}
+
 In aggregate, these profiles explain why the asymptotic uncertainty about historical and current stock size is so broad and underscore the lack of information in the data regarding scale for this stock assessment.
 
 # Reference points{#rp}
@@ -778,12 +1041,13 @@ In aggregate, these profiles explain why the asymptotic uncertainty about histor
 The phase plot shows the interaction of fishing intensity and biomass targets (Figure \ref{fig:SPR4_phase}).
 
 # Harvest projections and decision tables
-Previous sablefish stock assessments have been designated as Category 1 stock assessments. Thus, projections and decision tables are based on $P^*$=0.4 and the values of sigma adopted by the Pacific Fisheries Management Council for stock projections. The time series of multiplicative buffer fractions that are a function of $P^*$ and the time series of sigmas provide the multipliers on the overfishing limit, these values are all less than 1. The multipliers are combined with the 40-10 harvest control rule to calculate overfishing limits, acceptable biological catches, and annual catch limits. The total catches in 2019 and 2020 were set at the Pacific Fisheries Management Council Groundfish Management Team requested values, just below that Pacific Fisheries Management Council annual catch limits for sablefish. The average 2017-2020 catches were used to distribute catches among the fisheries. All forecasts of catches are of total dead biomass, i.e., dead discard plus catch.}
-Current medium-term projections from the base model under the Pacific Fisheries Management Council 40-10 harvest control rule estimate that the stock will remain above the target stock size of 40% of the estimated unfished spawning biomass during the projection period.
 
+ \textprojections 
+ 
 # Regional management considerations
 
-Recent sablefish management has relied upon apportionment of the ACL north and south of $36^\circ$ N latitude using the average estimated differences in biomass from the WCGBT Survey. This historical management line corresponds with a recent data-driven analysis of sablefish growth that suggests a difference in growth rates north and south of $36^\circ$ N latitude {@kapur2020}. The estimates represent the relative distribution of the sablefish population observed by the survey, not the entire population. Additionally, it is likely that fish from more northerly regions are migrating into U.S. West Coast waters (pers. comm., L. Rogers), which may bias the survey estimates of the distribution of fish in each region. Thus, these results should be interpreted with caution.
+Recent sablefish management has relied upon apportionment of the ACL north and south of $36^\circ$ N latitude using the average estimated differences in biomass from the WCGBT Survey. This historical management line corresponds with a recent data-driven analysis of sablefish growth that suggests a difference in growth rates north and south of $36^\circ$ N latitude (@kapur2020). The estimates represent the relative distribution of the sablefish population observed by the survey, not the entire population. Additionally, it is likely that fish from more northerly regions are migrating into U.S. West Coast waters (pers. comm., L. Rogers), which may bias the survey estimates of the distribution of fish in each region. Thus, these results should be interpreted with caution.
+
 
 
 \begin{comment}
@@ -798,18 +1062,38 @@ The average survey biomass, from 2003 to 2019, that has been distributed south o
 <!--chapter:end:33results.Rmd-->
 
 # Acknowledgments
-This assessment draws heavily on the text and analyses in the 2019 and earlier assessments, and has benefited greatly from the efforts of all authors contributing to those analyses. Additionally, the text you see here was improved by reviews provided by R1, R2.
+This assessment draws heavily on the text and analyses in the 2019 and earlier assessments, and has benefited greatly from the efforts of all authors contributing to those analyses. Thanks to the instructors and members of the FISH 576/577 graduate course in Applied Stock Assessment at the UW School of Aquatic and Fisheries Science for their guidance. 
 
-This assessment would not have been possible without the help of many people at various state and federal agencies who assisted in assembling the included data sources. Particularly, Beth Horness who provided survey data and Chantel Wetzel who wrote the data processing routine. Chantel Wetzel and Andi Stephens provided information regarding discard data. John Wallace provided assistance in extracting and processing various data sources. Richard Methot and Ian Taylor provided ongoing programming support and technical guidance in the use of Stock Synthesis. Ali Whitman, Tien-Shui Tsou, Melissa Mandrup, Ted Calavan, and Mark Freeman provided data and prompt responses to questions regarding its collection. Finally, we thank the STAR panel participants, John Field, Robin Cook, Yong Chen, Jim Ianelli, Patrick Mirick, Gerry Richter, John DeVore, and Stacey Miller, for their rigourous reviews and for facilitating the process.
+This assessment would not have been possible without the help of many people at various state and federal agencies who assisted in assembling the included data sources. Particularly, Beth Horness who provided survey data and Chantel Wetzel who wrote the data processing routine. Chantel Wetzel and Andi Stephens provided information regarding discard data. John Wallace provided assistance in extracting and processing various data sources. Richard Methot and Ian Taylor provided ongoing programming support and technical guidance in the use of Stock Synthesis. Kelli Johnson and Chantel Wetzel provided technical support for the `sa4ss` package which enabled document version control.
+\begin{comment}
+Additionally, the text you see here was improved by reviews provided by R1, R2. Ali Whitman, Tien-Shui Tsou, Melissa Mandrup, Ted Calavan, and Mark Freeman provided data and prompt responses to questions regarding its collection. Finally, we thank the STAR panel participants, John Field, Robin Cook, Yong Chen, Jim Ianelli, Patrick Mirick, Gerry Richter, John DeVore, and Stacey Miller, for their rigourous reviews and for facilitating the process. \end{comment}
 
 <!--chapter:end:41acknowledgments.Rmd-->
 
 \clearpage
+
+# References
+<!-- If you want to references to appear somewhere before the end, add: -->
+<div id="refs"></div>
+<!-- where you want it to appear -->
+<!-- The following sets the appropriate indentation for the references
+  but it cannot be used with bookdown and the make file because it leads
+  to a bad pdf.
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+ -->
+
+<!--chapter:end:49bibliography.Rmd-->
+
+\clearpage
 # Tables
 
-
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
+## Executive Summary Tables
+\begingroup\fontsize{10}{11}\selectfont
+\begingroup\fontsize{10}{11}\selectfont
 
 \begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
 \caption{\label{tab:removals}Recent landings by fleet, total landings summed across fleets, and the total mortality including discards.}\\
@@ -819,7 +1103,7 @@ Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
 \endfirsthead
 \caption[]{Recent landings by fleet, total landings summed across fleets, and the total mortality including discards. \textit{(continued)}}\\
 \toprule
-Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
+Year & Fixed-gear & Trawl & Total Landings &  Model-Estimated Total Dead\\
 \midrule
 \endhead
 
@@ -840,116 +1124,6 @@ Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
 \endgroup{}
 \endgroup{}
 
-
-
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
-
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{2cm}>{\centering\arraybackslash}p{2cm}>{\centering\arraybackslash}p{2cm}}
-\caption{Summary of reference points and management quantities, including estimates of the  95 percent intervals.}\\
-\toprule
-& Estimate & Lower Interval & Upper Interval\\
-\midrule
-\endfirsthead
-\caption[]{Summary of reference points and management quantities, including estimates of the  95 percent intervals. \textit{(continued)}}\\
-\toprule
-& Estimate & Lower Interval & Upper Interval\\
-\midrule
-\endhead
-
-\endfoot
-\bottomrule
-\endlastfoot
-Unfished Spawning Biomass (mt) & 168875 & 107749 & 230000\\
-Unfished Age 4+ Biomass (mt) & 393647 & 242084 & 545209\\
-Unfished Recruitment (R0) & 16392 & 6585 & 26197\\
-Spawning Biomass (mt) (2021) & 97802 & 40802 & 154801\\
-Fraction Unfished (2021) & 0.58 & 0.38 & 0.77\\
-Proxy Spawning Biomass (mt) SB40 Percent & 67550 & 43099 & 92000\\
-SPR Resulting in SB40 Percent & 0.464286 &  & \\
-Exploitation Rate Resulting in SB40 Percent & 0.043 & 0.04 & 0.05\\
-Yield with SPR Based On SB40 Percent (mt) & 8209 & 3857 & 12562\\
-Proxy Spawning Biomass (mt) (SPR45) & 64848 & 41376 & 8832\\
-Exploitation Rate Corresponding to SPR45 & 0.045 & 0.04 & 0.05\\
-Yield with SPR45 at SB SPR (mt) & 8350 & 3924 & 12776\\
-Spawning Biomass (mt) at MSY (SB MSY) & 41701 & 26527 & 56876\\
-SPR MSY & 0.327 & 0.32 & 0.33\\
-Exploitation Rate Corresponding to SPR MSY & 0.07 & 0.06 & 0.08\\
-MSY (mt) & 9024 & 4242 & 13806\\*
-\end{longtable}
-\endgroup{}
-\endgroup{}
-
-
-
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
-
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
-\caption{Recent trend in the overfishing limits (OFL), the annual catch limits (ACLs), the total landings, and total mortality (mt). Note that the Acceptable Biological Catches (ABCs) and ACLs are equal because the stock is estimated to be above 40\% of the unfished spawning biomass.}\\
-\toprule
-Year & OFL & ACL & Landings & Total Mortality\\
-\midrule
-\endfirsthead
-\caption[]{Recent trend in the overfishing limits (OFL), the acceptable biological catches (ABC \textit{(continued)}}\\
-\toprule
-Year & OFL & ACL & Landings & Total Mortality\\
-\midrule
-\endhead
-
-\endfoot
-\bottomrule
-\endlastfoot
-2011 & 8808 & 6813 & 6,149.25 & 6,253.97\\
-2012 & 8623 & 6605 & 5,184.80 & 5,283.59\\
-2013 & 6621 & 5451 & 3,987.20 & 4,050.48\\
-2014 & 7158 & 5909 & 4,216.46 & 4,294.90\\
-2015 & 7857 & 6512 & 5,025.23 & 5,105.53\\
-2016 & 8526 & 7121 & 5,305.81 & 5,401.39\\
-2017 & 8050 & 7117 & 5,350.64 & 5,465.75\\
-2018 & 8239 & 7419 & 5,126.94 & 5,220.23\\
-2019 & 8489 & 7750 & 5,193.71 & 5,372.81\\
-2020 & 8648 & 7896  & 3,762.75 & 3,882.70\\*
-2021 & 9402 & 8791 &  - & -\\*
-2022 & 9005 & 8375 &  - & -\\*
-\end{longtable}
-\endgroup{}
-\endgroup{}
-
-
-
-
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
-
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
-\caption{Recent landings by fleet, total landings summed across fleets, and the total mortality including discards.}\\
-\toprule
-Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
-\midrule
-\endfirsthead
-\caption[]{Recent landings by fleet, total landings summed across fleets, and the total mortality including discards. \textit{(continued)}}\\
-\toprule
-Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
-\midrule
-\endhead
-
-\endfoot
-\bottomrule
-\endlastfoot
-2011 & 4420.85 & 1728.40 & 6149.25 & 6253.97\\
-2012 & 3670.22 & 1514.58 & 5184.80 & 5283.60\\
-2013 & 2585.07 & 1402.13 & 3987.20 & 4050.48\\
-2014 & 2924.26 & 1292.20 & 4216.46 & 4294.90\\
-2015 & 3554.94 & 1470.29 & 5025.23 & 5105.52\\
-2016 & 3829.86 & 1475.95 & 5305.81 & 5401.39\\
-2017 & 3680.67 & 1669.97 & 5350.64 & 5465.76\\
-2018 & 3648.68 & 1478.26 & 5126.94 & 5220.22\\
-2019 & 3568.27 & 1625.44 & 5193.71 & 5372.81\\
-2020 & 2660.03 & 1102.72 & 3762.75 & 3882.69\\*
-\end{longtable}
-\endgroup{}
-\endgroup{}
 
 \begingroup\fontsize{10}{12}\selectfont
 \begingroup\fontsize{10}{12}\selectfont
@@ -984,6 +1158,258 @@ Year & Spawning Biomass (mt) & Lower Interval & Upper Interval & Fraction Unfish
 \endgroup{}
 \endgroup{}
 
+\clearpage
+
+\newpage
+
+\blandscape
+
+\begingroup\fontsize{8}{9}\selectfont
+\begingroup\fontsize{8}{9}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.95cm}>{\centering\arraybackslash}p{0.95cm}}
+\caption{\label{tab:summaryES}Summary of recent estimates and managment quantities.}\\
+\toprule
+Quantity & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020 & 2021\\
+\midrule
+\endfirsthead
+\caption[]{Summary of recent estimates and managment quantities. \textit{(continued)}}\\
+\toprule
+Quantity & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020 & 2021\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+OFL & 8808 & 8623 & 6621 & 7158 & 7857 & 8526 & 8050 & 8239 & 8489 & 8648 & 9402\\
+ACL & 6813 & 6605 & 5451 & 5909 & 6512 & 7121 & 7117 & 7419 & 7750 & 7896 & 8791\\
+Total Catch & 6149.25 & 5184.80 & 3987.20 & 4216.46 & 5025.23 & 5305.81 & 5350.64 & 5126.94 & 5193.71 & 3762.75 &  \\ 
+Total Dead & 6253.97 & 5283.60 & 4050.48 & 4294.90 & 5105.52 & 5401.39 & 5465.76 & 5220.22 & 5372.81 & 3882.69 &  \\ 
+(1-SPR)/(1-SPR\_45\%) & 0.97 & 0.75 & 0.61 & 0.61 & 0.71 & 0.76 & 0.68 & 0.66 & 0.62 & 0.40 &  \\ 
+Exploitation Rate & 0.03 & 0.02 & 0.02 & 0.02 & 0.02 & 0.03 & 0.02 & 0.02 & 0.02 & 0.01 &  \\ 
+Age 4+ Biomass (mt) & 197,753 & 219,764 & 210,986 & 214,890 & 210,057 & 200,261 & 218,814 & 214,801 & 220,274 & 261,038 & 375,550 \\ 
+Spawning Biomass (mt) & 80,352 & 79,223 & 79,605 & 80,188 & 79,676 & 78,633 & 79,327 & 80,687 & 83,925 & 90,757 & 97,802 \\ 
+\textit{Lower Interval}& 32,648 & 31,839 & 32,060 & 32,564 & 32,447 & 31,825 & 31,973 & 32,504 & 33,936 & 37,136 & 40,802 \\ 
+\textit{Upper Interval} & 128,055 & 126,607 & 127,150 & 127,812 & 126,905 & 125,442 & 126,681 & 128,871 & 133,914 & 144,377 & 154,801 \\ 
+Recruits & 6,446 & 2,759 & 34,308 & 6,709 & 18,011 & 55,595 & 10,689 & 8,151 & 6,274 & 12,455 & 15,208 \\ 
+\textit{Lower Interval} & 2,238 & 354 & 15,326 & 2,238 & 7,330 & 24,622 & 3,034 & 519 & 0 & 0 & 0 \\ 
+\textit{Upper Interval}  & 10,654 & 5,165 & 53,289 & 11,179 & 28,692 & 86,567 & 18,344 & 5,784 & 22,392 & 45,919 & 58,009 \\ 
+Fraction Unfished & 0.5 & 0.5 & 0.5 & 0.5 & 0.5 & 0.5 & 0.5 & 0.5 & 0.5 & 0.5 & 0.6 \\ 
+\textit{Lower Interval} & 0.3 & 0.3 &  0.3 &  0.3 &  0.3  & 0.3 & 0.3 &  0.3 & 0.3 & 0.4 & 0.4 \\
+\textit{Upper Interval}  & 0.6 & 0.6 & 0.6 & 0.6 & 0.6 & 0.6 & 0.6 & 0.6 & 0.7 & 0.7 & 0.8 \\*
+
+\end{longtable}
+\endgroup{}
+\endgroup{}
+
+\clearpage
+\elandscape
+
+\newpage
+
+\begingroup\fontsize{9}{11}\selectfont
+\begingroup\fontsize{9}{11}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{0.95cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}>{\centering\arraybackslash}p{0.92cm}}
+\caption{\label{tab:exploitES}Estimates of total dead catch (mt), relative 1-spawning potential ratio (SPR; 1-SPR/1-SPRTarget=0.45\%), and exploitation rate (catch/biomass of age-4+) from the base model. Approximate
+95\% intervals follow in parentheses.}\\
+
+\toprule
+Year & Model-Estimated Total Catch & Rel 1-SPR & Lower Interval & Upper Interval & Exploitation Rate & Lower Interval & Upper Interval\\
+\midrule
+\endfirsthead
+\caption[]{Estimated recent trend in age-0 recruitment (1000s), and recruitment deviations and the 95 percent intervals. \textit{(continued)}}\\
+\toprule
+Year & Model-Estimated Total Catch & Rel 1-SPR & Lower Interval & Upper Interval & Exploitation Rate & Lower Interval & Upper Interval\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2011 & 6253.97 & 0.971 & 0.6 & 1.34 & 0.03 & 0.01 & 0.05\\
+2012 & 5283.60 & 0.751 & 0.41 & 1.09 & 0.02 & 0.01 & 0.04\\
+2013 & 4050.48 & 0.611 & 0.31 & 0.92 & 0.02 & 0.01 & 0.03\\
+2014 & 4294.90 & 0.612 & 0.30 & 0.92 & 0.02 & 0.01 & 0.03\\
+2015 & 5105.52 & 0.712 & 0.37 & 1.05 & 0.02 & 0.01 & 0.04\\
+2016 & 5401.39 & 0.756 & 0.41 & 1.10 & 0.03 & 0.01 & 0.04\\
+2017 & 5465.76 & 0.683 & 0.36 & 1.01 & 0.02 & 0.01 & 0.04\\
+2018 & 5220.22 & 0.663 & 0.34 & 0.98 & 0.02 & 0.01 & 0.04\\
+2019 & 5372.81 & 0.617 & 0.31 & 0.92 & 0.02 & 0.01 & 0.04\\
+2020 & 3882.69 & 0.404 & 0.18 & 0.63 & 0.01 & 0.01 & 0.02\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+
+\begingroup\fontsize{10}{11}\selectfont
+\begingroup\fontsize{10}{11}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}}
+\caption{\label{tab:recrES}Estimated recent trend in recruitment and recruitment deviations and the 95 percent intervals.}\\
+\toprule
+Year & Recruitment & Lower Interval & Upper Interval & Recruitment Deviations & Lower Interval & Upper Interval\\
+\midrule
+\endfirsthead
+\caption[]{Estimated recent trend in age-0 recruitment (1000s), and recruitment deviations and the 95 percent intervals. \textit{(continued)}}\\
+\toprule
+Year & Log Recruitment & Lower Interval & Upper Interval & Recruitment Deviations & Lower Interval & Upper Interval\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2011 & 3.81 & 3.35 & 4.03 & 0.09 & -0.34 & 0.52\\
+2012 & 3.44 & 2.55 & 3.71 & -0.76 & -1.47 & -0.04\\
+2013 & 4.54 & 4.19 & 4.73 & 1.76 & 1.51 & 2.02\\
+2014 & 3.83 & 3.35 & 4.05 & 0.13 & -0.31 & 0.57\\
+2015 & 4.26 & 3.87 & 4.46 & 1.12 & 0.79 & 1.45\\
+2016 & 4.75 & 4.39 & 4.94 & 2.25 & 1.98 & 2.52\\
+2017 & 4.03 & 3.48 & 4.26 & 0.60 & 0.08 & 1.12\\
+2018 & 3.91 & 2.71 & 4.2 & 0.32 & -0.45 & 1.10\\
+2019 & 3.80 & 0 & 4.35 & 0.05 & -2.41 & 2.51\\
+2020 & 4.10 & 0 & 4.66 & -0.19 & -2.77 & 2.39\\
+2021 & 4.18 & 0 & 4.76 & 0.00 & -2.74 & 2.74\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+\clearpage
+\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+
+
+
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
+\caption{\label{tab:manageES} Recent trend in the overfishing limits (OFL), the annual catch limits (ACLs), the total landings, and total mortality (mt). Note that the Acceptable Biological Catches (ABCs) and ACLs are equal because the stock is estimated to be above 40\% of the unfished spawning biomass, and the PFMC has not seen fit to lower the ACLs for other reasons.}\\
+\toprule
+Year & OFL & ACL & Landings & Total Mortality\\
+\midrule
+\endfirsthead
+\caption[]{Recent trend in the overfishing limits (OFL), the acceptable biological catches (ABC \textit{(continued)}}\\
+\toprule
+Year & OFL & ACL & Landings & Total Mortality\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2011 & 8,808 & 6,813 & 6,149.25 & 6,253.97\\
+2012 & 8,623 & 6,605 & 5,184.80 & 5,283.60\\
+2013 & 6,621 & 5,451 & 3,987.20 & 4,050.48\\
+2014 & 7,158 & 5,909 & 4,216.46 & 4,294.90\\
+2015 & 7,857 & 6,512 & 5,025.23 & 5,105.52\\
+2016 & 8,526 & 7,121 & 5,305.81 & 5,401.39\\
+2017 & 8,050 & 7,117 & 5,350.64 & 5,465.76\\
+2018 & 8,239 & 7,419 & 5,126.94 & 5,220.22\\
+2019 & 8,489 & 7,750 & 5,193.71 & 5,372.81\\
+2020 & 8,648 & 7,896  & 3,762.75 & 3,882.69\\*
+2021 & 9,402 & 8,791 &  - & -\\*
+2022 & 9,005 & 8,375 &  - & -\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+
+
+\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
+\caption{\label{tab:projectionES}Projections of potential OFLs (mt), ABCs (mt), estimated spawning biomass and fraction unfished. The total catches in 2021 and 2022 were set at the PFMC Groundfish Management Team requested values of 7,405 mt for 2021 and 7,055 mt for 2022 which are about 20\% lower than the ACL = ABC for those years; see Table \ref{tab:manageES} for GMT-defined ACLs and OFLs in 2021 and 2022.}\\
+\toprule
+Year & Predicted OFL (mt) & Catches (2021-22) or ABCs (2023+) (mt)  & Age 4+ Biomass (mt) & Spawning Biomass (mt) & Fraction Unfished\\
+\midrule
+\endfirsthead
+\caption[]{Projections of potential OFLs (mt), ABCs (mt), estimated spawning biomass and fraction unfished. \textit{(continued)}}\\
+\toprule
+Year & Predicted OFL (mt) & Catches (2021-22) or ABCs (2023+) (mt) & Age 4+ Biomass (mt) & Spawning Biomass (mt) & Fraction Unfished\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+2021 & - &  \textit{7405.00} & 265655 & 97801.9 & 0.58\\
+2022 & - &  \textit{7055.00} & 261481 & 99956.5 & 0.59\\
+2023 & 11577.10 & 10824.60 & 253540 & 99449.9 & 0.59\\
+2024 & 10669.80 & 9922.92 & 246090 & 95943.8 & 0.57\\
+2025 & 10120.60 & 9371.67 & 241976 & 93063.3 & 0.55\\
+2026 & 9837.41 & 9070.09 & 238823 & 90925.0 & 0.54\\
+2027 & 9742.34 & 8933.73 & 236280 & 89290.8 & 0.53\\
+2028 & 9735.24 & 8888.27 & 234037 & 87941.5 & 0.52\\
+2029 & 9747.17 & 8860.17 & 231955 & 86743.8 & 0.51\\
+2030 & 9746.00 & 8810.38 & 229993 & 85644.5 & 0.51\\
+2031 & 9725.92 & 8753.33 & 228162 & 84634.2 & 0.50\\
+2032 & 9691.91 & 8683.95 & 226462 & 83707.8 & 0.50\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+
+\begingroup\fontsize{9}{11}\selectfont
+\begingroup\fontsize{9}{11}\selectfont
+\begin{longtable}{lll|ll|ll|ll}
+\caption{Decision table of 12-year projections of spawning stock biomass (SSB) and \% unfished (depletion) for alternative states of nature (columns) and management options (rows) beginning in 2021. Low and high states of nature are based on the 2021 SSB $\pm$ 1.15$\cdot$base model SSB standard deviation and the resulting unfished recruitment was used for the projections. Results are conditioned on the 2021 and 2022 catches, provided by the Pacific Fisheries Management Council Groundfish Management Team (GMT), being achieved exactly. The alternative catch streams are based on the GMT's requested P$^*$ values of 0.35 and 0.40. Note that values for the agreed-upon buffer level of P* = 0.45  is presented as the middle row of the decision table to be consistent with the central panel being the base case run at the correct buffer level. Catches are total dead biomass, i.e., dead discard plus catch.} \\ 
+  \hline
+Year&Catch&Total& \multicolumn{2}{c}{Low state (0.25)} & \multicolumn{2}{c}{Base (0.5)} & \multicolumn{2}{c}{High state (0.25)} \\ 
+scenario & &catch& SSB & Depletion & SSB & Depletion & SSB & Depletion \\ 
+\hline \endfirsthead
+\multicolumn{9}{l}{\footnotesize Decision table continued from previous page.} \\
+\hline \endhead
+\hline
+\multicolumn{9}{l}{\footnotesize Continued on next page.} \\
+\endfoot
+\endlastfoot
+\hline
+P$^*$=0.35
+& 2021 & 7,405 & 64,916 & 0.51 & 97,802& 0.58 & 131,513 & 0.63 \\ 
+&  2022 & 7,055 & 66,222 & 0.52 & 99,957 & 0.59 & 134,550 & 0.65 \\ 
+&  2023 & 9,412 & 65,396 & 0.51 & 99,450 & 0.59 & 134,266 & 0.64 \\ 
+&  2024 & 8,608 & 62,150 & 0.49 & 96,661 & 0.57 & 131,626 & 0.63 \\ 
+&  2025 & 8,101 & 59,177 & 0.46 & 94,436 & 0.56 & 129,680 & 0.62 \\ 
+&  2026 & 7,796 & 56,750 & 0.44 & 92,909 & 0.55 & 128,548 & 0.62 \\ 
+&  2027 & 7,649 & 54,732 & 0.43 & 91,867 & 0.54 & 127,974 & 0.61 \\ 
+&  2028 & 7,570 & 52,951 & 0.41 & 91,099 & 0.54 & 127,714 & 0.61 \\ 
+&  2029 & 7,504 & 51,310 & 0.40 & 90,483 & 0.54 & 127,626 & 0.61 \\ 
+&  2030 & 7,437 & 49,770 & 0.39 & 89,967 & 0.53 & 127,646 & 0.61 \\ 
+&  2031 & 7,342 & 48,316 & 0.38 & 89,530 & 0.53 & 127,742 & 0.61 \\ 
+&  2032 & 7,247 & 46,956 & 0.37 & 89,175 & 0.53 & 127,911 & 0.61 \\ 
+\hline
+P$^*$=0.45
+& 2021 & 7,405 & 64,916 & 0.51 & 97,802 & 0.58 & 131,513 & 0.63 \\ 
+& 2022 & 7,055 & 66,222 & 0.52 & 99,957 & 0.59 & 134,550 & 0.65 \\ 
+& 2023 & 10,825 & 65,396 & 0.51 & 99,450 & 0.59 & 134,266 & 0.64 \\ 
+& 2024 & 9,923 & 61,426 & 0.48 & 95,935 & 0.57 & 130,908 & 0.63 \\ 
+& 2025 & 9,372 & 57,787 & 0.45 & 93,014 & 0.55 & 128,302 & 0.62 \\ 
+&  2026 & 9,070 & 54,742 & 0.43 & 90,821 & 0.54 & 126,550 & 0.61 \\ 
+& 2027 & 8,934 & 52,126 & 0.41 & 89,130 & 0.53 & 125,375 & 0.60 \\ 
+&  2028 & 8,888 & 49,760 & 0.39 & 87,727 & 0.52 & 124,528 & 0.60 \\ 
+& 2029 & 8,860 & 47,532 & 0.37 & 86,483 & 0.51 & 123,858 & 0.59 \\ 
+& 2030 & 8,810 & 45,402 & 0.36 & 85,346 & 0.51 & 123,298 & 0.59 \\ 
+&  2031 & 8,753 & 43,364 & 0.34 & 84,304 & 0.50 & 122,829 & 0.59 \\ 
+& 2032 & 8,684 & 41,415 & 0.32 & 83,351 & 0.49 & 122,438 & 0.59 \\ 
+\hline
+P$^*$=0.40
+&  2021 & 7,405 & 64,916 & 0.51 & 97,802 & 0.58 & 131,513 & 0.63 \\ 
+&  2022 & 7,055 & 66,222 & 0.52 & 99,957 & 0.59 & 134,550 & 0.65 \\ 
+& 2023 & 10,107 & 65,396 & 0.51 & 99,450 & 0.59 & 134,266 & 0.64 \\ 
+&  2024 & 9,252 & 61,794 & 0.48 & 96,308 & 0.57 & 131,273 & 0.63 \\ 
+&  2025 & 8,722 & 58,494 & 0.46 & 93,761 & 0.56 & 129,004 & 0.62 \\ 
+& 2026 & 8,421 & 55,765 & 0.44 & 91,935 & 0.54 & 127,568 & 0.61 \\ 
+& 2027 & 8,282 & 53,451 & 0.42 & 90,602 & 0.54 & 126,699 & 0.61 \\ 
+& 2028 & 8,218 & 51,380 & 0.40 & 89,546 & 0.53 & 126,149 & 0.60 \\
+& 2029 & 8,168 & 49,449 & 0.39 & 88,643 & 0.52 & 125,774 & 0.60 \\ 
+& 2030 & 8,117 & 47,616 & 0.37 & 87,840 & 0.52 & 125,509 & 0.60 \\ 
+& 2031 & 8,039 & 45,869 & 0.36 & 87,117 & 0.52 & 125,324 & 0.60 \\ 
+& 2032 & 7,950 & 44,214 & 0.35 & 86,479 & 0.51 & 125,215 & 0.60 \\
+   \hline
+\end{longtable}
+\endgroup{}
+\endgroup{}
+
+## Additional Tables
 
 \begingroup\fontsize{10}{12}\selectfont
 \begingroup\fontsize{10}{12}\selectfont
@@ -1014,35 +1440,474 @@ Parm\_priors\_like & 0.45 & 0.47 & 0.45 \\*
 \endgroup{}
 
 
+
 \begingroup\fontsize{10}{12}\selectfont
 \begingroup\fontsize{10}{12}\selectfont
 
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}>{\centering\arraybackslash}p{1.57cm}}
-\caption{\label{tab:recrES}Estimated recent trend in recruitment and recruitment deviations and the 95 percent intervals.}\\
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{2cm}}
+\caption{\label{tab:likes}Likelihood components by source for the base update assessment model.}\\
 \toprule
-Year & Recruitment & Lower Interval & Upper Interval & Recruitment Deviations & Lower Interval & Upper Interval\\
+Label & Total\\
 \midrule
 \endfirsthead
-\caption[]{Estimated recent trend in age-0 recruitment (1000s), and recruitment deviations and the 95 percent intervals. \textit{(continued)}}\\
+\caption[]{Likelihood components by source in the base model. \textit{(continued)}}\\
 \toprule
-Year & Recruitment & Lower Interval & Upper Interval & Recruitment Deviations & Lower Interval & Upper Interval\\
+Label & Total\\
 \midrule
 \endhead
 
 \endfoot
 \bottomrule
 \endlastfoot
-2011 & 6445.91 & 2238.00 & 10653.82 & 0.09 & -0.34 & 0.52\\
-2012 & 2759.31 & 353.79 & 5164.83 & -0.76 & -1.47 & -0.04\\
-2013 & 34307.60 & 15326.03 & 53289.17 & 1.76 & 1.51 & 2.02\\
-2014 & 6708.58 & 2238.47 & 11178.69 & 0.13 & -0.31 & 0.57\\
-2015 & 18010.90 & 7329.57 & 28692.23 & 1.12 & 0.79 & 1.45\\
-2016 & 55594.50 & 24621.97 & 86567.03 & 2.25 & 1.98 & 2.52\\
-2017 & 10688.70 & 3033.88 & 18343.52 & 0.60 & 0.08 & 1.12\\
-2018 & 8151.38 & 518.63 & 15784.13 & 0.32 & -0.45 & 1.10\\
-2019 & 6274.11 & -9844.16 & 22392.38 & 0.05 & -2.41 & 2.51\\
-2020 & 12455.30 & -21008.34 & 45918.94 & -0.19 & -2.77 & 2.39\\
-2021 & 15207.70 & -27593.80 & 58009.20 & 0.00 & -2.74 & 2.74\\*
+TOTAL & 3432.67\\
+Catch & 0.00\\
+Equil catch & 0.00\\
+Survey & -18.74\\
+Discard & -77.89\\
+Mean body wt & -23.40\\
+Length comp & 140.35\\
+Age comp & 3376.93\\
+Recruitment & 35.14\\
+InitEQ Regime & 0.00\\
+Forecast Recruitment & 0.00\\
+Parm priors & 0.28\\
+Parm devs & 0.00\\
+Crash Pen & 0.00\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+
+
+
+\begin{table}[H]
+\caption{Time-varying retention and selectivity parameters included in the base model based on key events and management history (See Management appendix of @Haltuch2019b).}
+\label{tab:tvretentionslxdates}
+\begin{tabular}{lllll}
+\hline
+\multicolumn{2}{c}{Fixed-gear retention}&\multicolumn{2}{c}{Trawl retention}&Reason\\
+\hline
+Start year & End year & Start year & End year & Reason \\
+\hline
+1942 & 1946 & 1942 & 1946 & WWII, full retention \\
+1947 & 1996 & 1947 & 1981 & Post-war fishery development \\
+1997 & 2010 & 1982 & 2010 & Management trip limits \\
+2011 & 2018 & 2011 & 2018 & Catch shares \\
+2019 & 2020 & 2019 & 2020 & Influx of smaller fish and higher discarding \\
+\hline
+\multicolumn{2}{c}{Fixed-gear selectivity}&\multicolumn{2}{c}{Trawl selectivity}&Reason\\
+\hline
+1997 & 2002 & 1982 & 2002 & Management trip limits \\
+2003 & 2010 & 2003 & 2010 & Rockfish conservation area \\
+2011 & 2018 & 2011 & 2018 & Catch shares \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+
+
+\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
+\caption{\label{tab:basepars}Stock-recruitment, mortality, growth and catchability parameter estimates with their ~95\% interval from the base model.}\\
+\toprule
+Label & Estimate & Lower 5\% & Upper 95\%\\\midrule
+\endfirsthead
+\caption[]{Stock-recruitment, mortality, growth and catchability parameter estimates with their ~95\% interval from the base model. \textit{(continued)}
+}\\
+\toprule
+Label & Estimate & Lower 5\% & Upper 95\%\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+NatM\_p\_1\_Fem\_GP\_1 & 0.07 & 0.06 & 0.09 \\ 
+  L\_at\_Amin\_Fem\_GP\_1 & 25.70 & 24.80 & 26.60 \\ 
+  L\_at\_Amax\_Fem\_GP\_1 & 62.50 & 61.20 & 63.70 \\ 
+  VonBert\_K\_Fem\_GP\_1 & 0.34 & 0.31 & 0.37 \\ 
+  CV\_young\_Fem\_GP\_1 & 0.06 & 0.04 & 0.07 \\ 
+  CV\_old\_Fem\_GP\_1 & 0.11 & 0.10 & 0.12 \\ 
+  Wtlen\_1\_Fem\_GP\_1 & 0.00 &  &  \\ 
+  Wtlen\_2\_Fem\_GP\_1 & 3.27 &  &  \\ 
+  Mat50\%\_Fem\_GP\_1 & 55.20 &  &  \\ 
+  Mat\_slope\_Fem\_GP\_1 & -0.42 &  &  \\ 
+  Eggs/kg\_inter\_Fem\_GP\_1 & 1.00 &  &  \\ 
+  Eggs/kg\_slope\_wt\_Fem\_GP\_1 & 0.00 &  &  \\ 
+  NatM\_p\_1\_Mal\_GP\_1 & 0.06 & 0.05 & 0.07 \\ 
+  L\_at\_Amin\_Mal\_GP\_1 & 26.90 & 25.90 & 27.90 \\ 
+  L\_at\_Amax\_Mal\_GP\_1 & 56.60 & 56.00 & 57.30 \\ 
+  VonBert\_K\_Mal\_GP\_1 & 0.37 & 0.34 & 0.40 \\ 
+  CV\_young\_Mal\_GP\_1 & 0.07 & 0.06 & 0.09 \\ 
+  CV\_old\_Mal\_GP\_1 & 0.08 & 0.07 & 0.08 \\ 
+  Wtlen\_1\_Mal\_GP\_1 & 0.00 &  &  \\ 
+  Wtlen\_2\_Mal\_GP\_1 & 3.27 &  &  \\ 
+  CohortGrowDev & 1.00 &  &  \\ 
+  FracFemale\_GP\_1 & 0.50 &  &  \\ 
+  SR\_LN(R0) & 9.70 & 9.11 & 10.30 \\ 
+Q\_base\_ENV(4) & 0.09 & 0.04 & 0.14 \\ 
+  Q\_extraSD\_ENV(4) & 0.31 & 0.20 & 0.42 \\ 
+  LnQ\_base\_AKSHLF(5) & 0.32 & -0.21 & 0.86 \\ 
+  Q\_extraSD\_AKSHLF(5) & 0.18 & 0.04 & 0.31 \\ 
+Q\_extraSD\_AKSLP(6) & 0.04 & -0.04 & 0.11 \\ 
+  Q\_extraSD\_NWSLP(7) & 0.16 & 0.00 & 0.32 \\   
+  LnQ\_base\_AKSHLF(5)\_BLK1repl\_1995 & -0.07 & -0.62 & 0.48 \\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+
+\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
+\caption{\label{tab:selparest}Estimated selectivity parameters from the base model.}\\
+\toprule
+Label & Estimate\\\midrule
+\endfirsthead
+\caption[]{Estimated selectivity parameters from the base model. \textit{(continued)}}\\
+\toprule
+Label & Estimate\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+Retain-L-infl-FIX(1) & 41.00 \\ 
+Retain-L-width-FIX(1) & 6.01 \\ 
+Retain-L-asymptote-logit-FIX(1) & 10.00 \\ 
+Retain-L-maleoffset-FIX(1) & 0.00 \\ 
+Retain-L-infl-TWL(3) & 41.00 \\ 
+Retain-L-width-TWL(3) & 2.90 \\ 
+Retain-L-asymptote-logit-TWL(3) & 10.00 \\ 
+Retain-L-maleoffset-TWL(3) & 0.00 \\ 
+Age-DblN-peak-FIX(1) & 5.00 \\ 
+Age-DblN-top-logit-FIX(1) & -4.00 \\ 
+Age-DblN-ascend-se-FIX(1) & 0.19 \\ 
+Age-DblN-descend-se-FIX(1) & 2.84 \\ 
+Age-DblN-start-logit-FIX(1) & -5.00 \\ 
+Age-DblN-end-logit-FIX(1) & -1.50 \\ 
+AgeSel-1MaleDogleg-FIX & 0.00 \\ 
+AgeSel-1MaleatZero-FIX & 0.06 \\ 
+AgeSel-1MaleatDogleg-FIX & -0.84 \\ 
+AgeSel-1MaleatMaxage-FIX & -1.31 \\ 
+Age-DblN-peak-TWL(3) & 1.00 \\ 
+Age-DblN-top-logit-TWL(3) & -4.00 \\ 
+Age-DblN-ascend-se-TWL(3) & -2.40 \\ 
+Age-DblN-descend-se-TWL(3) & -9.00 \\ 
+Age-DblN-start-logit-TWL(3) & -4.03 \\ 
+Age-DblN-end-logit-TWL(3) & -1.60 \\ 
+Age-DblN-peak-AKSHLF(5) & 1.00 \\ 
+Age-DblN-top-logit-AKSHLF(5) & -4.00 \\ 
+Age-DblN-ascend-se-AKSHLF(5) & -9.74 \\ 
+Age-DblN-descend-se-AKSHLF(5) & -1.01 \\ 
+Age-DblN-start-logit-AKSHLF(5) & -2.50 \\ 
+Age-DblN-end-logit-AKSHLF(5) & -3.86 \\ 
+AgeSel-5MaleDogleg-AKSHLF & 0.00 \\ 
+AgeSel-5MaleatZero-AKSHLF & -0.54 \\ 
+AgeSel-5MaleatDogleg-AKSHLF & -0.17 \\ 
+AgeSel-5MaleatMaxage-AKSHLF & -6.16 \\ 
+Age-DblN-peak-AKSLP(6) & 1.47 \\ 
+Age-DblN-top-logit-AKSLP(6) & -4.00 \\ 
+Age-DblN-ascend-se-AKSLP(6) & -4.00 \\ 
+Age-DblN-descend-se-AKSLP(6) & -5.97 \\ 
+Age-DblN-start-logit-AKSLP(6) & -1.34 \\ 
+Age-DblN-end-logit-AKSLP(6) & -0.53 \\ 
+Age-DblN-peak-NWSLP(7) & 3.59 \\ 
+Age-DblN-top-logit-NWSLP(7) & -4.00 \\ 
+Age-DblN-ascend-se-NWSLP(7) & 1.49 \\ 
+Age-DblN-descend-se-NWSLP(7) & -3.30 \\ 
+Age-DblN-start-logit-NWSLP(7) & -4.57 \\ 
+Age-DblN-end-logit-NWSLP(7) & 0.19 \\ 
+Age-DblN-peak-NWCBO(8) & 0.09 \\ 
+Age-DblN-top-logit-NWCBO(8) & -4.00 \\ 
+Age-DblN-ascend-se-NWCBO(8) & -8.45 \\ 
+Age-DblN-descend-se-NWCBO(8) & 3.48 \\ 
+Age-DblN-start-logit-NWCBO(8) & -4.00 \\ 
+Age-DblN-end-logit-NWCBO(8) & -0.32 \\ 
+Retain-L-infl-FIX(1)-BLK2repl-1942 & 25.00 \\ 
+Retain-L-infl-FIX(1)-BLK2repl-1947 & 38.96 \\ 
+Retain-L-infl-FIX(1)-BLK2repl-1997 & 40.35 \\ 
+Retain-L-infl-FIX(1)-BLK2repl-2011 & 41.37 \\ 
+Retain-L-infl-FIX(1)-BLK2repl-2019 & 35.92 \\ 
+Retain-L-asymptote-logit-FIX(1)-BLK2repl-1942 & 10.00 \\ 
+Retain-L-asymptote-logit-FIX(1)-BLK2repl-1947 & 10.00 \\ 
+Retain-L-asymptote-logit-FIX(1)-BLK2repl-1997 & 2.54 \\ 
+Retain-L-asymptote-logit-FIX(1)-BLK2repl-2011 & 4.01 \\ 
+Retain-L-asymptote-logit-FIX(1)-BLK2repl-2019 & 2.14 \\ 
+Retain-L-infl-TWL(3)-BLK3repl-1942 & 25.00 \\ 
+Retain-L-infl-TWL(3)-BLK3repl-1947 & 45.93 \\ 
+Retain-L-infl-TWL(3)-BLK3repl-1982 & 47.75 \\ 
+Retain-L-infl-TWL(3)-BLK3repl-2011 & 33.75 \\ 
+Retain-L-infl-TWL(3)-BLK3repl-2019 & 42.27 \\ 
+Retain-L-asymptote-logit-TWL(3)-BLK3repl-1942 & 10.00 \\ 
+Retain-L-asymptote-logit-TWL(3)-BLK3repl-1947 & 10.00 \\ 
+Retain-L-asymptote-logit-TWL(3)-BLK3repl-1982 & 3.74 \\ 
+Retain-L-asymptote-logit-TWL(3)-BLK3repl-2011 & 10.00 \\ 
+Retain-L-asymptote-logit-TWL(3)-BLK3repl-2019 & 5.33 \\ 
+Age-DblN-peak-FIX(1)-BLK4repl-1997 & 3.15 \\ 
+Age-DblN-peak-FIX(1)-BLK4repl-2003 & 5.04 \\ 
+Age-DblN-peak-FIX(1)-BLK4repl-2011 & 3.06 \\ 
+Age-DblN-ascend-se-FIX(1)-BLK4repl-1997 & -1.24 \\ 
+Age-DblN-ascend-se-FIX(1)-BLK4repl-2003 & 1.85 \\ 
+Age-DblN-ascend-se-FIX(1)-BLK4repl-2011 & -8.68 \\ 
+Age-DblN-descend-se-TWL(3)-BLK5repl-1982 & 2.06 \\ 
+Age-DblN-descend-se-TWL(3)-BLK5repl-2003 & 6.60 \\ 
+Age-DblN-descend-se-TWL(3)-BLK5repl-2011 & 9.18 \\ 
+Age-DblN-descend-se-AKSHLF(5)-BLK6repl-1995 & 3.17 \\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+
+
+
+
+\clearpage
+
+\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
+\caption{\label{tab:torctorcw1}Comparison of Francis weights between the 2019 Benchmark and proposed base model.}\\
+\toprule
+Label & 2019 Weights & 2021 Update Weights \\\midrule
+\endfirsthead
+\caption[]{Comparison of Francis weights between the proposed base model and the 2019 Benchmark weights}\\
+\toprule
+Label & 2019 Weights & 2021 Update Weights \\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+len FIX & NA (not in model) & 0.095328 \\
+len TWL & NA (not in model) & 0.044144 \\
+len NWCBO & 0.291349 & 0.032931 \\
+age FIX & 1 & 0.101402\\
+age TWL & 1 & 0.193659 \\
+age AKSHLF & 0.103912 & 1 \\
+age AKSLP & 0.316743 & 0.109196 \\
+age NWSLP & 0.440877 & 0.12705 \\
+age NWCBO & 0.246557 & 0.286539 \\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+
+\clearpage
+
+\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
+\caption{\label{tab:torctorcw2}Comparison of likelihoods and parameter estimates between the proposed base model, which was iteratively weighted using the Francis method, and the same model using the 2019 Benchmark weights.}\\
+\toprule
+Label & Base & Base with 2019 Weights\\\midrule
+\endfirsthead
+\caption[]{Comparison of likelihoods and select parameter estimates between the proposed base model which was iteratively weighted using the Francis method, and the same model using the 2019 Benchmark weights. \textit{(continued)}}\\
+\toprule
+Label & Base & Base with 2019 Weights\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+Total Likelihood & 3432.67 & 7064.72\\
+Survey Likelihood & -18.7403 & -23.9026\\
+Length comp Likelihood & 140.351 & 1409.14\\
+Age comp Likelihood & 3376.93 & 5549.82\\
+Parm priors Likelihood & 0.282114 & 0.260356\\
+NatM p 1 Fem GP 1 & 0.0725861 & 0.0716219\\
+L at Amin Fem GP 1 & 25.7207 & 27.2095\\
+L at Amax Fem GP 1 & 62.4569 & 62.2122\\
+VonBert K Fem GP 1 & 0.343282 & 0.353679\\
+CV young Fem GP 1 & 0.0572535 & 0.0687359\\
+CV old Fem GP 1 & 0.109531 & 0.102166\\
+NatM p 1 Mal GP 1 & 0.060472 & 0.0604435\\
+L at Amin Mal GP 1 & 26.926 & 26.2399\\
+L at Amax Mal GP 1 & 56.6228 & 55.9886\\
+VonBert K Mal GP 1 & 0.371287 & 0.43448\\
+CV young Mal GP 1 & 0.0749235 & 0.0959105\\
+CV old Mal GP 1 & 0.0783725 & 0.0775673\\
+SR LN(R0) & 9.70454 & 9.43696\\
+SPRratio 2019 & 0.61702 & 0.663576\\
+SPRratio 2021 & 0.765683 & 0.653669\\
+F 2019 & 0.0243915 & 0.0272988\\
+F 2021 & 0.0330918 & 0.0261667\\
+Bratio 2019 & 0.496966 & 0.617103\\
+Bratio 2021 & 0.579137 & 0.683158\\
+SSB Virgin thousand mt & 168.875 & 131.097\\
+Totbio unfished & 419070 & 321441\\
+SmryBio unfished & 393647 & 300404\\
+Recr Virgin millions & 16.3918 & 12.5435\\
+SSB Btgt thousand mt & 67.55 & 52.439\\
+SPR Btgt & 0.464286 & 0.464286\\
+SSB MSY thousand mt & 41.702 & 32.153\\
+SPR MSY & 0.327623 & 0.326123\\
+Retain L infl FIX(1) BLK2repl 2019 & 35.9209 & 45.5014\\
+Retain L asymptote logit FIX(1) BLK2repl 2019 & 2.13517 & 3.65292\\
+Retain L asymptote logit TWL(3) BLK3repl 2019 & 5.32676 & 9.99992\\
+annF Btgt & 0.0431076 & 0.0446488\\
+annF MSY & 0.0700526 & 0.0731536\\*
+\end{longtable}
+\endgroup{}
+\endgroup{}
+
+
+
+\begingroup\fontsize{8}{10}\selectfont
+\begingroup\fontsize{8}{10}\selectfont
+
+\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
+\caption{\label{tab:allcatches}Landings (mt) by fleet for all years, total landings (mt), and total mortality (mt) summed by year.}\\
+\toprule
+Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
+\midrule
+\endfirsthead
+\caption[]{Landings (mt) by fleet for all years, total landings (mt), and total mortality (mt) summed by year. \textit{(continued)}}\\
+\toprule
+Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+1890 & 2.12 & 0.00 & 2.12 & 2.14\\
+1891 & 6.08 & 0.00 & 6.08 & 6.16\\
+1892 & 6.75 & 0.00 & 6.75 & 6.84\\
+1893 & 10.05 & 0.00 & 10.05 & 10.18\\
+1894 & 12.25 & 0.00 & 12.25 & 12.41\\
+1895 & 16.65 & 0.00 & 16.65 & 16.87\\
+1896 & 18.68 & 0.00 & 18.68 & 18.92\\
+1897 & 20.70 & 0.00 & 20.70 & 20.97\\
+1898 & 22.73 & 0.00 & 22.73 & 23.03\\
+1899 & 24.75 & 0.00 & 24.75 & 25.08\\
+1900 & 49.89 & 0.00 & 49.89 & 50.55\\
+1901 & 76.30 & 1.37 & 77.67 & 78.76\\
+1902 & 102.71 & 2.75 & 105.46 & 106.98\\
+1903 & 129.12 & 4.13 & 133.25 & 135.19\\
+1904 & 155.53 & 5.51 & 161.04 & 163.41\\
+1905 & 138.10 & 6.88 & 144.98 & 147.20\\
+1906 & 135.20 & 8.26 & 143.46 & 145.72\\
+1907 & 142.00 & 9.64 & 151.64 & 154.06\\
+1908 & 85.79 & 11.02 & 96.81 & 98.56\\
+1909 & 141.05 & 12.37 & 153.42 & 155.97\\
+1910 & 196.32 & 13.71 & 210.03 & 213.39\\
+1911 & 251.58 & 15.06 & 266.64 & 270.80\\
+1912 & 306.84 & 16.41 & 323.25 & 328.21\\
+1913 & 362.10 & 17.76 & 379.86 & 385.62\\
+1914 & 417.36 & 19.11 & 436.47 & 443.03\\
+1915 & 472.48 & 20.12 & 492.60 & 499.93\\
+1916 & 1287.88 & 26.32 & 1314.20 & 1332.62\\
+1917 & 1694.92 & 286.38 & 1981.31 & 2019.33\\
+1918 & 2683.77 & 157.05 & 2840.82 & 2884.82\\
+1919 & 919.08 & 105.43 & 1024.51 & 1042.42\\
+1920 & 627.01 & 245.84 & 872.85 & 894.55\\
+1921 & 846.41 & 321.89 & 1168.30 & 1196.99\\
+1922 & 711.23 & 84.53 & 795.76 & 809.73\\
+1923 & 1259.02 & 169.43 & 1428.45 & 1454.23\\
+1924 & 1534.96 & 293.77 & 1828.73 & 1864.84\\
+1925 & 1869.37 & 227.41 & 2096.78 & 2133.67\\
+1926 & 1639.23 & 55.29 & 1694.52 & 1718.98\\
+1927 & 2205.99 & 312.45 & 2518.44 & 2563.45\\
+1928 & 1820.93 & 288.62 & 2109.55 & 2148.15\\
+1929 & 1814.85 & 468.39 & 2283.24 & 2330.49\\
+1930 & 2096.51 & 445.83 & 2542.34 & 2592.41\\
+1931 & 1066.82 & 330.36 & 1397.18 & 1428.12\\
+1932 & 1345.15 & 303.32 & 1648.46 & 1681.62\\
+1933 & 1094.08 & 428.73 & 1522.81 & 1558.89\\
+1934 & 1958.01 & 681.41 & 2639.42 & 2699.73\\
+1935 & 2481.48 & 901.51 & 3382.99 & 3461.88\\
+1936 & 2015.35 & 336.95 & 2352.30 & 2397.82\\
+1937 & 2296.59 & 231.52 & 2528.11 & 2570.53\\
+1938 & 2217.14 & 257.96 & 2475.10 & 2517.45\\
+1939 & 2448.23 & 295.40 & 2743.63 & 2793.34\\
+1940 & 1878.04 & 301.44 & 2179.48 & 2222.78\\
+1941 & 1652.36 & 487.74 & 2140.09 & 2190.67\\
+1942 & 2293.38 & 935.37 & 3228.75 & 3232.16\\
+1943 & 1838.17 & 2084.58 & 3922.75 & 3926.95\\
+1944 & 1485.58 & 2998.92 & 4484.50 & 4489.45\\
+1945 & 1690.96 & 2726.11 & 4417.07 & 4422.03\\
+1946 & 2782.52 & 1672.34 & 4454.86 & 4459.84\\
+1947 & 1716.51 & 516.31 & 2232.82 & 2315.08\\
+1948 & 1886.90 & 945.65 & 2832.55 & 2972.18\\
+1949 & 1986.53 & 983.06 & 2969.59 & 3115.87\\
+1950 & 1623.74 & 1016.48 & 2640.22 & 2793.47\\
+1951 & 2253.00 & 2011.83 & 4264.83 & 4577.88\\
+1952 & 1477.81 & 1163.16 & 2640.97 & 2830.29\\
+1953 & 965.21 & 691.62 & 1656.83 & 1779.62\\
+1954 & 1323.34 & 997.10 & 2320.44 & 2495.70\\
+1955 & 1289.13 & 898.32 & 2187.45 & 2347.03\\
+1956 & 970.89 & 2434.90 & 3405.79 & 3893.23\\
+1957 & 1599.31 & 951.73 & 2551.04 & 2764.61\\
+1958 & 764.11 & 768.06 & 1532.16 & 1694.82\\
+1959 & 1234.49 & 984.39 & 2218.88 & 2424.23\\
+1960 & 1675.39 & 1191.87 & 2867.26 & 3140.20\\
+1961 & 1055.49 & 756.02 & 1811.51 & 1977.31\\
+1962 & 1010.21 & 1616.57 & 2626.78 & 2938.96\\
+1963 & 948.97 & 869.38 & 1818.36 & 2006.92\\
+1964 & 1008.75 & 1037.79 & 2046.54 & 2254.89\\
+1965 & 909.90 & 1023.56 & 1933.46 & 2142.02\\
+1966 & 740.20 & 1132.49 & 1872.69 & 2106.05\\
+1967 & 2459.77 & 1819.11 & 4278.88 & 5700.44\\
+1968 & 1421.13 & 1313.86 & 2734.99 & 3359.94\\
+1969 & 3410.91 & 2067.98 & 5478.89 & 5925.45\\
+1970 & 1765.93 & 2839.89 & 4605.82 & 4982.18\\
+1971 & 1407.28 & 2479.75 & 3887.03 & 4170.52\\
+1972 & 3082.13 & 3538.53 & 6620.66 & 6991.06\\
+1973 & 1396.59 & 4275.50 & 5672.09 & 6068.19\\
+1974 & 5122.47 & 3478.06 & 8600.53 & 8995.28\\
+1975 & 10333.70 & 3966.03 & 14299.73 & 14811.57\\
+1976 & 20506.80 & 3888.01 & 24394.81 & 25045.64\\
+1977 & 5243.54 & 3497.85 & 8741.39 & 9370.43\\
+1978 & 7708.79 & 4532.11 & 12240.90 & 13006.32\\
+1979 & 16772.00 & 7116.30 & 23888.30 & 24879.21\\
+1980 & 4537.32 & 4506.94 & 9044.26 & 10058.19\\
+1981 & 5855.33 & 5437.39 & 11292.72 & 12432.86\\
+1982 & 8247.92 & 10117.70 & 18365.62 & 20442.89\\
+1983 & 7112.16 & 7280.22 & 14392.38 & 15680.69\\
+1984 & 5363.84 & 8215.94 & 13579.78 & 14734.11\\
+1985 & 6611.02 & 7141.24 & 13752.26 & 14914.46\\
+1986 & 6311.73 & 6456.36 & 12768.09 & 14104.25\\
+1987 & 5871.70 & 6454.05 & 12325.75 & 13716.47\\
+1988 & 5062.31 & 5446.62 & 10508.93 & 11456.30\\
+1989 & 4410.42 & 5667.45 & 10077.87 & 11015.77\\
+1990 & 3780.55 & 5108.30 & 8888.85 & 9759.06\\
+1991 & 4319.25 & 4932.10 & 9251.35 & 10392.76\\
+1992 & 3868.54 & 5311.01 & 9179.55 & 10281.74\\
+1993 & 3147.79 & 4808.73 & 7956.52 & 8730.70\\
+1994 & 3708.95 & 3759.34 & 7468.29 & 7968.20\\
+1995 & 4011.64 & 3795.59 & 7807.23 & 8318.36\\
+1996 & 4080.78 & 4131.29 & 8212.07 & 9042.94\\
+1997 & 4121.76 & 3734.32 & 7856.08 & 8673.40\\
+1998 & 2175.02 & 2142.96 & 4317.98 & 4673.20\\
+1999 & 3408.12 & 3117.12 & 6525.24 & 6974.06\\
+2000 & 3505.46 & 2615.74 & 6121.20 & 6697.35\\
+2001 & 3012.75 & 2563.61 & 5576.36 & 6871.87\\
+2002 & 2190.07 & 1556.61 & 3746.68 & 4513.93\\
+2003 & 3010.56 & 2213.78 & 5224.34 & 5703.88\\
+2004 & 3278.36 & 2410.93 & 5689.29 & 6092.07\\
+2005 & 3599.66 & 2396.47 & 5996.13 & 6337.75\\
+2006 & 3380.39 & 2536.10 & 5916.49 & 6210.87\\
+2007 & 2621.13 & 2486.01 & 5107.14 & 5341.24\\
+2008 & 2796.21 & 2890.67 & 5686.88 & 5928.94\\
+2009 & 3889.01 & 3061.45 & 6950.46 & 7367.34\\
+2010 & 4054.53 & 2539.32 & 6593.85 & 7003.45\\
+2011 & 4420.85 & 1728.40 & 6149.25 & 6253.97\\
+2012 & 3670.22 & 1514.58 & 5184.80 & 5283.60\\
+2013 & 2585.07 & 1402.13 & 3987.20 & 4050.48\\
+2014 & 2924.26 & 1292.20 & 4216.46 & 4294.90\\
+2015 & 3554.94 & 1470.29 & 5025.23 & 5105.52\\
+2016 & 3829.86 & 1475.95 & 5305.81 & 5401.39\\
+2017 & 3680.67 & 1669.97 & 5350.64 & 5465.76\\
+2018 & 3648.68 & 1478.26 & 5126.94 & 5220.22\\
+2019 & 3568.27 & 1625.44 & 5193.71 & 5372.81\\
+2020 & 2660.03 & 1102.72 & 3762.75 & 3882.69\\*
 \end{longtable}
 \endgroup{}
 \endgroup{}
@@ -1215,475 +2080,6 @@ Year & Total Biomass (mt) & Spawning Biomass (mt) & Total Biomass 4+ (mt) & Frac
 \endgroup{}
 
 
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
-
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{2cm}}
-\caption{\label{tab:likes}Likelihood components by source.}\\
-\toprule
-Label & Total\\
-\midrule
-\endfirsthead
-\caption[]{Likelihood components by source. \textit{(continued)}}\\
-\toprule
-Label & Total\\
-\midrule
-\endhead
-
-\endfoot
-\bottomrule
-\endlastfoot
-TOTAL & 3432.67\\
-Catch & 0.00\\
-Equil catch & 0.00\\
-Survey & -18.74\\
-Discard & -77.89\\
-Mean body wt & -23.40\\
-Length comp & 140.35\\
-Age comp & 3376.93\\
-Recruitment & 35.14\\
-InitEQ Regime & 0.00\\
-Forecast Recruitment & 0.00\\
-Parm priors & 0.28\\
-Parm devs & 0.00\\
-Crash Pen & 0.00\\*
-\end{longtable}
-\endgroup{}
-\endgroup{}
-
-
-
-\begin{table}[H]
-\caption{Time-varying retention and selectivity parameters included in the base model based on key events and management history (See Section \ref{appman}).}
-\label{tab:tvretentionslxdates}
-\begin{tabular}{lllll}
-\hline
-\multicolumn{2}{c}{Fixed-gear retention}&\multicolumn{2}{c}{Trawl retention}&Reason\\
-\hline
-Start year & End year & Start year & End year & Reason \\
-\hline
-1942 & 1946 & 1942 & 1946 & WWII, full retention \\
-1947 & 1996 & 1947 & 1981 & Post-war fishery development \\
-1997 & 2010 & 1982 & 2010 & Management trip limits \\
-2011 & 2018 & 2011 & 2018 & Catch shares \\
-2019 & 2020 & 2019 & 2020 & Influx of smaller fish and higher discarding \\
-\hline
-\multicolumn{2}{c}{Fixed-gear selectivity}&\multicolumn{2}{c}{Trawl selectivity}&Reason\\
-\hline
-1997 & 2002 & 1982 & 2010 & Management trip limits \\
-2003 & 2010 & 2003 & 2010 & Rockfish conservation area \\
-2011 & 2018 & 2011 & 2018 & Catch shares \\
-\hline
-\end{tabular}
-\end{table}
-
-
-
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
-
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
-\caption{\label{tab:selparest}Estimated selectivity parameters from the base model.}\\
-\toprule
-Label & Estimate\\\midrule
-\endfirsthead
-\caption[]{Estimated selectivity parameters from the base model.}\\
-\toprule
-Label & Estimate\\
-\midrule
-\endhead
-
-\endfoot
-\bottomrule
-\endlastfoot
-Retain-L-infl-FIX(1) & 41.00 \\ 
-Retain-L-width-FIX(1) & 6.01 \\ 
-Retain-L-asymptote-logit-FIX(1) & 10.00 \\ 
-Retain-L-maleoffset-FIX(1) & 0.00 \\ 
-Retain-L-infl-TWL(3) & 41.00 \\ 
-Retain-L-width-TWL(3) & 2.90 \\ 
-Retain-L-asymptote-logit-TWL(3) & 10.00 \\ 
-Retain-L-maleoffset-TWL(3) & 0.00 \\ 
-Age-DblN-peak-FIX(1) & 5.00 \\ 
-Age-DblN-top-logit-FIX(1) & -4.00 \\ 
-Age-DblN-ascend-se-FIX(1) & 0.19 \\ 
-Age-DblN-descend-se-FIX(1) & 2.84 \\ 
-Age-DblN-start-logit-FIX(1) & -5.00 \\ 
-Age-DblN-end-logit-FIX(1) & -1.50 \\ 
-AgeSel-1MaleDogleg-FIX & 0.00 \\ 
-AgeSel-1MaleatZero-FIX & 0.06 \\ 
-AgeSel-1MaleatDogleg-FIX & -0.84 \\ 
-AgeSel-1MaleatMaxage-FIX & -1.31 \\ 
-Age-DblN-peak-TWL(3) & 1.00 \\ 
-Age-DblN-top-logit-TWL(3) & -4.00 \\ 
-Age-DblN-ascend-se-TWL(3) & -2.40 \\ 
-Age-DblN-descend-se-TWL(3) & -9.00 \\ 
-Age-DblN-start-logit-TWL(3) & -4.03 \\ 
-Age-DblN-end-logit-TWL(3) & -1.60 \\ 
-Age-DblN-peak-AKSHLF(5) & 1.00 \\ 
-Age-DblN-top-logit-AKSHLF(5) & -4.00 \\ 
-Age-DblN-ascend-se-AKSHLF(5) & -9.74 \\ 
-Age-DblN-descend-se-AKSHLF(5) & -1.01 \\ 
-Age-DblN-start-logit-AKSHLF(5) & -2.50 \\ 
-Age-DblN-end-logit-AKSHLF(5) & -3.86 \\ 
-AgeSel-5MaleDogleg-AKSHLF & 0.00 \\ 
-AgeSel-5MaleatZero-AKSHLF & -0.54 \\ 
-AgeSel-5MaleatDogleg-AKSHLF & -0.17 \\ 
-AgeSel-5MaleatMaxage-AKSHLF & -6.16 \\ 
-Age-DblN-peak-AKSLP(6) & 1.47 \\ 
-Age-DblN-top-logit-AKSLP(6) & -4.00 \\ 
-Age-DblN-ascend-se-AKSLP(6) & -4.00 \\ 
-Age-DblN-descend-se-AKSLP(6) & -5.97 \\ 
-Age-DblN-start-logit-AKSLP(6) & -1.34 \\ 
-Age-DblN-end-logit-AKSLP(6) & -0.53 \\ 
-Age-DblN-peak-NWSLP(7) & 3.59 \\ 
-Age-DblN-top-logit-NWSLP(7) & -4.00 \\ 
-Age-DblN-ascend-se-NWSLP(7) & 1.49 \\ 
-Age-DblN-descend-se-NWSLP(7) & -3.30 \\ 
-Age-DblN-start-logit-NWSLP(7) & -4.57 \\ 
-Age-DblN-end-logit-NWSLP(7) & 0.19 \\ 
-Age-DblN-peak-NWCBO(8) & 0.09 \\ 
-Age-DblN-top-logit-NWCBO(8) & -4.00 \\ 
-Age-DblN-ascend-se-NWCBO(8) & -8.45 \\ 
-Age-DblN-descend-se-NWCBO(8) & 3.48 \\ 
-Age-DblN-start-logit-NWCBO(8) & -4.00 \\ 
-Age-DblN-end-logit-NWCBO(8) & -0.32 \\ 
-Retain-L-infl-FIX(1)-BLK2repl-1942 & 25.00 \\ 
-Retain-L-infl-FIX(1)-BLK2repl-1947 & 38.96 \\ 
-Retain-L-infl-FIX(1)-BLK2repl-1997 & 40.35 \\ 
-Retain-L-infl-FIX(1)-BLK2repl-2011 & 41.37 \\ 
-Retain-L-infl-FIX(1)-BLK2repl-2019 & 35.92 \\ 
-Retain-L-asymptote-logit-FIX(1)-BLK2repl-1942 & 10.00 \\ 
-Retain-L-asymptote-logit-FIX(1)-BLK2repl-1947 & 10.00 \\ 
-Retain-L-asymptote-logit-FIX(1)-BLK2repl-1997 & 2.54 \\ 
-Retain-L-asymptote-logit-FIX(1)-BLK2repl-2011 & 4.01 \\ 
-Retain-L-asymptote-logit-FIX(1)-BLK2repl-2019 & 2.14 \\ 
-Retain-L-infl-TWL(3)-BLK3repl-1942 & 25.00 \\ 
-Retain-L-infl-TWL(3)-BLK3repl-1947 & 45.93 \\ 
-Retain-L-infl-TWL(3)-BLK3repl-1982 & 47.75 \\ 
-Retain-L-infl-TWL(3)-BLK3repl-2011 & 33.75 \\ 
-Retain-L-infl-TWL(3)-BLK3repl-2019 & 42.27 \\ 
-Retain-L-asymptote-logit-TWL(3)-BLK3repl-1942 & 10.00 \\ 
-Retain-L-asymptote-logit-TWL(3)-BLK3repl-1947 & 10.00 \\ 
-Retain-L-asymptote-logit-TWL(3)-BLK3repl-1982 & 3.74 \\ 
-Retain-L-asymptote-logit-TWL(3)-BLK3repl-2011 & 10.00 \\ 
-Retain-L-asymptote-logit-TWL(3)-BLK3repl-2019 & 5.33 \\ 
-Age-DblN-peak-FIX(1)-BLK4repl-1997 & 3.15 \\ 
-Age-DblN-peak-FIX(1)-BLK4repl-2003 & 5.04 \\ 
-Age-DblN-peak-FIX(1)-BLK4repl-2011 & 3.06 \\ 
-Age-DblN-ascend-se-FIX(1)-BLK4repl-1997 & -1.24 \\ 
-Age-DblN-ascend-se-FIX(1)-BLK4repl-2003 & 1.85 \\ 
-Age-DblN-ascend-se-FIX(1)-BLK4repl-2011 & -8.68 \\ 
-Age-DblN-descend-se-TWL(3)-BLK5repl-1982 & 2.06 \\ 
-Age-DblN-descend-se-TWL(3)-BLK5repl-2003 & 6.60 \\ 
-Age-DblN-descend-se-TWL(3)-BLK5repl-2011 & 9.18 \\ 
-Age-DblN-descend-se-AKSHLF(5)-BLK6repl-1995 & 3.17 \\*
-\end{longtable}
-\endgroup{}
-\endgroup{}
-
-
-
-
-\clearpage
-
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
-
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
-\caption{\label{tab:torctorcw1}Comparison of Francis weights between the 2019 Benchmark and proposed base model.}\\
-\toprule
-Label & 2019 Weights & 2021 Update Weights & Multiplier\\\midrule
-\endfirsthead
-\caption[]{Comparison of Francis weights between the proposed base model and the 2019 Benchmark weights}\\
-\toprule
-Label & 2019 Weights & 2021 Update Weights & Multiplier\\
-\midrule
-\endhead
-
-\endfoot
-\bottomrule
-\endlastfoot
-len FIX & NA & 0.095328 & 0.904672\\
-len TWL & NA & 0.044144 & 0.955856\\
-len NWCBO & 0.291349 & 0.032931 & 0.258418\\
-age FIX & 1 & 0.101402 & 0.898598\\
-age TWL & 1 & 0.193659 & 0.806341\\
-age AKSHLF & 0.103912 & 1 & -0.896088\\
-age AKSLP & 0.316743 & 0.109196 & 0.207547\\
-age NWSLP & 0.440877 & 0.12705 & 0.313827\\
-age NWCBO & 0.246557 & 0.286539 & -0.039982\\*
-\end{longtable}
-\endgroup{}
-\endgroup{}
-
-\clearpage
-
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
-
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
-\caption{\label{tab:torctorcw2}Comparison of likelihoods and parameter estimates between the proposed base model which was iteratively weighted using the Francis method, and the same model using the 2019 Benchmark weights.}\\
-\toprule
-Label & Base & Base with 2019 Weights\\\midrule
-\endfirsthead
-\caption[]{Comparison of likelihoods and select parameter estimates between the proposed base model which was iteratively weighted using the Francis method, and the same model using the 2019 Benchmark weights.}\\
-\toprule
-Label & Base & Base with 2019 Weights\\
-\midrule
-\endhead
-
-\endfoot
-\bottomrule
-\endlastfoot
-Total Likelihood & 3432.67 & 7064.72\\
-Survey Likelihood & -18.7403 & -23.9026\\
-Length comp Likelihood & 140.351 & 1409.14\\
-Age comp Likelihood & 3376.93 & 5549.82\\
-Parm priors Likelihood & 0.282114 & 0.260356\\
-NatM p 1 Fem GP 1 & 0.0725861 & 0.0716219\\
-L at Amin Fem GP 1 & 25.7207 & 27.2095\\
-L at Amax Fem GP 1 & 62.4569 & 62.2122\\
-VonBert K Fem GP 1 & 0.343282 & 0.353679\\
-CV young Fem GP 1 & 0.0572535 & 0.0687359\\
-CV old Fem GP 1 & 0.109531 & 0.102166\\
-NatM p 1 Mal GP 1 & 0.060472 & 0.0604435\\
-L at Amin Mal GP 1 & 26.926 & 26.2399\\
-L at Amax Mal GP 1 & 56.6228 & 55.9886\\
-VonBert K Mal GP 1 & 0.371287 & 0.43448\\
-CV young Mal GP 1 & 0.0749235 & 0.0959105\\
-CV old Mal GP 1 & 0.0783725 & 0.0775673\\
-SR LN(R0) & 9.70454 & 9.43696\\
-SPRratio 2019 & 0.61702 & 0.663576\\
-SPRratio 2021 & 0.765683 & 0.653669\\
-F 2019 & 0.0243915 & 0.0272988\\
-F 2021 & 0.0330918 & 0.0261667\\
-Bratio 2019 & 0.496966 & 0.617103\\
-Bratio 2021 & 0.579137 & 0.683158\\
-SSB Virgin thousand mt & 168.875 & 131.097\\
-Totbio unfished & 419070 & 321441\\
-SmryBio unfished & 393647 & 300404\\
-Recr Virgin millions & 16.3918 & 12.5435\\
-SSB Btgt thousand mt & 67.55 & 52.439\\
-SPR Btgt & 0.464286 & 0.464286\\
-SSB MSY thousand mt & 41.702 & 32.153\\
-SPR MSY & 0.327623 & 0.326123\\
-Retain L infl FIX(1) BLK2repl 2019 & 35.9209 & 45.5014\\
-Retain L asymptote logit FIX(1) BLK2repl 2019 & 2.13517 & 3.65292\\
-Retain L asymptote logit TWL(3) BLK3repl 2019 & 5.32676 & 9.99992\\
-annF Btgt & 0.0431076 & 0.0446488\\
-annF MSY & 0.0700526 & 0.0731536\\*
-\end{longtable}
-\endgroup{}
-\endgroup{}
-
-
-
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
-
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
-\caption{\label{tab:basepars}Stock-recruitment, mortality, growth and catchability parameter estimates with their ~95\% interval from the base model.}\\
-\toprule
-Label & Estimate & Lower 5\% & Upper 95\%\\\midrule
-\endfirsthead
-\caption[]{Stock-recruitment, mortality, growth and catchability parameter estimates with their ~95\% interval from the base model.
-}\\
-\toprule
-Label & Estimate & Lower 5\% & Upper 95\%\\
-\midrule
-\endhead
-
-\endfoot
-\bottomrule
-\endlastfoot
-
-NatM\_p\_1\_Fem\_GP\_1 & 0.07 & 0.06 & 0.09 \\ 
-L\_at\_Amin\_Fem\_GP\_1 & 25.72 & 24.83 & 26.61 \\ 
-L\_at\_Amax\_Fem\_GP\_1 & 62.46 & 61.22 & 63.70 \\ 
-VonBert\_K\_Fem\_GP\_1 & 0.34 & 0.31 & 0.37 \\ 
-CV\_young\_Fem\_GP\_1 & 0.06 & 0.04 & 0.07 \\ 
-CV\_old\_Fem\_GP\_1 & 0.11 & 0.10 & 0.12 \\ 
-Wtlen\_1\_Fem\_GP\_1 & 0.00 &&\\ 
-Wtlen\_2\_Fem\_GP\_1 & 3.27 &&\\ 
-Mat50\%\_Fem\_GP\_1 & 55.19 &&\\ 
-Mat\_slope\_Fem\_GP\_1 & -0.42 &&\\ 
-Eggs/kg\_inter\_Fem\_GP\_1 & 1.00 &&\\ 
-Eggs/kg\_slope\_wt\_Fem\_GP\_1 & 0.00 &&\\ 
-NatM\_p\_1\_Mal\_GP\_1 & 0.06 & 0.05 & 0.07 \\ 
-L\_at\_Amin\_Mal\_GP\_1 & 26.93 & 25.92 & 27.93 \\ 
-L\_at\_Amax\_Mal\_GP\_1 & 56.62 & 55.99 & 57.25 \\ 
-VonBert\_K\_Mal\_GP\_1 & 0.37 & 0.34 & 0.40 \\ 
-CV\_young\_Mal\_GP\_1 & 0.07 & 0.06 & 0.09 \\ 
-CV\_old\_Mal\_GP\_1 & 0.08 & 0.07 & 0.08 \\ 
-Wtlen\_1\_Mal\_GP\_1 & 0.00 &&\\ 
-Wtlen\_2\_Mal\_GP\_1 & 3.27 &&\\ 
-FracFemale\_GP\_1 & 0.50 &&\\ 
-SR\_LN(R0) & 9.71 & 9.11 & 10.30 \\ 
-Q\_base\_ENV(4) & 0.09 & 0.04 & 0.14 \\ 
-Q\_extraSD\_ENV(4) & 0.31 & 0.20 & 0.42 \\ 
-LnQ\_base\_AKSHLF(5) & 0.32 & -0.21 & 0.86 \\ 
-Q\_extraSD\_AKSHLF(5) & 0.18 & 0.04 & 0.31 \\ 
-Q\_extraSD\_AKSLP(6) & 0.04 & -0.04 & 0.11 \\ 
-Q\_extraSD\_NWSLP(7) & 0.16 & 0.00 & 0.32 \\ 
-LnQ\_base\_AKSHLF(5)\_BLK1repl\_1995 & -0.07 & -0.62 & 0.48 \\*
-\end{longtable}
-\endgroup{}
-\endgroup{}
-
-\begingroup\fontsize{10}{12}\selectfont
-\begingroup\fontsize{10}{12}\selectfont
-
-\begin{longtable}[t]{r>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}>{\centering\arraybackslash}p{1.83cm}}
-\caption{\label{tab:allcatches}Landings (mt) by fleet for all years, total landings (mt), and total mortality (mt) summed by year.}\\
-\toprule
-Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
-\midrule
-\endfirsthead
-\caption[]{Landings (mt) by fleet for all years, total landings (mt), and total mortality (mt) summed by year. \textit{(continued)}}\\
-\toprule
-Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
-\midrule
-\endhead
-
-\endfoot
-\bottomrule
-\endlastfoot
-1890 & 2.12 & 0.00 & 2.12 & 2.14\\
-1891 & 6.08 & 0.00 & 6.08 & 6.16\\
-1892 & 6.75 & 0.00 & 6.75 & 6.84\\
-1893 & 10.05 & 0.00 & 10.05 & 10.18\\
-1894 & 12.25 & 0.00 & 12.25 & 12.41\\
-1895 & 16.65 & 0.00 & 16.65 & 16.87\\
-1896 & 18.68 & 0.00 & 18.68 & 18.92\\
-1897 & 20.70 & 0.00 & 20.70 & 20.97\\
-1898 & 22.73 & 0.00 & 22.73 & 23.03\\
-1899 & 24.75 & 0.00 & 24.75 & 25.08\\
-1900 & 49.89 & 0.00 & 49.89 & 50.55\\
-1901 & 76.30 & 1.37 & 77.67 & 78.76\\
-1902 & 102.71 & 2.75 & 105.46 & 106.98\\
-1903 & 129.12 & 4.13 & 133.25 & 135.19\\
-1904 & 155.53 & 5.51 & 161.04 & 163.41\\
-1905 & 138.10 & 6.88 & 144.98 & 147.20\\
-1906 & 135.20 & 8.26 & 143.46 & 145.72\\
-1907 & 142.00 & 9.64 & 151.64 & 154.06\\
-1908 & 85.79 & 11.02 & 96.81 & 98.56\\
-1909 & 141.05 & 12.37 & 153.42 & 155.97\\
-1910 & 196.32 & 13.71 & 210.03 & 213.39\\
-1911 & 251.58 & 15.06 & 266.64 & 270.80\\
-1912 & 306.84 & 16.41 & 323.25 & 328.21\\
-1913 & 362.10 & 17.76 & 379.86 & 385.62\\
-1914 & 417.36 & 19.11 & 436.47 & 443.03\\
-1915 & 472.48 & 20.12 & 492.60 & 499.93\\
-1916 & 1287.88 & 26.32 & 1314.20 & 1332.62\\
-1917 & 1694.92 & 286.38 & 1981.31 & 2019.33\\
-1918 & 2683.77 & 157.05 & 2840.82 & 2884.82\\
-1919 & 919.08 & 105.43 & 1024.51 & 1042.42\\
-1920 & 627.01 & 245.84 & 872.85 & 894.55\\
-1921 & 846.41 & 321.89 & 1168.30 & 1196.99\\
-1922 & 711.23 & 84.53 & 795.76 & 809.73\\
-1923 & 1259.02 & 169.43 & 1428.45 & 1454.23\\
-1924 & 1534.96 & 293.77 & 1828.73 & 1864.84\\
-1925 & 1869.37 & 227.41 & 2096.78 & 2133.67\\
-1926 & 1639.23 & 55.29 & 1694.52 & 1718.98\\
-1927 & 2205.99 & 312.45 & 2518.44 & 2563.45\\
-1928 & 1820.93 & 288.62 & 2109.55 & 2148.15\\
-1929 & 1814.85 & 468.39 & 2283.24 & 2330.49\\
-1930 & 2096.51 & 445.83 & 2542.34 & 2592.41\\
-1931 & 1066.82 & 330.36 & 1397.18 & 1428.12\\
-1932 & 1345.15 & 303.32 & 1648.46 & 1681.62\\
-1933 & 1094.08 & 428.73 & 1522.81 & 1558.89\\
-1934 & 1958.01 & 681.41 & 2639.42 & 2699.73\\
-1935 & 2481.48 & 901.51 & 3382.99 & 3461.88\\
-1936 & 2015.35 & 336.95 & 2352.30 & 2397.82\\
-1937 & 2296.59 & 231.52 & 2528.11 & 2570.53\\
-1938 & 2217.14 & 257.96 & 2475.10 & 2517.45\\
-1939 & 2448.23 & 295.40 & 2743.63 & 2793.34\\
-1940 & 1878.04 & 301.44 & 2179.48 & 2222.78\\
-1941 & 1652.36 & 487.74 & 2140.09 & 2190.67\\
-1942 & 2293.38 & 935.37 & 3228.75 & 3232.16\\
-1943 & 1838.17 & 2084.58 & 3922.75 & 3926.95\\
-1944 & 1485.58 & 2998.92 & 4484.50 & 4489.45\\
-1945 & 1690.96 & 2726.11 & 4417.07 & 4422.03\\
-1946 & 2782.52 & 1672.34 & 4454.86 & 4459.84\\
-1947 & 1716.51 & 516.31 & 2232.82 & 2315.08\\
-1948 & 1886.90 & 945.65 & 2832.55 & 2972.18\\
-1949 & 1986.53 & 983.06 & 2969.59 & 3115.87\\
-1950 & 1623.74 & 1016.48 & 2640.22 & 2793.47\\
-1951 & 2253.00 & 2011.83 & 4264.83 & 4577.88\\
-1952 & 1477.81 & 1163.16 & 2640.97 & 2830.29\\
-1953 & 965.21 & 691.62 & 1656.83 & 1779.62\\
-1954 & 1323.34 & 997.10 & 2320.44 & 2495.70\\
-1955 & 1289.13 & 898.32 & 2187.45 & 2347.03\\
-1956 & 970.89 & 2434.90 & 3405.79 & 3893.23\\
-1957 & 1599.31 & 951.73 & 2551.04 & 2764.61\\
-1958 & 764.11 & 768.06 & 1532.16 & 1694.82\\
-1959 & 1234.49 & 984.39 & 2218.88 & 2424.23\\
-1960 & 1675.39 & 1191.87 & 2867.26 & 3140.20\\
-1961 & 1055.49 & 756.02 & 1811.51 & 1977.31\\
-1962 & 1010.21 & 1616.57 & 2626.78 & 2938.96\\
-1963 & 948.97 & 869.38 & 1818.36 & 2006.92\\
-1964 & 1008.75 & 1037.79 & 2046.54 & 2254.89\\
-1965 & 909.90 & 1023.56 & 1933.46 & 2142.02\\
-1966 & 740.20 & 1132.49 & 1872.69 & 2106.05\\
-1967 & 2459.77 & 1819.11 & 4278.88 & 5700.44\\
-1968 & 1421.13 & 1313.86 & 2734.99 & 3359.94\\
-1969 & 3410.91 & 2067.98 & 5478.89 & 5925.45\\
-1970 & 1765.93 & 2839.89 & 4605.82 & 4982.18\\
-1971 & 1407.28 & 2479.75 & 3887.03 & 4170.52\\
-1972 & 3082.13 & 3538.53 & 6620.66 & 6991.06\\
-1973 & 1396.59 & 4275.50 & 5672.09 & 6068.19\\
-1974 & 5122.47 & 3478.06 & 8600.53 & 8995.28\\
-1975 & 10333.70 & 3966.03 & 14299.73 & 14811.57\\
-1976 & 20506.80 & 3888.01 & 24394.81 & 25045.64\\
-1977 & 5243.54 & 3497.85 & 8741.39 & 9370.43\\
-1978 & 7708.79 & 4532.11 & 12240.90 & 13006.32\\
-1979 & 16772.00 & 7116.30 & 23888.30 & 24879.21\\
-1980 & 4537.32 & 4506.94 & 9044.26 & 10058.19\\
-1981 & 5855.33 & 5437.39 & 11292.72 & 12432.86\\
-1982 & 8247.92 & 10117.70 & 18365.62 & 20442.89\\
-1983 & 7112.16 & 7280.22 & 14392.38 & 15680.69\\
-1984 & 5363.84 & 8215.94 & 13579.78 & 14734.11\\
-1985 & 6611.02 & 7141.24 & 13752.26 & 14914.46\\
-1986 & 6311.73 & 6456.36 & 12768.09 & 14104.25\\
-1987 & 5871.70 & 6454.05 & 12325.75 & 13716.47\\
-1988 & 5062.31 & 5446.62 & 10508.93 & 11456.30\\
-1989 & 4410.42 & 5667.45 & 10077.87 & 11015.77\\
-1990 & 3780.55 & 5108.30 & 8888.85 & 9759.06\\
-1991 & 4319.25 & 4932.10 & 9251.35 & 10392.76\\
-1992 & 3868.54 & 5311.01 & 9179.55 & 10281.74\\
-1993 & 3147.79 & 4808.73 & 7956.52 & 8730.70\\
-1994 & 3708.95 & 3759.34 & 7468.29 & 7968.20\\
-1995 & 4011.64 & 3795.59 & 7807.23 & 8318.36\\
-1996 & 4080.78 & 4131.29 & 8212.07 & 9042.94\\
-1997 & 4121.76 & 3734.32 & 7856.08 & 8673.40\\
-1998 & 2175.02 & 2142.96 & 4317.98 & 4673.20\\
-1999 & 3408.12 & 3117.12 & 6525.24 & 6974.06\\
-2000 & 3505.46 & 2615.74 & 6121.20 & 6697.35\\
-2001 & 3012.75 & 2563.61 & 5576.36 & 6871.87\\
-2002 & 2190.07 & 1556.61 & 3746.68 & 4513.93\\
-2003 & 3010.56 & 2213.78 & 5224.34 & 5703.88\\
-2004 & 3278.36 & 2410.93 & 5689.29 & 6092.07\\
-2005 & 3599.66 & 2396.47 & 5996.13 & 6337.75\\
-2006 & 3380.39 & 2536.10 & 5916.49 & 6210.87\\
-2007 & 2621.13 & 2486.01 & 5107.14 & 5341.24\\
-2008 & 2796.21 & 2890.67 & 5686.88 & 5928.94\\
-2009 & 3889.01 & 3061.45 & 6950.46 & 7367.34\\
-2010 & 4054.53 & 2539.32 & 6593.85 & 7003.45\\
-2011 & 4420.85 & 1728.40 & 6149.25 & 6253.97\\
-2012 & 3670.22 & 1514.58 & 5184.80 & 5283.60\\
-2013 & 2585.07 & 1402.13 & 3987.20 & 4050.48\\
-2014 & 2924.26 & 1292.20 & 4216.46 & 4294.90\\
-2015 & 3554.94 & 1470.29 & 5025.23 & 5105.52\\
-2016 & 3829.86 & 1475.95 & 5305.81 & 5401.39\\
-2017 & 3680.67 & 1669.97 & 5350.64 & 5465.76\\
-2018 & 3648.68 & 1478.26 & 5126.94 & 5220.22\\
-2019 & 3568.27 & 1625.44 & 5193.71 & 5372.81\\
-2020 & 2660.03 & 1102.72 & 3762.75 & 3882.69\\*
-\end{longtable}
-\endgroup{}
-\endgroup{}
-
 <!--chapter:end:52tables.Rmd-->
 
 \clearpage
@@ -1691,28 +2087,32 @@ Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
 
 ![Sablefish landings from 1890–2020 summarized by the gear types included in the base model, fixed-gear and trawl. Landings include those from foreign fleets, which are largely responsible for the peaks in 1976 and 1979.\label{fig:removals}](figs/catch2 landings stacked.png){width=100% height=100% alt="Catches by Fleet, all years"}
 
-![Comparison of landings by fleet used in 2019 Benchmark Assessment (grey bars) and in present update (black bars), 1982-2020. Historically reconstructed landings have remained unchanged. \label{fig:catch_comparison}](figs/coastwide_catch_comparison.png){width=100% height=100% alt="Comparison of observed landings between previous and current models, 1982-2020"}
+![Comparison of landings by fleet used in 2019 Benchmark Assessment (grey bars) and in present update (blue bars), 1982-2020. Historically reconstructed landings remain unchanged. \label{fig:catch_comparison}](figs/coastwide_catch_comparison.png){width=100% height=100% alt="Comparison of observed landings between previous and current models, 1982-2020"}
 
 ![Summary of data sources used in the base model.\label{fig:data-plot}](figs/data-plot.png){width=100% height=100% alt="Summary of data sources used in the base model"}
 
-![Estimated index of relative abundance (mt) for the West Coast Groundfish Bottom Trawl Survey, with 5 and 95\% intervals. Region-specific estimates are included for north and south of 36 degrees N, as well as the coast-wide estimate.\label{fig:WCGBTindexest}](figs/Index-Biomass.png){width=100% height=100% alt="WCGBTS Index by Region"}
+![Estimated index of relative abundance (mt) for the West Coast Groundfish Bottom Trawl Survey, with 5\% and 95\% intervals. Region-specific estimates are included for north and south of 36 degrees N ('north' and 'south', respectively), as well as the coast-wide estimate ('north-south').\label{fig:WCGBTindexest}](figs/Index-Biomass.png){width=75% height=75% alt="WCGBTS Index by Region"}
 
-![Observed (black points) vs. predicted (red polygon) quantiles from a gamma distribution for encounter probability when fitting a vector-autoregressive spatiotemporal model to data from the West Coast Groundfish Bottom Trawl Survey. \label{fig:WCGBTQQ}](figs/placeholder.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
+![Observed (black points) vs. predicted (red polygon) quantiles from a gamma distribution for encounter probability when fitting a vector-autoregressive spatiotemporal model to data from the West Coast Groundfish Bottom Trawl Survey. \label{fig:WCGBTQQ}](figs/quantile_residuals.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
 
-![Comparison between WCGBTS Index of Abundance standardized using VAST in the 2019 Benchmark and the re-standardization using one more year of data for the present update. \label{fig:WCGBTindexcompare}](figs/VAST_Comparisons.png){width=100% height=100% alt="WCGBTS Index Overlay"}
+![Observed (black points) vs. predicted (red polygon) quantiles from a gamma distribution for encounter probability when fitting a vector-autoregressive spatiotemporal model to data from the West Coast Groundfish Bottom Trawl Survey. \label{fig:surveydensWCGBT1}](figs/ln_density-predicted.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
 
-![Comparison of SSH input data \label{fig:ssh-plot}](figs/ssh_compare.png){width=100% height=100% alt="Comparison of 2019 and 2021 SSH trends used as input"}
+![Pearson residuals across space and time (panels) for predicted catch rates for the West Coast Groundfish Bottom Trawl Survey. \label{fig:surveyresid1WCGBT1}](figs/quantile_residuals_on_map.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
+
+![Comparison between WCGBTS index of abundance standardized using VAST in the 2019 Benchmark (red lines) and the re-standardization using one more year of data for the present update (blue lines). Shaded area reflects 95\% confidence interval. \label{fig:WCGBTindexcompare}](figs/VAST_Comparisons.png){width=100% height=100% alt="WCGBTS Index Overlay"}
+
+![Comparison of SSH input data between 2019 benchmark assessment and 2021 update using new tide-gauge records and re-running the analysis. \label{fig:ssh-plot}](figs/ssh_compare.png){width=100% height=100% alt="Comparison of 2019 and 2021 SSH trends used as input"}
 
 ![Time series of dynamic factors from the SSH analysis that explained significant variation in sablefish recruitment. Grey envelopes are the 95% confidence interval. \label{fig:ssh-df}](figs/DF5_Trends.png){width=100% height=100% alt="SSH_dfts"}
 
 ![Recent length compositions (2004-2019) of discarded sablefish from the trawl gear fishery, aggregated across sexes. \label{fig:discard_lencomps}](figs/comp_lendat_flt3mkt1.png){width=100% height=100% alt="TWL Discard Lcomps"}
 
-![Age compositions for female and male sablefish from the retained catch in the fixed gear fishery in recent years, from a model which conforms to the Terms of Reference. \label{fig:torafleet1agecomps}](figs/tora_fleet1_agecomps.png){width=100% height=100% alt="TOR Model FIX Age Composition Fits"}
+![Age compositions for female and male sablefish from the retained catch in the fixed gear fishery in recent years, from a model that conforms to the Terms of Reference. \label{fig:torafleet1agecomps}](figs/tora_fleet1_agecomps.png){width=100% height=100% alt="TOR Model FIX Age Composition Fits"}
 
 
-![Age compositions for female and male sablefish from the retained catch in the trawl fishery in recent years, from a model which conforms to the Terms of Reference. \label{fig:torafleet3agecomps}](figs/tora_fleet3_agecomps.png){width=100% height=100% alt="TOR Model TWL Age Composition Fits"}
+![Age compositions for female and male sablefish from the retained catch in the trawl fishery in recent years, from a model that conforms to the Terms of Reference. \label{fig:torafleet3agecomps}](figs/tora_fleet3_agecomps.png){width=100% height=100% alt="TOR Model TWL Age Composition Fits"}
 
-![Length compositions for female and male sablefish from the WCGBTS survey in recent years, from a model which conforms to the Terms of Reference. \label{fig:torafleet8lencomps}](figs/tora_fleet8_lencomps.png){width=100% height=100% alt="TOR Model WCGBTS Len Composition Fits"}
+![Length compositions for female and male sablefish from the WCGBTS survey in recent years, from a model that conforms to the Terms of Reference. \label{fig:torafleet8lencomps}](figs/tora_fleet8_lencomps.png){width=100% height=100% alt="TOR Model WCGBTS Len Composition Fits"}
 
 ![Comparison of derived quantities between the 2019 Benchmark assessment (blue lines), and an update assessment which conforms to the Terms of Reference (red lines). Top to bottom: spawning biomass, age-0 recruits, and fits to the WCGBTS Index of abundance. \label{fig:torapanel}](figs/tora_panel.png){width=90% height=90% alt="Derived quantities in bridged and TOR model"}
 
@@ -1730,37 +2130,38 @@ Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
 
 ![](figs/recdevs2_withbars.png){width=100% height=100% alt="RecDevs with Bars"}
 
-![Time series of estimated recruitment deviations from the base model (solid line) with 95% intervals (vertical lines; upper panel) and recruitment without intervals (lower-panel).\label{fig:ts11}](figs/ts11_Age-0_recruits_1000s.png){width=100% height=50% alt="Age 0 Recruits"}
+![Time series of estimated recruitment deviations from the base model (solid line) with 95% intervals (vertical lines; upper panel) and recruitment without intervals (lower panel).\label{fig:ts11}](figs/ts11_Age-0_recruits_1000s.png){width=100% height=50% alt="Age 0 Recruits"}
 
 \clearpage
 
-![Time series of estimated depletion (i.e., spawning biomass relative to unfished spawning biomass) from the base model (circles) with ∼ 95% intervals (dashed lines).\label{fig:ts9}](figs/ts9_Relative_spawning_biomass.png){width=100% height=70% alt="RelSBnoforecast"}
+![Time series of estimated depletion (i.e., spawning biomass relative to unfished spawning biomass) from the base model (circles) with 95% intervals (dashed lines).\label{fig:ts9}](figs/ts9_Relative_spawning_biomass_intervals.png){width=100% height=70% alt="RelSBnoforecast"}
 
 ![Equilibrium yield curve (total dead catch) for the base model.\label{fig:yield1}](figs/yield1_yield_curve.png){width=100% height=100% alt="Yield Curve"}
 
-![Estimated relative spawning potential ratio relative to the proxy target/limit of 45\% vs. estimated spawning biomass relative to the proxy 40\% level from the base model. Higher spawning output occurs on the right side of the x-axis, higher exploitation rates occur on the upper side of the y-axis.The dark blue circle indicates 2020. Plot is based on maximum likelihood estimation results.\label{fig:SPR4_phase}](figs/SPR4_phase.png){width=75% height=75% alt="SPR Phase"}
+![Estimated relative spawning potential ratio relative to the proxy target/limit of 45\% vs. estimated spawning biomass relative to the proxy 40\% level from the base model. Higher spawning output occurs on the right side of the x-axis, higher exploitation rates occur on the upper side of the y-axis. The dark blue circle indicates the last year of available data, 2020, and the grey lines indicate the 95% confidence interval. Plot is based on maximum likelihood estimation results.\label{fig:SPR4_phase}](figs/SPR4_phase.png){width=100% height=90% alt="SPR Phase"}
 
-![Time series of estimated relative 1-spawning potential ratio ($1-SPR/1-SPR_{Target=0.45\%}$) for the base model (round points) with $\sim$95\% intervals (dashed lines). Values of relative 1-SPR above 1.0 reflect harvests in excess of the current overfishing proxy.\label{fig:SPR3}](figs/SPR3_ratiointerval.png){width=75% height=75% alt="SPR Phase 3"}
+![Time series of estimated relative 1-spawning potential ratio ($1-SPR/1-SPR_{Target=0.45\%}$) for the base model (round points) with ~95\% intervals (dashed lines). Values of relative 1-SPR above 1.0 reflect harvest rates in excess of the current overfishing proxy.\label{fig:SPR3}](figs/SPR3_ratiointerval.png){width=75% height=75% alt="SPR Phase 3"}
 
 ![Time series of estimated exploitation fraction (catch/age 4 and older biomass) and their associated uncertainty (vertical lines) for the base model.\label{fig:ts_summaryF}](figs/ts_summaryF.png){width=100% height=100% alt="Summary F"}
 
 
+![Spatial footprint of  effort using trawl gear (km/km$^2$/yr) in the sablefish fishery before catch shares (2003--2010; left) and post catch shares (2011--2017; right) in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white). Fishery data are from Pacific Fisheries Information Network logbooks and the West Coast Groundfish Observer Program.\label{fig:footprinttwl}](figs/Sablefish_Figures_TWL_lnDens_2views_avg_crop.pdf){width=90% height=90% alt="Spatial Footprint of Trawl Gear"}
 
-![Spatial footprint of  effort using trawl gear (km/km$^2$/yr) in the sablefish fishery before catch shares (2003--2010; left) and post catch shares (2011--2017; right) in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white). Fishery data are from Pacific Fisheries Information Network logbooks and the West Coast Groundfish Observer Program.\label{fig:footprinttwl}](figs/Sablefish_Figures_TWL_lnDens_2views_avg_crop.pdf){width=100% height=100% alt="Spatial Footprint of Trawl Gear"}
+![Spatial footprint of effort using hook-and-line gear (km/km$^2$/yr) in the sablefish fishery with non catch-share vessels since 2003 (2003--2017; left) and with catch-share vessels since 2011 (2011--2017; right) as observed by the West Coast Groundfish Observer Program in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white).\label{fig:footprint_hkl}](figs/Sablefish_Figures_HKL_lnDens_2views_avg.pdf){width=90% height=90% alt="Spatial Footprint of HKL Gear"}
 
-![Spatial footprint of effort using hook-and-line gear (km/km$^2$/yr) in the sablefish fishery with non catch-share vessels since 2003 (2003--2017; left) and with catch-share vessels since 2011 (2011--2017; right) as observed by the West Coast Groundfish Observer Program in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white).\label{fig:footprint_hkl}](figs/Sablefish_Figures_HKL_lnDens_2views_avg.pdf){width=100% height=100% alt="Spatial Footprint of HKL Gear"}
+![Spatial footprint of effort using pot gear (km/km$^2$/yr) in the sablefish fishery with non catch-share vessles since 2003 (2003--2017; left) and with catch-share vessels since 2011 (2011--2017; right) in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white)\label{fig:footprint_pot}](figs/Sablefish_Figures_POT_lnDens_2views_avg.pdf){width=90% height=90% alt="Spatial Footprint of Pot Gear"}
 
-![Spatial footprint of effort using pot gear (km/km$^2$/yr) in the sablefish fishery with non catch-share vessles since 2003 (2003--2017; left) and with catch-share vessels since 2011 (2011--2017; right) in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white)\label{fig:footprint_pot}](figs/Sablefish_Figures_POT_lnDens_2views_avg.pdf){width=100% height=100% alt="Spatial Footprint of Pot Gear"}
+![Comparison of derived quantities between the 2019 Benchmark assessment (blue lines), a bridged model that matches the estimation structure of the benchmark in Stock Synthesis v3.30.16 (light grey lines) and a model that fixes natural mortality and the descending limb standard error for the NWSLP and AKSLP surveys in Stock Synthesis v3.30.16 (dark grey lines). Top to bottom: spawning biomass, age-0 recruits, and fits to the WCGBTS Index of abundance. \label{fig:bridgingpanel}](figs/bridging_panel.png){width=90% height=90% alt="Derived quantities in bridged and TOR model"}
 
-![Comparison of derived quantities between the 2019 Benchmark assessment (blue lines), two bridged models (grey lines), and an update assessment which conforms to the Terms of Reference (red lines). Top to bottom: spawning biomass, age-0 recruits, and fits to the WCGBTS Index of abundance. \label{fig:bridgingpanel}](figs/bridging_panel.png){width=90% height=90% alt="Derived quantities in bridged and TOR model"}
-
-![Changes in spawning stock biomass and depletion for alternative data-weighting methods used to downweight the compositional data\label{fig:harmonicandfrancis}](figs/harmonicandfrancis.png){width=100% height=100% alt="Data Weighting"}
+![Changes in spawning stock biomass and depletion for alternative data-weighting methods used to downweight the compositional data. \label{fig:harmonicandfrancis}](figs/harmonicandfrancis.png){width=100% height=100% alt="Data Weighting"}
 
 ![Growth curve for females and males with 95% intervals (dashed lines) indicating the expectation and individual variability of length-at-age for the base model.\label{fig:bio_53}](figs/bio1_sizeatage.png){width=100% height=100% alt="Growth Curve"}
 
 ![Prior for female (gold) and male (blue) natural mortality (M). Vertical lines delineate estimates from the current base models (solid lines) and 2019 benchmark assessment (dashed line).\label{fig:naturalmortalityprior}](figs/naturalmortalityprior.png){width=100% height=100% alt="Density of Natural Mortality Prior and Estimated Values"}
 
-![Fleet-specific (colors) selectivity at age in the terminal year of the model for fishery fleets (upper) and surveys (lower). Solid lines are female-specific and dashed lines are male-specific selectivities.\label{fig:selectivityatageALL}](figs/sel02_multiple_fleets_age1.png){width=100% height=100% alt="Selex age"}
+
+
+![Fleet-specific (colors) selectivity at age in the terminal year of the model for fishery fleets (upper) and surveys (lower). Solid lines are female-specific and dashed lines are male-specific selectivities.\label{fig:selectivityatageALL}](figs/selx_age_stack.png){width=100% height=100% alt="Selex age survy"}
 
 \clearpage
 
@@ -1788,12 +2189,12 @@ Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
 
 ![Fit to the Triennial Shelf Survey.\label{fig:ind_AFSC}](figs/index2_cpuefit_AKSHLF.png){width=100% height=100% alt="Triennial AKSHLF Fit"}
 
-![Fit to the sea-level index of recruitment.\label{fig:ind_ENV}](figs/index2_cpuefit_ENV.png){width=100% height=100% alt="Triennial AKSHLF Fit"}
+![Fit to the sea-level index of recruitment.\label{fig:ind_ENV}](figs/index2_cpuefit_ENV_log.png){width=100% height=100% alt="ENV Index fit"}
 
 ![Length compositions aggregated across all years from each data source included in the base model. Females are represented using positive proportions and males are represented using negative proportions for sex-specific data.\label{lcaggregate}](figs/comp_lendat__aggregated_across_time.png){width=100% height=100% alt="comp_lendat__aggregated_across_time"}
 
 
-![Length compositions aggregated across all years from each data source included in the base model. Females are represented using positive proportions and males are represented using negative proportions for sex-specific data.\label{fig:comp_lenfit_8}](figs/comp_lenfit__aggregated_across_time.png){width=100% height=100% alt="Len Fits"}
+![Length compositions aggregated across all years from each data source included in the base model. Females are represented using positive proportions and males are represented using negative proportions for sex-specific data. Fits are shown using solid lines. \label{fig:comp_lenfit_8}](figs/comp_lenfit__aggregated_across_time.png){width=100% height=100% alt="Len Fits"}
 
 ![Pearson residuals for the fits to West Coast Groundfish Bottom Trawl length compositions. Filled circles represent positive residuals(observed-expected) and red and blue indicate females and males, respectively. \label{fig:lcomp_resid_8}](figs/comp_lenfit_residsflt8mkt0.png){width=100% height=100% alt="Triennial Age Composition Resid"}
 
@@ -1838,9 +2239,14 @@ Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
 
 ![Estimated spawning biomass time-series for the base model (solid line) with 95% interval(dashed lines).\label{ts9}](figs/ts9_Relative_spawning_biomass.png){width=100% height=100% alt=""}
 
-![Estimated spawning biomass time-series for the base model (solid line) with 95% interval(dashed lines).\label{fig:ts1_4}](figs/ts4_Summary_biomass_mt.png){width=100% height=100% alt=""}
+![Estimated summary biomass time-series for the base model (solid line) with 95% interval(dashed lines).\label{fig:ts1_4}](figs/ts4_Summary_biomass_mt.png){width=100% height=100% alt=""}
 
 ![Estimated spawning biomass time-series for the base model (solid line) with 95% interval (dashed lines).\label{fig:ts7}](figs/ts7_Spawning_biomass_mt_with_95_asymptotic_intervals_intervals.png){width=100% height=100% alt=""}
+
+![](figs/ashop_sens_depl.png){width=100% height=100% alt=""}
+
+![Comparison in depletion (upper panel) and spawning biomass (lower panel) between base model and model run with includion of At Sea Hake landings and length compositions. Model weight for this dataset was left at the same value used in the 2019 benchmark. \label{fig:ASHOP}](figs/ashop_sens_ssb.png){width=100% height=100% alt=""}
+
 
 ![Trends in SSB from a retrospective analysis using the base model for comparison.\label{fig:retroSB}](figs/retro_base_ssb.png){width=100% height=50% alt="Retrospective Analysis"}
 
@@ -1849,19 +2255,22 @@ Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
 ![Trends in last 20 years of recruitment from a retrospective analysis using the base model for comparison.\label{fig:retroREC}](figs/retro_base_rec.png){width=100% height=50% alt="Retrospective Analysis"}
 
 
-![Trends in depletion from a retrospective analysis using the base model, with the 2019 Benchmark model shown for comparison\label{fig:retrobenchDEP}](figs/retro_bench_depl.png){width=100% height=50% alt="Retrospective Analysis"}
+![Trends in depletion from a retrospective analysis using the base model, with the 2019 Benchmark model shown for comparison.\label{fig:retrobenchDEP}](figs/retro_bench_depl.png){width=100% height=50% alt="Retrospective Analysis"}
 
-![Trends in last 20 years of recruitment from a retrospective analysis using the base model, with the 2019 Benchmark model shown for comparison.\label{fig:retrobenchREC}](figs/retro_bench_rec.png){width=100% height=50% alt="Retrospective Analysis"}
+![Trends in last 20 years of recruitment from a retrospective analysis using the base model, with the 2019 benchmark model shown for comparison.\label{fig:retrobenchREC}](figs/retro_bench_rec.png){width=100% height=50% alt="Retrospective Analysis"}
 
 
-![Comparisons of spawning stock biomass (SSB; mt) and relative depletion between the current assessment and the last four modeling exercises performed since 2005. Model-specific trajectories are represented with colored lines and the dashed line is the uncertainty about the currently estimated time series.\label{fig:histassess}](figs/HistoricalModelCompare.png){width=100% height=50% alt="Historical Analysis"}
+![Comparisons of spawning stock biomass (SSB; mt) and relative depletion between the current assessment and the last five modeling exercises performed since 2005. Model-specific trajectories are represented with colored lines and the dashed line is the uncertainty about the currently estimated time series.\label{fig:histassess}](figs/HistoricalModelCompare.png){width=100% height=75% alt="Historical Analysis"}
+
+
+
+
 
 ![Results of a likelihood profile for female natural mortality (M) by data type.\label{fig:sens_m_like}](figs/sens_m_like.jpg){width=100% height=100% alt="Spawner steepness (M) profile by data type"}
 
 ![Age likelihoods from a likelihood profile for female natural mortality (M) by data type.\label{fig:sens_m_age}](figs/sens_m_age.jpg){width=100% height=100% alt="Spawner steepness (M) profile by data type"}
 
-![Time-series of spawning stock biomass for different fixed values of female natural mortality(M).\label{fig:sens_m_ssb}](figs/placeholder.png){width=100% height=100% alt="M SSB"}
-
+![Time-series of spawning stock biomass for different fixed values of female natural mortality(M).\label{fig:sens_m_ssb}](figs/sens_m_ssb.png){width=100% height=100% alt="M SSB"}
 
 ![Results of a likelihood profile for equilibrium recruitment (R0) by data type.\label{fig:sens_R0_like}](figs/placeholder.png){width=100% height=100% alt="Spawner steepness (M) profile by data type"}
 
@@ -1869,15 +2278,16 @@ Year & Fixed-gear & Trawl & Total Landings & Total Dead\\
 
 ![Time-series of relative depletion for different fixed values of equilibrium recruitment (R0).\label{fig:sens_R0_depl}](figs/placeholder.png){width=100% height=100% alt="M SSB"}
 
-![Time-series of spawning stock biomass for different fixed values of steepness (h).\label{fig:profile_like_h}](figs/Hprofile_plot_likelihood.png){width=100% height=100% alt="Spawner steepness (h) profile by data type"}
 
-![Results of a likelihood profile for steepness (h) by data type.\label{fig:profile_ssb_h}](figs/hprofile_plot_ssb.png){width=100% height=100% alt="SSB vs various Spawner steepness (h)"}
+![Results of a likelihood profile for steepness (h) by data type. \label{fig:profile_like_h}](figs/Hprofile_plot_likelihood.png){width=100% height=100% alt="Spawner steepness (h) profile by data type"}
 
-
-\newpage
+![Time-series of spawning stock biomass for different fixed values of steepness (h).\label{fig:profile_ssb_h}](figs/hprofile_plot_ssb.png){width=100% height=100% alt="SSB vs various Spawner steepness (h)"}
 
 
-# Summary of influencing management actions{#appman}
+\clearpage
+
+
+
 
 
 

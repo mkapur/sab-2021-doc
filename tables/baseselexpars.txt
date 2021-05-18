@@ -1,0 +1,94 @@
+% latex table generated in R 4.0.3 by xtable 1.8-4 package
+% Mon May 17 11:03:41 2021
+\begin{table}[ht]
+\centering
+\begin{tabular}{rr}
+  \hline
+ & Value \\ 
+  \hline
+Retain\_L\_infl\_FIX(1) & 41.00 \\ 
+  Retain\_L\_width\_FIX(1) & 6.00 \\ 
+  Retain\_L\_asymptote\_logit\_FIX(1) & 10.00 \\ 
+  Retain\_L\_maleoffset\_FIX(1) & 0.00 \\ 
+  Retain\_L\_infl\_TWL(3) & 41.00 \\ 
+  Retain\_L\_width\_TWL(3) & 2.90 \\ 
+  Retain\_L\_asymptote\_logit\_TWL(3) & 10.00 \\ 
+  Retain\_L\_maleoffset\_TWL(3) & 0.00 \\ 
+  Age\_DblN\_peak\_FIX(1) & 5.00 \\ 
+  Age\_DblN\_top\_logit\_FIX(1) & -4.00 \\ 
+  Age\_DblN\_ascend\_se\_FIX(1) & 0.19 \\ 
+  Age\_DblN\_descend\_se\_FIX(1) & 2.80 \\ 
+  Age\_DblN\_start\_logit\_FIX(1) & -5.00 \\ 
+  Age\_DblN\_end\_logit\_FIX(1) & -1.50 \\ 
+  AgeSel\_1MaleDogleg\_FIX & 0.00 \\ 
+  AgeSel\_1MaleatZero\_FIX & 0.06 \\ 
+  AgeSel\_1MaleatDogleg\_FIX & -0.84 \\ 
+  AgeSel\_1MaleatMaxage\_FIX & -1.30 \\ 
+  Age\_DblN\_peak\_TWL(3) & 1.00 \\ 
+  Age\_DblN\_top\_logit\_TWL(3) & -4.00 \\ 
+  Age\_DblN\_ascend\_se\_TWL(3) & -2.40 \\ 
+  Age\_DblN\_descend\_se\_TWL(3) & -9.00 \\ 
+  Age\_DblN\_start\_logit\_TWL(3) & -4.00 \\ 
+  Age\_DblN\_end\_logit\_TWL(3) & -1.60 \\ 
+  Age\_DblN\_peak\_AKSHLF(5) & 1.00 \\ 
+  Age\_DblN\_top\_logit\_AKSHLF(5) & -4.00 \\ 
+  Age\_DblN\_ascend\_se\_AKSHLF(5) & -9.70 \\ 
+  Age\_DblN\_descend\_se\_AKSHLF(5) & -1.00 \\ 
+  Age\_DblN\_start\_logit\_AKSHLF(5) & -2.50 \\ 
+  Age\_DblN\_end\_logit\_AKSHLF(5) & -3.90 \\ 
+  AgeSel\_5MaleDogleg\_AKSHLF & 0.00 \\ 
+  AgeSel\_5MaleatZero\_AKSHLF & -0.54 \\ 
+  AgeSel\_5MaleatDogleg\_AKSHLF & -0.17 \\ 
+  AgeSel\_5MaleatMaxage\_AKSHLF & -6.20 \\ 
+  Age\_DblN\_peak\_AKSLP(6) & 1.50 \\ 
+  Age\_DblN\_top\_logit\_AKSLP(6) & -4.00 \\ 
+  Age\_DblN\_ascend\_se\_AKSLP(6) & -4.00 \\ 
+  Age\_DblN\_descend\_se\_AKSLP(6) & -6.00 \\ 
+  Age\_DblN\_start\_logit\_AKSLP(6) & -1.30 \\ 
+  Age\_DblN\_end\_logit\_AKSLP(6) & -0.53 \\ 
+  Age\_DblN\_peak\_NWSLP(7) & 3.60 \\ 
+  Age\_DblN\_top\_logit\_NWSLP(7) & -4.00 \\ 
+  Age\_DblN\_ascend\_se\_NWSLP(7) & 1.50 \\ 
+  Age\_DblN\_descend\_se\_NWSLP(7) & -3.30 \\ 
+  Age\_DblN\_start\_logit\_NWSLP(7) & -4.60 \\ 
+  Age\_DblN\_end\_logit\_NWSLP(7) & 0.19 \\ 
+  Age\_DblN\_peak\_NWCBO(8) & 0.09 \\ 
+  Age\_DblN\_top\_logit\_NWCBO(8) & -4.00 \\ 
+  Age\_DblN\_ascend\_se\_NWCBO(8) & -8.40 \\ 
+  Age\_DblN\_descend\_se\_NWCBO(8) & 3.50 \\ 
+  Age\_DblN\_start\_logit\_NWCBO(8) & -4.00 \\ 
+  Age\_DblN\_end\_logit\_NWCBO(8) & -0.32 \\ 
+  Retain\_L\_infl\_FIX(1)\_BLK2repl\_1942 & 25.00 \\ 
+  Retain\_L\_infl\_FIX(1)\_BLK2repl\_1947 & 39.00 \\ 
+  Retain\_L\_infl\_FIX(1)\_BLK2repl\_1997 & 40.00 \\ 
+  Retain\_L\_infl\_FIX(1)\_BLK2repl\_2011 & 41.00 \\ 
+  Retain\_L\_infl\_FIX(1)\_BLK2repl\_2019 & 36.00 \\ 
+  Retain\_L\_asymptote\_logit\_FIX(1)\_BLK2repl\_1942 & 10.00 \\ 
+  Retain\_L\_asymptote\_logit\_FIX(1)\_BLK2repl\_1947 & 10.00 \\ 
+  Retain\_L\_asymptote\_logit\_FIX(1)\_BLK2repl\_1997 & 2.50 \\ 
+  Retain\_L\_asymptote\_logit\_FIX(1)\_BLK2repl\_2011 & 4.00 \\ 
+  Retain\_L\_asymptote\_logit\_FIX(1)\_BLK2repl\_2019 & 2.10 \\ 
+  Retain\_L\_infl\_TWL(3)\_BLK3repl\_1942 & 25.00 \\ 
+  Retain\_L\_infl\_TWL(3)\_BLK3repl\_1947 & 46.00 \\ 
+  Retain\_L\_infl\_TWL(3)\_BLK3repl\_1982 & 48.00 \\ 
+  Retain\_L\_infl\_TWL(3)\_BLK3repl\_2011 & 34.00 \\ 
+  Retain\_L\_infl\_TWL(3)\_BLK3repl\_2019 & 42.00 \\ 
+  Retain\_L\_asymptote\_logit\_TWL(3)\_BLK3repl\_1942 & 10.00 \\ 
+  Retain\_L\_asymptote\_logit\_TWL(3)\_BLK3repl\_1947 & 10.00 \\ 
+  Retain\_L\_asymptote\_logit\_TWL(3)\_BLK3repl\_1982 & 3.70 \\ 
+  Retain\_L\_asymptote\_logit\_TWL(3)\_BLK3repl\_2011 & 10.00 \\ 
+  Retain\_L\_asymptote\_logit\_TWL(3)\_BLK3repl\_2019 & 5.30 \\ 
+  Age\_DblN\_peak\_FIX(1)\_BLK4repl\_1997 & 3.20 \\ 
+  Age\_DblN\_peak\_FIX(1)\_BLK4repl\_2003 & 5.00 \\ 
+  Age\_DblN\_peak\_FIX(1)\_BLK4repl\_2011 & 3.10 \\ 
+  Age\_DblN\_ascend\_se\_FIX(1)\_BLK4repl\_1997 & -1.20 \\ 
+  Age\_DblN\_ascend\_se\_FIX(1)\_BLK4repl\_2003 & 1.90 \\ 
+  Age\_DblN\_ascend\_se\_FIX(1)\_BLK4repl\_2011 & -8.70 \\ 
+  Age\_DblN\_descend\_se\_TWL(3)\_BLK5repl\_1982 & 2.10 \\ 
+  Age\_DblN\_descend\_se\_TWL(3)\_BLK5repl\_2003 & 6.60 \\ 
+  Age\_DblN\_descend\_se\_TWL(3)\_BLK5repl\_2011 & 9.20 \\ 
+  Age\_DblN\_descend\_se\_AKSHLF(5)\_BLK6repl\_1995 & 3.20 \\ 
+   \hline
+\end{tabular}
+\caption{Estimated selectivity parameters from the base model.} 
+\end{table}
