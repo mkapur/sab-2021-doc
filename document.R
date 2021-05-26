@@ -21,7 +21,7 @@ bookdown::render_book("00a.Rmd",
                       clean = FALSE, 
                       output_dir =here())
 
-
+SSplotRecdevs(base)
 # pdf_combine(c(here("_main.pdf"), "sablefish_app_man.pdf"), 
             # output = "two_joined_pdfs.pdf")
 # sessionInfo()
