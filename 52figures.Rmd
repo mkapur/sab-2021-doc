@@ -3,52 +3,65 @@
 
 ![Sablefish landings from 1890–2020 summarized by the gear types included in the base model, fixed-gear and trawl. Landings include those from foreign fleets, which are largely responsible for the peaks in 1976 and 1979.\label{fig:removals}](figs/catch2 landings stacked.png){width=100% height=100% alt="Catches by Fleet, all years"}
 
-![Comparison of landings by fleet used in 2019 Benchmark Assessment (grey bars) and in present update (blue bars), 1982-2020. Historically reconstructed landings remain unchanged. \label{fig:catch_comparison}](figs/coastwide_catch_comparison.png){width=100% height=100% alt="Comparison of observed landings between previous and current models, 1982-2020"}
+![Comparison of landings by fleet used in 2019 benchmark Assessment (grey bars) and in present update (blue bars), 1982-2020. Historically reconstructed landings remain unchanged. \label{fig:catch_comparison}](figs/coastwide_catch_comparison.png){width=100% height=100% alt="Comparison of observed landings between previous and current models, 1982-2020"}
 
 ![Summary of data sources used in the base model.\label{fig:data-plot}](figs/data-plot.png){width=100% height=100% alt="Summary of data sources used in the base model"}
 
 ![Estimated index of relative abundance (mt) for the West Coast Groundfish Bottom Trawl Survey, with 5\% and 95\% intervals. Region-specific estimates are included for north and south of 36 degrees N ('north' and 'south', respectively), as well as the coast-wide estimate ('north-south').\label{fig:WCGBTindexest}](figs/Index-Biomass.png){width=75% height=75% alt="WCGBTS Index by Region"}
 
-![Observed (black points) vs. predicted (red polygon) quantiles from a gamma distribution for encounter probability when fitting a vector-autoregressive spatiotemporal model to data from the West Coast Groundfish Bottom Trawl Survey. \label{fig:WCGBTQQ}](figs/quantile_residuals.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
+![Observed (black points) vs. predicted (red polygon) quantiles from a gamma distribution for encounter probability when fitting a vector-autoregressive spatiotemporal model to data from the West Coast Groundfish Bottom Trawl Survey. \label{fig:WCGBTQQ}](figs/quantile_residuals.jpg){width=100% height=75% alt="Encounter Probability Diagnostic"}
 
-![Observed (black points) vs. predicted (red polygon) quantiles from a gamma distribution for encounter probability when fitting a vector-autoregressive spatiotemporal model to data from the West Coast Groundfish Bottom Trawl Survey. \label{fig:surveydensWCGBT1}](figs/ln_density-predicted.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
+![Estimated log-densities across space and time (panels) following VAST standardization for the West Coast Groundfish Bottom Trawl Survey. \label{fig:surveydensWCGBT1}](figs/ln_density-predicted_1.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
 
-![Pearson residuals across space and time (panels) for predicted catch rates for the West Coast Groundfish Bottom Trawl Survey. \label{fig:surveyresid1WCGBT1}](figs/quantile_residuals_on_map.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
+![Figure \ref{fig:surveydensWCGBT1} (contd).](figs/ln_density-predicted_2.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
 
-![Comparison between WCGBTS index of abundance standardized using VAST in the 2019 Benchmark (red lines) and the re-standardization using one more year of data for the present update (blue lines). Shaded area reflects 95\% confidence interval. \label{fig:WCGBTindexcompare}](figs/VAST_Comparisons.png){width=100% height=100% alt="WCGBTS Index Overlay"}
+![Figure \ref{fig:surveydensWCGBT1} (contd).](figs/ln_density-predicted_3.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
 
-![Comparison of SSH input data between 2019 benchmark assessment and 2021 update using new tide-gauge records and re-running the analysis. \label{fig:ssh-plot}](figs/ssh_compare.png){width=100% height=100% alt="Comparison of 2019 and 2021 SSH trends used as input"}
+![Pearson residuals across space and time (panels) for predicted catch rates for the West Coast Groundfish Bottom Trawl Survey. \label{fig:surveyresid1WCGBT1}](figs/quantile_residuals_on_map-1.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
+
+![Figure \ref{fig:surveyresid1WCGBT1} (contd).](figs/quantile_residuals_on_map-2.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
+
+![Figure \ref{fig:surveyresid1WCGBT1} (contd).](figs/quantile_residuals_on_map-3.png){width=100% height=100% alt="Encounter Probability Diagnostic"}
+
+![Comparison between WCGBTS index of abundance standardized using VAST in the 2019 benchmark (red lines) and the re-standardization using one more year of data for the present update (blue lines). Shaded area reflects 95\% confidence interval. \label{fig:WCGBTindexcompare}](figs/VAST_Comparisons.png){width=100% height=100% alt="WCGBTS Index Overlay"}
+
+![Comparison of sea level index input data between 2019 benchmark assessment and 2021 update using new tide-gauge records and re-running the analysis. \label{fig:ssh-plot}](figs/ssh_compare.png){width=100% height=100% alt="Comparison of 2019 and 2021 SSH trends used as input"}
 
 ![Time series of dynamic factors from the SSH analysis that explained significant variation in sablefish recruitment. Grey envelopes are the 95% confidence interval. \label{fig:ssh-df}](figs/DF5_Trends.png){width=100% height=100% alt="SSH_dfts"}
 
 ![Recent length compositions (2004-2019) of discarded sablefish from the trawl gear fishery, aggregated across sexes. \label{fig:discard_lencomps}](figs/comp_lendat_flt3mkt1.png){width=100% height=100% alt="TWL Discard Lcomps"}
 
-![Age compositions for female and male sablefish from the retained catch in the fixed gear fishery in recent years, from a model that conforms to the Terms of Reference. \label{fig:torafleet1agecomps}](figs/tora_fleet1_agecomps.png){width=100% height=100% alt="TOR Model FIX Age Composition Fits"}
+![Age compositions for female and male sablefish from the retained catch in the fixed gear fishery in recent years, from a model that conforms to the Terms of Reference. Fits are shown with solid lines. \label{fig:torafleet1agecomps}](figs/tora_fleet1_agecomps.png){width=100% height=100% alt="TOR Model FIX Age Composition Fits"}
 
 
-![Age compositions for female and male sablefish from the retained catch in the trawl fishery in recent years, from a model that conforms to the Terms of Reference. \label{fig:torafleet3agecomps}](figs/tora_fleet3_agecomps.png){width=100% height=100% alt="TOR Model TWL Age Composition Fits"}
+![Age compositions for female and male sablefish from the retained catch in the trawl fishery in recent years, from a model that conforms to the Terms of Reference.  Fits are shown with solid lines. \label{fig:torafleet3agecomps}](figs/tora_fleet3_agecomps.png){width=100% height=100% alt="TOR Model TWL Age Composition Fits"}
 
-![Length compositions for female and male sablefish from the WCGBTS survey in recent years, from a model that conforms to the Terms of Reference. \label{fig:torafleet8lencomps}](figs/tora_fleet8_lencomps.png){width=100% height=100% alt="TOR Model WCGBTS Len Composition Fits"}
-
-![Comparison of derived quantities between the 2019 Benchmark assessment (blue lines), and an update assessment which conforms to the Terms of Reference (red lines). Top to bottom: spawning biomass, age-0 recruits, and fits to the WCGBTS Index of abundance. \label{fig:torapanel}](figs/tora_panel.png){width=90% height=90% alt="Derived quantities in bridged and TOR model"}
-
-![Length compositions for female and male sablefish from the WCGBTS survey in recent years, from the base model. \label{fig:torcfleet8lencomps}](figs/torc_fleet8_lencomps.png){width=100% height=100% alt="Base Model WCGBTS Len Composition Fits"}
-
-![Age compositions for female and male sablefish from the retained catch in the fixed gear fishery in recent years from the base model. \label{fig:torcfleet1agecomps}](figs/torc_fleet1_agecomps.png){width=100% height=100% alt="Base FIX Age Composition Fits"}
-
-![Age compositions for female and male sablefish from the retained catch in the trawl fishery in recent years from the base model. \label{fig:torc_fleet3_agecomps}](figs/torc_fleet3_agecomps.png){width=100% height=100% alt="Base TWL Age Composition Fits"}
-
-![Comparison of selected derived quantities between the 2019 Benchmark assessment (blue lines) and update base model (green lines). Top to bottom: spawning biomass, age-0 recruits, and fits to the WCGBTS Index of abundance. \label{fig:basepanel}](figs/base_panel.png){width=90% height=90% alt="Select derived quantities in base model"}
+![Length compositions for female and male sablefish from the WCGBT survey in recent years, from a model that conforms to the Terms of Reference. Fits are shown with solid lines. \label{fig:torafleet8lencomps}](figs/tora_fleet8_lencomps.png){width=100% height=100% alt="TOR Model WCGBTS Len Composition Fits"}
 
 
+![Comparison of fits to the WCGBTS Index of abundance between the 2019 benchmark assessment (blue lines), and an update assessment which conforms to the Terms of Reference (red lines). \label{fig:torasurv}](figs/TORA_compare13_indices_flt8.png){width=100% height=100% alt="Derived quantities in bridged and TOR model"}
 
-\clearpage
+![Comparison of derived quantities between the 2019 benchmark assessment (blue lines), and an update assessment which conforms to the Terms of Reference (red lines). Top to bottom: spawning biomass, age-0 recruits, and fits to the WCGBTS Index of abundance. \label{fig:torapanel}](figs/tora_panel.png){width=90% height=90% alt="Derived quantities in bridged and TOR model"}
 
-![](figs/recdevs2_withbars.png){width=100% height=100% alt="RecDevs with Bars"}
+![Length compositions for female and male sablefish from the WCGBT Survey in recent years, from the base model. Fits are shown with solid lines. \label{fig:torcfleet8lencomps}](figs/NWCBO_lengths.png){width=100% height=100% alt="Base Model WCGBTS Len Composition Fits"}
 
-![Time series of estimated recruitment deviations from the base model (solid line) with 95% intervals (vertical lines; upper panel) and recruitment without intervals (lower panel).\label{fig:ts11}](figs/ts11_Age-0_recruits_1000s.png){width=100% height=50% alt="Age 0 Recruits"}
+![Length compositions for female and male sablefish discarded in the fixed gear fishery, from the base model. Fits are shown with solid lines. \label{fig:torcfleet1lencomps}](figs/FIX_lengths.png){width=100% height=100% alt="Base Model WCGBTS Len Composition Fits"}
 
-\clearpage
+![Length compositions for female and male sablefish discarded in the trawl gear fishery, from the base model. Fits are shown with solid lines. \label{fig:torcfleet3lencomps}](figs/TWL_lengths.png){width=100% height=100% alt="Base Model WCGBTS Len Composition Fits"}
+
+![Age compositions for female and male sablefish from the retained catch in the fixed gear fishery in recent years from the base model.  Fits are shown with solid lines. \label{fig:torcfleet1agecomps1}](figs/FIX_ages1.png){width=100% height=100% alt="Base FIX Age Composition Fits"}
+
+![Figure \ref{fig:torcfleet1agecomps1} (contd).\label{fig:torcfleet1agecomps2}](figs/FIX_ages2.png){width=100% height=100% alt="Base FIX Age Composition Fits"}
+
+![Age compositions for female and male sablefish from the retained catch in the trawl fishery in recent years from the base model. Fits are shown with solid lines. \label{fig:torc_fleet3_agecomps1}](figs/TWL_ages1.png){width=100% height=100% alt="Base TWL Age Composition Fits"}
+
+
+![Figure \ref{fig:torc_fleet3_agecomps1} (contd.) \label{fig:torc_fleet3_agecomps2}](figs/TWL_ages2.png){width=100% height=100% alt="Base TWL Age Composition Fits"}
+
+
+![Comparison of selected derived quantities between the 2019 benchmark assessment (blue lines) and update base model (green lines). Top to bottom: spawning biomass, age-0 recruits, and fits to the WCGBTS Index of abundance. \label{fig:basepanel}](figs/base_panel.png){width=90% height=90% alt="Select derived quantities in base model"}
+
+![Time series of estimated recruitment deviations from the base model (solid line) with 95% intervals (vertical lines; upper panel) and recruitment without intervals (lower panel).\label{fig:ts11}](figs/rec_panel.png){width=100% height=100% alt="Age 0 Recruits"}
 
 ![Time series of estimated depletion (i.e., spawning biomass relative to unfished spawning biomass) from the base model (circles) with 95% intervals (dashed lines).\label{fig:ts9}](figs/ts9_Relative_spawning_biomass_intervals.png){width=100% height=70% alt="RelSBnoforecast"}
 
@@ -63,11 +76,11 @@
 
 ![Spatial footprint of  effort using trawl gear (km/km$^2$/yr) in the sablefish fishery before catch shares (2003--2010; left) and post catch shares (2011--2017; right) in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white). Fishery data are from Pacific Fisheries Information Network logbooks and the West Coast Groundfish Observer Program.\label{fig:footprinttwl}](figs/Sablefish_Figures_TWL_lnDens_2views_avg_crop.pdf){width=90% height=90% alt="Spatial Footprint of Trawl Gear"}
 
-![Spatial footprint of effort using hook-and-line gear (km/km$^2$/yr) in the `r spp` fishery with non catch-share vessels since 2003 (2003--2017; left) and with catch-share vessels since 2011 (2011--2017; right) as observed by the West Coast Groundfish Observer Program in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white).\label{fig:footprint_hkl}](figs/Sablefish_Figures_HKL_lnDens_2views_avg.pdf){width=90% height=90% alt="Spatial Footprint of HKL Gear"}
+![Spatial footprint of effort using hook-and-line gear (km/km$^2$/yr) in the `r spp` fishery with non catch-share vessels since 2003 (2003--2017; left) and with catch-share vessels since 2011 (2011--2017; right) as observed by the West Coast Groundfish Observer Program in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white).\label{fig:footprint_hkl}](figs/Sablefish_Figures_HKL_lnDens_2views_avg.pdf){width=100% height=100% alt="Spatial Footprint of HKL Gear"}
 
 ![Spatial footprint of effort using pot gear (km/km$^2$/yr) in the `r spp` fishery with non catch-share vessles since 2003 (2003--2017; left) and with catch-share vessels since 2011 (2011--2017; right) in comparison to the spatial footprint of the West Coast Groundfish Bottom Trawl (WCGBT) Survey (white)\label{fig:footprint_pot}](figs/Sablefish_Figures_POT_lnDens_2views_avg.pdf){width=90% height=90% alt="Spatial Footprint of Pot Gear"}
 
-![Comparison of derived quantities between the 2019 Benchmark assessment (blue lines), a bridged model that matches the estimation structure of the benchmark in Stock Synthesis v3.30.16 (light grey lines) and a model that fixes natural mortality and the descending limb standard error for the NWSLP and AKSLP surveys in Stock Synthesis v3.30.16 (dark grey lines). Top to bottom: spawning biomass, age-0 recruits, and fits to the WCGBTS Index of abundance. \label{fig:bridgingpanel}](figs/bridging_panel.png){width=90% height=90% alt="Derived quantities in bridged and TOR model"}
+![Comparison of derived quantities between the 2019 benchmark assessment (blue lines), a bridged model that matches the estimation structure of the benchmark in Stock Synthesis v3.30.16 (light grey lines) and a model that fixes natural mortality and the descending limb standard error for the NWSLP and AKSLP surveys in Stock Synthesis v3.30.16 (dark grey lines). Top to bottom: spawning biomass, age-0 recruits, and fits to the WCGBTS Index of abundance. \label{fig:bridgingpanel}](figs/bridging_panel.png){width=90% height=90% alt="Derived quantities in bridged and TOR model"}
 
 ![Changes in spawning stock biomass and depletion for alternative data-weighting methods used to downweight the compositional data. \label{fig:harmonicandfrancis}](figs/harmonicandfrancis.png){width=100% height=100% alt="Data Weighting"}
 
@@ -75,9 +88,7 @@
 
 ![Prior for female (gold) and male (blue) natural mortality (M). Vertical lines delineate estimates from the current base models (solid lines) and 2019 benchmark assessment (dashed line).\label{fig:naturalmortalityprior}](figs/naturalmortalityprior.png){width=100% height=100% alt="Density of Natural Mortality Prior and Estimated Values"}
 
-
-
-![Fleet-specific (colors) selectivity at age in the terminal year of the model for fishery fleets (upper) and surveys (lower). Solid lines are female-specific and dashed lines are male-specific selectivities.\label{fig:selectivityatageALL}](figs/selx_age_stack.png){width=100% height=100% alt="Selex age survy"}
+![Fleet-specific selectivity at age in the terminal year of the model for fishery fleets (upper) and survey fleets (lower). Solid lines are female-specific and dashed lines are male-specific selectivities.\label{fig:selectivityatageALL}](figs/selx_age_stack.png){width=100% height=100% alt="Selex age survy"}
 
 \clearpage
 
@@ -105,10 +116,7 @@
 
 ![Fit to the Triennial Shelf Survey.\label{fig:ind_AFSC}](figs/index2_cpuefit_AKSHLF.png){width=100% height=100% alt="Triennial AKSHLF Fit"}
 
-![Fit to the sea-level index of recruitment.\label{fig:ind_ENV}](figs/index2_cpuefit_ENV_log.png){width=100% height=100% alt="ENV Index fit"}
-
-![Length compositions aggregated across all years from each data source included in the base model. Females are represented using positive proportions and males are represented using negative proportions for sex-specific data.\label{lcaggregate}](figs/comp_lendat__aggregated_across_time.png){width=100% height=100% alt="comp_lendat__aggregated_across_time"}
-
+![Fit to the sea-level index of recruitment; blue line is model-estimated recruitment deviations. The environmental index of sea-level was modeled as exp(recruitment deviation). \label{fig:ind_ENV}](figs/index2_cpuefit_ENV_log.png){width=100% height=100% alt="ENV Index fit"}
 
 ![Length compositions aggregated across all years from each data source included in the base model. Females are represented using positive proportions and males are represented using negative proportions for sex-specific data. Fits are shown using solid lines. \label{fig:comp_lenfit_8}](figs/comp_lenfit__aggregated_across_time.png){width=100% height=100% alt="Len Fits"}
 
@@ -117,11 +125,11 @@
 
 ![Year-specific conditional age-at-length data (left) and standard deviation (stdev) at age (right) from the West Coast Groundfish Bottom Trawl Survey. Shaded areas are confidence intervals based on adding 1.64 standard errors of the mean to the mean age and 90% intervals from a chi-square distribution for the stdev of mean age. \label{fig:acomp_resid_caal1}](figs/comp_condAALfit_Andre_plotsflt8mkt0_page1.png){width=100% height=100% alt="WCGBTS CAAL Resids"}
 
-![The continuation of Figure \ref{fig:acomp_resid_caal1} but for more recent years. \label{fig:acomp_resid_caal2}](figs/comp_condAALfit_Andre_plotsflt8mkt0_page2.png){width=100% height=100% alt="WCGBTS CAAL Resids"}
+![Figure 44 (cont.) \label{fig:acomp_resid_caal2}](figs/comp_condAALfit_Andre_plotsflt8mkt0_page2.png){width=100% height=100% alt="WCGBTS CAAL Resids"}
 
-![The continuation of Figure \ref{fig:acomp_resid_caal1} but for more recent years. \label{fig:acomp_resid_caal3}](figs/comp_condAALfit_Andre_plotsflt8mkt0_page3.png){width=100% height=100% alt="WCGBTS CAAL Resids"}
+![Figure 44 (cont.) \label{fig:acomp_resid_caal3}](figs/comp_condAALfit_Andre_plotsflt8mkt0_page3.png){width=100% height=100% alt="WCGBTS CAAL Resids"}
 
-![The continuation of Figure \ref{fig:acomp_resid_caal1} but for more recent years. \label{fig:acomp_resid_caal4}](figs/comp_condAALfit_Andre_plotsflt8mkt0_page4.png){width=100% height=100% alt="WCGBTS CAAL Resids"}
+![Figure 44 (cont.) \label{fig:acomp_resid_caal4}](figs/comp_condAALfit_Andre_plotsflt8mkt0_page4.png){width=100% height=100% alt="WCGBTS CAAL Resids"}
 
 ![Age compositions aggregated across all years from each data source included in the base model. Females are represented using positive proportions and males are represented using negative proportionsfor sex-specific data. Fits are shown using solid lines.\label{fig:acaggregate}](figs/comp_agefit__aggregated_across_time.png){width=100% height=100% alt="Triennial Age Composition Resid"}
 
@@ -153,16 +161,22 @@
 
 ![Estimated stock-recruitment function for the base model. \label{fig:SR_curve}](figs/SR_curve.png){width=100% height=100% alt="SR Curve"}
 
-![Estimated spawning biomass time-series for the base model (solid line) with 95% interval(dashed lines).\label{ts9}](figs/ts9_Relative_spawning_biomass.png){width=100% height=100% alt=""}
+![Estimated spawning biomass time-series for the base model (solid line) with 95% interval (dashed lines).\label{ts9}](figs/ts9_Relative_spawning_biomass.png){width=100% height=100% alt=""}
 
-![Estimated summary biomass time-series for the base model (solid line) with 95% interval(dashed lines).\label{fig:ts1_4}](figs/ts4_Summary_biomass_mt.png){width=100% height=100% alt=""}
+![Estimated summary biomass time-series for the base model (solid line) with 95% interval (dashed lines).\label{fig:ts1_4}](figs/ts4_Summary_biomass_mt.png){width=100% height=100% alt=""}
 
 ![Estimated spawning biomass time-series for the base model (solid line) with 95% interval (dashed lines).\label{fig:ts7}](figs/ts7_Spawning_biomass_mt_with_95_asymptotic_intervals_intervals.png){width=100% height=100% alt=""}
 
-![](figs/ashop_sens_depl.png){width=100% height=100% alt=""}
+![Comparison of depletion (upper panel) and spawning biomass (lower panel) between base model and model run with inclusion of At Sea Hake landings and length compositions. The Francis data weights for these data were left at the same value used in a similar sensitivity run for the 2019 benchmark. \label{fig:ASHOP}](figs/ashop_sens.png){width=100% height=100% alt=""}
 
-![Comparison in depletion (upper panel) and spawning biomass (lower panel) between base model and model run with includion of At Sea Hake landings and length compositions. Model weight for this dataset was left at the same value used in the 2019 benchmark. \label{fig:ASHOP}](figs/ashop_sens_ssb.png){width=100% height=100% alt=""}
 
+![Comparison figures for spawning biomass (top row) age-0 recruits (middle row) and depletion (bottom row) between the base model and a sensitivity model run run with inclusion of commercially-landed length compositions. The Francis data weights for these data were left at the same value used in the base. \label{fig:commL}](figs/commL_sens.png){width=100% height=100% alt=""}
+
+![Comparison figures for spawning biomass (top row) age-0 recruits (middle row) and depletion (bottom row) between the base model and a sensitivity model run with a single value estimated for female and male natural mortality.  \label{fig:singleM}](figs/singleM_sens.png){width=100% height=100% alt=""}
+
+![Comparison figures for a sensitivity run with the WCBGT Survey selectivity forced to be asymptotic. Clockwise from left: fits to length composition data from the WCGBT Survey (fits are shown with solid lines), estimated stock spawning biomass, recruitment and depletion. \label{fig:asympNWFSC}](figs/asympNWFSC_sens.png){width=100% height=100% alt=""}
+
+![Comparison figures for spawning biomass (top row) age-0 recruits (middle row) and depletion (bottom row) between the base model and a sensitivity run with the sea surface height index removed from the model. \label{fig:nossh}](figs/nossh_sens.png){width=100% height=100% alt=""}
 
 ![Trends in SSB from a retrospective analysis using the base model for comparison.\label{fig:retroSB}](figs/retro_base_ssb.png){width=100% height=50% alt="Retrospective Analysis"}
 
@@ -171,7 +185,7 @@
 ![Trends in last 20 years of recruitment from a retrospective analysis using the base model for comparison.\label{fig:retroREC}](figs/retro_base_rec.png){width=100% height=50% alt="Retrospective Analysis"}
 
 
-![Trends in depletion from a retrospective analysis using the base model, with the 2019 Benchmark model shown for comparison.\label{fig:retrobenchDEP}](figs/retro_bench_depl.png){width=100% height=50% alt="Retrospective Analysis"}
+![Trends in depletion from a retrospective analysis using the base model, with the 2019 benchmark model shown for comparison.\label{fig:retrobenchDEP}](figs/retro_bench_depl.png){width=100% height=50% alt="Retrospective Analysis"}
 
 ![Trends in last 20 years of recruitment from a retrospective analysis using the base model, with the 2019 benchmark model shown for comparison.\label{fig:retrobenchREC}](figs/retro_bench_rec.png){width=100% height=50% alt="Retrospective Analysis"}
 
@@ -188,11 +202,11 @@
 
 ![Time-series of spawning stock biomass for different fixed values of female natural mortality(M).\label{fig:sens_m_ssb}](figs/sens_m_ssb.png){width=100% height=100% alt="M SSB"}
 
-![Results of a likelihood profile for equilibrium recruitment (R0) by data type.\label{fig:sens_R0_like}](figs/placeholder.png){width=100% height=100% alt="Spawner steepness (M) profile by data type"}
+![Results of a likelihood profile for equilibrium recruitment (R0) by data type.\label{fig:sens_R0_like}](figs/rprofile_plot_like.png){width=100% height=100% alt="Spawner steepness (M) profile by data type"}
 
-![Age likelihoods from a likelihood profile for equilibrium recruitment (R0) by data type.\label{fig:sens_R0_ssb}](figs/placeholder.png){width=100% height=100% alt="M SSB"}
+![Age likelihoods from a likelihood profile for equilibrium recruitment (R0) by data type.\label{fig:sens_R0_ssb}](figs/rprofile_plot_age.png){width=100% height=100% alt="M SSB"}
 
-![Time-series of relative depletion for different fixed values of equilibrium recruitment (R0).\label{fig:sens_R0_depl}](figs/placeholder.png){width=100% height=100% alt="M SSB"}
+![Time-series of relative depletion for different fixed values of equilibrium recruitment (R0).\label{fig:sens_R0_depl}](figs/rprofile_plot_depl.png){width=100% height=100% alt="M SSB"}
 
 
 ![Results of a likelihood profile for steepness (h) by data type. \label{fig:profile_like_h}](figs/Hprofile_plot_likelihood.png){width=100% height=100% alt="Spawner steepness (h) profile by data type"}

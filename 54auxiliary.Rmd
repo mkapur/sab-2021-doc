@@ -1,0 +1,4 @@
+\clearpage
+# Appendix: Auxiliary files
+Auxiliary Stock Synthesis Files, including starter, forecast, data and control, are available
+at https://www.pcouncil.org/groundfish/stock-assessments/by-species/sablefish/
